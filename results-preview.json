@@ -357,20 +357,20 @@
                 "edge_case_count": 437,
                 "edge_case_rate": 0.0146
             },
-            "p99": "763.22ms",
+            "p99": "285.14ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 2374,
-                    "true_negative_detections": 3042,
+                    "true_positive_detections": 4437,
+                    "true_negative_detections": 5601,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 117.35,
+                    "value": 544.95,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -379,10 +379,10 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3117.35
+                "final_score": 3544.95
             },
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
-            "timestamp": "2026-04-26T15:43:42Z"
+            "timestamp": "2026-04-26T17:13:53Z"
         }
     },
     "l4y3rS3v3n": {
