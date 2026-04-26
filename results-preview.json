@@ -384,5 +384,44 @@
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
             "timestamp": "2026-04-26T15:43:42Z"
         }
+    },
+    "l4y3rS3v3n": {
+        "l4y3rS3v3n-dotnet": {
+            "expected": {
+                "total": 30000,
+                "fraud_count": 13301,
+                "legit_count": 16699,
+                "fraud_rate": 0.4434,
+                "legit_rate": 0.5566,
+                "edge_case_count": 437,
+                "edge_case_rate": 0.0146
+            },
+            "p99": "91.76ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 131,
+                    "false_negative_detections": 150,
+                    "true_positive_detections": 8084,
+                    "true_negative_detections": 10180,
+                    "http_errors": 0
+                },
+                "failure_rate": "1.52%",
+                "weighted_errors_E": 581,
+                "error_rate_epsilon": 0.031329,
+                "p99_score": {
+                    "value": 1037.33,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 674.57,
+                    "rate_component": 1504.05,
+                    "absolute_penalty": -829.48,
+                    "cut_triggered": false
+                },
+                "final_score": 1711.9
+            },
+            "repo_url": "https://github.com/l4y3rS3v3n/rinha-backend_2026",
+            "timestamp": "2026-04-26T16:55:30Z"
+        }
     }
 }
