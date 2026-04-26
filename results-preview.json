@@ -86,20 +86,20 @@
                 "edge_case_count": 437,
                 "edge_case_rate": 0.0146
             },
-            "p99": "92.97ms",
+            "p99": "94.07ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 9059,
-                    "true_negative_detections": 11396,
+                    "true_positive_detections": 9280,
+                    "true_negative_detections": 11640,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1031.67,
+                    "value": 1026.57,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -108,9 +108,10 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4031.67
+                "final_score": 4026.57
             },
-            "repo_url": "https://github.com/MXLange/rinha-de-backend-2026-rust"
+            "repo_url": "https://github.com/MXLange/rinha-de-backend-2026-rust",
+            "timestamp": "2026-04-26T04:20:20Z"
         }
     },
     "davidalecrim1": {
