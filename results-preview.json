@@ -241,20 +241,20 @@
                 "edge_case_count": 437,
                 "edge_case_rate": 0.0146
             },
-            "p99": "4.07ms",
+            "p99": "5.35ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 12742,
-                    "true_negative_detections": 15991,
+                    "true_positive_detections": 12740,
+                    "true_negative_detections": 15982,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2390.6,
+                    "value": 2271.73,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -263,10 +263,10 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5390.6
+                "final_score": 5271.73
             },
             "repo_url": "https://github.com/jairoblatt/rinha-2026-rust",
-            "timestamp": "2026-04-26T13:46:16Z"
+            "timestamp": "2026-04-26T15:27:27Z"
         }
     },
     "toto9in": {
