@@ -184,6 +184,19 @@
             border-bottom-color: var(--accent);
         }
 
+        .issue-link {
+            margin-left: 0.5rem;
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.8rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .issue-link:hover {
+            color: var(--fg);
+            border-bottom-color: var(--muted);
+        }
+
         .timestamp {
             color: var(--muted);
             font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -308,12 +321,14 @@
                     for (const [name, info] of Object.entries(submissions)) {
                         const id = `${participant} (${name})`;
                         const repo = info.repo_url ?? null;
+                        const issue = info.issue_url ?? null;
                         rows.push({
                             id,
                             p99: info.p99 ?? '—',
                             failure: info.scoring?.failure_rate ?? '—',
                             score: info.scoring?.final_score ?? 0,
                             repo,
+                            issue,
                             timestamp: info.timestamp ?? null,
                             haystack: `${stripParens(id)} ${repo ?? ''}`.toLowerCase(),
                         });
@@ -338,10 +353,13 @@
                         const idLabel = r.repo
                             ? `<a href="${r.repo}" target="_blank" rel="noopener noreferrer">${r.id}</a>`
                             : `<span class="plain">${r.id}</span>`;
+                        const issueLabel = r.issue
+                            ? `<a class="issue-link" href="${r.issue}" target="_blank" rel="noopener noreferrer">details</a>`
+                            : '';
                         return `
                             <tr>
                                 <td class="rank num">${r.rank}</td>
-                                <td class="id">${idLabel}</td>
+                                <td class="id">${idLabel}${issueLabel}</td>
                                 <td class="num hide-mobile">${r.p99}</td>
                                 <td class="num hide-mobile">${r.failure}</td>
                                 <td class="num score">${fmtScore(r.score)}</td>
