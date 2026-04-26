@@ -206,7 +206,7 @@
                 for (const [participant, submissions] of Object.entries(data)) {
                     for (const [name, info] of Object.entries(submissions)) {
                         rows.push({
-                            id: `${participant}.${name}`,
+                            id: `${participant} (${name})`,
                             p99: info.p99 ?? '—',
                             failure: info.scoring?.failure_rate ?? '—',
                             score: info.scoring?.final_score ?? 0,
