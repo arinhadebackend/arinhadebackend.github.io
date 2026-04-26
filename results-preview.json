@@ -198,28 +198,28 @@
     "jairoblatt": {
         "jairoblatt-rust": {
             "expected": {
-                "total": 30000,
-                "fraud_count": 13301,
-                "legit_count": 16699,
-                "fraud_rate": 0.4434,
-                "legit_rate": 0.5566,
-                "edge_case_count": 437,
-                "edge_case_rate": 0.0146
+                "total": 50000,
+                "fraud_count": 22261,
+                "legit_count": 27739,
+                "fraud_rate": 0.4452,
+                "legit_rate": 0.5548,
+                "edge_case_count": 754,
+                "edge_case_rate": 0.0151
             },
-            "p99": "2.45ms",
+            "p99": "2.30ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 12766,
-                    "true_negative_detections": 16031,
+                    "true_positive_detections": 20345,
+                    "true_negative_detections": 25427,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2610.84,
+                    "value": 2638.26,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -228,10 +228,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5610.84
+                "final_score": 5638.26
             },
             "repo_url": "https://github.com/jairoblatt/rinha-2026-rust",
-            "timestamp": "2026-04-26T16:41:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/182",
+            "timestamp": "2026-04-26T19:00:02Z"
         }
     },
     "toto9in": {
