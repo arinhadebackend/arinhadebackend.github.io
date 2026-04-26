@@ -229,5 +229,44 @@
             "repo_url": "https://github.com/willy-r/aGOrinha-2026",
             "timestamp": "2026-04-26T04:26:22Z"
         }
+    },
+    "jairoblatt": {
+        "jairoblatt-rust": {
+            "expected": {
+                "total": 30000,
+                "fraud_count": 13301,
+                "legit_count": 16699,
+                "fraud_rate": 0.4434,
+                "legit_rate": 0.5566,
+                "edge_case_count": 437,
+                "edge_case_rate": 0.0146
+            },
+            "p99": "2.55ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 12795,
+                    "true_negative_detections": 16060,
+                    "http_errors": 0
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
+                "p99_score": {
+                    "value": 2593.63,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 5593.63
+            },
+            "repo_url": "https://github.com/jairoblatt/rinha-2026-rust",
+            "timestamp": "2026-04-26T10:29:34Z"
+        }
     }
 }
