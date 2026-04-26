@@ -220,6 +220,22 @@
             font-size: 0.8rem;
         }
 
+        footer .note {
+            margin-top: 1.5rem;
+            font-size: 0.75rem;
+            opacity: 0.7;
+        }
+
+        footer .note a {
+            color: inherit;
+            border-bottom: 1px solid var(--border);
+            text-decoration: none;
+        }
+
+        footer .note a:hover {
+            border-bottom-color: var(--muted);
+        }
+
         @media (max-width: 720px) {
             main { padding: 2rem 1rem 4rem; }
             .hide-mobile { display: none; }
@@ -264,6 +280,10 @@
 
         <footer id="footer" hidden>
             <span id="count"></span>
+            <div class="note">
+                To remove your submission from the ranking, open a PR at
+                <a href="https://github.com/arinhadebackend/arinhadebackend.github.io" target="_blank" rel="noopener noreferrer">arinhadebackend/arinhadebackend.github.io</a>.
+            </div>
         </footer>
     </main>
 
