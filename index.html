@@ -58,6 +58,16 @@
             font-size: 0.95rem;
         }
 
+        header a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px solid var(--border);
+        }
+
+        header a:hover {
+            border-bottom-color: var(--muted);
+        }
+
         .status {
             color: var(--muted);
             font-size: 0.9rem;
@@ -147,7 +157,7 @@
     <main>
         <header>
             <h1>Rinha de Backend</h1>
-            <p>Partial results — 2026 preview</p>
+            <p>Partial results — <a href="https://github.com/zanfranceschi/rinha-de-backend-2026/" target="_blank" rel="noopener noreferrer">2026 edition</a></p>
         </header>
 
         <div id="status" class="status">Loading…</div>
