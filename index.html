@@ -222,7 +222,7 @@
             id="search"
             class="search"
             type="search"
-            placeholder="Search by id…"
+            placeholder="search…"
             autocomplete="off"
             spellcheck="false"
             hidden
@@ -301,16 +301,21 @@
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 const data = await res.json();
 
+                const stripParens = (s) => s.replace(/[()]/g, '');
+
                 const rows = [];
                 for (const [participant, submissions] of Object.entries(data)) {
                     for (const [name, info] of Object.entries(submissions)) {
+                        const id = `${participant} (${name})`;
+                        const repo = info.repo_url ?? null;
                         rows.push({
-                            id: `${participant} (${name})`,
+                            id,
                             p99: info.p99 ?? '—',
                             failure: info.scoring?.failure_rate ?? '—',
                             score: info.scoring?.final_score ?? 0,
-                            repo: info.repo_url ?? null,
+                            repo,
                             timestamp: info.timestamp ?? null,
+                            haystack: `${stripParens(id)} ${repo ?? ''}`.toLowerCase(),
                         });
                     }
                 }
@@ -322,9 +327,9 @@
                 let query = '';
 
                 const render = () => {
-                    const q = query.trim().toLowerCase();
+                    const q = stripParens(query).trim().toLowerCase();
                     const filtered = q
-                        ? rows.filter(r => r.id.toLowerCase().includes(q))
+                        ? rows.filter(r => r.haystack.includes(q))
                         : rows.slice();
 
                     filtered.sort(compareWith(sort.key, sort.dir));
