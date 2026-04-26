@@ -441,20 +441,20 @@
                 "edge_case_count": 754,
                 "edge_case_rate": 0.0151
             },
-            "p99": "25.23ms",
+            "p99": "6.10ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 19635,
-                    "true_negative_detections": 24507,
+                    "true_positive_detections": 20166,
+                    "true_negative_detections": 25202,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1598.05,
+                    "value": 2214.78,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -463,11 +463,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4598.05
+                "final_score": 5214.78
             },
             "repo_url": "https://github.com/Ismaellima4/fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/192",
-            "timestamp": "2026-04-26T19:59:40Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/197",
+            "timestamp": "2026-04-26T22:05:41Z"
         }
     },
     "MuriloChianfa": {
