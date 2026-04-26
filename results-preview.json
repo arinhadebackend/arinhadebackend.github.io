@@ -10,32 +10,32 @@
                 "edge_case_count": 437,
                 "edge_case_rate": 0.0146
             },
-            "p99": "335.07ms",
+            "p99": "496.51ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 149,
-                    "false_negative_detections": 228,
-                    "true_positive_detections": 6951,
-                    "true_negative_detections": 8841,
+                    "false_positive_detections": 116,
+                    "false_negative_detections": 190,
+                    "true_positive_detections": 5545,
+                    "true_negative_detections": 7072,
                     "http_errors": 0
                 },
-                "failure_rate": "2.33%",
-                "weighted_errors_E": 833,
-                "error_rate_epsilon": 0.051518,
+                "failure_rate": "2.37%",
+                "weighted_errors_E": 686,
+                "error_rate_epsilon": 0.053084,
                 "p99_score": {
-                    "value": 474.86,
+                    "value": 304.07,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 411.69,
-                    "rate_component": 1288.04,
-                    "absolute_penalty": -876.35,
+                    "value": 423.95,
+                    "rate_component": 1275.04,
+                    "absolute_penalty": -851.09,
                     "cut_triggered": false
                 },
-                "final_score": 886.55
+                "final_score": 728.02
             },
             "repo_url": "https://github.com/zanfranceschi/rinha-de-backend-2026-zan-clojure",
-            "timestamp": "2026-04-26T03:35:59"
+            "timestamp": "2026-04-26T03:53:57Z"
         },
         "dotnet": {
             "expected": {
