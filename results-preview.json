@@ -125,20 +125,20 @@
                 "edge_case_count": 437,
                 "edge_case_rate": 0.0146
             },
-            "p99": "733.66ms",
+            "p99": "486.21ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 5074,
-                    "true_negative_detections": 6356,
+                    "true_positive_detections": 5849,
+                    "true_negative_detections": 7339,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 134.5,
+                    "value": 313.17,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -147,10 +147,10 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3134.5
+                "final_score": 3313.17
             },
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-2026",
-            "timestamp": "2026-04-26T16:02:58Z"
+            "timestamp": "2026-04-26T16:22:16Z"
         }
     },
     "passos-matheus": {
