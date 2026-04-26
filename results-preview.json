@@ -162,20 +162,20 @@
                 "edge_case_count": 437,
                 "edge_case_rate": 0.0146
             },
-            "p99": "2.65ms",
+            "p99": "3.65ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 12717,
-                    "true_negative_detections": 15947,
+                    "true_positive_detections": 12742,
+                    "true_negative_detections": 15989,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 1,
                 "error_rate_epsilon": 0.000035,
                 "p99_score": {
-                    "value": 2577.25,
+                    "value": 2438.22,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -184,10 +184,10 @@
                     "absolute_penalty": -90.31,
                     "cut_triggered": false
                 },
-                "final_score": 5486.94
+                "final_score": 5347.91
             },
             "repo_url": "https://github.com/passos-matheus/sub-python-rinha-de-backend-2026",
-            "timestamp": "2026-04-26T03:26:34"
+            "timestamp": "2026-04-26T03:47:58Z"
         }
     }
 }
