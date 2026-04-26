@@ -34,35 +34,40 @@
         },
         "dotnet": {
             "expected": {
-                "total": 14500,
-                "fraud_count": 4812,
-                "legit_count": 9688,
-                "fraud_rate": 0.3319,
-                "legit_rate": 0.6681,
-                "edge_case_count": 157,
-                "edge_case_rate": 0.0108
+                "total": 30000,
+                "fraud_count": 13301,
+                "legit_count": 16699,
+                "fraud_rate": 0.4434,
+                "legit_rate": 0.5566,
+                "edge_case_count": 437,
+                "edge_case_rate": 0.0146
             },
-            "response_times": {
-                "min": "1.45ms",
-                "max": "53.53ms",
-                "med": "2.25ms",
-                "p90": "4.89ms",
-                "p99": "29.75ms"
-            },
+            "p99": "60.82ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 70,
-                    "false_negative_detections": 75,
-                    "true_positive_detections": 4525,
-                    "true_negative_detections": 9193,
+                    "false_positive_detections": 154,
+                    "false_negative_detections": 170,
+                    "true_positive_detections": 10333,
+                    "true_negative_detections": 13030,
                     "http_errors": 0
                 },
-                "detection_accuracy": "98.95%",
-                "target_p99_ms": 10,
-                "latency_multiplier": 0.3361,
-                "raw_score": 13423,
-                "final_score": 4511.24
-            }
+                "failure_rate": "1.37%",
+                "weighted_errors_E": 664,
+                "error_rate_epsilon": 0.028032,
+                "p99_score": {
+                    "value": 1215.98,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 705.5,
+                    "rate_component": 1552.34,
+                    "absolute_penalty": -846.85,
+                    "cut_triggered": false
+                },
+                "final_score": 1921.47
+            },
+            "repo_url": "https://github.com/zanfranceschi/rinha-de-backend-2026-zan-dotnet",
+            "timestamp": "2026-04-26T03:30:35"
         }
     },
     "MXLange": {
