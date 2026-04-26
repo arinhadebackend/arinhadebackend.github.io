@@ -1,38 +1,249 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinha de Backend</title>
     <style>
+        :root {
+            --bg: #ffffff;
+            --fg: #1a1a1a;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+            --row-hover: #fafafa;
+            --accent: #1a1a1a;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0f0f10;
+                --fg: #f3f4f6;
+                --muted: #9ca3af;
+                --border: #262629;
+                --row-hover: #18181b;
+                --accent: #f3f4f6;
+            }
+        }
+
+        * { box-sizing: border-box; }
+
         body {
-            font-family: system-ui, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
             margin: 0;
-            background-color: #1a1a2e;
-            color: #eee;
+            background: var(--bg);
+            color: var(--fg);
+            -webkit-font-smoothing: antialiased;
         }
-        .container {
-            text-align: center;
-            padding: 2rem;
+
+        main {
+            max-width: 1040px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem 6rem;
         }
+
+        header {
+            margin-bottom: 2.5rem;
+        }
+
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin: 0 0 0.25rem;
+            letter-spacing: -0.01em;
         }
-        p {
-            font-size: 1.2rem;
-            color: #aaa;
+
+        header p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .status {
+            color: var(--muted);
+            font-size: 0.9rem;
+            padding: 1rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.92rem;
+        }
+
+        thead th {
+            text-align: left;
+            font-weight: 500;
+            color: var(--muted);
+            font-size: 0.78rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            padding: 0.75rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tbody td {
+            padding: 0.85rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+            vertical-align: middle;
+        }
+
+        tbody tr:hover {
+            background: var(--row-hover);
+        }
+
+        td.num, th.num {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+
+        td.rank {
+            color: var(--muted);
+            width: 2.5rem;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .id a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 0.88rem;
+        }
+
+        .id span.plain {
+            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 0.88rem;
+        }
+
+        .id a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        .timestamp {
+            color: var(--muted);
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+
+        .score {
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+        }
+
+        footer {
+            margin-top: 2rem;
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 720px) {
+            main { padding: 2rem 1rem 4rem; }
+            .hide-mobile { display: none; }
+            thead th, tbody td { padding: 0.7rem 0.5rem; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Rinha de Backend</h1>
-        <p>Em breve/Soon...</p>
-    </div>
+    <main>
+        <header>
+            <h1>Rinha de Backend</h1>
+            <p>Partial results — 2026 preview</p>
+        </header>
+
+        <div id="status" class="status">Loading…</div>
+
+        <table id="results" hidden>
+            <thead>
+                <tr>
+                    <th class="num">#</th>
+                    <th>Submission</th>
+                    <th class="num hide-mobile">p99</th>
+                    <th class="num hide-mobile">Failures</th>
+                    <th class="num">Score</th>
+                    <th class="hide-mobile">Submitted</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <footer id="footer" hidden>
+            <span id="count"></span>
+        </footer>
+    </main>
+
+    <script>
+        const SOURCE = 'https://raw.githubusercontent.com/arinhadebackend/arinhadebackend.github.io/2026-preview/results-preview.json';
+
+        const fmtScore = (n) => n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+        const fmtTimestamp = (ts) => {
+            if (!ts) return '—';
+            const d = new Date(ts);
+            if (isNaN(d)) return ts;
+            return d.toLocaleString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false,
+            });
+        };
+
+        async function load() {
+            const statusEl = document.getElementById('status');
+            const tableEl = document.getElementById('results');
+            const tbodyEl = tableEl.querySelector('tbody');
+            const footerEl = document.getElementById('footer');
+            const countEl = document.getElementById('count');
+
+            try {
+                const res = await fetch(SOURCE, { cache: 'no-cache' });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                const data = await res.json();
+
+                const rows = [];
+                for (const [participant, submissions] of Object.entries(data)) {
+                    for (const [name, info] of Object.entries(submissions)) {
+                        rows.push({
+                            id: `${participant}.${name}`,
+                            p99: info.p99 ?? '—',
+                            failure: info.scoring?.failure_rate ?? '—',
+                            score: info.scoring?.final_score ?? 0,
+                            repo: info.repo_url ?? null,
+                            timestamp: info.timestamp ?? null,
+                        });
+                    }
+                }
+
+                rows.sort((a, b) => b.score - a.score);
+
+                tbodyEl.innerHTML = rows.map((r, i) => {
+                    const idLabel = r.repo
+                        ? `<a href="${r.repo}" target="_blank" rel="noopener noreferrer">${r.id}</a>`
+                        : `<span class="plain">${r.id}</span>`;
+                    return `
+                        <tr>
+                            <td class="rank num">${i + 1}</td>
+                            <td class="id">${idLabel}</td>
+                            <td class="num hide-mobile">${r.p99}</td>
+                            <td class="num hide-mobile">${r.failure}</td>
+                            <td class="num score">${fmtScore(r.score)}</td>
+                            <td class="timestamp hide-mobile">${fmtTimestamp(r.timestamp)}</td>
+                        </tr>
+                    `;
+                }).join('');
+
+                statusEl.hidden = true;
+                tableEl.hidden = false;
+                footerEl.hidden = false;
+                countEl.textContent = `${rows.length} submissions`;
+            } catch (err) {
+                statusEl.textContent = `Could not load results (${err.message}).`;
+            }
+        }
+
+        load();
+    </script>
 </body>
-</html> 
+</html>
