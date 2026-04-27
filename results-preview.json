@@ -159,28 +159,28 @@
     "passos-matheus": {
         "passos-python-teste": {
             "expected": {
-                "total": 20000,
-                "fraud_count": 8867,
-                "legit_count": 11133,
-                "fraud_rate": 0.4434,
-                "legit_rate": 0.5567,
-                "edge_case_count": 310,
-                "edge_case_rate": 0.0155
+                "total": 39100,
+                "fraud_count": 17367,
+                "legit_count": 21733,
+                "fraud_rate": 0.4442,
+                "legit_rate": 0.5558,
+                "edge_case_count": 574,
+                "edge_case_rate": 0.0147
             },
-            "p99": "67.07ms",
+            "p99": "4.52ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 7853,
-                    "true_negative_detections": 9819,
+                    "true_positive_detections": 17325,
+                    "true_negative_detections": 21672,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1173.49,
+                    "value": 2344.63,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -189,11 +189,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4173.49
+                "final_score": 5344.63
             },
             "repo_url": "https://github.com/passos-matheus/sub-python-rinha-de-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/211",
-            "timestamp": "2026-04-26T23:48:38Z"
+            "timestamp": "2026-04-27T00:39:28Z"
         }
     },
     "willy-r": {
