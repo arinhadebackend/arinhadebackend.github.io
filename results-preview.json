@@ -165,33 +165,33 @@
                 "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "581.39ms",
+            "p99": "633.20ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 154,
-                    "false_negative_detections": 159,
-                    "true_positive_detections": 5954,
-                    "true_negative_detections": 7542,
-                    "http_errors": 3
+                    "false_positive_detections": 157,
+                    "false_negative_detections": 160,
+                    "true_positive_detections": 5951,
+                    "true_negative_detections": 7552,
+                    "http_errors": 50
                 },
-                "failure_rate": "2.29%",
-                "weighted_errors_E": 646,
-                "error_rate_epsilon": 0.046771,
+                "failure_rate": "2.65%",
+                "weighted_errors_E": 887,
+                "error_rate_epsilon": 0.063951,
                 "p99_score": {
-                    "value": 235.53,
+                    "value": 198.46,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 486.75,
-                    "rate_component": 1330.02,
-                    "absolute_penalty": -843.27,
+                    "value": 309.63,
+                    "rate_component": 1194.15,
+                    "absolute_penalty": -884.52,
                     "cut_triggered": false
                 },
-                "final_score": 722.28
+                "final_score": 508.09
             },
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-extreme-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/320",
-            "timestamp": "2026-04-27T21:27:32Z"
+            "timestamp": "2026-04-27T21:35:36Z"
         }
     },
     "passos-matheus": {
