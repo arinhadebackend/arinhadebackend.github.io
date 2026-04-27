@@ -674,40 +674,40 @@
         "thiagorigonatti-c": {
             "expected": {
                 "total": 39100,
-                "fraud_count": 17343,
-                "legit_count": 21757,
-                "fraud_rate": 0.4436,
-                "legit_rate": 0.5564,
-                "edge_case_count": 573,
-                "edge_case_rate": 0.0147
+                "fraud_count": 17341,
+                "legit_count": 21759,
+                "fraud_rate": 0.4435,
+                "legit_rate": 0.5565,
+                "edge_case_count": 570,
+                "edge_case_rate": 0.0146
             },
-            "p99": "140.13ms",
+            "p99": "178.18ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 11240,
-                    "true_negative_detections": 14164,
-                    "http_errors": 2
+                    "false_positive_detections": 233,
+                    "false_negative_detections": 232,
+                    "true_positive_detections": 11158,
+                    "true_negative_detections": 14156,
+                    "http_errors": 0
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 13,
-                "error_rate_epsilon": 0.000512,
+                "failure_rate": "1.8%",
+                "weighted_errors_E": 929,
+                "error_rate_epsilon": 0.036037,
                 "p99_score": {
-                    "value": 853.45,
+                    "value": 749.15,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2656.16,
-                    "rate_component": 3000,
-                    "absolute_penalty": -343.84,
+                    "value": 552.71,
+                    "rate_component": 1443.25,
+                    "absolute_penalty": -890.54,
                     "cut_triggered": false
                 },
-                "final_score": 3509.62
+                "final_score": 1301.86
             },
             "repo_url": "https://github.com/thiagorigonatti/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/322",
-            "timestamp": "2026-04-27T21:55:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/327",
+            "timestamp": "2026-04-27T22:19:17Z"
         }
     },
     "vitortvale": {
