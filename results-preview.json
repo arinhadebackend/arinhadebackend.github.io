@@ -603,33 +603,33 @@
                 "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1733.98ms",
+            "p99": "1.33ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 77,
-                    "false_negative_detections": 73,
-                    "true_positive_detections": 2947,
-                    "true_negative_detections": 3801,
-                    "http_errors": 190
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 17330,
+                    "true_negative_detections": 21728,
+                    "http_errors": 0
                 },
-                "failure_rate": "4.8%",
-                "weighted_errors_E": 1246,
-                "error_rate_epsilon": 0.17579,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -239.04,
+                    "value": 2876.1,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -173.75,
-                    "rate_component": 755.01,
-                    "absolute_penalty": -928.76,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": -412.8
+                "final_score": 5876.1
             },
             "repo_url": "https://github.com/matheusosp/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/275",
-            "timestamp": "2026-04-27T13:03:40Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/279",
+            "timestamp": "2026-04-27T13:30:10Z"
         }
     },
     "thiagorigonatti": {
