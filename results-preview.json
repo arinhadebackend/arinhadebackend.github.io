@@ -603,33 +603,33 @@
                 "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1580.85ms",
+            "p99": "323.37ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 78,
-                    "false_negative_detections": 80,
-                    "true_positive_detections": 3101,
-                    "true_negative_detections": 3958,
-                    "http_errors": 150
+                    "false_positive_detections": 168,
+                    "false_negative_detections": 150,
+                    "true_positive_detections": 6627,
+                    "true_negative_detections": 8338,
+                    "http_errors": 0
                 },
-                "failure_rate": "4.18%",
-                "weighted_errors_E": 1068,
-                "error_rate_epsilon": 0.144971,
+                "failure_rate": "2.08%",
+                "weighted_errors_E": 618,
+                "error_rate_epsilon": 0.040437,
                 "p99_score": {
-                    "value": -198.89,
+                    "value": 490.3,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -69.97,
-                    "rate_component": 838.72,
-                    "absolute_penalty": -908.69,
+                    "value": 555.71,
+                    "rate_component": 1393.22,
+                    "absolute_penalty": -837.51,
                     "cut_triggered": false
                 },
-                "final_score": -268.86
+                "final_score": 1046.01
             },
             "repo_url": "https://github.com/matheusosp/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/287",
-            "timestamp": "2026-04-27T14:05:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/290",
+            "timestamp": "2026-04-27T14:36:00Z"
         }
     },
     "thiagorigonatti": {
