@@ -2,28 +2,28 @@
     "zanfranceschi": {
         "dotnet": {
             "expected": {
-                "total": 50000,
-                "fraud_count": 22261,
-                "legit_count": 27739,
-                "fraud_rate": 0.4452,
-                "legit_rate": 0.5548,
-                "edge_case_count": 754,
-                "edge_case_rate": 0.0151
+                "total": 39100,
+                "fraud_count": 17367,
+                "legit_count": 21733,
+                "fraud_rate": 0.4442,
+                "legit_rate": 0.5558,
+                "edge_case_count": 574,
+                "edge_case_rate": 0.0147
             },
-            "p99": "4.16ms",
+            "p99": "3.78ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 20222,
-                    "true_negative_detections": 25263,
+                    "true_positive_detections": 17354,
+                    "true_negative_detections": 21705,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2381.22,
+                    "value": 2422.49,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -32,11 +32,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5381.22
+                "final_score": 5422.49
             },
             "repo_url": "https://github.com/zanfranceschi/rinha-de-backend-2026-zan-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/206",
-            "timestamp": "2026-04-26T22:40:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/214",
+            "timestamp": "2026-04-27T00:36:16Z"
         }
     },
     "MXLange": {
