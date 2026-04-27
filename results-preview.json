@@ -676,40 +676,40 @@
         "murilo-go-fasthttp": {
             "expected": {
                 "total": 39100,
-                "fraud_count": 17367,
-                "legit_count": 21733,
-                "fraud_rate": 0.4442,
-                "legit_rate": 0.5558,
-                "edge_case_count": 574,
+                "fraud_count": 17343,
+                "legit_count": 21757,
+                "fraud_rate": 0.4436,
+                "legit_rate": 0.5564,
+                "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.33ms",
+            "p99": "1.14ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 17335,
-                    "true_negative_detections": 21682,
+                    "false_positive_detections": 424,
+                    "false_negative_detections": 400,
+                    "true_positive_detections": 16930,
+                    "true_negative_detections": 21305,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "2.11%",
+                "weighted_errors_E": 1624,
+                "error_rate_epsilon": 0.041578,
                 "p99_score": {
-                    "value": 2876.38,
+                    "value": 2944.51,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 417.88,
+                    "rate_component": 1381.14,
+                    "absolute_penalty": -963.26,
                     "cut_triggered": false
                 },
-                "final_score": 5876.38
+                "final_score": 3362.39
             },
             "repo_url": "https://github.com/MuriloCarlos1567/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/264",
-            "timestamp": "2026-04-27T06:19:38Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/292",
+            "timestamp": "2026-04-27T14:46:44Z"
         }
     },
     "vitortvale": {
