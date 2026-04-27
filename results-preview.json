@@ -3,40 +3,40 @@
         "dotnet": {
             "expected": {
                 "total": 39100,
-                "fraud_count": 17367,
-                "legit_count": 21733,
-                "fraud_rate": 0.4442,
-                "legit_rate": 0.5558,
-                "edge_case_count": 574,
+                "fraud_count": 17343,
+                "legit_count": 21757,
+                "fraud_rate": 0.4436,
+                "legit_rate": 0.5564,
+                "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.80ms",
+            "p99": "683.60ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 17355,
-                    "true_negative_detections": 21705,
-                    "http_errors": 0
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 2683,
+                    "true_negative_detections": 3423,
+                    "http_errors": 1
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.03%",
+                "weighted_errors_E": 8,
+                "error_rate_epsilon": 0.00131,
                 "p99_score": {
-                    "value": 2419.79,
+                    "value": 165.2,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 2596.54,
+                    "rate_component": 2882.81,
+                    "absolute_penalty": -286.27,
                     "cut_triggered": false
                 },
-                "final_score": 5419.79
+                "final_score": 2761.74
             },
             "repo_url": "https://github.com/zanfranceschi/rinha-de-backend-2026-zan-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/218",
-            "timestamp": "2026-04-27T00:55:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/276",
+            "timestamp": "2026-04-27T13:09:03Z"
         }
     },
     "MXLange": {
