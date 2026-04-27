@@ -364,33 +364,33 @@
                 "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1494.66ms",
+            "p99": "1161.83ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 113,
-                    "false_negative_detections": 105,
-                    "true_positive_detections": 4072,
-                    "true_negative_detections": 5141,
-                    "http_errors": 76
+                    "false_positive_detections": 89,
+                    "false_negative_detections": 96,
+                    "true_positive_detections": 3501,
+                    "true_negative_detections": 4470,
+                    "http_errors": 57
                 },
-                "failure_rate": "3.09%",
-                "weighted_errors_E": 808,
-                "error_rate_epsilon": 0.08499,
+                "failure_rate": "2.95%",
+                "weighted_errors_E": 662,
+                "error_rate_epsilon": 0.080604,
                 "p99_score": {
-                    "value": -174.54,
+                    "value": -65.14,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 198.25,
-                    "rate_component": 1070.63,
-                    "absolute_penalty": -872.38,
+                    "value": 247.19,
+                    "rate_component": 1093.64,
+                    "absolute_penalty": -846.45,
                     "cut_triggered": false
                 },
-                "final_score": 23.7
+                "final_score": 182.05
             },
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/311",
-            "timestamp": "2026-04-27T20:52:23Z"
+            "timestamp": "2026-04-27T21:02:11Z"
         }
     },
     "l4y3rS3v3n": {
