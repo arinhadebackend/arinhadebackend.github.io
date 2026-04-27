@@ -636,40 +636,40 @@
         "thiagorigonatti-c": {
             "expected": {
                 "total": 39100,
-                "fraud_count": 17367,
-                "legit_count": 21733,
-                "fraud_rate": 0.4442,
-                "legit_rate": 0.5558,
-                "edge_case_count": 574,
+                "fraud_count": 17343,
+                "legit_count": 21757,
+                "fraud_rate": 0.4436,
+                "legit_rate": 0.5564,
+                "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
             "p99": "1.30ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 17354,
-                    "true_negative_detections": 21705,
+                    "false_positive_detections": 424,
+                    "false_negative_detections": 400,
+                    "true_positive_detections": 16931,
+                    "true_negative_detections": 21305,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "2.11%",
+                "weighted_errors_E": 1624,
+                "error_rate_epsilon": 0.041577,
                 "p99_score": {
-                    "value": 2884.46,
+                    "value": 2886.95,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 417.89,
+                    "rate_component": 1381.15,
+                    "absolute_penalty": -963.26,
                     "cut_triggered": false
                 },
-                "final_score": 5884.46
+                "final_score": 3304.84
             },
             "repo_url": "https://github.com/thiagorigonatti/rinha-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/269",
-            "timestamp": "2026-04-27T06:48:07Z"
+            "timestamp": "2026-04-27T12:49:37Z"
         }
     },
     "MuriloCarlos1567": {
