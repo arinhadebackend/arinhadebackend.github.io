@@ -513,41 +513,41 @@
     "ericksousa77": {
         "ericksousanode24": {
             "expected": {
-                "total": 20000,
-                "fraud_count": 8867,
-                "legit_count": 11133,
-                "fraud_rate": 0.4434,
-                "legit_rate": 0.5567,
-                "edge_case_count": 310,
-                "edge_case_rate": 0.0155
+                "total": 39100,
+                "fraud_count": 17367,
+                "legit_count": 21733,
+                "fraud_rate": 0.4442,
+                "legit_rate": 0.5558,
+                "edge_case_count": 574,
+                "edge_case_rate": 0.0147
             },
-            "p99": "330.36ms",
+            "p99": "286.36ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 5777,
-                    "true_negative_detections": 7233,
-                    "http_errors": 1
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 7423,
+                    "true_negative_detections": 9294,
+                    "http_errors": 119
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 5,
-                "error_rate_epsilon": 0.000384,
+                "failure_rate": "0.71%",
+                "weighted_errors_E": 598,
+                "error_rate_epsilon": 0.035517,
                 "p99_score": {
-                    "value": 481.01,
+                    "value": 543.09,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2766.55,
-                    "rate_component": 3000,
-                    "absolute_penalty": -233.45,
+                    "value": 616.34,
+                    "rate_component": 1449.56,
+                    "absolute_penalty": -833.23,
                     "cut_triggered": false
                 },
-                "final_score": 3247.56
+                "final_score": 1159.42
             },
             "repo_url": "https://github.com/ericksousa77/rinha-2026-node",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/213",
-            "timestamp": "2026-04-27T00:03:04Z"
+            "timestamp": "2026-04-27T00:47:05Z"
         }
     },
     "joojf": {
