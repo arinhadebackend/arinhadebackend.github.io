@@ -603,33 +603,33 @@
                 "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1646.89ms",
+            "p99": "2071.79ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 75,
-                    "false_negative_detections": 69,
-                    "true_positive_detections": 2653,
-                    "true_negative_detections": 3461,
-                    "http_errors": 597
+                    "false_positive_detections": 47,
+                    "false_negative_detections": 44,
+                    "true_positive_detections": 2035,
+                    "true_negative_detections": 2599,
+                    "http_errors": 513
                 },
-                "failure_rate": "10.81%",
-                "weighted_errors_E": 3267,
-                "error_rate_epsilon": 0.476586,
+                "failure_rate": "11.53%",
+                "weighted_errors_E": 2744,
+                "error_rate_epsilon": 0.523864,
                 "p99_score": {
-                    "value": -216.67,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -732.43,
-                    "rate_component": 321.86,
-                    "absolute_penalty": -1054.28,
+                    "value": -750.78,
+                    "rate_component": 280.78,
+                    "absolute_penalty": -1031.56,
                     "cut_triggered": false
                 },
-                "final_score": -949.09
+                "final_score": -3750.78
             },
             "repo_url": "https://github.com/matheusosp/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/296",
-            "timestamp": "2026-04-27T15:07:55Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/299",
+            "timestamp": "2026-04-27T15:25:41Z"
         }
     },
     "thiagorigonatti": {
