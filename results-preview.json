@@ -357,40 +357,40 @@
         "ronaldo-silva-java25": {
             "expected": {
                 "total": 39100,
-                "fraud_count": 17367,
-                "legit_count": 21733,
-                "fraud_rate": 0.4442,
-                "legit_rate": 0.5558,
-                "edge_case_count": 574,
+                "fraud_count": 17343,
+                "legit_count": 21757,
+                "fraud_rate": 0.4436,
+                "legit_rate": 0.5564,
+                "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1168.88ms",
+            "p99": "1494.66ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 5201,
-                    "true_negative_detections": 6497,
-                    "http_errors": 64
+                    "false_positive_detections": 113,
+                    "false_negative_detections": 105,
+                    "true_positive_detections": 4072,
+                    "true_negative_detections": 5141,
+                    "http_errors": 76
                 },
-                "failure_rate": "0.54%",
-                "weighted_errors_E": 320,
-                "error_rate_epsilon": 0.027206,
+                "failure_rate": "3.09%",
+                "weighted_errors_E": 808,
+                "error_rate_epsilon": 0.08499,
                 "p99_score": {
-                    "value": -67.77,
+                    "value": -174.54,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 813.38,
-                    "rate_component": 1565.33,
-                    "absolute_penalty": -751.95,
+                    "value": 198.25,
+                    "rate_component": 1070.63,
+                    "absolute_penalty": -872.38,
                     "cut_triggered": false
                 },
-                "final_score": 745.61
+                "final_score": 23.7
             },
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/227",
-            "timestamp": "2026-04-27T02:49:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/311",
+            "timestamp": "2026-04-27T20:52:23Z"
         }
     },
     "l4y3rS3v3n": {
