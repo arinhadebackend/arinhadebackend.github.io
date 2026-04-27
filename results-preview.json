@@ -563,33 +563,33 @@
                 "edge_case_count": 573,
                 "edge_case_rate": 0.0147
             },
-            "p99": "323.37ms",
+            "p99": "598.23ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 168,
-                    "false_negative_detections": 150,
-                    "true_positive_detections": 6627,
-                    "true_negative_detections": 8338,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 5527,
+                    "true_negative_detections": 6955,
+                    "http_errors": 2
                 },
-                "failure_rate": "2.08%",
-                "weighted_errors_E": 618,
-                "error_rate_epsilon": 0.040437,
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 13,
+                "error_rate_epsilon": 0.001041,
                 "p99_score": {
-                    "value": 490.3,
+                    "value": 223.13,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 555.71,
-                    "rate_component": 1393.22,
-                    "absolute_penalty": -837.51,
+                    "value": 2638.61,
+                    "rate_component": 2982.45,
+                    "absolute_penalty": -343.84,
                     "cut_triggered": false
                 },
-                "final_score": 1046.01
+                "final_score": 2861.74
             },
             "repo_url": "https://github.com/joojf/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/289",
-            "timestamp": "2026-04-27T14:27:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/293",
+            "timestamp": "2026-04-27T14:57:50Z"
         }
     },
     "matheusosp": {
