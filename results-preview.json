@@ -210,33 +210,33 @@
                 "edge_case_count": 1114,
                 "edge_case_rate": 0.0155
             },
-            "p99": "2002.46ms",
+            "p99": "1178.29ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 179,
-                    "false_negative_detections": 186,
-                    "true_positive_detections": 6756,
-                    "true_negative_detections": 8433,
-                    "http_errors": 9979
+                    "false_positive_detections": 427,
+                    "false_negative_detections": 454,
+                    "true_positive_detections": 16680,
+                    "true_negative_detections": 20996,
+                    "http_errors": 2
                 },
-                "failure_rate": "40.51%",
-                "weighted_errors_E": 50632,
-                "error_rate_epsilon": 1.983002,
+                "failure_rate": "2.29%",
+                "weighted_errors_E": 1799,
+                "error_rate_epsilon": 0.046656,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": -71.25,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 354.51,
+                    "rate_component": 1331.09,
+                    "absolute_penalty": -976.58,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 283.26
             },
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-extreme-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/387",
-            "timestamp": "2026-04-28T21:20:58Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/389",
+            "timestamp": "2026-04-28T21:39:50Z"
         },
         "davidalecrim1-rust": {
             "expected": {
