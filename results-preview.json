@@ -512,5 +512,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/379",
             "timestamp": "2026-04-28T18:27:43Z"
         }
+    },
+    "vitortvale": {
+        "vitortvale-rust": {
+            "expected": {
+                "total": 72100,
+                "fraud_count": 32113,
+                "legit_count": 39987,
+                "fraud_rate": 0.4454,
+                "legit_rate": 0.5546,
+                "edge_case_count": 1114,
+                "edge_case_rate": 0.0155
+            },
+            "p99": "1.20ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 22741,
+                    "true_negative_detections": 28317,
+                    "http_errors": 1
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 5,
+                "error_rate_epsilon": 0.000098,
+                "p99_score": {
+                    "value": 2920.88,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2766.55,
+                    "rate_component": 3000,
+                    "absolute_penalty": -233.45,
+                    "cut_triggered": false
+                },
+                "final_score": 5687.44
+            },
+            "repo_url": "https://github.com/vitortvale/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/393",
+            "timestamp": "2026-04-28T22:23:09Z"
+        }
     }
 }
