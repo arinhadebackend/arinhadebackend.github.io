@@ -78,5 +78,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/331",
             "timestamp": "2026-04-28T02:15:53Z"
         }
+    },
+    "zanfranceschi": {
+        "dotnet": {
+            "expected": {
+                "total": 72100,
+                "fraud_count": 32113,
+                "legit_count": 39987,
+                "fraud_rate": 0.4454,
+                "legit_rate": 0.5546,
+                "edge_case_count": 1114,
+                "edge_case_rate": 0.0155
+            },
+            "p99": "751.42ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 12,
+                    "false_negative_detections": 8,
+                    "true_positive_detections": 324,
+                    "true_negative_detections": 413,
+                    "http_errors": 56724
+                },
+                "failure_rate": "98.72%",
+                "weighted_errors_E": 283656,
+                "error_rate_epsilon": 4.934778,
+                "p99_score": {
+                    "value": 124.12,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -2875.88
+            },
+            "repo_url": "https://github.com/zanfranceschi/rinha-de-backend-2026-zan-dotnet",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/332",
+            "timestamp": "2026-04-28T02:19:24Z"
+        }
     }
 }
