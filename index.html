@@ -240,6 +240,7 @@
         .meta-mobile .ts {
             font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
             font-size: 0.72rem;
+            margin-top: 0.2rem;
         }
 
         .score {
@@ -423,7 +424,7 @@
                         const metaLine = `
                             <div class="meta-mobile">
                                 ${metaParts.join('<span class="sep">·</span>')}
-                                <span class="sep">·</span><span class="ts">${tsLabel}</span>
+                                <div class="ts">${tsLabel}</div>
                             </div>
                         `;
                         return `
