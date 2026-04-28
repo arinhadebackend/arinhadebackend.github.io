@@ -210,33 +210,33 @@
                 "edge_case_count": 1114,
                 "edge_case_rate": 0.0155
             },
-            "p99": "1178.29ms",
+            "p99": "1405.84ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 427,
-                    "false_negative_detections": 454,
-                    "true_positive_detections": 16680,
-                    "true_negative_detections": 20996,
-                    "http_errors": 2
+                    "false_positive_detections": 432,
+                    "false_negative_detections": 462,
+                    "true_positive_detections": 16965,
+                    "true_negative_detections": 21351,
+                    "http_errors": 32
                 },
-                "failure_rate": "2.29%",
-                "weighted_errors_E": 1799,
-                "error_rate_epsilon": 0.046656,
+                "failure_rate": "2.36%",
+                "weighted_errors_E": 1978,
+                "error_rate_epsilon": 0.050405,
                 "p99_score": {
-                    "value": -71.25,
+                    "value": -147.94,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 354.51,
-                    "rate_component": 1331.09,
-                    "absolute_penalty": -976.58,
+                    "value": 308.59,
+                    "rate_component": 1297.52,
+                    "absolute_penalty": -988.93,
                     "cut_triggered": false
                 },
-                "final_score": 283.26
+                "final_score": 160.66
             },
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-extreme-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/389",
-            "timestamp": "2026-04-28T21:39:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/397",
+            "timestamp": "2026-04-28T22:46:53Z"
         },
         "davidalecrim1-rust": {
             "expected": {
