@@ -366,33 +366,33 @@
                 "edge_case_count": 1114,
                 "edge_case_rate": 0.0155
             },
-            "p99": "5.26ms",
+            "p99": "83.47ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 519,
-                    "false_negative_detections": 644,
-                    "true_positive_detections": 22097,
-                    "true_negative_detections": 27799,
+                    "false_positive_detections": 510,
+                    "false_negative_detections": 624,
+                    "true_positive_detections": 22113,
+                    "true_negative_detections": 27800,
                     "http_errors": 0
                 },
-                "failure_rate": "2.28%",
-                "weighted_errors_E": 2451,
-                "error_rate_epsilon": 0.048003,
+                "failure_rate": "2.22%",
+                "weighted_errors_E": 2382,
+                "error_rate_epsilon": 0.046663,
                 "p99_score": {
-                    "value": 2278.86,
+                    "value": 1078.48,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 301.87,
-                    "rate_component": 1318.73,
-                    "absolute_penalty": -1016.86,
+                    "value": 317.89,
+                    "rate_component": 1331.03,
+                    "absolute_penalty": -1013.14,
                     "cut_triggered": false
                 },
-                "final_score": 2580.73
+                "final_score": 1396.37
             },
             "repo_url": "https://github.com/thiagorigonatti/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/373",
-            "timestamp": "2026-04-28T12:55:40Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/374",
+            "timestamp": "2026-04-28T13:01:00Z"
         }
     },
     "MXLange": {
