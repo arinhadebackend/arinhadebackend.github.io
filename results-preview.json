@@ -170,33 +170,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.10ms",
+            "p99": "2002.09ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 3,
-                    "false_negative_detections": 2,
-                    "true_positive_detections": 24034,
-                    "true_negative_detections": 30018,
-                    "http_errors": 0
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 10644,
+                    "true_negative_detections": 13397,
+                    "http_errors": 3447
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 9,
-                "error_rate_epsilon": 0.000166,
+                "failure_rate": "12.54%",
+                "weighted_errors_E": 17236,
+                "error_rate_epsilon": 0.627014,
                 "p99_score": {
-                    "value": 2508.74,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2700,
-                    "rate_component": 3000,
-                    "absolute_penalty": -300,
+                    "value": -1068.22,
+                    "rate_component": 202.72,
+                    "absolute_penalty": -1270.94,
                     "cut_triggered": false
                 },
-                "final_score": 5208.74
+                "final_score": -4068.22
             },
             "repo_url": "https://github.com/thiagorigonatti/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/449",
-            "timestamp": "2026-04-29T06:00:56Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/453",
+            "timestamp": "2026-04-29T06:11:07Z"
         }
     },
     "jotapemattos": {
