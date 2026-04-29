@@ -170,33 +170,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.00ms",
+            "p99": "191.80ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
+                    "false_positive_detections": 2,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 11955,
-                    "true_negative_detections": 15074,
-                    "http_errors": 27030
+                    "true_positive_detections": 24018,
+                    "true_negative_detections": 29997,
+                    "http_errors": 0
                 },
-                "failure_rate": "50%",
-                "weighted_errors_E": 135150,
-                "error_rate_epsilon": 2.500046,
+                "failure_rate": "0%",
+                "weighted_errors_E": 2,
+                "error_rate_epsilon": 0.000037,
                 "p99_score": {
-                    "value": 2699.25,
+                    "value": 717.16,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 2856.86,
+                    "rate_component": 3000,
+                    "absolute_penalty": -143.14,
+                    "cut_triggered": false
                 },
-                "final_score": -300.75
+                "final_score": 3574.03
             },
             "repo_url": "https://github.com/thiagorigonatti/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/475",
-            "timestamp": "2026-04-29T07:44:10Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/477",
+            "timestamp": "2026-04-29T07:50:19Z"
         }
     },
     "jotapemattos": {
