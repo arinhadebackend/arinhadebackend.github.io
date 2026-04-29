@@ -170,33 +170,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.09ms",
+            "p99": "3.13ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1,
+                    "false_positive_detections": 2,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 6588,
-                    "true_negative_detections": 8254,
-                    "http_errors": 6106
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30020,
+                    "http_errors": 0
                 },
-                "failure_rate": "29.15%",
-                "weighted_errors_E": 30531,
-                "error_rate_epsilon": 1.457397,
+                "failure_rate": "0%",
+                "weighted_errors_E": 2,
+                "error_rate_epsilon": 0.000037,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 2504.56,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 2856.86,
+                    "rate_component": 3000,
+                    "absolute_penalty": -143.14,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 5361.42
             },
             "repo_url": "https://github.com/thiagorigonatti/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/468",
-            "timestamp": "2026-04-29T07:05:03Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/469",
+            "timestamp": "2026-04-29T07:09:15Z"
         }
     },
     "jotapemattos": {
