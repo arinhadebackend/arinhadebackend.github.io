@@ -198,5 +198,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/413",
             "timestamp": "2026-04-29T00:44:31Z"
         }
+    },
+    "jotapemattos": {
+        "jotapemattos-bun": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2001.05ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 311,
+                    "false_negative_detections": 290,
+                    "true_positive_detections": 11393,
+                    "true_negative_detections": 14437,
+                    "http_errors": 421
+                },
+                "failure_rate": "3.81%",
+                "weighted_errors_E": 3286,
+                "error_rate_epsilon": 0.122374,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -142.73,
+                    "rate_component": 912.31,
+                    "absolute_penalty": -1055.04,
+                    "cut_triggered": false
+                },
+                "final_score": -3142.73
+            },
+            "repo_url": "https://github.com/jotapemattos/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/414",
+            "timestamp": "2026-04-29T00:47:39Z"
+        }
     }
 }
