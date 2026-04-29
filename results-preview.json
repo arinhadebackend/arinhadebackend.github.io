@@ -318,5 +318,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/417",
             "timestamp": "2026-04-29T00:57:35Z"
         }
+    },
+    "JulianySavazzi": {
+        "juliany-savazzi-php": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "1398.47ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 383,
+                    "false_negative_detections": 377,
+                    "true_positive_detections": 14874,
+                    "true_negative_detections": 18659,
+                    "http_errors": 0
+                },
+                "failure_rate": "2.22%",
+                "weighted_errors_E": 1514,
+                "error_rate_epsilon": 0.044149,
+                "p99_score": {
+                    "value": -145.65,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 400.96,
+                    "rate_component": 1355.08,
+                    "absolute_penalty": -954.12,
+                    "cut_triggered": false
+                },
+                "final_score": 255.3
+            },
+            "repo_url": "https://github.com/JulianySavazzi/rinha",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/437",
+            "timestamp": "2026-04-29T02:53:01Z"
+        }
     }
 }
