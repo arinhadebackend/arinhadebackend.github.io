@@ -202,41 +202,41 @@
     "davidalecrim1": {
         "davidalecrim1-rust-extreme": {
             "expected": {
-                "total": 72100,
-                "fraud_count": 32113,
-                "legit_count": 39987,
-                "fraud_rate": 0.4454,
-                "legit_rate": 0.5546,
-                "edge_case_count": 1114,
-                "edge_case_rate": 0.0155
+                "total": 100,
+                "fraud_count": 42,
+                "legit_count": 58,
+                "fraud_rate": 0.42,
+                "legit_rate": 0.58,
+                "edge_case_count": 2,
+                "edge_case_rate": 0.02
             },
-            "p99": "1405.84ms",
+            "p99": "11.84ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 432,
-                    "false_negative_detections": 462,
-                    "true_positive_detections": 16965,
-                    "true_negative_detections": 21351,
-                    "http_errors": 32
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 39,
+                    "true_negative_detections": 58,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.36%",
-                "weighted_errors_E": 1978,
-                "error_rate_epsilon": 0.050405,
+                "failure_rate": "3%",
+                "weighted_errors_E": 9,
+                "error_rate_epsilon": 0.09,
                 "p99_score": {
-                    "value": -147.94,
+                    "value": 1926.77,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 308.59,
-                    "rate_component": 1297.52,
-                    "absolute_penalty": -988.93,
+                    "value": 745.76,
+                    "rate_component": 1045.76,
+                    "absolute_penalty": -300,
                     "cut_triggered": false
                 },
-                "final_score": 160.66
+                "final_score": 2672.53
             },
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-extreme-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/397",
-            "timestamp": "2026-04-28T22:46:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/408",
+            "timestamp": "2026-04-29T00:23:47Z"
         },
         "davidalecrim1-rust": {
             "expected": {
