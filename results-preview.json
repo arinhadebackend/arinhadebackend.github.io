@@ -370,20 +370,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "13.82ms",
+            "p99": "3.35ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
+                    "true_negative_detections": 30021,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1859.64,
+                    "value": 2475.44,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -392,11 +392,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4859.64
+                "final_score": 5475.44
             },
             "repo_url": "https://github.com/MuriloChianfa/cpp-fraud-detection-rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/442",
-            "timestamp": "2026-04-29T05:36:34Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/446",
+            "timestamp": "2026-04-29T05:50:01Z"
         }
     }
 }
