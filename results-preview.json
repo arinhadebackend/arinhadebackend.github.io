@@ -170,33 +170,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.55ms",
+            "p99": "2002.15ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 412,
-                    "false_negative_detections": 491,
-                    "true_positive_detections": 23546,
-                    "true_negative_detections": 29610,
-                    "http_errors": 0
+                    "false_positive_detections": 169,
+                    "false_negative_detections": 192,
+                    "true_positive_detections": 9305,
+                    "true_negative_detections": 11747,
+                    "http_errors": 6539
                 },
-                "failure_rate": "1.67%",
-                "weighted_errors_E": 1885,
-                "error_rate_epsilon": 0.034869,
+                "failure_rate": "24.69%",
+                "weighted_errors_E": 33440,
+                "error_rate_epsilon": 1.196337,
                 "p99_score": {
-                    "value": 2592.61,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 474.89,
-                    "rate_component": 1457.56,
-                    "absolute_penalty": -982.66,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 3067.51
+                "final_score": -6000
             },
             "repo_url": "https://github.com/thiagorigonatti/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/413",
-            "timestamp": "2026-04-29T00:44:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/419",
+            "timestamp": "2026-04-29T01:09:34Z"
         }
     },
     "jotapemattos": {
