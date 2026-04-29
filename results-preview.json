@@ -50,33 +50,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.53ms",
+            "p99": "4.30ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 52,
-                    "false_negative_detections": 60,
-                    "true_positive_detections": 23977,
-                    "true_negative_detections": 29969,
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30021,
                     "http_errors": 0
                 },
-                "failure_rate": "0.21%",
-                "weighted_errors_E": 232,
-                "error_rate_epsilon": 0.004292,
+                "failure_rate": "0%",
+                "weighted_errors_E": 1,
+                "error_rate_epsilon": 0.000018,
                 "p99_score": {
-                    "value": 2452.44,
+                    "value": 2366.56,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1657.17,
-                    "rate_component": 2367.37,
-                    "absolute_penalty": -710.21,
+                    "value": 2909.69,
+                    "rate_component": 3000,
+                    "absolute_penalty": -90.31,
                     "cut_triggered": false
                 },
-                "final_score": 4109.61
+                "final_score": 5276.25
             },
             "repo_url": "https://github.com/zanfranceschi/rinha-de-backend-2026-zan-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/421",
-            "timestamp": "2026-04-29T01:15:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/425",
+            "timestamp": "2026-04-29T01:33:42Z"
         }
     },
     "matheusosp": {
