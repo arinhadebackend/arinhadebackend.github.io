@@ -844,33 +844,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "347.92ms",
+            "p99": "546.53ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 590,
-                    "false_negative_detections": 596,
-                    "true_positive_detections": 23322,
-                    "true_negative_detections": 29313,
-                    "http_errors": 0
+                    "false_positive_detections": 580,
+                    "false_negative_detections": 587,
+                    "true_positive_detections": 23067,
+                    "true_negative_detections": 28977,
+                    "http_errors": 22
                 },
-                "failure_rate": "2.2%",
-                "weighted_errors_E": 2378,
-                "error_rate_epsilon": 0.044183,
+                "failure_rate": "2.23%",
+                "weighted_errors_E": 2451,
+                "error_rate_epsilon": 0.046043,
                 "p99_score": {
-                    "value": 458.52,
+                    "value": 262.38,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 341.82,
-                    "rate_component": 1354.74,
-                    "absolute_penalty": -1012.92,
+                    "value": 319.98,
+                    "rate_component": 1336.84,
+                    "absolute_penalty": -1016.86,
                     "cut_triggered": false
                 },
-                "final_score": 800.34
+                "final_score": 582.36
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/651",
-            "timestamp": "2026-05-01T21:17:19Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/652",
+            "timestamp": "2026-05-01T21:21:26Z"
         }
     },
     "ronaldosilva95": {
