@@ -766,33 +766,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "476.43ms",
+            "p99": "691.60ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 136,
-                    "false_negative_detections": 168,
-                    "true_positive_detections": 21830,
-                    "true_negative_detections": 27345,
+                    "false_positive_detections": 114,
+                    "false_negative_detections": 132,
+                    "true_positive_detections": 20903,
+                    "true_negative_detections": 26214,
                     "http_errors": 0
                 },
-                "failure_rate": "0.61%",
-                "weighted_errors_E": 640,
-                "error_rate_epsilon": 0.012935,
+                "failure_rate": "0.52%",
+                "weighted_errors_E": 510,
+                "error_rate_epsilon": 0.010768,
                 "p99_score": {
-                    "value": 322,
+                    "value": 160.14,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1046.18,
-                    "rate_component": 1888.24,
-                    "absolute_penalty": -842.06,
+                    "value": 1155.34,
+                    "rate_component": 1967.87,
+                    "absolute_penalty": -812.53,
                     "cut_triggered": false
                 },
-                "final_score": 1368.18
+                "final_score": 1315.49
             },
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/619",
-            "timestamp": "2026-05-01T17:02:27Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/626",
+            "timestamp": "2026-05-01T17:58:33Z"
         },
         "itagyba-rust": {
             "expected": {
