@@ -872,5 +872,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/631",
             "timestamp": "2026-05-01T18:42:45Z"
         }
+    },
+    "ronaldosilva95": {
+        "ronaldo-silva-java25": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "67.60ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 303,
+                    "false_negative_detections": 321,
+                    "true_positive_detections": 23716,
+                    "true_negative_detections": 29719,
+                    "http_errors": 0
+                },
+                "failure_rate": "1.15%",
+                "weighted_errors_E": 1266,
+                "error_rate_epsilon": 0.023419,
+                "p99_score": {
+                    "value": 1170.05,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 699.6,
+                    "rate_component": 1630.43,
+                    "absolute_penalty": -930.83,
+                    "cut_triggered": false
+                },
+                "final_score": 1869.65
+            },
+            "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/632",
+            "timestamp": "2026-05-01T18:51:26Z"
+        }
     }
 }
