@@ -646,33 +646,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.95ms",
+            "p99": "276.27ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1247,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 28775,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 220,
+                    "true_positive_detections": 23697,
+                    "true_negative_detections": 29900,
                     "http_errors": 0
                 },
-                "failure_rate": "2.31%",
-                "weighted_errors_E": 1247,
-                "error_rate_epsilon": 0.023067,
+                "failure_rate": "0.41%",
+                "weighted_errors_E": 660,
+                "error_rate_epsilon": 0.012264,
                 "p99_score": {
-                    "value": 2709.07,
+                    "value": 558.67,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 708.14,
-                    "rate_component": 1637,
-                    "absolute_penalty": -928.86,
+                    "value": 1065.32,
+                    "rate_component": 1911.38,
+                    "absolute_penalty": -846.06,
                     "cut_triggered": false
                 },
-                "final_score": 3417.2
+                "final_score": 1623.99
             },
             "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/576",
-            "timestamp": "2026-05-01T01:56:15Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/579",
+            "timestamp": "2026-05-01T02:10:17Z"
         }
     }
 }
