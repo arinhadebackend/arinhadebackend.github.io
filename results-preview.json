@@ -606,17 +606,17 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2003.44ms",
+            "p99": "2003.35ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 1,
                     "true_negative_detections": 2,
-                    "http_errors": 13828
+                    "http_errors": 13826
                 },
                 "failure_rate": "99.98%",
-                "weighted_errors_E": 69140,
+                "weighted_errors_E": 69130,
                 "error_rate_epsilon": 4.998915,
                 "p99_score": {
                     "value": -3000,
@@ -631,8 +631,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/macielti/guarita",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/557",
-            "timestamp": "2026-04-30T23:28:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/575",
+            "timestamp": "2026-05-01T01:52:37Z"
         }
     },
     "devRaelBraga": {
