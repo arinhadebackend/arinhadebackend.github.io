@@ -884,33 +884,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "67.60ms",
+            "p99": "1001.36ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 303,
-                    "false_negative_detections": 321,
-                    "true_positive_detections": 23716,
-                    "true_negative_detections": 29719,
-                    "http_errors": 0
+                    "false_positive_detections": 45,
+                    "false_negative_detections": 37,
+                    "true_positive_detections": 10227,
+                    "true_negative_detections": 12854,
+                    "http_errors": 29004
                 },
-                "failure_rate": "1.15%",
-                "weighted_errors_E": 1266,
-                "error_rate_epsilon": 0.023419,
+                "failure_rate": "55.76%",
+                "weighted_errors_E": 145176,
+                "error_rate_epsilon": 2.782909,
                 "p99_score": {
-                    "value": 1170.05,
+                    "value": -0.59,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 699.6,
-                    "rate_component": 1630.43,
-                    "absolute_penalty": -930.83,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1869.65
+                "final_score": -3000.59
             },
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/632",
-            "timestamp": "2026-05-01T18:51:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/668",
+            "timestamp": "2026-05-01T23:39:40Z"
         }
     }
 }
