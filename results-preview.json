@@ -793,6 +793,44 @@
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-dotnet",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/617",
             "timestamp": "2026-05-01T16:48:11Z"
+        },
+        "itagyba-rust": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "1.93ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 755,
+                    "false_negative_detections": 485,
+                    "true_positive_detections": 23552,
+                    "true_negative_detections": 29267,
+                    "http_errors": 0
+                },
+                "failure_rate": "2.29%",
+                "weighted_errors_E": 2210,
+                "error_rate_epsilon": 0.040881,
+                "p99_score": {
+                    "value": 2714.74,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 385.1,
+                    "rate_component": 1388.48,
+                    "absolute_penalty": -1003.38,
+                    "cut_triggered": false
+                },
+                "final_score": 3099.84
+            },
+            "repo_url": "https://github.com/daniloitagyba/rinha-2026-rust",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/618",
+            "timestamp": "2026-05-01T16:51:43Z"
         }
     }
 }
