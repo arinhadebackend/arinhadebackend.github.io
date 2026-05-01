@@ -766,33 +766,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "898.94ms",
+            "p99": "558.37ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 77,
-                    "false_negative_detections": 88,
-                    "true_positive_detections": 21615,
-                    "true_negative_detections": 27046,
+                    "false_positive_detections": 90,
+                    "false_negative_detections": 109,
+                    "true_positive_detections": 22894,
+                    "true_negative_detections": 28619,
                     "http_errors": 0
                 },
-                "failure_rate": "0.34%",
-                "weighted_errors_E": 341,
-                "error_rate_epsilon": 0.006984,
+                "failure_rate": "0.38%",
+                "weighted_errors_E": 417,
+                "error_rate_epsilon": 0.008064,
                 "p99_score": {
-                    "value": 46.27,
+                    "value": 253.08,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1395.69,
-                    "rate_component": 2155.9,
-                    "absolute_penalty": -760.21,
+                    "value": 1307.1,
+                    "rate_component": 2093.46,
+                    "absolute_penalty": -786.35,
                     "cut_triggered": false
                 },
-                "final_score": 1441.96
+                "final_score": 1560.18
             },
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/637",
-            "timestamp": "2026-05-01T19:43:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/644",
+            "timestamp": "2026-05-01T20:15:45Z"
         },
         "itagyba-rust": {
             "expected": {
