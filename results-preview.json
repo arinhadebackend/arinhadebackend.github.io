@@ -766,33 +766,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "691.60ms",
+            "p99": "1674.37ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 114,
-                    "false_negative_detections": 132,
-                    "true_positive_detections": 20903,
-                    "true_negative_detections": 26214,
-                    "http_errors": 0
+                    "false_positive_detections": 54,
+                    "false_negative_detections": 53,
+                    "true_positive_detections": 16913,
+                    "true_negative_detections": 21225,
+                    "http_errors": 43
                 },
-                "failure_rate": "0.52%",
-                "weighted_errors_E": 510,
-                "error_rate_epsilon": 0.010768,
+                "failure_rate": "0.39%",
+                "weighted_errors_E": 428,
+                "error_rate_epsilon": 0.011178,
                 "p99_score": {
-                    "value": 160.14,
+                    "value": -223.85,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1155.34,
-                    "rate_component": 1967.87,
-                    "absolute_penalty": -812.53,
+                    "value": 1161.88,
+                    "rate_component": 1951.62,
+                    "absolute_penalty": -789.74,
                     "cut_triggered": false
                 },
-                "final_score": 1315.49
+                "final_score": 938.03
             },
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/626",
-            "timestamp": "2026-05-01T17:58:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/633",
+            "timestamp": "2026-05-01T18:59:00Z"
         },
         "itagyba-rust": {
             "expected": {
