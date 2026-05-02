@@ -882,33 +882,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "107.28ms",
+            "p99": "88.04ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 519,
-                    "false_negative_detections": 547,
-                    "true_positive_detections": 23489,
-                    "true_negative_detections": 29502,
+                    "false_positive_detections": 1098,
+                    "false_negative_detections": 69,
+                    "true_positive_detections": 23968,
+                    "true_negative_detections": 28924,
                     "http_errors": 0
                 },
-                "failure_rate": "1.97%",
-                "weighted_errors_E": 2160,
-                "error_rate_epsilon": 0.039958,
+                "failure_rate": "2.16%",
+                "weighted_errors_E": 1305,
+                "error_rate_epsilon": 0.02414,
                 "p99_score": {
-                    "value": 969.48,
+                    "value": 1055.34,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 398,
-                    "rate_component": 1398.4,
-                    "absolute_penalty": -1000.4,
+                    "value": 682.47,
+                    "rate_component": 1617.26,
+                    "absolute_penalty": -934.78,
                     "cut_triggered": false
                 },
-                "final_score": 1367.49
+                "final_score": 1737.81
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/690",
-            "timestamp": "2026-05-02T01:47:55Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/696",
+            "timestamp": "2026-05-02T02:44:42Z"
         }
     },
     "ronaldosilva95": {
