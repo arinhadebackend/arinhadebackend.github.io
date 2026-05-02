@@ -486,33 +486,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "240.74ms",
+            "p99": "2001.01ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 366,
-                    "false_negative_detections": 384,
-                    "true_positive_detections": 23566,
-                    "true_negative_detections": 29561,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 22481,
+                    "true_negative_detections": 28078,
+                    "http_errors": 705
                 },
-                "failure_rate": "1.39%",
-                "weighted_errors_E": 1518,
-                "error_rate_epsilon": 0.028175,
+                "failure_rate": "1.38%",
+                "weighted_errors_E": 3528,
+                "error_rate_epsilon": 0.068819,
                 "p99_score": {
-                    "value": 618.46,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 595.66,
-                    "rate_component": 1550.13,
-                    "absolute_penalty": -954.47,
+                    "value": 98,
+                    "rate_component": 1162.29,
+                    "absolute_penalty": -1064.3,
                     "cut_triggered": false
                 },
-                "final_score": 1214.12
+                "final_score": -2902
             },
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-extreme-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/552",
-            "timestamp": "2026-04-30T20:19:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/773",
+            "timestamp": "2026-05-02T18:36:42Z"
         },
         "davidalecrim1-rust": {
             "expected": {
