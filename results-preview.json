@@ -804,33 +804,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "402.47ms",
+            "p99": "544.63ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 58,
-                    "false_negative_detections": 61,
-                    "true_positive_detections": 23747,
-                    "true_negative_detections": 29721,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23623,
+                    "true_negative_detections": 29537,
                     "http_errors": 0
                 },
-                "failure_rate": "0.22%",
-                "weighted_errors_E": 241,
-                "error_rate_epsilon": 0.004497,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 395.26,
+                    "value": 263.9,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1631.9,
-                    "rate_component": 2347.04,
-                    "absolute_penalty": -715.14,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 2027.16
+                "final_score": 3263.9
             },
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/729",
-            "timestamp": "2026-05-02T11:21:55Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/730",
+            "timestamp": "2026-05-02T11:29:30Z"
         },
         "itagyba-rust": {
             "expected": {
