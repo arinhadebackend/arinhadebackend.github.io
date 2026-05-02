@@ -922,33 +922,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "67.31ms",
+            "p99": "1001.34ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 303,
-                    "false_negative_detections": 321,
-                    "true_positive_detections": 23716,
-                    "true_negative_detections": 29720,
-                    "http_errors": 0
+                    "false_positive_detections": 90,
+                    "false_negative_detections": 85,
+                    "true_positive_detections": 7384,
+                    "true_negative_detections": 9345,
+                    "http_errors": 36249
                 },
-                "failure_rate": "1.15%",
-                "weighted_errors_E": 1266,
-                "error_rate_epsilon": 0.023418,
+                "failure_rate": "68.53%",
+                "weighted_errors_E": 181590,
+                "error_rate_epsilon": 3.416364,
                 "p99_score": {
-                    "value": 1171.89,
+                    "value": -0.58,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 699.61,
-                    "rate_component": 1630.44,
-                    "absolute_penalty": -930.83,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1871.5
+                "final_score": -3000.58
             },
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/691",
-            "timestamp": "2026-05-02T02:02:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/768",
+            "timestamp": "2026-05-02T17:02:29Z"
         }
     },
     "pandrRe": {
