@@ -1082,33 +1082,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "94.46ms",
+            "p99": "99.94ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 50,
                     "false_negative_detections": 75,
-                    "true_positive_detections": 23962,
-                    "true_negative_detections": 29972,
+                    "true_positive_detections": 23959,
+                    "true_negative_detections": 29971,
                     "http_errors": 0
                 },
                 "failure_rate": "0.23%",
                 "weighted_errors_E": 275,
                 "error_rate_epsilon": 0.005087,
                 "p99_score": {
-                    "value": 1024.77,
+                    "value": 1000.28,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1561.26,
-                    "rate_component": 2293.54,
+                    "value": 1561.23,
+                    "rate_component": 2293.5,
                     "absolute_penalty": -732.27,
                     "cut_triggered": false
                 },
-                "final_score": 2586.03
+                "final_score": 2561.51
             },
             "repo_url": "https://github.com/JosineyJr/rdb-26",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/780",
-            "timestamp": "2026-05-02T19:07:57Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/798",
+            "timestamp": "2026-05-02T20:48:38Z"
         }
     }
 }
