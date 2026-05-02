@@ -1002,7 +1002,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "19.86ms",
+            "p99": "32.13ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -1015,7 +1015,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1702.11,
+                    "value": 1493.11,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1024,11 +1024,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4702.11
+                "final_score": 4493.11
             },
             "repo_url": "https://github.com/thetonbr/rinha-backend-26",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/783",
-            "timestamp": "2026-05-02T19:22:27Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/789",
+            "timestamp": "2026-05-02T19:46:14Z"
         }
     },
     "cleissonbarbosa": {
