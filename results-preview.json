@@ -882,33 +882,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "120.83ms",
+            "p99": "2003.06ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 742,
-                    "false_negative_detections": 409,
-                    "true_positive_detections": 23619,
-                    "true_negative_detections": 29273,
-                    "http_errors": 0
+                    "false_positive_detections": 7,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 175,
+                    "true_negative_detections": 209,
+                    "http_errors": 13442
                 },
-                "failure_rate": "2.13%",
-                "weighted_errors_E": 1969,
-                "error_rate_epsilon": 0.036434,
+                "failure_rate": "97.22%",
+                "weighted_errors_E": 67217,
+                "error_rate_epsilon": 4.859177,
                 "p99_score": {
-                    "value": 917.83,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 450.15,
-                    "rate_component": 1438.49,
-                    "absolute_penalty": -988.34,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1367.99
+                "final_score": -6000
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/809",
-            "timestamp": "2026-05-02T22:45:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/813",
+            "timestamp": "2026-05-02T22:58:39Z"
         }
     },
     "ronaldosilva95": {
