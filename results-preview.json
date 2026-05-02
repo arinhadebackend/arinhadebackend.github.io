@@ -882,33 +882,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "114.35ms",
+            "p99": "108.85ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 575,
-                    "false_negative_detections": 562,
-                    "true_positive_detections": 23466,
-                    "true_negative_detections": 29442,
+                    "false_positive_detections": 569,
+                    "false_negative_detections": 537,
+                    "true_positive_detections": 23498,
+                    "true_negative_detections": 29452,
                     "http_errors": 0
                 },
-                "failure_rate": "2.1%",
-                "weighted_errors_E": 2261,
-                "error_rate_epsilon": 0.041836,
+                "failure_rate": "2.05%",
+                "weighted_errors_E": 2180,
+                "error_rate_epsilon": 0.040329,
                 "p99_score": {
-                    "value": 941.76,
+                    "value": 963.17,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 372.11,
-                    "rate_component": 1378.45,
-                    "absolute_penalty": -1006.35,
+                    "value": 392.79,
+                    "rate_component": 1394.39,
+                    "absolute_penalty": -1001.6,
                     "cut_triggered": false
                 },
-                "final_score": 1313.87
+                "final_score": 1355.96
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/671",
-            "timestamp": "2026-05-01T23:46:09Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/674",
+            "timestamp": "2026-05-02T00:13:10Z"
         }
     },
     "ronaldosilva95": {
