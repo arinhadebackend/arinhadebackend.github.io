@@ -1122,33 +1122,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.11ms",
+            "p99": "1434.04ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 2,
-                    "true_positive_detections": 22777,
-                    "true_negative_detections": 28460,
-                    "http_errors": 638
+                    "true_positive_detections": 23278,
+                    "true_negative_detections": 29085,
+                    "http_errors": 417
                 },
-                "failure_rate": "1.23%",
-                "weighted_errors_E": 3196,
-                "error_rate_epsilon": 0.061607,
+                "failure_rate": "0.79%",
+                "weighted_errors_E": 2091,
+                "error_rate_epsilon": 0.039616,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": 158.95,
-                    "rate_component": 1210.37,
-                    "absolute_penalty": -1051.42,
+                    "value": -156.56,
                     "cut_triggered": false
                 },
-                "final_score": -2841.05
+                "detection_score": {
+                    "value": 405.96,
+                    "rate_component": 1402.13,
+                    "absolute_penalty": -996.17,
+                    "cut_triggered": false
+                },
+                "final_score": 249.4
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/946",
-            "timestamp": "2026-05-03T22:29:40Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/948",
+            "timestamp": "2026-05-03T22:36:44Z"
         }
     },
     "klevercorrea": {
