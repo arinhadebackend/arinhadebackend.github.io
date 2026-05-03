@@ -922,33 +922,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1498.40ms",
+            "p99": "1652.28ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 189,
-                    "false_negative_detections": 204,
-                    "true_positive_detections": 16528,
-                    "true_negative_detections": 20758,
-                    "http_errors": 217
+                    "false_negative_detections": 206,
+                    "true_positive_detections": 16587,
+                    "true_negative_detections": 20928,
+                    "http_errors": 206
                 },
-                "failure_rate": "1.61%",
-                "weighted_errors_E": 1886,
-                "error_rate_epsilon": 0.049768,
+                "failure_rate": "1.58%",
+                "weighted_errors_E": 1837,
+                "error_rate_epsilon": 0.048195,
                 "p99_score": {
-                    "value": -175.63,
+                    "value": -218.08,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 320.32,
-                    "rate_component": 1303.05,
-                    "absolute_penalty": -982.73,
+                    "value": 337.69,
+                    "rate_component": 1317,
+                    "absolute_penalty": -979.3,
                     "cut_triggered": false
                 },
-                "final_score": 144.69
+                "final_score": 119.61
             },
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/826",
-            "timestamp": "2026-05-03T01:22:00Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/828",
+            "timestamp": "2026-05-03T01:39:21Z"
         }
     },
     "pandrRe": {
