@@ -1242,33 +1242,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1975.91ms",
+            "p99": "2001.08ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 421,
-                    "false_negative_detections": 396,
-                    "true_positive_detections": 15806,
-                    "true_negative_detections": 19846,
-                    "http_errors": 329
+                    "false_positive_detections": 420,
+                    "false_negative_detections": 392,
+                    "true_positive_detections": 15800,
+                    "true_negative_detections": 19892,
+                    "http_errors": 373
                 },
-                "failure_rate": "3.11%",
-                "weighted_errors_E": 3254,
-                "error_rate_epsilon": 0.088429,
+                "failure_rate": "3.21%",
+                "weighted_errors_E": 3461,
+                "error_rate_epsilon": 0.093853,
                 "p99_score": {
-                    "value": -295.77,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -0.36,
-                    "rate_component": 1053.41,
-                    "absolute_penalty": -1053.77,
+                    "value": -34.24,
+                    "rate_component": 1027.55,
+                    "absolute_penalty": -1061.8,
                     "cut_triggered": false
                 },
-                "final_score": -296.12
+                "final_score": -3034.24
             },
             "repo_url": "https://github.com/willy-r/aGOrinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/903",
-            "timestamp": "2026-05-03T16:41:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/906",
+            "timestamp": "2026-05-03T16:53:16Z"
         }
     }
 }
