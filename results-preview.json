@@ -922,33 +922,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1762.27ms",
+            "p99": "186.88ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 188,
-                    "false_negative_detections": 205,
-                    "true_positive_detections": 16525,
-                    "true_negative_detections": 20812,
-                    "http_errors": 272
+                    "false_positive_detections": 301,
+                    "false_negative_detections": 319,
+                    "true_positive_detections": 23692,
+                    "true_negative_detections": 29688,
+                    "http_errors": 0
                 },
-                "failure_rate": "1.75%",
-                "weighted_errors_E": 2163,
-                "error_rate_epsilon": 0.056918,
+                "failure_rate": "1.15%",
+                "weighted_errors_E": 1258,
+                "error_rate_epsilon": 0.023296,
                 "p99_score": {
-                    "value": -246.07,
+                    "value": 728.43,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 244.17,
-                    "rate_component": 1244.75,
-                    "absolute_penalty": -1000.58,
+                    "value": 702.71,
+                    "rate_component": 1632.71,
+                    "absolute_penalty": -930.01,
                     "cut_triggered": false
                 },
-                "final_score": -1.9
+                "final_score": 1431.14
             },
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/830",
-            "timestamp": "2026-05-03T01:48:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/834",
+            "timestamp": "2026-05-03T02:02:18Z"
         }
     },
     "pandrRe": {
