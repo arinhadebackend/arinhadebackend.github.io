@@ -882,33 +882,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "95.01ms",
+            "p99": "515.54ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1229,
-                    "false_negative_detections": 10,
-                    "true_positive_detections": 24024,
-                    "true_negative_detections": 28791,
+                    "false_positive_detections": 1177,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23017,
+                    "true_negative_detections": 27542,
                     "http_errors": 0
                 },
-                "failure_rate": "2.29%",
-                "weighted_errors_E": 1259,
-                "error_rate_epsilon": 0.023292,
+                "failure_rate": "2.28%",
+                "weighted_errors_E": 1177,
+                "error_rate_epsilon": 0.02275,
                 "p99_score": {
-                    "value": 1022.23,
+                    "value": 287.74,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 702.69,
-                    "rate_component": 1632.8,
-                    "absolute_penalty": -930.11,
+                    "value": 721.67,
+                    "rate_component": 1643.02,
+                    "absolute_penalty": -921.34,
                     "cut_triggered": false
                 },
-                "final_score": 1724.92
+                "final_score": 1009.41
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/824",
-            "timestamp": "2026-05-03T00:50:59Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/839",
+            "timestamp": "2026-05-03T02:25:49Z"
         }
     },
     "ronaldosilva95": {
