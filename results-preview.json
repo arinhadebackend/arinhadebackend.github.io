@@ -128,33 +128,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.89ms",
+            "p99": "2002.10ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 165,
-                    "false_negative_detections": 153,
-                    "true_positive_detections": 6049,
-                    "true_negative_detections": 7630,
-                    "http_errors": 631
+                    "false_positive_detections": 159,
+                    "false_negative_detections": 154,
+                    "true_positive_detections": 6064,
+                    "true_negative_detections": 7599,
+                    "http_errors": 1582
                 },
-                "failure_rate": "6.49%",
-                "weighted_errors_E": 3779,
-                "error_rate_epsilon": 0.25834,
+                "failure_rate": "12.18%",
+                "weighted_errors_E": 8531,
+                "error_rate_epsilon": 0.548335,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -485.44,
-                    "rate_component": 587.81,
-                    "absolute_penalty": -1073.25,
+                    "value": -918.36,
+                    "rate_component": 260.95,
+                    "absolute_penalty": -1179.32,
                     "cut_triggered": false
                 },
-                "final_score": -3485.44
+                "final_score": -3918.36
             },
             "repo_url": "https://github.com/matheusosp/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/857",
-            "timestamp": "2026-05-03T05:29:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/861",
+            "timestamp": "2026-05-03T05:59:41Z"
         }
     },
     "Lothyriel": {
