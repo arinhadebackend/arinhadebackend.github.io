@@ -962,7 +962,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.16ms",
+            "p99": "3.19ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -975,7 +975,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2500.98,
+                    "value": 2496.56,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -984,11 +984,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5500.98
+                "final_score": 5496.56
             },
             "repo_url": "https://github.com/pandrRe/rinhapuffer",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/919",
-            "timestamp": "2026-05-03T19:30:28Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/920",
+            "timestamp": "2026-05-03T19:35:25Z"
         }
     },
     "thetonbr": {
