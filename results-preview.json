@@ -1150,5 +1150,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/833",
             "timestamp": "2026-05-03T01:57:19Z"
         }
+    },
+    "klevercorrea": {
+        "zig-simd-engine": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "142.40ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 103,
+                    "false_negative_detections": 451,
+                    "true_positive_detections": 10449,
+                    "true_negative_detections": 13529,
+                    "http_errors": 29385
+                },
+                "failure_rate": "55.53%",
+                "weighted_errors_E": 148381,
+                "error_rate_epsilon": 2.752026,
+                "p99_score": {
+                    "value": 846.49,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -2153.51
+            },
+            "repo_url": "https://github.com/klevercorrea/backend-battle-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/847",
+            "timestamp": "2026-05-03T03:23:09Z"
+        }
     }
 }
