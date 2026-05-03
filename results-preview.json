@@ -128,33 +128,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.00ms",
+            "p99": "1774.47ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 163,
-                    "false_negative_detections": 151,
-                    "true_positive_detections": 5825,
-                    "true_negative_detections": 7353,
-                    "http_errors": 971
+                    "false_positive_detections": 198,
+                    "false_negative_detections": 186,
+                    "true_positive_detections": 7353,
+                    "true_negative_detections": 9252,
+                    "http_errors": 0
                 },
-                "failure_rate": "8.88%",
-                "weighted_errors_E": 5471,
-                "error_rate_epsilon": 0.378276,
+                "failure_rate": "2.26%",
+                "weighted_errors_E": 756,
+                "error_rate_epsilon": 0.044499,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -699.25,
-                    "rate_component": 422.19,
-                    "absolute_penalty": -1121.44,
+                    "value": -249.07,
                     "cut_triggered": false
                 },
-                "final_score": -3699.25
+                "detection_score": {
+                    "value": 487.92,
+                    "rate_component": 1351.65,
+                    "absolute_penalty": -863.73,
+                    "cut_triggered": false
+                },
+                "final_score": 238.85
             },
             "repo_url": "https://github.com/matheusosp/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/827",
-            "timestamp": "2026-05-03T01:29:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/836",
+            "timestamp": "2026-05-03T02:14:42Z"
         }
     },
     "Lothyriel": {
