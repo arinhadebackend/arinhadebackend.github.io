@@ -1162,33 +1162,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "57.74ms",
+            "p99": "78.98ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 222,
-                    "false_negative_detections": 920,
-                    "true_positive_detections": 21322,
-                    "true_negative_detections": 27580,
-                    "http_errors": 3977
+                    "false_positive_detections": 219,
+                    "false_negative_detections": 893,
+                    "true_positive_detections": 20580,
+                    "true_negative_detections": 26708,
+                    "http_errors": 5614
                 },
-                "failure_rate": "9.48%",
-                "weighted_errors_E": 22867,
-                "error_rate_epsilon": 0.423298,
+                "failure_rate": "12.45%",
+                "weighted_errors_E": 30968,
+                "error_rate_epsilon": 0.573333,
                 "p99_score": {
-                    "value": 1238.52,
+                    "value": 1102.51,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -934.42,
-                    "rate_component": 373.35,
-                    "absolute_penalty": -1307.77,
+                    "value": -1105.68,
+                    "rate_component": 241.59,
+                    "absolute_penalty": -1347.28,
                     "cut_triggered": false
                 },
-                "final_score": 304.11
+                "final_score": -3.18
             },
             "repo_url": "https://github.com/klevercorrea/backend-battle-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/933",
-            "timestamp": "2026-05-03T21:06:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/935",
+            "timestamp": "2026-05-03T21:14:26Z"
         }
     },
     "JulioTsutsui": {
