@@ -1162,33 +1162,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "67.16ms",
+            "p99": "17.99ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 222,
-                    "false_negative_detections": 914,
-                    "true_positive_detections": 21019,
-                    "true_negative_detections": 27160,
-                    "http_errors": 4705
+                    "false_positive_detections": 148,
+                    "false_negative_detections": 615,
+                    "true_positive_detections": 14313,
+                    "true_negative_detections": 18529,
+                    "http_errors": 20409
                 },
-                "failure_rate": "10.81%",
-                "weighted_errors_E": 26489,
-                "error_rate_epsilon": 0.490355,
+                "failure_rate": "39.2%",
+                "weighted_errors_E": 104038,
+                "error_rate_epsilon": 1.92613,
                 "p99_score": {
-                    "value": 1172.9,
+                    "value": 1745.03,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -1017.44,
-                    "rate_component": 309.49,
-                    "absolute_penalty": -1326.92,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 155.46
+                "final_score": -1254.97
             },
             "repo_url": "https://github.com/klevercorrea/backend-battle-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/947",
-            "timestamp": "2026-05-03T22:33:18Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/977",
+            "timestamp": "2026-05-04T01:56:11Z"
         }
     },
     "JulioTsutsui": {
