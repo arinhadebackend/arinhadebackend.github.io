@@ -1834,33 +1834,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "26.19ms",
+            "p99": "956.27ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
-                    "http_errors": 1
+                    "true_positive_detections": 150,
+                    "true_negative_detections": 164,
+                    "http_errors": 53654
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 5,
-                "error_rate_epsilon": 0.000092,
+                "failure_rate": "99.42%",
+                "weighted_errors_E": 268270,
+                "error_rate_epsilon": 4.970909,
                 "p99_score": {
-                    "value": 1581.89,
+                    "value": 19.42,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2766.55,
-                    "rate_component": 3000,
-                    "absolute_penalty": -233.45,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 4348.45
+                "final_score": -2980.58
             },
             "repo_url": "https://github.com/whoisclebs/heindall",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1226",
-            "timestamp": "2026-05-04T19:41:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1239",
+            "timestamp": "2026-05-04T20:16:59Z"
         }
     },
     "renatograsso10": {
