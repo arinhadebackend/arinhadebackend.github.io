@@ -1714,7 +1714,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "24.04ms",
+            "p99": "35.70ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -1727,7 +1727,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1619.15,
+                    "value": 1447.31,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1736,11 +1736,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4619.15
+                "final_score": 4447.31
             },
             "repo_url": "https://github.com/CaioDGallo/sketchy-check",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1190",
-            "timestamp": "2026-05-04T17:15:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1192",
+            "timestamp": "2026-05-04T17:28:40Z"
         }
     },
     "Marcoant007": {
