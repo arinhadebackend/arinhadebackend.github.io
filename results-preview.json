@@ -1994,33 +1994,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1573.91ms",
+            "p99": "29.77ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 434,
-                    "false_negative_detections": 686,
-                    "true_positive_detections": 19183,
-                    "true_negative_detections": 24442,
-                    "http_errors": 200
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30022,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.94%",
-                "weighted_errors_E": 3492,
-                "error_rate_epsilon": 0.077695,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -196.98,
+                    "value": 1526.21,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 46.65,
-                    "rate_component": 1109.61,
-                    "absolute_penalty": -1062.96,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": -150.33
+                "final_score": 4526.21
             },
             "repo_url": "https://github.com/williancesar/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1245",
-            "timestamp": "2026-05-04T20:37:16Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1253",
+            "timestamp": "2026-05-04T21:04:00Z"
         }
     }
 }
