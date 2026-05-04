@@ -1322,7 +1322,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.75ms",
+            "p99": "1.74ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -1335,7 +1335,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2755.78,
+                    "value": 2758.81,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1344,11 +1344,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5755.78
+                "final_score": 5758.81
             },
             "repo_url": "https://github.com/leofmarciano/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1071",
-            "timestamp": "2026-05-04T09:48:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1072",
+            "timestamp": "2026-05-04T09:59:18Z"
         },
         "leofmarciano-k4096-p20": {
             "expected": {
