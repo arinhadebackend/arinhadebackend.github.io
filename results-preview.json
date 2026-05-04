@@ -1476,18 +1476,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.11ms",
+            "p99": "2002.09ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 110,
-                    "true_negative_detections": 151,
-                    "http_errors": 13570
+                    "true_positive_detections": 169,
+                    "true_negative_detections": 190,
+                    "http_errors": 13471
                 },
-                "failure_rate": "98.11%",
-                "weighted_errors_E": 67850,
-                "error_rate_epsilon": 4.905647,
+                "failure_rate": "97.4%",
+                "weighted_errors_E": 67355,
+                "error_rate_epsilon": 4.87021,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -1501,8 +1501,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/RuanMart/rinha-backend-java-25",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1125",
-            "timestamp": "2026-05-04T13:28:28Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1132",
+            "timestamp": "2026-05-04T13:56:38Z"
         }
     },
     "LuizIwasaki": {
