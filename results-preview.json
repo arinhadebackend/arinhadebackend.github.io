@@ -1242,33 +1242,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1579.30ms",
+            "p99": "2001.15ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 425,
-                    "false_negative_detections": 398,
-                    "true_positive_detections": 15952,
-                    "true_negative_detections": 20036,
-                    "http_errors": 127
+                    "false_positive_detections": 414,
+                    "false_negative_detections": 395,
+                    "true_positive_detections": 15646,
+                    "true_negative_detections": 19654,
+                    "http_errors": 425
                 },
-                "failure_rate": "2.57%",
-                "weighted_errors_E": 2254,
-                "error_rate_epsilon": 0.061021,
+                "failure_rate": "3.38%",
+                "weighted_errors_E": 3724,
+                "error_rate_epsilon": 0.101932,
                 "p99_score": {
-                    "value": -198.46,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 208.58,
-                    "rate_component": 1214.52,
-                    "absolute_penalty": -1005.94,
+                    "value": -79.65,
+                    "rate_component": 991.69,
+                    "absolute_penalty": -1071.34,
                     "cut_triggered": false
                 },
-                "final_score": 10.11
+                "final_score": -3079.65
             },
             "repo_url": "https://github.com/willy-r/aGOrinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/934",
-            "timestamp": "2026-05-03T21:11:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/980",
+            "timestamp": "2026-05-04T02:29:31Z"
         }
     },
     "Hanake0": {
