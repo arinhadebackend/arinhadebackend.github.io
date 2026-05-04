@@ -1464,5 +1464,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1000",
             "timestamp": "2026-05-04T04:25:41Z"
         }
+    },
+    "RuanMart": {
+        "ruan-java25": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2001.69ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 399,
+                    "true_negative_detections": 435,
+                    "http_errors": 43898
+                },
+                "failure_rate": "98.14%",
+                "weighted_errors_E": 219490,
+                "error_rate_epsilon": 4.906778,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000
+            },
+            "repo_url": "https://github.com/RuanMart/rinha-backend-java-25",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1022",
+            "timestamp": "2026-05-04T05:42:11Z"
+        }
     }
 }
