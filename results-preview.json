@@ -1994,33 +1994,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1532.63ms",
+            "p99": "1573.91ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 421,
-                    "false_negative_detections": 665,
-                    "true_positive_detections": 18729,
-                    "true_negative_detections": 23806,
-                    "http_errors": 64
+                    "false_positive_detections": 434,
+                    "false_negative_detections": 686,
+                    "true_positive_detections": 19183,
+                    "true_negative_detections": 24442,
+                    "http_errors": 200
                 },
-                "failure_rate": "2.63%",
-                "weighted_errors_E": 2736,
-                "error_rate_epsilon": 0.06263,
+                "failure_rate": "2.94%",
+                "weighted_errors_E": 3492,
+                "error_rate_epsilon": 0.077695,
                 "p99_score": {
-                    "value": -185.44,
+                    "value": -196.98,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 172.03,
-                    "rate_component": 1203.22,
-                    "absolute_penalty": -1031.18,
+                    "value": 46.65,
+                    "rate_component": 1109.61,
+                    "absolute_penalty": -1062.96,
                     "cut_triggered": false
                 },
-                "final_score": -13.4
+                "final_score": -150.33
             },
             "repo_url": "https://github.com/williancesar/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1235",
-            "timestamp": "2026-05-04T20:06:37Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1245",
+            "timestamp": "2026-05-04T20:37:16Z"
         }
     }
 }
