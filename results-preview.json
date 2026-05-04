@@ -1202,33 +1202,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1574.53ms",
+            "p99": "1292.49ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 481,
-                    "false_negative_detections": 453,
-                    "true_positive_detections": 18073,
-                    "true_negative_detections": 22659,
-                    "http_errors": 97
+                    "false_positive_detections": 445,
+                    "false_negative_detections": 417,
+                    "true_positive_detections": 16715,
+                    "true_negative_detections": 21040,
+                    "http_errors": 9
                 },
-                "failure_rate": "2.47%",
-                "weighted_errors_E": 2325,
-                "error_rate_epsilon": 0.055671,
+                "failure_rate": "2.25%",
+                "weighted_errors_E": 1741,
+                "error_rate_epsilon": 0.045073,
                 "p99_score": {
-                    "value": -197.15,
+                    "value": -111.43,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 244.39,
-                    "rate_component": 1254.37,
-                    "absolute_penalty": -1009.98,
+                    "value": 373.77,
+                    "rate_component": 1346.08,
+                    "absolute_penalty": -972.31,
                     "cut_triggered": false
                 },
-                "final_score": 47.23
+                "final_score": 262.34
             },
             "repo_url": "https://github.com/JulioTsutsui/rinha-backend-2026/",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/853",
-            "timestamp": "2026-05-03T04:53:40Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1012",
+            "timestamp": "2026-05-04T05:12:07Z"
         }
     },
     "willy-r": {
