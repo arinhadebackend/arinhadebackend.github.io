@@ -1556,18 +1556,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.12ms",
+            "p99": "2002.11ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 1867,
-                    "true_negative_detections": 2265,
-                    "http_errors": 11631
+                    "false_positive_detections": 3,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 2069,
+                    "true_negative_detections": 2637,
+                    "http_errors": 11357
                 },
-                "failure_rate": "73.8%",
-                "weighted_errors_E": 58162,
-                "error_rate_epsilon": 3.68861,
+                "failure_rate": "70.71%",
+                "weighted_errors_E": 56797,
+                "error_rate_epsilon": 3.53457,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -1581,8 +1581,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/hvini/rinha-de-backend-2026-solution",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1122",
-            "timestamp": "2026-05-04T13:14:19Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1129",
+            "timestamp": "2026-05-04T13:41:37Z"
         }
     },
     "MateusMo": {
