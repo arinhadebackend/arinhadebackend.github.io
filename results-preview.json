@@ -1349,6 +1349,44 @@
             "repo_url": "https://github.com/leofmarciano/rinha-de-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/996",
             "timestamp": "2026-05-04T04:13:01Z"
+        },
+        "leofmarciano-k4096-p20": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2.94ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 6,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 24033,
+                    "true_negative_detections": 30016,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 18,
+                "error_rate_epsilon": 0.000333,
+                "p99_score": {
+                    "value": 2532.27,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2616.37,
+                    "rate_component": 3000,
+                    "absolute_penalty": -383.63,
+                    "cut_triggered": false
+                },
+                "final_score": 5148.64
+            },
+            "repo_url": "https://github.com/leofmarciano/rinha-2026-native-k4096-p20",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/998",
+            "timestamp": "2026-05-04T04:19:14Z"
         }
     }
 }
