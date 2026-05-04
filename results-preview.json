@@ -1834,33 +1834,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "30.90ms",
+            "p99": "25.44ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 24037,
-                    "true_negative_detections": 30020,
-                    "http_errors": 2
+                    "true_negative_detections": 30021,
+                    "http_errors": 1
                 },
                 "failure_rate": "0%",
-                "weighted_errors_E": 10,
-                "error_rate_epsilon": 0.000185,
+                "weighted_errors_E": 5,
+                "error_rate_epsilon": 0.000092,
                 "p99_score": {
-                    "value": 1510.07,
+                    "value": 1594.5,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2687.58,
+                    "value": 2766.55,
                     "rate_component": 3000,
-                    "absolute_penalty": -312.42,
+                    "absolute_penalty": -233.45,
                     "cut_triggered": false
                 },
-                "final_score": 4197.65
+                "final_score": 4361.05
             },
             "repo_url": "https://github.com/whoisclebs/heindall",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1195",
-            "timestamp": "2026-05-04T17:37:40Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1208",
+            "timestamp": "2026-05-04T18:34:13Z"
         }
     }
 }
