@@ -1870,33 +1870,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "208.40ms",
+            "p99": "2001.35ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 529,
-                    "false_negative_detections": 559,
-                    "true_positive_detections": 23404,
-                    "true_negative_detections": 29399,
-                    "http_errors": 132
+                    "false_positive_detections": 519,
+                    "false_negative_detections": 548,
+                    "true_positive_detections": 23024,
+                    "true_negative_detections": 28917,
+                    "http_errors": 983
                 },
-                "failure_rate": "2.26%",
-                "weighted_errors_E": 2866,
-                "error_rate_epsilon": 0.053051,
+                "failure_rate": "3.8%",
+                "weighted_errors_E": 7078,
+                "error_rate_epsilon": 0.131096,
                 "p99_score": {
-                    "value": 681.1,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 238.07,
-                    "rate_component": 1275.3,
-                    "absolute_penalty": -1037.23,
+                    "value": -272.58,
+                    "rate_component": 882.41,
+                    "absolute_penalty": -1154.99,
                     "cut_triggered": false
                 },
-                "final_score": 919.17
+                "final_score": -3272.58
             },
             "repo_url": "https://github.com/LuisBarbosaGit/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1606",
-            "timestamp": "2026-05-05T21:17:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1616",
+            "timestamp": "2026-05-05T21:53:51Z"
         }
     },
     "whoisclebs": {
