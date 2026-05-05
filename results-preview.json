@@ -2626,7 +2626,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "13.92ms",
+            "p99": "14.08ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 594,
@@ -2639,7 +2639,7 @@
                 "weighted_errors_E": 3192,
                 "error_rate_epsilon": 0.059047,
                 "p99_score": {
-                    "value": 1856.3,
+                    "value": 1851.43,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -2648,11 +2648,11 @@
                     "absolute_penalty": -1051.26,
                     "cut_triggered": false
                 },
-                "final_score": 2033.84
+                "final_score": 2028.98
             },
             "repo_url": "https://github.com/jonathanperis/rinha4-back-end-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1575",
-            "timestamp": "2026-05-05T20:00:58Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1615",
+            "timestamp": "2026-05-05T21:49:06Z"
         }
     },
     "Shobon03": {
