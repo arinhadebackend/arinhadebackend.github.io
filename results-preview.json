@@ -404,33 +404,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.14ms",
+            "p99": "381.36ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 4,
-                    "true_negative_detections": 6,
-                    "http_errors": 54032
+                    "true_positive_detections": 21555,
+                    "true_negative_detections": 26996,
+                    "http_errors": 5338
                 },
-                "failure_rate": "99.98%",
-                "weighted_errors_E": 270160,
-                "error_rate_epsilon": 4.999075,
+                "failure_rate": "9.91%",
+                "weighted_errors_E": 26690,
+                "error_rate_epsilon": 0.495277,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 418.66,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -1022.76,
+                    "rate_component": 305.15,
+                    "absolute_penalty": -1327.91,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -604.1
             },
             "repo_url": "https://github.com/vitortvale/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1295",
-            "timestamp": "2026-05-04T23:36:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1302",
+            "timestamp": "2026-05-05T00:01:48Z"
         }
     },
     "JulianySavazzi": {
