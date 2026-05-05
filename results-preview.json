@@ -958,33 +958,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "173.09ms",
+            "p99": "154.11ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1109,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24018,
-                    "true_negative_detections": 28890,
+                    "false_positive_detections": 7,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 24021,
+                    "true_negative_detections": 30003,
                     "http_errors": 0
                 },
-                "failure_rate": "2.05%",
-                "weighted_errors_E": 1109,
-                "error_rate_epsilon": 0.020531,
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 16,
+                "error_rate_epsilon": 0.000296,
                 "p99_score": {
-                    "value": 761.73,
+                    "value": 812.18,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 774,
-                    "rate_component": 1687.6,
-                    "absolute_penalty": -913.6,
+                    "value": 2630.87,
+                    "rate_component": 3000,
+                    "absolute_penalty": -369.13,
                     "cut_triggered": false
                 },
-                "final_score": 1535.73
+                "final_score": 3443.05
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1518",
-            "timestamp": "2026-05-05T17:14:57Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1617",
+            "timestamp": "2026-05-05T21:58:39Z"
         }
     },
     "ronaldosilva95": {
