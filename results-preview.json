@@ -2074,33 +2074,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.80ms",
+            "p99": "2002.01ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 60,
-                    "false_negative_detections": 71,
-                    "true_positive_detections": 7540,
-                    "true_negative_detections": 9400,
-                    "http_errors": 651
+                    "false_positive_detections": 68,
+                    "false_negative_detections": 78,
+                    "true_positive_detections": 8109,
+                    "true_negative_detections": 10153,
+                    "http_errors": 6632
                 },
-                "failure_rate": "4.41%",
-                "weighted_errors_E": 3528,
-                "error_rate_epsilon": 0.199075,
+                "failure_rate": "27.07%",
+                "weighted_errors_E": 33462,
+                "error_rate_epsilon": 1.336342,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -363.31,
-                    "rate_component": 700.98,
-                    "absolute_penalty": -1064.3,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": -3363.31
+                "final_score": -6000
             },
             "repo_url": "https://github.com/IcaroWil/Rinha-do-Backend",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1311",
-            "timestamp": "2026-05-05T00:29:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1371",
+            "timestamp": "2026-05-05T03:58:14Z"
         }
     },
     "Bulletdev": {
