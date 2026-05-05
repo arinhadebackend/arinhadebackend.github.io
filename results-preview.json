@@ -2536,5 +2536,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1538",
             "timestamp": "2026-05-05T18:05:42Z"
         }
+    },
+    "carlosportella16": {
+        "carlosportella16-java": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "267.09ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 53,
+                    "false_negative_detections": 66,
+                    "true_positive_detections": 23902,
+                    "true_negative_detections": 29892,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.22%",
+                "weighted_errors_E": 251,
+                "error_rate_epsilon": 0.004656,
+                "p99_score": {
+                    "value": 573.34,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1611.6,
+                    "rate_component": 2332.02,
+                    "absolute_penalty": -720.42,
+                    "cut_triggered": false
+                },
+                "final_score": 2184.94
+            },
+            "repo_url": "https://github.com/carlosportella16/rinha-de-backend-carlosportella16-java",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1546",
+            "timestamp": "2026-05-05T18:31:21Z"
+        }
     }
 }
