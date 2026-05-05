@@ -2154,20 +2154,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "108.41ms",
+            "p99": "110.42ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 4,
                     "true_positive_detections": 24024,
-                    "true_negative_detections": 30009,
+                    "true_negative_detections": 30015,
                     "http_errors": 0
                 },
                 "failure_rate": "0.01%",
                 "weighted_errors_E": 13,
                 "error_rate_epsilon": 0.000241,
                 "p99_score": {
-                    "value": 964.94,
+                    "value": 956.96,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -2176,11 +2176,11 @@
                     "absolute_penalty": -343.84,
                     "cut_triggered": false
                 },
-                "final_score": 3621.1
+                "final_score": 3613.12
             },
             "repo_url": "https://github.com/jovinull/rinha-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1328",
-            "timestamp": "2026-05-05T01:23:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1412",
+            "timestamp": "2026-05-05T11:41:06Z"
         }
     },
     "VCalazans": {
