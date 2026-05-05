@@ -2110,33 +2110,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.53ms",
+            "p99": "2001.49ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 5,
-                    "false_negative_detections": 7,
-                    "true_positive_detections": 15403,
-                    "true_negative_detections": 19235,
-                    "http_errors": 1138
+                    "false_positive_detections": 9,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 16740,
+                    "true_negative_detections": 20986,
+                    "http_errors": 1023
                 },
-                "failure_rate": "3.21%",
-                "weighted_errors_E": 5716,
-                "error_rate_epsilon": 0.159718,
+                "failure_rate": "2.68%",
+                "weighted_errors_E": 5139,
+                "error_rate_epsilon": 0.132575,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -330.51,
-                    "rate_component": 796.65,
-                    "absolute_penalty": -1127.15,
+                    "value": -235.75,
+                    "rate_component": 877.54,
+                    "absolute_penalty": -1113.29,
                     "cut_triggered": false
                 },
-                "final_score": -3330.51
+                "final_score": -3235.75
             },
             "repo_url": "https://github.com/sschonss/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1445",
-            "timestamp": "2026-05-05T13:25:45Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1457",
+            "timestamp": "2026-05-05T14:06:29Z"
         }
     },
     "IcaroWil": {
