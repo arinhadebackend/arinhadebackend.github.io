@@ -2237,13 +2237,13 @@
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 11066,
-                    "true_negative_detections": 13973,
-                    "http_errors": 23879
+                    "true_positive_detections": 12160,
+                    "true_negative_detections": 15237,
+                    "http_errors": 20415
                 },
-                "failure_rate": "48.82%",
-                "weighted_errors_E": 119398,
-                "error_rate_epsilon": 2.440729,
+                "failure_rate": "42.7%",
+                "weighted_errors_E": 102078,
+                "error_rate_epsilon": 2.134942,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -2257,8 +2257,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/VCalazans/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1415",
-            "timestamp": "2026-05-05T11:52:27Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1423",
+            "timestamp": "2026-05-05T12:15:49Z"
         }
     },
     "Demians12": {
