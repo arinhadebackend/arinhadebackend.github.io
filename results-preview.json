@@ -1632,33 +1632,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "31.20ms",
+            "p99": "22.59ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 593,
-                    "false_negative_detections": 629,
-                    "true_positive_detections": 23408,
-                    "true_negative_detections": 29428,
+                    "false_positive_detections": 79,
+                    "false_negative_detections": 72,
+                    "true_positive_detections": 23965,
+                    "true_negative_detections": 29943,
                     "http_errors": 0
                 },
-                "failure_rate": "2.26%",
-                "weighted_errors_E": 2480,
-                "error_rate_epsilon": 0.045877,
+                "failure_rate": "0.28%",
+                "weighted_errors_E": 295,
+                "error_rate_epsilon": 0.005457,
                 "p99_score": {
-                    "value": 1505.81,
+                    "value": 1646.13,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 320.02,
-                    "rate_component": 1338.41,
-                    "absolute_penalty": -1018.39,
+                    "value": 1521.66,
+                    "rate_component": 2263.05,
+                    "absolute_penalty": -741.39,
                     "cut_triggered": false
                 },
-                "final_score": 1825.83
+                "final_score": 3167.79
             },
             "repo_url": "https://github.com/hvini/rinha-de-backend-2026-solution",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1305",
-            "timestamp": "2026-05-05T00:13:28Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1431",
+            "timestamp": "2026-05-05T12:42:38Z"
         }
     },
     "MateusMo": {
