@@ -1236,33 +1236,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "55.26ms",
+            "p99": "26.87ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 24036,
-                    "true_negative_detections": 30022,
+                    "false_positive_detections": 173,
+                    "false_negative_detections": 184,
+                    "true_positive_detections": 23853,
+                    "true_negative_detections": 29849,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 3,
-                "error_rate_epsilon": 0.000055,
+                "failure_rate": "0.66%",
+                "weighted_errors_E": 725,
+                "error_rate_epsilon": 0.013411,
                 "p99_score": {
-                    "value": 1257.62,
+                    "value": 1570.81,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2819.38,
-                    "rate_component": 3000,
-                    "absolute_penalty": -180.62,
+                    "value": 1014.25,
+                    "rate_component": 1872.53,
+                    "absolute_penalty": -858.28,
                     "cut_triggered": false
                 },
-                "final_score": 4077.01
+                "final_score": 2585.06
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1602",
-            "timestamp": "2026-05-05T21:06:08Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1609",
+            "timestamp": "2026-05-05T21:27:46Z"
         }
     },
     "klevercorrea": {
