@@ -1990,7 +1990,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.96ms",
+            "p99": "4.04ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -2003,7 +2003,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2401.99,
+                    "value": 2393.71,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -2012,11 +2012,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5401.99
+                "final_score": 5393.71
             },
             "repo_url": "https://github.com/alan-venv/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1387",
-            "timestamp": "2026-05-05T06:06:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1614",
+            "timestamp": "2026-05-05T21:45:51Z"
         }
     },
     "IsraelAraujo70": {
