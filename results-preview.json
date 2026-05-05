@@ -2222,5 +2222,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1340",
             "timestamp": "2026-05-05T01:52:34Z"
         }
+    },
+    "Demians12": {
+        "demians12-go-vptree": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "96.11ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 26,
+                    "false_negative_detections": 30,
+                    "true_positive_detections": 24007,
+                    "true_negative_detections": 29995,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.1%",
+                "weighted_errors_E": 116,
+                "error_rate_epsilon": 0.002146,
+                "p99_score": {
+                    "value": 1017.22,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2047.95,
+                    "rate_component": 2668.4,
+                    "absolute_penalty": -620.46,
+                    "cut_triggered": false
+                },
+                "final_score": 3065.16
+            },
+            "repo_url": "https://github.com/Demians12/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1347",
+            "timestamp": "2026-05-05T02:16:38Z"
+        }
     }
 }
