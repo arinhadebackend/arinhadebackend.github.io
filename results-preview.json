@@ -920,33 +920,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "112.72ms",
+            "p99": "2002.07ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1229,
-                    "false_negative_detections": 10,
-                    "true_positive_detections": 24019,
-                    "true_negative_detections": 28790,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 0,
+                    "http_errors": 16946
                 },
-                "failure_rate": "2.29%",
-                "weighted_errors_E": 1259,
-                "error_rate_epsilon": 0.023294,
+                "failure_rate": "100%",
+                "weighted_errors_E": 84730,
+                "error_rate_epsilon": 5,
                 "p99_score": {
-                    "value": 948,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 702.64,
-                    "rate_component": 1632.75,
-                    "absolute_penalty": -930.11,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1650.64
+                "final_score": -6000
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/843",
-            "timestamp": "2026-05-03T02:49:16Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1388",
+            "timestamp": "2026-05-05T07:30:57Z"
         }
     },
     "ronaldosilva95": {
