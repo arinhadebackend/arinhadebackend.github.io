@@ -2114,33 +2114,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "272.00ms",
+            "p99": "267.73ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 638,
-                    "false_negative_detections": 586,
-                    "true_positive_detections": 23370,
-                    "true_negative_detections": 29293,
+                    "false_positive_detections": 902,
+                    "false_negative_detections": 332,
+                    "true_positive_detections": 23628,
+                    "true_negative_detections": 29036,
                     "http_errors": 0
                 },
-                "failure_rate": "2.27%",
-                "weighted_errors_E": 2396,
-                "error_rate_epsilon": 0.044463,
+                "failure_rate": "2.29%",
+                "weighted_errors_E": 1898,
+                "error_rate_epsilon": 0.035215,
                 "p99_score": {
-                    "value": 565.43,
+                    "value": 572.31,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 338.1,
-                    "rate_component": 1352,
-                    "absolute_penalty": -1013.9,
+                    "value": 469.72,
+                    "rate_component": 1453.28,
+                    "absolute_penalty": -983.56,
                     "cut_triggered": false
                 },
-                "final_score": 903.53
+                "final_score": 1042.03
             },
             "repo_url": "https://github.com/bulletdev/bulletonrails-ruby",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1370",
-            "timestamp": "2026-05-05T03:52:28Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1385",
+            "timestamp": "2026-05-05T05:20:20Z"
         }
     },
     "Jovinull": {
