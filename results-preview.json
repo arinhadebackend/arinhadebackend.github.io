@@ -1870,33 +1870,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "189.56ms",
+            "p99": "64.15ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 532,
-                    "false_negative_detections": 560,
-                    "true_positive_detections": 23373,
-                    "true_negative_detections": 29343,
-                    "http_errors": 251
+                    "false_positive_detections": 534,
+                    "false_negative_detections": 561,
+                    "true_positive_detections": 23476,
+                    "true_negative_detections": 29488,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.48%",
-                "weighted_errors_E": 3467,
-                "error_rate_epsilon": 0.064134,
+                "failure_rate": "2.03%",
+                "weighted_errors_E": 2217,
+                "error_rate_epsilon": 0.041011,
                 "p99_score": {
-                    "value": 722.26,
+                    "value": 1192.79,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 130.89,
-                    "rate_component": 1192.91,
-                    "absolute_penalty": -1062.02,
+                    "value": 383.31,
+                    "rate_component": 1387.1,
+                    "absolute_penalty": -1003.79,
                     "cut_triggered": false
                 },
-                "final_score": 853.15
+                "final_score": 1576.11
             },
             "repo_url": "https://github.com/LuisBarbosaGit/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1510",
-            "timestamp": "2026-05-05T16:55:05Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1524",
+            "timestamp": "2026-05-05T17:34:59Z"
         }
     },
     "whoisclebs": {
