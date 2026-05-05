@@ -128,33 +128,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.19ms",
+            "p99": "2001.91ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 113,
-                    "false_negative_detections": 102,
-                    "true_positive_detections": 4215,
-                    "true_negative_detections": 5394,
-                    "http_errors": 4649
+                    "false_positive_detections": 178,
+                    "false_negative_detections": 168,
+                    "true_positive_detections": 6669,
+                    "true_negative_detections": 8389,
+                    "http_errors": 897
                 },
-                "failure_rate": "33.61%",
-                "weighted_errors_E": 23664,
-                "error_rate_epsilon": 1.635045,
+                "failure_rate": "7.63%",
+                "weighted_errors_E": 5167,
+                "error_rate_epsilon": 0.316974,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -615.02,
+                    "rate_component": 498.98,
+                    "absolute_penalty": -1114,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -3615.02
             },
             "repo_url": "https://github.com/matheusosp/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/863",
-            "timestamp": "2026-05-03T07:36:07Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1369",
+            "timestamp": "2026-05-05T03:45:50Z"
         }
     },
     "Lothyriel": {
