@@ -2586,33 +2586,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1667.46ms",
+            "p99": "278.45ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 25,
-                    "false_negative_detections": 23,
-                    "true_positive_detections": 9723,
-                    "true_negative_detections": 12297,
-                    "http_errors": 13
+                    "false_positive_detections": 53,
+                    "false_negative_detections": 66,
+                    "true_positive_detections": 23908,
+                    "true_negative_detections": 29903,
+                    "http_errors": 33
                 },
                 "failure_rate": "0.28%",
-                "weighted_errors_E": 159,
-                "error_rate_epsilon": 0.007201,
+                "weighted_errors_E": 416,
+                "error_rate_epsilon": 0.007709,
                 "p99_score": {
-                    "value": -222.06,
+                    "value": 555.25,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1481.39,
-                    "rate_component": 2142.62,
-                    "absolute_penalty": -661.24,
+                    "value": 1326.96,
+                    "rate_component": 2113,
+                    "absolute_penalty": -786.04,
                     "cut_triggered": false
                 },
-                "final_score": 1259.33
+                "final_score": 1882.22
             },
             "repo_url": "https://github.com/carlosportella16/rinha-de-backend-carlosportella16-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1597",
-            "timestamp": "2026-05-05T20:51:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1619",
+            "timestamp": "2026-05-05T22:05:41Z"
         }
     },
     "jonathanperis": {
