@@ -2270,33 +2270,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "684.21ms",
+            "p99": "2001.86ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 20694,
-                    "true_negative_detections": 25923,
-                    "http_errors": 20
+                    "true_positive_detections": 7112,
+                    "true_negative_detections": 8915,
+                    "http_errors": 12108
                 },
-                "failure_rate": "0.05%",
-                "weighted_errors_E": 103,
-                "error_rate_epsilon": 0.002208,
+                "failure_rate": "43.04%",
+                "weighted_errors_E": 60543,
+                "error_rate_epsilon": 2.151798,
                 "p99_score": {
-                    "value": 164.81,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2050.79,
-                    "rate_component": 2655.9,
-                    "absolute_penalty": -605.11,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 2215.6
+                "final_score": -6000
             },
             "repo_url": "https://github.com/VCalazans/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1441",
-            "timestamp": "2026-05-05T13:12:45Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1448",
+            "timestamp": "2026-05-05T13:37:44Z"
         }
     },
     "Demians12": {
