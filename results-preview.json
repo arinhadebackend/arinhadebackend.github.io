@@ -2142,5 +2142,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1327",
             "timestamp": "2026-05-05T01:19:11Z"
         }
+    },
+    "Jovinull": {
+        "jovinull-rust": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "108.41ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 24024,
+                    "true_negative_detections": 30009,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 13,
+                "error_rate_epsilon": 0.000241,
+                "p99_score": {
+                    "value": 964.94,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2656.16,
+                    "rate_component": 3000,
+                    "absolute_penalty": -343.84,
+                    "cut_triggered": false
+                },
+                "final_score": 3621.1
+            },
+            "repo_url": "https://github.com/jovinull/rinha-2026-rust",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1328",
+            "timestamp": "2026-05-05T01:23:21Z"
+        }
     }
 }
