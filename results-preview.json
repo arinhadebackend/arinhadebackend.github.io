@@ -3020,7 +3020,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "87.03ms",
+            "p99": "87.26ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 77,
@@ -3033,7 +3033,7 @@
                 "weighted_errors_E": 242,
                 "error_rate_epsilon": 0.004477,
                 "p99_score": {
-                    "value": 1060.34,
+                    "value": 1059.19,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -3042,11 +3042,11 @@
                     "absolute_penalty": -715.68,
                     "cut_triggered": false
                 },
-                "final_score": 2693.71
+                "final_score": 2692.56
             },
             "repo_url": "https://github.com/josehenrique-dev/rinha-de-backend-2026-henrique-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1911",
-            "timestamp": "2026-05-06T20:28:12Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1939",
+            "timestamp": "2026-05-06T22:04:24Z"
         }
     },
     "ogrodev": {
