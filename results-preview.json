@@ -2708,33 +2708,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.67ms",
+            "p99": "1.70ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 592,
                     "false_negative_detections": 580,
                     "true_positive_detections": 23457,
-                    "true_negative_detections": 29429,
+                    "true_negative_detections": 29430,
                     "http_errors": 0
                 },
                 "failure_rate": "2.17%",
                 "weighted_errors_E": 2332,
-                "error_rate_epsilon": 0.043139,
+                "error_rate_epsilon": 0.043138,
                 "p99_score": {
-                    "value": 2777.33,
+                    "value": 2770.1,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 354.76,
-                    "rate_component": 1365.13,
+                    "value": 354.77,
+                    "rate_component": 1365.14,
                     "absolute_penalty": -1010.37,
                     "cut_triggered": false
                 },
-                "final_score": 3132.09
+                "final_score": 3124.87
             },
             "repo_url": "https://github.com/marcoscarvalho04/rinha-backend-marcos-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1679",
-            "timestamp": "2026-05-06T01:04:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1690",
+            "timestamp": "2026-05-06T01:33:01Z"
         }
     },
     "Joaopdiasventura": {
