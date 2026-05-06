@@ -1236,33 +1236,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "71.96ms",
+            "p99": "12.85ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 177,
-                    "false_negative_detections": 189,
-                    "true_positive_detections": 23848,
-                    "true_negative_detections": 29845,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 24036,
+                    "true_negative_detections": 30022,
                     "http_errors": 0
                 },
-                "failure_rate": "0.68%",
-                "weighted_errors_E": 744,
-                "error_rate_epsilon": 0.013763,
+                "failure_rate": "0%",
+                "weighted_errors_E": 3,
+                "error_rate_epsilon": 0.000055,
                 "p99_score": {
-                    "value": 1142.89,
+                    "value": 1891.15,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 999.65,
-                    "rate_component": 1861.3,
-                    "absolute_penalty": -861.65,
+                    "value": 2819.38,
+                    "rate_component": 3000,
+                    "absolute_penalty": -180.62,
                     "cut_triggered": false
                 },
-                "final_score": 2142.54
+                "final_score": 4710.53
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1677",
-            "timestamp": "2026-05-06T00:58:16Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1695",
+            "timestamp": "2026-05-06T01:52:34Z"
         }
     },
     "klevercorrea": {
