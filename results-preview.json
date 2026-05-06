@@ -2814,5 +2814,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1665",
             "timestamp": "2026-05-06T00:19:40Z"
         }
+    },
+    "Joaopdiasventura": {
+        "Joaopdiasventura-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2002.81ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 31,
+                    "true_negative_detections": 49,
+                    "http_errors": 13748
+                },
+                "failure_rate": "99.42%",
+                "weighted_errors_E": 68743,
+                "error_rate_epsilon": 4.970931,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000
+            },
+            "repo_url": "https://github.com/Joaopdiasventura/rinha-de-backend-2026-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1671",
+            "timestamp": "2026-05-06T00:37:27Z"
+        }
     }
 }
