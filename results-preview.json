@@ -1937,6 +1937,44 @@
             "repo_url": "https://github.com/whoisclebs/heindall",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1717",
             "timestamp": "2026-05-06T03:02:09Z"
+        },
+        "heindall-fasthttp": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2.22ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30021,
+                    "http_errors": 1
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 5,
+                "error_rate_epsilon": 0.000092,
+                "p99_score": {
+                    "value": 2653.86,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2766.55,
+                    "rate_component": 3000,
+                    "absolute_penalty": -233.45,
+                    "cut_triggered": false
+                },
+                "final_score": 5420.41
+            },
+            "repo_url": "https://github.com/whoisclebs/heindall-fasthttp",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1727",
+            "timestamp": "2026-05-06T03:30:48Z"
         }
     },
     "alan-venv": {
