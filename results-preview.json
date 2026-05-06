@@ -3020,33 +3020,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "87.26ms",
+            "p99": "86.42ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 77,
-                    "false_negative_detections": 55,
-                    "true_positive_detections": 23982,
-                    "true_negative_detections": 29945,
+                    "false_positive_detections": 123,
+                    "false_negative_detections": 114,
+                    "true_positive_detections": 23923,
+                    "true_negative_detections": 29899,
                     "http_errors": 0
                 },
-                "failure_rate": "0.24%",
-                "weighted_errors_E": 242,
-                "error_rate_epsilon": 0.004477,
+                "failure_rate": "0.44%",
+                "weighted_errors_E": 465,
+                "error_rate_epsilon": 0.008602,
                 "p99_score": {
-                    "value": 1059.19,
+                    "value": 1063.36,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1633.37,
-                    "rate_component": 2349.05,
-                    "absolute_penalty": -715.68,
+                    "value": 1264.9,
+                    "rate_component": 2065.42,
+                    "absolute_penalty": -800.52,
                     "cut_triggered": false
                 },
-                "final_score": 2692.56
+                "final_score": 2328.26
             },
             "repo_url": "https://github.com/josehenrique-dev/rinha-de-backend-2026-henrique-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1939",
-            "timestamp": "2026-05-06T22:04:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1945",
+            "timestamp": "2026-05-06T22:24:52Z"
         }
     },
     "ogrodev": {
