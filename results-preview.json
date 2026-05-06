@@ -2227,15 +2227,15 @@
             "p99": "2001.97ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 140,
-                    "false_negative_detections": 817,
-                    "true_positive_detections": 3768,
-                    "true_negative_detections": 5633,
-                    "http_errors": 29721
+                    "false_positive_detections": 137,
+                    "false_negative_detections": 811,
+                    "true_positive_detections": 3926,
+                    "true_negative_detections": 5643,
+                    "http_errors": 29421
                 },
-                "failure_rate": "76.54%",
-                "weighted_errors_E": 151196,
-                "error_rate_epsilon": 3.772449,
+                "failure_rate": "76.04%",
+                "weighted_errors_E": 149675,
+                "error_rate_epsilon": 3.747684,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -2249,8 +2249,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/bulletdev/bulletonrails-zig",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1765",
-            "timestamp": "2026-05-06T10:19:40Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1797",
+            "timestamp": "2026-05-06T14:27:00Z"
         }
     },
     "Jovinull": {
