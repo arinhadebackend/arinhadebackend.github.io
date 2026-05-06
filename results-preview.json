@@ -2542,33 +2542,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "247.36ms",
+            "p99": "268.48ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 48,
-                    "false_negative_detections": 63,
-                    "true_positive_detections": 23903,
-                    "true_negative_detections": 29894,
-                    "http_errors": 141
+                    "false_positive_detections": 53,
+                    "false_negative_detections": 66,
+                    "true_positive_detections": 23965,
+                    "true_negative_detections": 29962,
+                    "http_errors": 13
                 },
-                "failure_rate": "0.47%",
-                "weighted_errors_E": 942,
-                "error_rate_epsilon": 0.017429,
+                "failure_rate": "0.24%",
+                "weighted_errors_E": 316,
+                "error_rate_epsilon": 0.005845,
                 "p99_score": {
-                    "value": 606.67,
+                    "value": 571.09,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 866.38,
-                    "rate_component": 1758.74,
-                    "absolute_penalty": -892.35,
+                    "value": 1482.86,
+                    "rate_component": 2233.18,
+                    "absolute_penalty": -750.32,
                     "cut_triggered": false
                 },
-                "final_score": 1473.06
+                "final_score": 2053.95
             },
             "repo_url": "https://github.com/carlosportella16/rinha-de-backend-carlosportella16-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1863",
-            "timestamp": "2026-05-06T18:04:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1871",
+            "timestamp": "2026-05-06T18:29:27Z"
         }
     },
     "jonathanperis": {
