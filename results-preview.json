@@ -3009,6 +3009,44 @@
             "repo_url": "https://github.com/zanfranceschi/rinha-de-backend-2026-zan-dotnet",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1821",
             "timestamp": "2026-05-06T15:42:10Z"
+        },
+        "Go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "86.55ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 77,
+                    "false_negative_detections": 55,
+                    "true_positive_detections": 23982,
+                    "true_negative_detections": 29944,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.24%",
+                "weighted_errors_E": 242,
+                "error_rate_epsilon": 0.004477,
+                "p99_score": {
+                    "value": 1062.72,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1633.36,
+                    "rate_component": 2349.04,
+                    "absolute_penalty": -715.68,
+                    "cut_triggered": false
+                },
+                "final_score": 2696.08
+            },
+            "repo_url": "https://github.com/josehenrique-dev/rinha-de-backend-2026-henrique-golang",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1890",
+            "timestamp": "2026-05-06T19:17:16Z"
         }
     },
     "ogrodev": {
