@@ -2668,33 +2668,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.70ms",
+            "p99": "1.69ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 592,
-                    "false_negative_detections": 580,
-                    "true_positive_detections": 23457,
-                    "true_negative_detections": 29430,
+                    "false_positive_detections": 15,
+                    "false_negative_detections": 9,
+                    "true_positive_detections": 24028,
+                    "true_negative_detections": 30006,
                     "http_errors": 0
                 },
-                "failure_rate": "2.17%",
-                "weighted_errors_E": 2332,
-                "error_rate_epsilon": 0.043138,
+                "failure_rate": "0.04%",
+                "weighted_errors_E": 42,
+                "error_rate_epsilon": 0.000777,
                 "p99_score": {
-                    "value": 2770.13,
+                    "value": 2773.17,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 354.77,
-                    "rate_component": 1365.14,
-                    "absolute_penalty": -1010.37,
+                    "value": 2509.96,
+                    "rate_component": 3000,
+                    "absolute_penalty": -490.04,
                     "cut_triggered": false
                 },
-                "final_score": 3124.89
+                "final_score": 5283.13
             },
             "repo_url": "https://github.com/marcoscarvalho04/rinha-backend-marcos-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1704",
-            "timestamp": "2026-05-06T02:15:18Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1708",
+            "timestamp": "2026-05-06T02:30:25Z"
         }
     },
     "Joaopdiasventura": {
