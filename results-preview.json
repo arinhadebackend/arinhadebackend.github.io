@@ -2542,33 +2542,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.51ms",
+            "p99": "340.72ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 51,
-                    "false_negative_detections": 65,
-                    "true_positive_detections": 23336,
-                    "true_negative_detections": 29157,
-                    "http_errors": 1114
+                    "false_positive_detections": 53,
+                    "false_negative_detections": 66,
+                    "true_positive_detections": 23886,
+                    "true_negative_detections": 29876,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.29%",
-                "weighted_errors_E": 5816,
-                "error_rate_epsilon": 0.108259,
+                "failure_rate": "0.22%",
+                "weighted_errors_E": 251,
+                "error_rate_epsilon": 0.004658,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -163.87,
-                    "rate_component": 965.54,
-                    "absolute_penalty": -1129.41,
+                    "value": 467.6,
                     "cut_triggered": false
                 },
-                "final_score": -3163.87
+                "detection_score": {
+                    "value": 1611.34,
+                    "rate_component": 2331.76,
+                    "absolute_penalty": -720.42,
+                    "cut_triggered": false
+                },
+                "final_score": 2078.94
             },
             "repo_url": "https://github.com/carlosportella16/rinha-de-backend-carlosportella16-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1786",
-            "timestamp": "2026-05-06T13:17:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1839",
+            "timestamp": "2026-05-06T16:40:11Z"
         }
     },
     "jonathanperis": {
