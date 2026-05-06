@@ -404,7 +404,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.07ms",
+            "p99": "2.91ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -417,7 +417,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2512.46,
+                    "value": 2536.27,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -426,11 +426,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5512.46
+                "final_score": 5536.27
             },
             "repo_url": "https://github.com/vitortvale/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1755",
-            "timestamp": "2026-05-06T08:07:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1756",
+            "timestamp": "2026-05-06T08:15:26Z"
         }
     },
     "JulianySavazzi": {
