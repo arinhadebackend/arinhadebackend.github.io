@@ -2222,33 +2222,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.97ms",
+            "p99": "274.18ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 137,
-                    "false_negative_detections": 811,
-                    "true_positive_detections": 3926,
-                    "true_negative_detections": 5643,
-                    "http_errors": 29421
+                    "false_positive_detections": 643,
+                    "false_negative_detections": 587,
+                    "true_positive_detections": 23422,
+                    "true_negative_detections": 29342,
+                    "http_errors": 0
                 },
-                "failure_rate": "76.04%",
-                "weighted_errors_E": 149675,
-                "error_rate_epsilon": 3.747684,
+                "failure_rate": "2.28%",
+                "weighted_errors_E": 2404,
+                "error_rate_epsilon": 0.044523,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 561.96,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 337.08,
+                    "rate_component": 1351.41,
+                    "absolute_penalty": -1014.33,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 899.04
             },
             "repo_url": "https://github.com/bulletdev/bulletonrails-zig",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1797",
-            "timestamp": "2026-05-06T14:27:00Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1866",
+            "timestamp": "2026-05-06T18:11:38Z"
         }
     },
     "Jovinull": {
