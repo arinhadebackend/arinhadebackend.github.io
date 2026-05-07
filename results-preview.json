@@ -3058,33 +3058,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "86.42ms",
+            "p99": "85.01ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 123,
-                    "false_negative_detections": 114,
-                    "true_positive_detections": 23923,
-                    "true_negative_detections": 29899,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30022,
                     "http_errors": 0
                 },
-                "failure_rate": "0.44%",
-                "weighted_errors_E": 465,
-                "error_rate_epsilon": 0.008602,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1063.36,
+                    "value": 1070.52,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1264.9,
-                    "rate_component": 2065.42,
-                    "absolute_penalty": -800.52,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 2328.26
+                "final_score": 4070.52
             },
             "repo_url": "https://github.com/josehenrique-dev/rinha-de-backend-2026-henrique-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1945",
-            "timestamp": "2026-05-06T22:24:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1988",
+            "timestamp": "2026-05-07T02:00:13Z"
         }
     },
     "ogrodev": {
