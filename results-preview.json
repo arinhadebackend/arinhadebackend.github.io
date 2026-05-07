@@ -3286,5 +3286,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1969",
             "timestamp": "2026-05-07T00:31:09Z"
         }
+    },
+    "JordaoGustavo": {
+        "jordaogustavo-csharp": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "8.38ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 24036,
+                    "true_negative_detections": 30018,
+                    "http_errors": 5
+                },
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 25,
+                "error_rate_epsilon": 0.000462,
+                "p99_score": {
+                    "value": 2076.52,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2575.51,
+                    "rate_component": 3000,
+                    "absolute_penalty": -424.49,
+                    "cut_triggered": false
+                },
+                "final_score": 4652.03
+            },
+            "repo_url": "https://github.com/JordaoGustavo/rinha-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2004",
+            "timestamp": "2026-05-07T03:23:02Z"
+        }
     }
 }
