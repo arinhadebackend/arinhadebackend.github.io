@@ -3566,5 +3566,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2086",
             "timestamp": "2026-05-07T23:26:55Z"
         }
+    },
+    "lhupalo": {
+        "lhupalo-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "413.54ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 53,
+                    "false_negative_detections": 59,
+                    "true_positive_detections": 22024,
+                    "true_negative_detections": 27545,
+                    "http_errors": 325
+                },
+                "failure_rate": "0.87%",
+                "weighted_errors_E": 1855,
+                "error_rate_epsilon": 0.037096,
+                "p99_score": {
+                    "value": 383.48,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 450.1,
+                    "rate_component": 1430.68,
+                    "absolute_penalty": -980.57,
+                    "cut_triggered": false
+                },
+                "final_score": 833.59
+            },
+            "repo_url": "https://github.com/lhupalo/rbc-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2092",
+            "timestamp": "2026-05-07T23:47:14Z"
+        }
     }
 }
