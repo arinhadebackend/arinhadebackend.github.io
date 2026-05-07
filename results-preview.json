@@ -2822,33 +2822,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "931.17ms",
+            "p99": "995.12ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 345,
-                    "false_negative_detections": 463,
-                    "true_positive_detections": 20331,
-                    "true_negative_detections": 25702,
+                    "false_positive_detections": 340,
+                    "false_negative_detections": 443,
+                    "true_positive_detections": 19741,
+                    "true_negative_detections": 24938,
                     "http_errors": 0
                 },
                 "failure_rate": "1.72%",
-                "weighted_errors_E": 1734,
-                "error_rate_epsilon": 0.037019,
+                "weighted_errors_E": 1669,
+                "error_rate_epsilon": 0.036712,
                 "p99_score": {
-                    "value": 30.97,
+                    "value": 2.12,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 459.79,
-                    "rate_component": 1431.58,
-                    "absolute_penalty": -971.79,
+                    "value": 468.38,
+                    "rate_component": 1435.19,
+                    "absolute_penalty": -966.81,
                     "cut_triggered": false
                 },
-                "final_score": 490.76
+                "final_score": 470.5
             },
             "repo_url": "https://github.com/Acauhi99/rinha-de-backend-2026-elixir",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2071",
-            "timestamp": "2026-05-07T22:33:41Z"
+            "timestamp": "2026-05-07T22:37:19Z"
         }
     },
     "jonas-elias": {
