@@ -2900,18 +2900,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.91ms",
+            "p99": "2001.92ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 177,
-                    "true_negative_detections": 213,
-                    "http_errors": 44751
+                    "true_positive_detections": 134,
+                    "true_negative_detections": 167,
+                    "http_errors": 45990
                 },
-                "failure_rate": "99.14%",
-                "weighted_errors_E": 223755,
-                "error_rate_epsilon": 4.956802,
+                "failure_rate": "99.35%",
+                "weighted_errors_E": 229950,
+                "error_rate_epsilon": 4.967488,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -2925,8 +2925,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/jonas-elias/rinha-backend-2026-php",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1994",
-            "timestamp": "2026-05-07T02:30:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2059",
+            "timestamp": "2026-05-07T22:02:11Z"
         }
     },
     "MatheusBasso99": {
