@@ -3526,5 +3526,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2085",
             "timestamp": "2026-05-07T23:19:12Z"
         }
+    },
+    "steixeira93": {
+        "steixeira93-go-hnsw": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "63.24ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 28,
+                    "false_negative_detections": 81,
+                    "true_positive_detections": 23956,
+                    "true_negative_detections": 29994,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.2%",
+                "weighted_errors_E": 271,
+                "error_rate_epsilon": 0.005013,
+                "p99_score": {
+                    "value": 1199.04,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1569.53,
+                    "rate_component": 2299.9,
+                    "absolute_penalty": -730.37,
+                    "cut_triggered": false
+                },
+                "final_score": 2768.57
+            },
+            "repo_url": "https://github.com/steixeira93/rinha-backend-26",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2086",
+            "timestamp": "2026-05-07T23:23:52Z"
+        }
     }
 }
