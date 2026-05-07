@@ -3258,33 +3258,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1106.96ms",
+            "p99": "98.58ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 96,
-                    "false_negative_detections": 119,
-                    "true_positive_detections": 13642,
-                    "true_negative_detections": 17158,
-                    "http_errors": 41
+                    "false_positive_detections": 179,
+                    "false_negative_detections": 220,
+                    "true_positive_detections": 23817,
+                    "true_negative_detections": 29843,
+                    "http_errors": 0
                 },
-                "failure_rate": "0.82%",
-                "weighted_errors_E": 658,
-                "error_rate_epsilon": 0.021188,
+                "failure_rate": "0.74%",
+                "weighted_errors_E": 839,
+                "error_rate_epsilon": 0.01552,
                 "p99_score": {
-                    "value": -44.13,
+                    "value": 1006.19,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 828.25,
-                    "rate_component": 1673.92,
-                    "absolute_penalty": -845.67,
+                    "value": 931.82,
+                    "rate_component": 1809.11,
+                    "absolute_penalty": -877.28,
                     "cut_triggered": false
                 },
-                "final_score": 784.12
+                "final_score": 1938.02
             },
             "repo_url": "https://github.com/gabrielrauch/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1967",
-            "timestamp": "2026-05-07T00:22:32Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1969",
+            "timestamp": "2026-05-07T00:31:09Z"
         }
     }
 }
