@@ -3418,18 +3418,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.86ms",
+            "p99": "2003.48ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 8,
+                    "false_negative_detections": 14,
                     "true_positive_detections": 0,
-                    "true_negative_detections": 14,
-                    "http_errors": 13958
+                    "true_negative_detections": 16,
+                    "http_errors": 14081
                 },
-                "failure_rate": "99.9%",
-                "weighted_errors_E": 69814,
-                "error_rate_epsilon": 4.993848,
+                "failure_rate": "99.89%",
+                "weighted_errors_E": 70447,
+                "error_rate_epsilon": 4.992346,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -3444,7 +3444,7 @@
             },
             "repo_url": "https://github.com/IanLemee/rinha-be",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2052",
-            "timestamp": "2026-05-07T21:12:41Z"
+            "timestamp": "2026-05-07T21:16:16Z"
         }
     }
 }
