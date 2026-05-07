@@ -3326,5 +3326,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2004",
             "timestamp": "2026-05-07T03:23:02Z"
         }
+    },
+    "Marcelovmendes": {
+        "marcelovmendes-java": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2001.68ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 22411,
+                    "true_negative_detections": 27959,
+                    "http_errors": 2617
+                },
+                "failure_rate": "4.94%",
+                "weighted_errors_E": 13085,
+                "error_rate_epsilon": 0.246947,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -627.65,
+                    "rate_component": 607.4,
+                    "absolute_penalty": -1235.04,
+                    "cut_triggered": false
+                },
+                "final_score": -3627.65
+            },
+            "repo_url": "https://github.com/Marcelovmendes/rinha-backend-2026-java",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2018",
+            "timestamp": "2026-05-07T06:16:41Z"
+        }
     }
 }
