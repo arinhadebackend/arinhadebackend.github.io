@@ -1868,33 +1868,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "58.40ms",
+            "p99": "2002.26ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 637,
-                    "false_negative_detections": 589,
-                    "true_positive_detections": 23433,
-                    "true_negative_detections": 29366,
-                    "http_errors": 0
+                    "false_positive_detections": 201,
+                    "false_negative_detections": 253,
+                    "true_positive_detections": 9800,
+                    "true_negative_detections": 12211,
+                    "http_errors": 11505
                 },
-                "failure_rate": "2.27%",
-                "weighted_errors_E": 2404,
-                "error_rate_epsilon": 0.044498,
+                "failure_rate": "35.2%",
+                "weighted_errors_E": 58485,
+                "error_rate_epsilon": 1.721666,
                 "p99_score": {
-                    "value": 1233.57,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 337.33,
-                    "rate_component": 1351.66,
-                    "absolute_penalty": -1014.33,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1570.9
+                "final_score": -6000
             },
             "repo_url": "https://github.com/LuisBarbosaGit/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1771",
-            "timestamp": "2026-05-06T11:22:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1990",
+            "timestamp": "2026-05-07T02:10:40Z"
         }
     },
     "whoisclebs": {
