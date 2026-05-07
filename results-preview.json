@@ -2502,18 +2502,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2003.14ms",
+            "p99": "2003.10ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 10,
-                    "true_negative_detections": 15,
-                    "http_errors": 13805
+                    "true_positive_detections": 11,
+                    "true_negative_detections": 19,
+                    "http_errors": 13800
                 },
-                "failure_rate": "99.82%",
-                "weighted_errors_E": 69025,
-                "error_rate_epsilon": 4.990962,
+                "failure_rate": "99.78%",
+                "weighted_errors_E": 69000,
+                "error_rate_epsilon": 4.989154,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -2527,8 +2527,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/Gabriel-br07/rinha-de-backend-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1538",
-            "timestamp": "2026-05-05T18:05:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2072",
+            "timestamp": "2026-05-07T22:40:49Z"
         }
     },
     "carlosportella16": {
