@@ -2582,33 +2582,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.99ms",
+            "p99": "2.01ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 594,
-                    "false_negative_detections": 866,
-                    "true_positive_detections": 23171,
-                    "true_negative_detections": 29428,
+                    "false_positive_detections": 697,
+                    "false_negative_detections": 574,
+                    "true_positive_detections": 23463,
+                    "true_negative_detections": 29325,
                     "http_errors": 0
                 },
-                "failure_rate": "2.7%",
-                "weighted_errors_E": 3192,
-                "error_rate_epsilon": 0.059047,
+                "failure_rate": "2.35%",
+                "weighted_errors_E": 2419,
+                "error_rate_epsilon": 0.044747,
                 "p99_score": {
-                    "value": 2399.52,
+                    "value": 2697.15,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 177.55,
-                    "rate_component": 1228.81,
-                    "absolute_penalty": -1051.26,
+                    "value": 334.09,
+                    "rate_component": 1349.23,
+                    "absolute_penalty": -1015.14,
                     "cut_triggered": false
                 },
-                "final_score": 2577.06
+                "final_score": 3031.24
             },
             "repo_url": "https://github.com/jonathanperis/rinha4-back-end-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1672",
-            "timestamp": "2026-05-06T00:40:41Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2088",
+            "timestamp": "2026-05-07T23:34:46Z"
         }
     },
     "Shobon03": {
