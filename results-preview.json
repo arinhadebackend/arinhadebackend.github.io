@@ -2302,33 +2302,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.20ms",
+            "p99": "580.55ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 2012,
-                    "true_negative_detections": 2523,
-                    "http_errors": 11199
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 22263,
+                    "true_negative_detections": 27810,
+                    "http_errors": 0
                 },
-                "failure_rate": "71.18%",
-                "weighted_errors_E": 55995,
-                "error_rate_epsilon": 3.558853,
+                "failure_rate": "0%",
+                "weighted_errors_E": 3,
+                "error_rate_epsilon": 0.00006,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 236.16,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 2819.38,
+                    "rate_component": 3000,
+                    "absolute_penalty": -180.62,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 3055.54
             },
             "repo_url": "https://github.com/VCalazans/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2005",
-            "timestamp": "2026-05-07T03:26:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2050",
+            "timestamp": "2026-05-07T21:03:13Z"
         }
     },
     "Demians12": {
