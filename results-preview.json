@@ -3658,7 +3658,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.61ms",
+            "p99": "3.60ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -3671,7 +3671,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2443.04,
+                    "value": 2443.55,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -3680,11 +3680,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5443.04
+                "final_score": 5443.55
             },
             "repo_url": "https://github.com/diegoph/rinha-backend-2026-java-native",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2234",
-            "timestamp": "2026-05-08T15:25:32Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2252",
+            "timestamp": "2026-05-08T16:27:35Z"
         }
     },
     "LeandroLS": {
