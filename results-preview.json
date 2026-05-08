@@ -3058,33 +3058,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "59.75ms",
+            "p99": "60.16ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 23995,
-                    "true_positive_detections": 42,
-                    "true_negative_detections": 30021,
+                    "false_positive_detections": 26,
+                    "false_negative_detections": 19,
+                    "true_positive_detections": 24018,
+                    "true_negative_detections": 29996,
                     "http_errors": 0
                 },
-                "failure_rate": "44.39%",
-                "weighted_errors_E": 71985,
-                "error_rate_epsilon": 1.331625,
+                "failure_rate": "0.08%",
+                "weighted_errors_E": 83,
+                "error_rate_epsilon": 0.001535,
                 "p99_score": {
-                    "value": 1223.66,
+                    "value": 1220.67,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 2236.51,
+                    "rate_component": 2813.79,
+                    "absolute_penalty": -577.28,
+                    "cut_triggered": false
                 },
-                "final_score": -1776.34
+                "final_score": 3457.18
             },
             "repo_url": "https://github.com/josehenrique-dev/rinha-de-backend-2026-henrique-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2222",
-            "timestamp": "2026-05-08T14:45:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2244",
+            "timestamp": "2026-05-08T15:59:55Z"
         }
     },
     "ogrodev": {
