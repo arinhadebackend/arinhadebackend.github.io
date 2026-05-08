@@ -3816,7 +3816,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2003.07ms",
+            "p99": "2003.60ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -3841,8 +3841,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/BoscoBecker/Rinha.Net",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2216",
-            "timestamp": "2026-05-08T14:24:35Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2300",
+            "timestamp": "2026-05-08T18:38:48Z"
         }
     },
     "marcelodelfiore": {
