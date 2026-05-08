@@ -3856,33 +3856,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.99ms",
+            "p99": "8.91ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 626,
-                    "false_negative_detections": 585,
-                    "true_positive_detections": 23452,
+                    "false_negative_detections": 583,
+                    "true_positive_detections": 23454,
                     "true_negative_detections": 29396,
                     "http_errors": 0
                 },
                 "failure_rate": "2.24%",
-                "weighted_errors_E": 2381,
-                "error_rate_epsilon": 0.044044,
+                "weighted_errors_E": 2375,
+                "error_rate_epsilon": 0.043933,
                 "p99_score": {
-                    "value": 2701.7,
+                    "value": 2050.24,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 343.03,
-                    "rate_component": 1356.11,
-                    "absolute_penalty": -1013.08,
+                    "value": 344.45,
+                    "rate_component": 1357.2,
+                    "absolute_penalty": -1012.75,
                     "cut_triggered": false
                 },
-                "final_score": 3044.72
+                "final_score": 2394.69
             },
             "repo_url": "https://github.com/marcelodelfiore/rinha-2026-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2213",
-            "timestamp": "2026-05-08T14:18:06Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2236",
+            "timestamp": "2026-05-08T15:32:03Z"
         }
     }
 }
