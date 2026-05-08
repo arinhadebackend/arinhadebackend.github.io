@@ -956,33 +956,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.22ms",
+            "p99": "168.78ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23691,
-                    "true_negative_detections": 29588,
-                    "http_errors": 624
+                    "true_positive_detections": 24023,
+                    "true_negative_detections": 30005,
+                    "http_errors": 0
                 },
-                "failure_rate": "1.16%",
-                "weighted_errors_E": 3121,
-                "error_rate_epsilon": 0.057899,
+                "failure_rate": "0%",
+                "weighted_errors_E": 1,
+                "error_rate_epsilon": 0.000019,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": 189,
-                    "rate_component": 1237.33,
-                    "absolute_penalty": -1048.33,
+                    "value": 772.68,
                     "cut_triggered": false
                 },
-                "final_score": -2811
+                "detection_score": {
+                    "value": 2909.69,
+                    "rate_component": 3000,
+                    "absolute_penalty": -90.31,
+                    "cut_triggered": false
+                },
+                "final_score": 3682.38
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2111",
-            "timestamp": "2026-05-08T06:35:37Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2120",
+            "timestamp": "2026-05-08T07:10:28Z"
         }
     },
     "ronaldosilva95": {
