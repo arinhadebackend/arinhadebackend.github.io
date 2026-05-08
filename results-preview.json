@@ -3582,29 +3582,29 @@
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 52,
-                    "false_negative_detections": 58,
-                    "true_positive_detections": 21734,
-                    "true_negative_detections": 27195,
-                    "http_errors": 982
+                    "false_negative_detections": 57,
+                    "true_positive_detections": 21760,
+                    "true_negative_detections": 27175,
+                    "http_errors": 978
                 },
-                "failure_rate": "2.18%",
-                "weighted_errors_E": 5136,
-                "error_rate_epsilon": 0.102677,
+                "failure_rate": "2.17%",
+                "weighted_errors_E": 5113,
+                "error_rate_epsilon": 0.102215,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -124.69,
-                    "rate_component": 988.53,
-                    "absolute_penalty": -1113.21,
+                    "value": -122.14,
+                    "rate_component": 990.49,
+                    "absolute_penalty": -1112.63,
                     "cut_triggered": false
                 },
-                "final_score": -3124.69
+                "final_score": -3122.14
             },
             "repo_url": "https://github.com/lhupalo/rbc-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2212",
-            "timestamp": "2026-05-08T14:14:25Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2235",
+            "timestamp": "2026-05-08T15:28:47Z"
         }
     },
     "matheus896": {
