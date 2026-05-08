@@ -1828,33 +1828,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "20.05ms",
+            "p99": "8.00ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1198,
-                    "false_negative_detections": 27,
-                    "true_positive_detections": 24010,
-                    "true_negative_detections": 28823,
+                    "false_positive_detections": 1158,
+                    "false_negative_detections": 50,
+                    "true_positive_detections": 23987,
+                    "true_negative_detections": 28863,
                     "http_errors": 0
                 },
-                "failure_rate": "2.27%",
-                "weighted_errors_E": 1279,
-                "error_rate_epsilon": 0.02366,
+                "failure_rate": "2.23%",
+                "weighted_errors_E": 1308,
+                "error_rate_epsilon": 0.024196,
                 "p99_score": {
-                    "value": 1697.99,
+                    "value": 2097.09,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 693.83,
-                    "rate_component": 1625.99,
-                    "absolute_penalty": -932.16,
+                    "value": 681.17,
+                    "rate_component": 1616.25,
+                    "absolute_penalty": -935.08,
                     "cut_triggered": false
                 },
-                "final_score": 2391.82
+                "final_score": 2778.27
             },
             "repo_url": "https://github.com/Marcoant007/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2188",
-            "timestamp": "2026-05-08T13:11:20Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2210",
+            "timestamp": "2026-05-08T14:08:04Z"
         }
     },
     "LuisBarbosaGit": {
