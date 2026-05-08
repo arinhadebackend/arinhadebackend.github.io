@@ -2104,20 +2104,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.27ms",
+            "p99": "2.71ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 8839,
                     "true_positive_detections": 15198,
-                    "true_negative_detections": 30021,
+                    "true_negative_detections": 30020,
                     "http_errors": 0
                 },
                 "failure_rate": "16.35%",
                 "weighted_errors_E": 26518,
-                "error_rate_epsilon": 0.490538,
+                "error_rate_epsilon": 0.490547,
                 "p99_score": {
-                    "value": 2644.81,
+                    "value": 2567.67,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -2126,11 +2126,11 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -355.19
+                "final_score": -432.33
             },
             "repo_url": "https://github.com/sschonss/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2139",
-            "timestamp": "2026-05-08T07:39:00Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2218",
+            "timestamp": "2026-05-08T14:31:24Z"
         }
     },
     "IcaroWil": {
