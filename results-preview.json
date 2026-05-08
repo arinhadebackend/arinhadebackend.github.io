@@ -3498,33 +3498,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "356.76ms",
+            "p99": "2001.71ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 4,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 22911,
-                    "true_negative_detections": 28615,
-                    "http_errors": 427
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 17844,
+                    "true_negative_detections": 22218,
+                    "http_errors": 2750
                 },
-                "failure_rate": "0.84%",
-                "weighted_errors_E": 2151,
-                "error_rate_epsilon": 0.041396,
+                "failure_rate": "6.44%",
+                "weighted_errors_E": 13763,
+                "error_rate_epsilon": 0.321423,
                 "p99_score": {
-                    "value": 447.62,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 383.18,
-                    "rate_component": 1383.04,
-                    "absolute_penalty": -999.85,
+                    "value": -748.7,
+                    "rate_component": 492.92,
+                    "absolute_penalty": -1241.62,
                     "cut_triggered": false
                 },
-                "final_score": 830.8
+                "final_score": -3748.7
             },
             "repo_url": "https://github.com/micheloliveira-com/rinha-de-backend-2026-dotnet-csharp-with-python-faiss",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2363",
-            "timestamp": "2026-05-08T22:43:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2369",
+            "timestamp": "2026-05-08T23:06:43Z"
         }
     },
     "steixeira93": {
