@@ -3816,33 +3816,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2003.60ms",
+            "p99": "499.99ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 0,
-                    "true_negative_detections": 0,
-                    "http_errors": 13831
+                    "false_positive_detections": 503,
+                    "false_negative_detections": 526,
+                    "true_positive_detections": 22246,
+                    "true_negative_detections": 27903,
+                    "http_errors": 30
                 },
-                "failure_rate": "100%",
-                "weighted_errors_E": 69155,
-                "error_rate_epsilon": 5,
+                "failure_rate": "2.07%",
+                "weighted_errors_E": 2231,
+                "error_rate_epsilon": 0.043567,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 301.04,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 356.23,
+                    "rate_component": 1360.84,
+                    "absolute_penalty": -1004.61,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 657.27
             },
             "repo_url": "https://github.com/BoscoBecker/Rinha.Net",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2300",
-            "timestamp": "2026-05-08T18:38:48Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2309",
+            "timestamp": "2026-05-08T19:10:50Z"
         }
     },
     "marcelodelfiore": {
