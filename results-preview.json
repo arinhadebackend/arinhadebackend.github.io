@@ -1828,33 +1828,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.07ms",
+            "p99": "18.58ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 310,
-                    "false_negative_detections": 9,
-                    "true_positive_detections": 6183,
-                    "true_negative_detections": 7561,
-                    "http_errors": 6818
+                    "false_positive_detections": 1198,
+                    "false_negative_detections": 27,
+                    "true_positive_detections": 24010,
+                    "true_negative_detections": 28824,
+                    "http_errors": 0
                 },
-                "failure_rate": "34.18%",
-                "weighted_errors_E": 34427,
-                "error_rate_epsilon": 1.648724,
+                "failure_rate": "2.27%",
+                "weighted_errors_E": 1279,
+                "error_rate_epsilon": 0.023659,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 1731.01,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 693.83,
+                    "rate_component": 1626,
+                    "absolute_penalty": -932.16,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 2424.84
             },
             "repo_url": "https://github.com/Marcoant007/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1467",
-            "timestamp": "2026-05-05T14:39:54Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2187",
+            "timestamp": "2026-05-08T13:08:01Z"
         }
     },
     "LuisBarbosaGit": {
