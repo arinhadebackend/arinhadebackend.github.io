@@ -3856,33 +3856,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "8.91ms",
+            "p99": "2.29ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 626,
-                    "false_negative_detections": 583,
-                    "true_positive_detections": 23454,
-                    "true_negative_detections": 29396,
+                    "false_positive_detections": 630,
+                    "false_negative_detections": 595,
+                    "true_positive_detections": 23442,
+                    "true_negative_detections": 29392,
                     "http_errors": 0
                 },
-                "failure_rate": "2.24%",
-                "weighted_errors_E": 2375,
-                "error_rate_epsilon": 0.043933,
+                "failure_rate": "2.27%",
+                "weighted_errors_E": 2415,
+                "error_rate_epsilon": 0.044673,
                 "p99_score": {
-                    "value": 2050.24,
+                    "value": 2640.28,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 344.45,
-                    "rate_component": 1357.2,
-                    "absolute_penalty": -1012.75,
+                    "value": 335.02,
+                    "rate_component": 1349.95,
+                    "absolute_penalty": -1014.93,
                     "cut_triggered": false
                 },
-                "final_score": 2394.69
+                "final_score": 2975.31
             },
             "repo_url": "https://github.com/marcelodelfiore/rinha-2026-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2236",
-            "timestamp": "2026-05-08T15:32:03Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2245",
+            "timestamp": "2026-05-08T16:03:11Z"
         }
     }
 }
