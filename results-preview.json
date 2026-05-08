@@ -1234,33 +1234,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "12.63ms",
+            "p99": "2002.24ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 24036,
-                    "true_negative_detections": 30022,
-                    "http_errors": 0
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 80,
+                    "true_negative_detections": 95,
+                    "http_errors": 13653
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 3,
-                "error_rate_epsilon": 0.000055,
+                "failure_rate": "98.73%",
+                "weighted_errors_E": 68265,
+                "error_rate_epsilon": 4.936723,
                 "p99_score": {
-                    "value": 1898.47,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2819.38,
-                    "rate_component": 3000,
-                    "absolute_penalty": -180.62,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 4717.85
+                "final_score": -6000
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1758",
-            "timestamp": "2026-05-06T08:23:47Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2147",
+            "timestamp": "2026-05-08T08:10:26Z"
         }
     },
     "klevercorrea": {
