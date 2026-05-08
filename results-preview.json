@@ -3738,33 +3738,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "23.00ms",
+            "p99": "18.52ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1,
+                    "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
+                    "true_negative_detections": 30022,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
-                "weighted_errors_E": 1,
-                "error_rate_epsilon": 0.000018,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1638.29,
+                    "value": 1732.27,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2909.69,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -90.31,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4547.98
+                "final_score": 4732.27
             },
             "repo_url": "https://github.com/lemesdaniel/floating-finch",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2325",
-            "timestamp": "2026-05-08T20:06:06Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2331",
+            "timestamp": "2026-05-08T20:22:24Z"
         },
         "lemesdaniel-zig": {
             "expected": {
