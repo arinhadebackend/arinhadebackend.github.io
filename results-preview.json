@@ -3498,20 +3498,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1075.58ms",
+            "p99": "118.54ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 2,
                     "false_negative_detections": 2,
-                    "true_positive_detections": 17494,
-                    "true_negative_detections": 21913,
+                    "true_positive_detections": 24026,
+                    "true_negative_detections": 30011,
                     "http_errors": 0
                 },
                 "failure_rate": "0.01%",
                 "weighted_errors_E": 8,
-                "error_rate_epsilon": 0.000203,
+                "error_rate_epsilon": 0.000148,
                 "p99_score": {
-                    "value": -31.64,
+                    "value": 926.12,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -3520,11 +3520,11 @@
                     "absolute_penalty": -286.27,
                     "cut_triggered": false
                 },
-                "final_score": 2682.09
+                "final_score": 3639.85
             },
             "repo_url": "https://github.com/micheloliveira-com/rinha-de-backend-2026-dotnet-csharp-with-python-faiss",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2289",
-            "timestamp": "2026-05-08T18:10:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2296",
+            "timestamp": "2026-05-08T18:30:21Z"
         }
     },
     "steixeira93": {
