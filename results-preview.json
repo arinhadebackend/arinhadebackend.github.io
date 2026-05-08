@@ -3058,33 +3058,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "60.16ms",
+            "p99": "2001.85ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 26,
-                    "false_negative_detections": 19,
-                    "true_positive_detections": 24018,
-                    "true_negative_detections": 29996,
-                    "http_errors": 0
+                    "false_positive_detections": 19,
+                    "false_negative_detections": 11,
+                    "true_positive_detections": 18453,
+                    "true_negative_detections": 23023,
+                    "http_errors": 5834
                 },
-                "failure_rate": "0.08%",
-                "weighted_errors_E": 83,
-                "error_rate_epsilon": 0.001535,
+                "failure_rate": "12.39%",
+                "weighted_errors_E": 29222,
+                "error_rate_epsilon": 0.617279,
                 "p99_score": {
-                    "value": 1220.67,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2236.51,
-                    "rate_component": 2813.79,
-                    "absolute_penalty": -577.28,
+                    "value": -1130.2,
+                    "rate_component": 209.52,
+                    "absolute_penalty": -1339.72,
                     "cut_triggered": false
                 },
-                "final_score": 3457.18
+                "final_score": -4130.2
             },
             "repo_url": "https://github.com/josehenrique-dev/rinha-de-backend-2026-henrique-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2244",
-            "timestamp": "2026-05-08T15:59:55Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2278",
+            "timestamp": "2026-05-08T17:35:20Z"
         }
     },
     "ogrodev": {
