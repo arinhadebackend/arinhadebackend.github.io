@@ -3378,33 +3378,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.43ms",
+            "p99": "38.59ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 125,
-                    "true_negative_detections": 162,
-                    "http_errors": 13541
+                    "false_negative_detections": 2,
+                    "true_positive_detections": 24035,
+                    "true_negative_detections": 30022,
+                    "http_errors": 0
                 },
-                "failure_rate": "97.92%",
-                "weighted_errors_E": 67705,
-                "error_rate_epsilon": 4.896225,
+                "failure_rate": "0%",
+                "weighted_errors_E": 6,
+                "error_rate_epsilon": 0.000111,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 1413.51,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 2746.47,
+                    "rate_component": 3000,
+                    "absolute_penalty": -253.53,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 4159.98
             },
             "repo_url": "https://github.com/pedrosakuma/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2155",
-            "timestamp": "2026-05-08T11:03:30Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2199",
+            "timestamp": "2026-05-08T13:40:12Z"
         }
     },
     "IanLemee": {
