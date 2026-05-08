@@ -3538,33 +3538,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "63.76ms",
+            "p99": "839.30ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 28,
-                    "false_negative_detections": 81,
-                    "true_positive_detections": 23955,
-                    "true_negative_detections": 29992,
-                    "http_errors": 2
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 18640,
+                    "true_negative_detections": 23293,
+                    "http_errors": 0
                 },
-                "failure_rate": "0.21%",
-                "weighted_errors_E": 281,
-                "error_rate_epsilon": 0.005198,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1195.47,
+                    "value": 76.08,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1549.08,
-                    "rate_component": 2284.15,
-                    "absolute_penalty": -735.07,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 2744.55
+                "final_score": 3076.08
             },
             "repo_url": "https://github.com/steixeira93/rinha-backend-26",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2086",
-            "timestamp": "2026-05-07T23:26:55Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2162",
+            "timestamp": "2026-05-08T11:43:34Z"
         }
     },
     "lhupalo": {
