@@ -4172,33 +4172,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "905.35ms",
+            "p99": "2001.94ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 21901,
-                    "true_negative_detections": 27362,
-                    "http_errors": 0
+                    "true_positive_detections": 6511,
+                    "true_negative_detections": 8200,
+                    "http_errors": 22727
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 4,
-                "error_rate_epsilon": 0.000081,
+                "failure_rate": "60.71%",
+                "weighted_errors_E": 113639,
+                "error_rate_epsilon": 3.03523,
                 "p99_score": {
-                    "value": 43.18,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2790.31,
-                    "rate_component": 3000,
-                    "absolute_penalty": -209.69,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 2833.49
+                "final_score": -6000
             },
             "repo_url": "https://github.com/mtbarr/vigilant",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2437",
-            "timestamp": "2026-05-09T02:27:54Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2510",
+            "timestamp": "2026-05-09T08:36:58Z"
         }
     },
     "edvanronchi": {
