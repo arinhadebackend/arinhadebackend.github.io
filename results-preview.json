@@ -4172,18 +4172,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.94ms",
+            "p99": "2002.05ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 6511,
-                    "true_negative_detections": 8200,
-                    "http_errors": 22727
+                    "true_positive_detections": 6273,
+                    "true_negative_detections": 7923,
+                    "http_errors": 14298
                 },
-                "failure_rate": "60.71%",
-                "weighted_errors_E": 113639,
-                "error_rate_epsilon": 3.03523,
+                "failure_rate": "50.18%",
+                "weighted_errors_E": 71494,
+                "error_rate_epsilon": 2.508914,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -4197,8 +4197,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/mtbarr/vigilant",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2510",
-            "timestamp": "2026-05-09T08:36:58Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2518",
+            "timestamp": "2026-05-09T09:07:34Z"
         }
     },
     "edvanronchi": {
