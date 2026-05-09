@@ -796,33 +796,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.04ms",
+            "p99": "2.54ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
+                    "false_negative_detections": 24037,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 30021,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "44.47%",
+                "weighted_errors_E": 72111,
+                "error_rate_epsilon": 1.333956,
                 "p99_score": {
-                    "value": 2690.95,
+                    "value": 2594.38,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 5690.95
+                "final_score": -405.62
             },
             "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2504",
-            "timestamp": "2026-05-09T07:46:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2505",
+            "timestamp": "2026-05-09T08:13:16Z"
         },
         "rust-xgboost-warmup": {
             "expected": {
