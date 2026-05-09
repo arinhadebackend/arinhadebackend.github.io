@@ -4410,33 +4410,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1121.63ms",
+            "p99": "1108.30ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 158,
-                    "false_negative_detections": 1033,
-                    "true_positive_detections": 21945,
-                    "true_negative_detections": 28521,
-                    "http_errors": 19
+                    "false_positive_detections": 145,
+                    "false_negative_detections": 970,
+                    "true_positive_detections": 20342,
+                    "true_negative_detections": 26528,
+                    "http_errors": 26
                 },
-                "failure_rate": "2.34%",
-                "weighted_errors_E": 3352,
-                "error_rate_epsilon": 0.064866,
+                "failure_rate": "2.38%",
+                "weighted_errors_E": 3185,
+                "error_rate_epsilon": 0.066339,
                 "p99_score": {
-                    "value": -49.85,
+                    "value": -44.66,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 130.35,
-                    "rate_component": 1187.98,
-                    "absolute_penalty": -1057.63,
+                    "value": 127.26,
+                    "rate_component": 1178.23,
+                    "absolute_penalty": -1050.97,
                     "cut_triggered": false
                 },
-                "final_score": 80.5
+                "final_score": 82.6
             },
             "repo_url": "https://github.com/davivoltas/go-cocorico",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2551",
-            "timestamp": "2026-05-09T12:25:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2558",
+            "timestamp": "2026-05-09T12:54:24Z"
         }
     }
 }
