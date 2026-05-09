@@ -638,33 +638,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.39ms",
+            "p99": "836.86ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23403,
-                    "true_negative_detections": 29192,
-                    "http_errors": 1126
+                    "true_positive_detections": 23954,
+                    "true_negative_detections": 29913,
+                    "http_errors": 150
                 },
-                "failure_rate": "2.1%",
-                "weighted_errors_E": 5630,
-                "error_rate_epsilon": 0.104801,
+                "failure_rate": "0.28%",
+                "weighted_errors_E": 750,
+                "error_rate_epsilon": 0.013885,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -145.54,
-                    "rate_component": 979.64,
-                    "absolute_penalty": -1125.18,
+                    "value": 77.35,
                     "cut_triggered": false
                 },
-                "final_score": -3145.54
+                "detection_score": {
+                    "value": 994.78,
+                    "rate_component": 1857.47,
+                    "absolute_penalty": -862.69,
+                    "cut_triggered": false
+                },
+                "final_score": 1072.13
             },
             "repo_url": "https://github.com/jairoblatt/rinha-2026-node",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2734",
-            "timestamp": "2026-05-09T22:30:34Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2743",
+            "timestamp": "2026-05-09T22:58:36Z"
         }
     },
     "vitingr": {
