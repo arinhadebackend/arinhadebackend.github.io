@@ -4556,5 +4556,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2676",
             "timestamp": "2026-05-09T19:47:15Z"
         }
+    },
+    "greg0x46": {
+        "greg0x46-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "184.48ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 2,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23998,
+                    "true_negative_detections": 29972,
+                    "http_errors": 0
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 2,
+                "error_rate_epsilon": 0.000037,
+                "p99_score": {
+                    "value": 734.06,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2856.86,
+                    "rate_component": 3000,
+                    "absolute_penalty": -143.14,
+                    "cut_triggered": false
+                },
+                "final_score": 3590.92
+            },
+            "repo_url": "https://github.com/greg0x46/rinha-backend-2026-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2688",
+            "timestamp": "2026-05-09T20:13:59Z"
+        }
     }
 }
