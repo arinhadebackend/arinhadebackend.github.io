@@ -4010,33 +4010,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "4.13ms",
+            "p99": "26.49ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 513,
-                    "false_negative_detections": 552,
-                    "true_positive_detections": 23485,
-                    "true_negative_detections": 29509,
+                    "false_positive_detections": 271,
+                    "false_negative_detections": 314,
+                    "true_positive_detections": 23723,
+                    "true_negative_detections": 29751,
                     "http_errors": 0
                 },
-                "failure_rate": "1.97%",
-                "weighted_errors_E": 2169,
-                "error_rate_epsilon": 0.040123,
+                "failure_rate": "1.08%",
+                "weighted_errors_E": 1213,
+                "error_rate_epsilon": 0.022438,
                 "p99_score": {
-                    "value": 2384.41,
+                    "value": 1576.92,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 395.67,
-                    "rate_component": 1396.61,
-                    "absolute_penalty": -1000.94,
+                    "value": 723.74,
+                    "rate_component": 1649.01,
+                    "absolute_penalty": -925.27,
                     "cut_triggered": false
                 },
-                "final_score": 2780.08
+                "final_score": 2300.66
             },
             "repo_url": "https://github.com/ChristopheNonato/rinha_fraud_api_ex",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2716",
-            "timestamp": "2026-05-09T21:33:59Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2742",
+            "timestamp": "2026-05-09T22:55:27Z"
         }
     },
     "fagnerm": {
