@@ -4214,20 +4214,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "93.18ms",
+            "p99": "85.91ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 4,
                     "false_negative_detections": 2,
                     "true_positive_detections": 24035,
-                    "true_negative_detections": 30017,
+                    "true_negative_detections": 30018,
                     "http_errors": 0
                 },
                 "failure_rate": "0.01%",
                 "weighted_errors_E": 10,
                 "error_rate_epsilon": 0.000185,
                 "p99_score": {
-                    "value": 1030.66,
+                    "value": 1065.96,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -4236,11 +4236,11 @@
                     "absolute_penalty": -312.42,
                     "cut_triggered": false
                 },
-                "final_score": 3718.24
+                "final_score": 3753.54
             },
             "repo_url": "https://github.com/lucasraziel/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2474",
-            "timestamp": "2026-05-09T04:33:23Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2479",
+            "timestamp": "2026-05-09T05:15:28Z"
         }
     },
     "joseiedo": {
