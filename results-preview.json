@@ -1430,33 +1430,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1983.35ms",
+            "p99": "90.31ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 421,
-                    "false_negative_detections": 392,
-                    "true_positive_detections": 15825,
-                    "true_negative_detections": 19893,
-                    "http_errors": 327
+                    "false_positive_detections": 1092,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 28930,
+                    "http_errors": 0
                 },
-                "failure_rate": "3.09%",
-                "weighted_errors_E": 3232,
-                "error_rate_epsilon": 0.087688,
+                "failure_rate": "2.02%",
+                "weighted_errors_E": 1092,
+                "error_rate_epsilon": 0.0202,
                 "p99_score": {
-                    "value": -297.4,
+                    "value": 1044.28,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 4.18,
-                    "rate_component": 1057.06,
-                    "absolute_penalty": -1052.88,
+                    "value": 783.06,
+                    "rate_component": 1694.65,
+                    "absolute_penalty": -911.59,
                     "cut_triggered": false
                 },
-                "final_score": -293.22
+                "final_score": 1827.34
             },
             "repo_url": "https://github.com/willy-r/aGOrinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2584",
-            "timestamp": "2026-05-09T14:51:32Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2589",
+            "timestamp": "2026-05-09T15:17:07Z"
         }
     },
     "Hanake0": {
