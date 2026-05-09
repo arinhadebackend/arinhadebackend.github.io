@@ -4488,20 +4488,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "239.17ms",
+            "p99": "196.18ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23978,
-                    "true_negative_detections": 29959,
+                    "true_positive_detections": 24004,
+                    "true_negative_detections": 29977,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 621.29,
+                    "value": 707.34,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -4510,11 +4510,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3621.29
+                "final_score": 3707.34
             },
             "repo_url": "https://github.com/leoralph/rinha-2026-php",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2673",
-            "timestamp": "2026-05-09T19:39:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2682",
+            "timestamp": "2026-05-09T20:02:17Z"
         }
     },
     "marvin-env": {
