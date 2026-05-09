@@ -4010,33 +4010,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "31.68ms",
+            "p99": "32.14ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 213,
                     "false_negative_detections": 255,
                     "true_positive_detections": 23782,
-                    "true_negative_detections": 29808,
+                    "true_negative_detections": 29809,
                     "http_errors": 0
                 },
                 "failure_rate": "0.87%",
                 "weighted_errors_E": 978,
-                "error_rate_epsilon": 0.018092,
+                "error_rate_epsilon": 0.018091,
                 "p99_score": {
-                    "value": 1499.21,
+                    "value": 1492.94,
                     "cut_triggered": false
                 },
                 "detection_score": {
                     "value": 845.29,
-                    "rate_component": 1742.52,
+                    "rate_component": 1742.53,
                     "absolute_penalty": -897.23,
                     "cut_triggered": false
                 },
-                "final_score": 2344.49
+                "final_score": 2338.23
             },
             "repo_url": "https://github.com/ChristopheNonato/rinha_fraud_api_ex",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2754",
-            "timestamp": "2026-05-09T23:38:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2755",
+            "timestamp": "2026-05-09T23:43:11Z"
         }
     },
     "fagnerm": {
