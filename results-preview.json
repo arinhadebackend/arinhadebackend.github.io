@@ -4174,33 +4174,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.94ms",
+            "p99": "370.97ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
+                    "false_positive_detections": 1,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 14728,
-                    "true_negative_detections": 18562,
-                    "http_errors": 5948
+                    "true_positive_detections": 23698,
+                    "true_negative_detections": 29645,
+                    "http_errors": 242
                 },
-                "failure_rate": "15.16%",
-                "weighted_errors_E": 29743,
-                "error_rate_epsilon": 0.757996,
+                "failure_rate": "0.46%",
+                "weighted_errors_E": 1214,
+                "error_rate_epsilon": 0.022655,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 430.66,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 719.47,
+                    "rate_component": 1644.84,
+                    "absolute_penalty": -925.37,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 1150.13
             },
             "repo_url": "https://github.com/edvanronchi/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2441",
-            "timestamp": "2026-05-09T02:38:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2445",
+            "timestamp": "2026-05-09T02:55:30Z"
         }
     }
 }
