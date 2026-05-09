@@ -758,33 +758,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "153.32ms",
+            "p99": "1336.01ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 37,
-                    "true_positive_detections": 23961,
-                    "true_negative_detections": 29974,
-                    "http_errors": 0
+                    "false_negative_detections": 2034,
+                    "true_positive_detections": 20022,
+                    "true_negative_detections": 27589,
+                    "http_errors": 167
                 },
-                "failure_rate": "0.07%",
-                "weighted_errors_E": 111,
-                "error_rate_epsilon": 0.002057,
+                "failure_rate": "4.42%",
+                "weighted_errors_E": 6937,
+                "error_rate_epsilon": 0.139264,
                 "p99_score": {
-                    "value": 814.39,
+                    "value": -125.81,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2072.08,
-                    "rate_component": 2686.85,
-                    "absolute_penalty": -614.77,
+                    "value": -296.21,
+                    "rate_component": 856.16,
+                    "absolute_penalty": -1152.37,
                     "cut_triggered": false
                 },
-                "final_score": 2886.47
+                "final_score": -422.02
             },
             "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2669",
-            "timestamp": "2026-05-09T19:29:07Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2670",
+            "timestamp": "2026-05-09T19:33:04Z"
         },
         "hisrael-xgboost-rust": {
             "expected": {
