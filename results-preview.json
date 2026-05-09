@@ -4398,5 +4398,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2463",
             "timestamp": "2026-05-09T03:48:46Z"
         }
+    },
+    "davivoltas": {
+        "davivoltas": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "1121.63ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 158,
+                    "false_negative_detections": 1033,
+                    "true_positive_detections": 21945,
+                    "true_negative_detections": 28521,
+                    "http_errors": 19
+                },
+                "failure_rate": "2.34%",
+                "weighted_errors_E": 3352,
+                "error_rate_epsilon": 0.064866,
+                "p99_score": {
+                    "value": -49.85,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 130.35,
+                    "rate_component": 1187.98,
+                    "absolute_penalty": -1057.63,
+                    "cut_triggered": false
+                },
+                "final_score": 80.5
+            },
+            "repo_url": "https://github.com/davivoltas/go-cocorico",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2551",
+            "timestamp": "2026-05-09T12:25:01Z"
+        }
     }
 }
