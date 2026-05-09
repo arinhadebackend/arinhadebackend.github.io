@@ -4082,5 +4082,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2365",
             "timestamp": "2026-05-08T22:53:15Z"
         }
+    },
+    "JoaoVitorGirardii": {
+        "joao-girardi-js": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "675.27ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 1169,
+                    "false_negative_detections": 42,
+                    "true_positive_detections": 23571,
+                    "true_negative_detections": 28351,
+                    "http_errors": 0
+                },
+                "failure_rate": "2.28%",
+                "weighted_errors_E": 1295,
+                "error_rate_epsilon": 0.024373,
+                "p99_score": {
+                    "value": 170.52,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 679.31,
+                    "rate_component": 1613.09,
+                    "absolute_penalty": -933.78,
+                    "cut_triggered": false
+                },
+                "final_score": 849.84
+            },
+            "repo_url": "https://github.com/JoaoVitorGirardii/rinha-2026-js",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2415",
+            "timestamp": "2026-05-09T01:21:31Z"
+        }
     }
 }
