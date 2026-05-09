@@ -4174,33 +4174,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.44ms",
+            "p99": "643.23ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 22415,
-                    "true_negative_detections": 27967,
-                    "http_errors": 1361
+                    "true_positive_detections": 23832,
+                    "true_negative_detections": 29797,
+                    "http_errors": 131
                 },
-                "failure_rate": "2.63%",
-                "weighted_errors_E": 6809,
-                "error_rate_epsilon": 0.131588,
+                "failure_rate": "0.25%",
+                "weighted_errors_E": 659,
+                "error_rate_epsilon": 0.012258,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -269.16,
-                    "rate_component": 880.79,
-                    "absolute_penalty": -1149.94,
+                    "value": 191.63,
                     "cut_triggered": false
                 },
-                "final_score": -3269.16
+                "detection_score": {
+                    "value": 1065.73,
+                    "rate_component": 1911.59,
+                    "absolute_penalty": -845.86,
+                    "cut_triggered": false
+                },
+                "final_score": 1257.36
             },
             "repo_url": "https://github.com/edvanronchi/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2477",
-            "timestamp": "2026-05-09T05:06:59Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2488",
+            "timestamp": "2026-05-09T06:44:32Z"
         }
     },
     "lucasraziel": {
