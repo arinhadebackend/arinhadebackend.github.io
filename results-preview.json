@@ -4094,33 +4094,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "675.27ms",
+            "p99": "1261.10ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1169,
-                    "false_negative_detections": 42,
-                    "true_positive_detections": 23571,
-                    "true_negative_detections": 28351,
-                    "http_errors": 0
+                    "false_positive_detections": 1097,
+                    "false_negative_detections": 41,
+                    "true_positive_detections": 22216,
+                    "true_negative_detections": 26701,
+                    "http_errors": 10
                 },
-                "failure_rate": "2.28%",
-                "weighted_errors_E": 1295,
-                "error_rate_epsilon": 0.024373,
+                "failure_rate": "2.29%",
+                "weighted_errors_E": 1270,
+                "error_rate_epsilon": 0.025367,
                 "p99_score": {
-                    "value": 170.52,
+                    "value": -100.75,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 679.31,
-                    "rate_component": 1613.09,
-                    "absolute_penalty": -933.78,
+                    "value": 664.49,
+                    "rate_component": 1595.73,
+                    "absolute_penalty": -931.24,
                     "cut_triggered": false
                 },
-                "final_score": 849.84
+                "final_score": 563.74
             },
             "repo_url": "https://github.com/JoaoVitorGirardii/rinha-2026-js",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2415",
-            "timestamp": "2026-05-09T01:21:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2471",
+            "timestamp": "2026-05-09T04:23:00Z"
         }
     },
     "mtbarr": {
