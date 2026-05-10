@@ -4048,33 +4048,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "39.24ms",
+            "p99": "599.56ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 278,
-                    "false_negative_detections": 283,
-                    "true_positive_detections": 23754,
-                    "true_negative_detections": 29744,
-                    "http_errors": 0
+                    "false_positive_detections": 236,
+                    "false_negative_detections": 228,
+                    "true_positive_detections": 19477,
+                    "true_negative_detections": 24429,
+                    "http_errors": 30
                 },
-                "failure_rate": "1.04%",
-                "weighted_errors_E": 1127,
-                "error_rate_epsilon": 0.020848,
+                "failure_rate": "1.11%",
+                "weighted_errors_E": 1070,
+                "error_rate_epsilon": 0.024099,
                 "p99_score": {
-                    "value": 1406.24,
+                    "value": 222.17,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 765.25,
-                    "rate_component": 1680.94,
-                    "absolute_penalty": -915.69,
+                    "value": 709.06,
+                    "rate_component": 1618,
+                    "absolute_penalty": -908.94,
                     "cut_triggered": false
                 },
-                "final_score": 2171.49
+                "final_score": 931.23
             },
             "repo_url": "https://github.com/ChristopheNonato/rinha_fraud_api_ex",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2878",
-            "timestamp": "2026-05-10T12:22:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2885",
+            "timestamp": "2026-05-10T12:48:06Z"
         }
     },
     "fagnerm": {
