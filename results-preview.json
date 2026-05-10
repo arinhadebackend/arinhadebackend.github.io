@@ -4806,33 +4806,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.16ms",
+            "p99": "122.72ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 34,
-                    "false_negative_detections": 10,
-                    "true_positive_detections": 1576,
-                    "true_negative_detections": 1985,
-                    "http_errors": 13622
+                    "false_positive_detections": 589,
+                    "false_negative_detections": 619,
+                    "true_positive_detections": 23403,
+                    "true_negative_detections": 29417,
+                    "http_errors": 0
                 },
-                "failure_rate": "79.33%",
-                "weighted_errors_E": 68174,
-                "error_rate_epsilon": 3.957392,
+                "failure_rate": "2.24%",
+                "weighted_errors_E": 2446,
+                "error_rate_epsilon": 0.045273,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 911.1,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 327.57,
+                    "rate_component": 1344.16,
+                    "absolute_penalty": -1016.59,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 1238.67
             },
             "repo_url": "https://github.com/gcavalcante/rinha-2026-c",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2877",
-            "timestamp": "2026-05-10T12:19:41Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2896",
+            "timestamp": "2026-05-10T13:17:53Z"
         },
         "gcavalcante-c-i16-500k-bucket-neighbors-th2": {
             "expected": {
