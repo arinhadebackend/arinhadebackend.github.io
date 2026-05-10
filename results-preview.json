@@ -4282,33 +4282,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "68.75ms",
+            "p99": "2001.71ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 279,
-                    "false_negative_detections": 1204,
-                    "true_positive_detections": 22833,
-                    "true_negative_detections": 29743,
-                    "http_errors": 0
+                    "false_positive_detections": 270,
+                    "false_negative_detections": 1175,
+                    "true_positive_detections": 22186,
+                    "true_negative_detections": 28889,
+                    "http_errors": 1465
                 },
-                "failure_rate": "2.74%",
-                "weighted_errors_E": 3891,
-                "error_rate_epsilon": 0.071977,
+                "failure_rate": "5.39%",
+                "weighted_errors_E": 11120,
+                "error_rate_epsilon": 0.205983,
                 "p99_score": {
-                    "value": 1162.71,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 65.75,
-                    "rate_component": 1142.81,
-                    "absolute_penalty": -1077.05,
+                    "value": -527.67,
+                    "rate_component": 686.17,
+                    "absolute_penalty": -1213.84,
                     "cut_triggered": false
                 },
-                "final_score": 1228.46
+                "final_score": -3527.67
             },
             "repo_url": "https://github.com/bertoni/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3030",
-            "timestamp": "2026-05-10T19:59:22Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3070",
+            "timestamp": "2026-05-10T22:02:20Z"
         }
     },
     "JoaoVitorGirardii": {
