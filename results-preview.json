@@ -4794,5 +4794,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2782",
             "timestamp": "2026-05-10T01:07:48Z"
         }
+    },
+    "gcavalcante": {
+        "gcavalcante-c-i16-35k": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "123.12ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 589,
+                    "false_negative_detections": 619,
+                    "true_positive_detections": 23402,
+                    "true_negative_detections": 29413,
+                    "http_errors": 0
+                },
+                "failure_rate": "2.24%",
+                "weighted_errors_E": 2446,
+                "error_rate_epsilon": 0.045277,
+                "p99_score": {
+                    "value": 909.69,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 327.53,
+                    "rate_component": 1344.12,
+                    "absolute_penalty": -1016.59,
+                    "cut_triggered": false
+                },
+                "final_score": 1237.22
+            },
+            "repo_url": "https://github.com/gcavalcante/rinha-2026-c",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2820",
+            "timestamp": "2026-05-10T03:22:01Z"
+        }
     }
 }
