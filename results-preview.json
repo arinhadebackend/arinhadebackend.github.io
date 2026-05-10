@@ -4834,5 +4834,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2820",
             "timestamp": "2026-05-10T03:22:01Z"
         }
+    },
+    "krymancer": {
+        "krymancer-ocaml": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "84.21ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 4,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 24032,
+                    "true_negative_detections": 30018,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 19,
+                "error_rate_epsilon": 0.000351,
+                "p99_score": {
+                    "value": 1074.63,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2609.69,
+                    "rate_component": 3000,
+                    "absolute_penalty": -390.31,
+                    "cut_triggered": false
+                },
+                "final_score": 3684.33
+            },
+            "repo_url": "https://github.com/krymancer/rinha-de-backend-2026-ocaml",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2832",
+            "timestamp": "2026-05-10T03:51:07Z"
+        }
     }
 }
