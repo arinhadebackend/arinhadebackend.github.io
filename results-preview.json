@@ -4048,33 +4048,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.94ms",
+            "p99": "4.03ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 9,
-                    "false_negative_detections": 13,
-                    "true_positive_detections": 379,
-                    "true_negative_detections": 523,
-                    "http_errors": 46559
+                    "false_positive_detections": 1199,
+                    "false_negative_detections": 1182,
+                    "true_positive_detections": 22855,
+                    "true_negative_detections": 28823,
+                    "http_errors": 0
                 },
-                "failure_rate": "98.1%",
-                "weighted_errors_E": 232843,
-                "error_rate_epsilon": 4.903713,
+                "failure_rate": "4.4%",
+                "weighted_errors_E": 4745,
+                "error_rate_epsilon": 0.087774,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 2394.73,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -46.27,
+                    "rate_component": 1056.63,
+                    "absolute_penalty": -1102.9,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 2348.46
             },
             "repo_url": "https://github.com/ChristopheNonato/rinha_fraud_api_ex",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2965",
-            "timestamp": "2026-05-10T16:29:57Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2973",
+            "timestamp": "2026-05-10T16:56:18Z"
         }
     },
     "fagnerm": {
