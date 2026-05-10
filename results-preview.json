@@ -5072,5 +5072,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2971",
             "timestamp": "2026-05-10T16:50:06Z"
         }
+    },
+    "Manfrin92": {
+        "manfrin-rinha2026-dotnet": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2001.82ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 742,
+                    "false_negative_detections": 385,
+                    "true_positive_detections": 13917,
+                    "true_negative_detections": 16708,
+                    "http_errors": 15008
+                },
+                "failure_rate": "34.51%",
+                "weighted_errors_E": 76937,
+                "error_rate_epsilon": 1.645359,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000
+            },
+            "repo_url": "https://github.com/Manfrin92/rinha2026-dotnet",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2998",
+            "timestamp": "2026-05-10T18:20:09Z"
+        }
     }
 }
