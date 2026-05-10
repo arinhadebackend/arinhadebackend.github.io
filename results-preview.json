@@ -4446,33 +4446,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.04ms",
+            "p99": "2001.69ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1796,
-                    "true_positive_detections": 0,
-                    "true_negative_detections": 2318,
-                    "http_errors": 10906
+                    "false_positive_detections": 92,
+                    "false_negative_detections": 122,
+                    "true_positive_detections": 17280,
+                    "true_negative_detections": 21687,
+                    "http_errors": 2025
                 },
-                "failure_rate": "84.57%",
-                "weighted_errors_E": 59918,
-                "error_rate_epsilon": 3.989214,
+                "failure_rate": "5.43%",
+                "weighted_errors_E": 10583,
+                "error_rate_epsilon": 0.256832,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -617.04,
+                    "rate_component": 590.35,
+                    "absolute_penalty": -1207.39,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -3617.04
             },
             "repo_url": "https://github.com/igorcalbuquerque/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2463",
-            "timestamp": "2026-05-09T03:48:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2884",
+            "timestamp": "2026-05-10T12:44:55Z"
         }
     },
     "davivoltas": {
