@@ -3410,33 +3410,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.41ms",
+            "p99": "1.57ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 72,
-                    "false_negative_detections": 110,
-                    "true_positive_detections": 23927,
-                    "true_negative_detections": 29950,
+                    "false_positive_detections": 71,
+                    "false_negative_detections": 88,
+                    "true_positive_detections": 23949,
+                    "true_negative_detections": 29951,
                     "http_errors": 0
                 },
-                "failure_rate": "0.34%",
-                "weighted_errors_E": 402,
-                "error_rate_epsilon": 0.007436,
+                "failure_rate": "0.29%",
+                "weighted_errors_E": 335,
+                "error_rate_epsilon": 0.006197,
                 "p99_score": {
-                    "value": 2850.35,
+                    "value": 2803.89,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1347.05,
-                    "rate_component": 2128.64,
-                    "absolute_penalty": -781.59,
+                    "value": 1449.92,
+                    "rate_component": 2207.82,
+                    "absolute_penalty": -757.9,
                     "cut_triggered": false
                 },
-                "final_score": 4197.4
+                "final_score": 4253.81
             },
             "repo_url": "https://github.com/gabrielrauch/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2932",
-            "timestamp": "2026-05-10T14:56:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2944",
+            "timestamp": "2026-05-10T15:32:56Z"
         }
     },
     "JordaoGustavo": {
