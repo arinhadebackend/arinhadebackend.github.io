@@ -4286,33 +4286,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.14ms",
+            "p99": "2001.64ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 3880,
-                    "true_negative_detections": 4920,
-                    "http_errors": 9123
+                    "true_positive_detections": 17384,
+                    "true_negative_detections": 21704,
+                    "http_errors": 1373
                 },
-                "failure_rate": "50.91%",
-                "weighted_errors_E": 45619,
-                "error_rate_epsilon": 2.544993,
+                "failure_rate": "3.4%",
+                "weighted_errors_E": 6869,
+                "error_rate_epsilon": 0.16976,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -380.92,
+                    "rate_component": 770.16,
+                    "absolute_penalty": -1151.09,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -3380.92
             },
             "repo_url": "https://github.com/mtbarr/vigilant",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2853",
-            "timestamp": "2026-05-10T06:57:03Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2854",
+            "timestamp": "2026-05-10T07:42:42Z"
         }
     },
     "edvanronchi": {
