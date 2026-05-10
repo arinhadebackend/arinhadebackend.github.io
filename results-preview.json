@@ -3410,33 +3410,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "189.61ms",
+            "p99": "1.23ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 60,
-                    "false_negative_detections": 91,
-                    "true_positive_detections": 23901,
-                    "true_negative_detections": 29913,
+                    "false_positive_detections": 16,
+                    "false_negative_detections": 15,
+                    "true_positive_detections": 24022,
+                    "true_negative_detections": 30006,
                     "http_errors": 0
                 },
-                "failure_rate": "0.28%",
-                "weighted_errors_E": 333,
-                "error_rate_epsilon": 0.006171,
+                "failure_rate": "0.06%",
+                "weighted_errors_E": 61,
+                "error_rate_epsilon": 0.001128,
                 "p99_score": {
-                    "value": 722.14,
+                    "value": 2911.67,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1452.54,
-                    "rate_component": 2209.67,
-                    "absolute_penalty": -757.12,
+                    "value": 2409.82,
+                    "rate_component": 2947.54,
+                    "absolute_penalty": -537.72,
                     "cut_triggered": false
                 },
-                "final_score": 2174.68
+                "final_score": 5321.49
             },
             "repo_url": "https://github.com/gabrielrauch/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2982",
-            "timestamp": "2026-05-10T17:29:12Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3103",
+            "timestamp": "2026-05-10T23:46:35Z"
         }
     },
     "JordaoGustavo": {
