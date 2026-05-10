@@ -4646,33 +4646,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "285.71ms",
+            "p99": "111.85ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 23717,
-                    "true_negative_detections": 29680,
-                    "http_errors": 105
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 24028,
+                    "true_negative_detections": 30010,
+                    "http_errors": 0
                 },
-                "failure_rate": "0.2%",
-                "weighted_errors_E": 530,
-                "error_rate_epsilon": 0.009906,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 544.08,
+                    "value": 951.36,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1186.59,
-                    "rate_component": 2004.12,
-                    "absolute_penalty": -817.53,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 1730.67
+                "final_score": 3951.36
             },
             "repo_url": "https://github.com/sudanvannin/rinha-2026-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2816",
-            "timestamp": "2026-05-10T03:15:08Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2883",
+            "timestamp": "2026-05-10T12:39:59Z"
         }
     },
     "pmenta": {
