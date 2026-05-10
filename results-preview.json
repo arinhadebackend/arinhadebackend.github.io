@@ -5346,5 +5346,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3090",
             "timestamp": "2026-05-10T22:58:56Z"
         }
+    },
+    "gxolivei": {
+        "gxolivei-rails": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "665.64ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 223,
+                    "false_negative_detections": 181,
+                    "true_positive_detections": 18611,
+                    "true_negative_detections": 23279,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.96%",
+                "weighted_errors_E": 766,
+                "error_rate_epsilon": 0.018111,
+                "p99_score": {
+                    "value": 176.76,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 876.61,
+                    "rate_component": 1742.05,
+                    "absolute_penalty": -865.44,
+                    "cut_triggered": false
+                },
+                "final_score": 1053.37
+            },
+            "repo_url": "https://github.com/gxolivei/rinha-de-backend-2026-rails",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3091",
+            "timestamp": "2026-05-10T23:10:21Z"
+        }
     }
 }
