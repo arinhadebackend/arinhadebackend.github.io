@@ -1032,7 +1032,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.50ms",
+            "p99": "2.57ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -1045,7 +1045,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2602.18,
+                    "value": 2589.43,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1054,11 +1054,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5602.18
+                "final_score": 5589.43
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2953",
-            "timestamp": "2026-05-10T15:56:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2961",
+            "timestamp": "2026-05-10T16:18:02Z"
         }
     },
     "ronaldosilva95": {
