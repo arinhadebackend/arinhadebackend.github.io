@@ -4992,5 +4992,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2951",
             "timestamp": "2026-05-10T15:51:48Z"
         }
+    },
+    "reidn3r": {
+        "reidn3r-v1-cpp-decision-tree": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "13.07ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 83,
+                    "false_negative_detections": 1195,
+                    "true_positive_detections": 22839,
+                    "true_negative_detections": 29929,
+                    "http_errors": 13
+                },
+                "failure_rate": "2.39%",
+                "weighted_errors_E": 3733,
+                "error_rate_epsilon": 0.069054,
+                "p99_score": {
+                    "value": 1883.83,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 89.16,
+                    "rate_component": 1160.81,
+                    "absolute_penalty": -1071.65,
+                    "cut_triggered": false
+                },
+                "final_score": 1972.99
+            },
+            "repo_url": "https://github.com/reidn3r/rinha-backend-decision-tree-clf",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2962",
+            "timestamp": "2026-05-10T16:20:46Z"
+        }
     }
 }
