@@ -5856,5 +5856,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3289",
             "timestamp": "2026-05-11T13:29:11Z"
         }
+    },
+    "henrich-m": {
+        "henrich-m-ruby": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "3.62ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 22,
+                    "false_negative_detections": 26,
+                    "true_positive_detections": 24011,
+                    "true_negative_detections": 29999,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.09%",
+                "weighted_errors_E": 100,
+                "error_rate_epsilon": 0.00185,
+                "p99_score": {
+                    "value": 2440.95,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2131.56,
+                    "rate_component": 2732.86,
+                    "absolute_penalty": -601.3,
+                    "cut_triggered": false
+                },
+                "final_score": 4572.51
+            },
+            "repo_url": "https://github.com/henrich-m/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3320",
+            "timestamp": "2026-05-11T16:06:22Z"
+        }
     }
 }
