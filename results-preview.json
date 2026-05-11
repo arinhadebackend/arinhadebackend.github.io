@@ -3918,33 +3918,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.82ms",
+            "p99": "1.19ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 65,
-                    "false_negative_detections": 55,
-                    "true_positive_detections": 2465,
-                    "true_negative_detections": 3070,
-                    "http_errors": 48300
+                    "false_positive_detections": 554,
+                    "false_negative_detections": 592,
+                    "true_positive_detections": 23445,
+                    "true_negative_detections": 29468,
+                    "http_errors": 0
                 },
-                "failure_rate": "89.74%",
-                "weighted_errors_E": 241730,
-                "error_rate_epsilon": 4.480215,
+                "failure_rate": "2.12%",
+                "weighted_errors_E": 2330,
+                "error_rate_epsilon": 0.043101,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 2924.95,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 355.25,
+                    "rate_component": 1365.51,
+                    "absolute_penalty": -1010.26,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 3280.2
             },
             "repo_url": "https://github.com/steixeira93/rinha-backend-26-v2",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3318",
-            "timestamp": "2026-05-11T15:49:30Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3340",
+            "timestamp": "2026-05-11T17:04:48Z"
         },
         "steixeira93-bun-rust": {
             "expected": {
