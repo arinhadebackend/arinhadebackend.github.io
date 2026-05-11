@@ -5070,33 +5070,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.18ms",
+            "p99": "1586.36ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 0,
-                    "true_negative_detections": 0,
-                    "http_errors": 13825
+                    "false_positive_detections": 496,
+                    "false_negative_detections": 571,
+                    "true_positive_detections": 20297,
+                    "true_negative_detections": 25599,
+                    "http_errors": 315
                 },
-                "failure_rate": "100%",
-                "weighted_errors_E": 69125,
-                "error_rate_epsilon": 5,
+                "failure_rate": "2.92%",
+                "weighted_errors_E": 3784,
+                "error_rate_epsilon": 0.080037,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": -200.4,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 23.29,
+                    "rate_component": 1096.71,
+                    "absolute_penalty": -1073.42,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -177.11
             },
             "repo_url": "https://github.com/mpraes/rinha-2026-python2",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3305",
-            "timestamp": "2026-05-11T14:43:35Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3325",
+            "timestamp": "2026-05-11T16:22:02Z"
         }
     },
     "gcavalcante": {
