@@ -5114,33 +5114,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "52.00ms",
+            "p99": "75.54ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 5,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 24032,
-                    "true_negative_detections": 30017,
+                    "false_positive_detections": 295,
+                    "false_negative_detections": 4376,
+                    "true_positive_detections": 19661,
+                    "true_negative_detections": 29727,
                     "http_errors": 0
                 },
-                "failure_rate": "0.02%",
-                "weighted_errors_E": 20,
-                "error_rate_epsilon": 0.00037,
+                "failure_rate": "8.64%",
+                "weighted_errors_E": 13423,
+                "error_rate_epsilon": 0.248303,
                 "p99_score": {
-                    "value": 1283.99,
+                    "value": 1121.84,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2603.33,
-                    "rate_component": 3000,
-                    "absolute_penalty": -396.67,
+                    "value": -633.35,
+                    "rate_component": 605.02,
+                    "absolute_penalty": -1238.36,
                     "cut_triggered": false
                 },
-                "final_score": 3887.32
+                "final_score": 488.49
             },
             "repo_url": "https://github.com/BGLuis/rinha-backend-2026-go-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3145",
-            "timestamp": "2026-05-11T02:01:28Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3210",
+            "timestamp": "2026-05-11T06:39:29Z"
         }
     },
     "joaoMiraya": {
