@@ -4794,33 +4794,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1944.54ms",
+            "p99": "2001.17ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 22,
-                    "false_negative_detections": 22,
-                    "true_positive_detections": 17380,
-                    "true_negative_detections": 21785,
-                    "http_errors": 311
+                    "false_negative_detections": 21,
+                    "true_positive_detections": 17155,
+                    "true_negative_detections": 21576,
+                    "http_errors": 511
                 },
-                "failure_rate": "0.9%",
-                "weighted_errors_E": 1643,
-                "error_rate_epsilon": 0.041574,
+                "failure_rate": "1.41%",
+                "weighted_errors_E": 2640,
+                "error_rate_epsilon": 0.067201,
                 "p99_score": {
-                    "value": -288.82,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 416.41,
-                    "rate_component": 1381.18,
-                    "absolute_penalty": -964.77,
+                    "value": 146.09,
+                    "rate_component": 1172.62,
+                    "absolute_penalty": -1026.53,
                     "cut_triggered": false
                 },
-                "final_score": 127.59
+                "final_score": -2853.91
             },
             "repo_url": "https://github.com/marvin-env/rinha-2026-py",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3096",
-            "timestamp": "2026-05-10T23:25:10Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3272",
+            "timestamp": "2026-05-11T12:29:10Z"
         }
     },
     "greg0x46": {
