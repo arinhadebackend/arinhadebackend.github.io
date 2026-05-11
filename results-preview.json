@@ -5070,33 +5070,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1586.36ms",
+            "p99": "133.89ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 496,
-                    "false_negative_detections": 571,
-                    "true_positive_detections": 20297,
-                    "true_negative_detections": 25599,
-                    "http_errors": 315
+                    "false_positive_detections": 364,
+                    "false_negative_detections": 861,
+                    "true_positive_detections": 23167,
+                    "true_negative_detections": 29647,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.92%",
-                "weighted_errors_E": 3784,
-                "error_rate_epsilon": 0.080037,
+                "failure_rate": "2.27%",
+                "weighted_errors_E": 2947,
+                "error_rate_epsilon": 0.054535,
                 "p99_score": {
-                    "value": -200.4,
+                    "value": 873.27,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 23.29,
-                    "rate_component": 1096.71,
-                    "absolute_penalty": -1073.42,
+                    "value": 222.47,
+                    "rate_component": 1263.33,
+                    "absolute_penalty": -1040.86,
                     "cut_triggered": false
                 },
-                "final_score": -177.11
+                "final_score": 1095.74
             },
             "repo_url": "https://github.com/mpraes/rinha-2026-python2",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3325",
-            "timestamp": "2026-05-11T16:22:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3405",
+            "timestamp": "2026-05-11T20:37:01Z"
         }
     },
     "gcavalcante": {
