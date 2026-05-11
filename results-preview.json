@@ -3880,7 +3880,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.46ms",
+            "p99": "1.47ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -3893,7 +3893,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2834.89,
+                    "value": 2833.87,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -3902,11 +3902,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5834.89
+                "final_score": 5833.87
             },
             "repo_url": "https://github.com/steixeira93/rinha-backend-26",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3358",
-            "timestamp": "2026-05-11T18:05:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3366",
+            "timestamp": "2026-05-11T18:31:02Z"
         },
         "steixeira93-zig-v2": {
             "expected": {
