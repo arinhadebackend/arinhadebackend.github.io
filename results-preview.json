@@ -3918,7 +3918,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.63ms",
+            "p99": "1.66ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 54,
@@ -3931,7 +3931,7 @@
                 "weighted_errors_E": 234,
                 "error_rate_epsilon": 0.004329,
                 "p99_score": {
-                    "value": 2786.74,
+                    "value": 2780.14,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -3940,11 +3940,11 @@
                     "absolute_penalty": -711.32,
                     "cut_triggered": false
                 },
-                "final_score": 4439.08
+                "final_score": 4432.47
             },
             "repo_url": "https://github.com/steixeira93/rinha-backend-26-v2",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3356",
-            "timestamp": "2026-05-11T18:13:06Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3365",
+            "timestamp": "2026-05-11T18:28:10Z"
         },
         "steixeira93-bun-rust": {
             "expected": {
