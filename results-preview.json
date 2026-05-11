@@ -4794,33 +4794,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.17ms",
+            "p99": "793.09ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 22,
-                    "false_negative_detections": 21,
-                    "true_positive_detections": 17155,
-                    "true_negative_detections": 21576,
-                    "http_errors": 511
+                    "false_negative_detections": 22,
+                    "true_positive_detections": 17538,
+                    "true_negative_detections": 21991,
+                    "http_errors": 0
                 },
-                "failure_rate": "1.41%",
-                "weighted_errors_E": 2640,
-                "error_rate_epsilon": 0.067201,
+                "failure_rate": "0.11%",
+                "weighted_errors_E": 88,
+                "error_rate_epsilon": 0.002224,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": 146.09,
-                    "rate_component": 1172.62,
-                    "absolute_penalty": -1026.53,
+                    "value": 100.68,
                     "cut_triggered": false
                 },
-                "final_score": -2853.91
+                "detection_score": {
+                    "value": 2068.1,
+                    "rate_component": 2652.92,
+                    "absolute_penalty": -584.82,
+                    "cut_triggered": false
+                },
+                "final_score": 2168.78
             },
             "repo_url": "https://github.com/marvin-env/rinha-2026-py",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3272",
-            "timestamp": "2026-05-11T12:29:10Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3286",
+            "timestamp": "2026-05-11T13:07:02Z"
         }
     },
     "greg0x46": {
