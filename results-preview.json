@@ -3602,33 +3602,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "14.55ms",
+            "p99": "2001.02ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
-                    "http_errors": 0
+                    "true_positive_detections": 23678,
+                    "true_negative_detections": 29582,
+                    "http_errors": 799
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "1.48%",
+                "weighted_errors_E": 3995,
+                "error_rate_epsilon": 0.073901,
                 "p99_score": {
-                    "value": 1837.17,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 50.86,
+                    "rate_component": 1131.35,
+                    "absolute_penalty": -1080.49,
                     "cut_triggered": false
                 },
-                "final_score": 4837.17
+                "final_score": -2949.14
             },
             "repo_url": "https://github.com/JordaoGustavo/rinha-backend-2026-swift",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3323",
-            "timestamp": "2026-05-11T16:18:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3351",
+            "timestamp": "2026-05-11T17:44:39Z"
         }
     },
     "Marcelovmendes": {
