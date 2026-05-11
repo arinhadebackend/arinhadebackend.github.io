@@ -5628,33 +5628,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.62ms",
+            "p99": "2001.86ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1,
-                    "false_negative_detections": 2,
-                    "true_positive_detections": 10282,
-                    "true_negative_detections": 13046,
-                    "http_errors": 3638
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 11056,
+                    "true_negative_detections": 13873,
+                    "http_errors": 4028
                 },
-                "failure_rate": "13.5%",
-                "weighted_errors_E": 18197,
-                "error_rate_epsilon": 0.674738,
+                "failure_rate": "13.91%",
+                "weighted_errors_E": 20143,
+                "error_rate_epsilon": 0.695594,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -1107.14,
-                    "rate_component": 170.87,
-                    "absolute_penalty": -1278.01,
+                    "value": -1133.6,
+                    "rate_component": 157.64,
+                    "absolute_penalty": -1291.24,
                     "cut_triggered": false
                 },
-                "final_score": -4107.14
+                "final_score": -4133.6
             },
             "repo_url": "https://github.com/maxsonferovante/vector-based-fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3187",
-            "timestamp": "2026-05-11T04:21:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3336",
+            "timestamp": "2026-05-11T16:54:39Z"
         }
     },
     "RonieNeubauer": {
