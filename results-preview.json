@@ -4832,33 +4832,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "855.42ms",
+            "p99": "2002.07ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 22,
-                    "false_negative_detections": 23,
-                    "true_positive_detections": 17814,
-                    "true_negative_detections": 22316,
-                    "http_errors": 0
+                    "false_positive_detections": 18,
+                    "false_negative_detections": 15,
+                    "true_positive_detections": 11743,
+                    "true_negative_detections": 14697,
+                    "http_errors": 5254
                 },
-                "failure_rate": "0.11%",
-                "weighted_errors_E": 91,
-                "error_rate_epsilon": 0.002265,
+                "failure_rate": "16.66%",
+                "weighted_errors_E": 26333,
+                "error_rate_epsilon": 0.829987,
                 "p99_score": {
-                    "value": 67.82,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2055.78,
-                    "rate_component": 2644.91,
-                    "absolute_penalty": -589.14,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 2123.6
+                "final_score": -6000
             },
             "repo_url": "https://github.com/marvin-env/rinha-2026-py",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3301",
-            "timestamp": "2026-05-11T14:23:20Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3341",
+            "timestamp": "2026-05-11T17:08:16Z"
         }
     },
     "greg0x46": {
