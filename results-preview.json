@@ -3602,33 +3602,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.39ms",
+            "p99": "2001.92ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
-                    "http_errors": 0
+                    "true_positive_detections": 11429,
+                    "true_negative_detections": 14282,
+                    "http_errors": 7093
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "21.62%",
+                "weighted_errors_E": 35465,
+                "error_rate_epsilon": 1.081118,
                 "p99_score": {
-                    "value": 2621.25,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 5621.25
+                "final_score": -6000
             },
             "repo_url": "https://github.com/JordaoGustavo/rinha-backend-2026-swift",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3392",
-            "timestamp": "2026-05-11T19:52:06Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3418",
+            "timestamp": "2026-05-11T21:15:44Z"
         }
     },
     "Marcelovmendes": {
