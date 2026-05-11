@@ -5628,33 +5628,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.86ms",
+            "p99": "1312.73ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 11056,
-                    "true_negative_detections": 13873,
-                    "http_errors": 4028
+                    "false_positive_detections": 17,
+                    "false_negative_detections": 24,
+                    "true_positive_detections": 20703,
+                    "true_negative_detections": 25896,
+                    "http_errors": 3688
                 },
-                "failure_rate": "13.91%",
-                "weighted_errors_E": 20143,
-                "error_rate_epsilon": 0.695594,
+                "failure_rate": "7.41%",
+                "weighted_errors_E": 18529,
+                "error_rate_epsilon": 0.368165,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -1133.6,
-                    "rate_component": 157.64,
-                    "absolute_penalty": -1291.24,
+                    "value": -118.18,
                     "cut_triggered": false
                 },
-                "final_score": -4133.6
+                "detection_score": {
+                    "value": -846.4,
+                    "rate_component": 433.96,
+                    "absolute_penalty": -1280.36,
+                    "cut_triggered": false
+                },
+                "final_score": -964.58
             },
             "repo_url": "https://github.com/maxsonferovante/vector-based-fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3336",
-            "timestamp": "2026-05-11T16:54:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3407",
+            "timestamp": "2026-05-11T20:43:51Z"
         }
     },
     "RonieNeubauer": {
