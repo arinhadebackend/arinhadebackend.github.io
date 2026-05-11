@@ -5152,33 +5152,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "75.54ms",
+            "p99": "43.42ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 295,
-                    "false_negative_detections": 4376,
-                    "true_positive_detections": 19661,
-                    "true_negative_detections": 29727,
+                    "false_positive_detections": 2,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 24036,
+                    "true_negative_detections": 30020,
                     "http_errors": 0
                 },
-                "failure_rate": "8.64%",
-                "weighted_errors_E": 13423,
-                "error_rate_epsilon": 0.248303,
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 5,
+                "error_rate_epsilon": 0.000092,
                 "p99_score": {
-                    "value": 1121.84,
+                    "value": 1362.3,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -633.35,
-                    "rate_component": 605.02,
-                    "absolute_penalty": -1238.36,
+                    "value": 2766.55,
+                    "rate_component": 3000,
+                    "absolute_penalty": -233.45,
                     "cut_triggered": false
                 },
-                "final_score": 488.49
+                "final_score": 4128.85
             },
             "repo_url": "https://github.com/BGLuis/rinha-backend-2026-go-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3210",
-            "timestamp": "2026-05-11T06:39:29Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3225",
+            "timestamp": "2026-05-11T08:31:10Z"
         }
     },
     "joaoMiraya": {
