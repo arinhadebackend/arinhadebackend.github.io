@@ -3602,33 +3602,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.02ms",
+            "p99": "2.95ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23678,
-                    "true_negative_detections": 29582,
-                    "http_errors": 799
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30021,
+                    "http_errors": 0
                 },
-                "failure_rate": "1.48%",
-                "weighted_errors_E": 3995,
-                "error_rate_epsilon": 0.073901,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": 50.86,
-                    "rate_component": 1131.35,
-                    "absolute_penalty": -1080.49,
+                    "value": 2529.47,
                     "cut_triggered": false
                 },
-                "final_score": -2949.14
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 5529.47
             },
             "repo_url": "https://github.com/JordaoGustavo/rinha-backend-2026-swift",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3351",
-            "timestamp": "2026-05-11T17:44:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3367",
+            "timestamp": "2026-05-11T18:34:32Z"
         }
     },
     "Marcelovmendes": {
