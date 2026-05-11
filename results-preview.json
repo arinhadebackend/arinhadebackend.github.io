@@ -954,7 +954,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.78ms",
+            "p99": "1.68ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -967,7 +967,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2748.42,
+                    "value": 2775.12,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -976,11 +976,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5748.42
+                "final_score": 5775.12
             },
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3156",
-            "timestamp": "2026-05-11T02:40:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3160",
+            "timestamp": "2026-05-11T02:52:30Z"
         },
         "itagyba-rust": {
             "expected": {
