@@ -6334,5 +6334,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3494",
             "timestamp": "2026-05-12T01:48:48Z"
         }
+    },
+    "atomosdovini": {
+        "atomosdovini-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "67.59ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 8,
+                    "false_negative_detections": 9,
+                    "true_positive_detections": 24028,
+                    "true_negative_detections": 30013,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.03%",
+                "weighted_errors_E": 35,
+                "error_rate_epsilon": 0.000647,
+                "p99_score": {
+                    "value": 1170.12,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2533.11,
+                    "rate_component": 3000,
+                    "absolute_penalty": -466.89,
+                    "cut_triggered": false
+                },
+                "final_score": 3703.23
+            },
+            "repo_url": "https://github.com/atomosdovini/rinha-fraud-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3502",
+            "timestamp": "2026-05-12T02:10:00Z"
+        }
     }
 }
