@@ -4152,33 +4152,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.62ms",
+            "p99": "3.69ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24036,
-                    "true_negative_detections": 30021,
-                    "http_errors": 2
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30022,
+                    "http_errors": 0
                 },
                 "failure_rate": "0%",
-                "weighted_errors_E": 10,
-                "error_rate_epsilon": 0.000185,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2441.17,
+                    "value": 2432.77,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2687.58,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -312.42,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5128.76
+                "final_score": 5432.77
             },
             "repo_url": "https://github.com/diegoph/rinha-backend-2026-java-native",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3806",
-            "timestamp": "2026-05-12T22:20:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3815",
+            "timestamp": "2026-05-12T22:50:29Z"
         }
     },
     "LeandroLS": {
