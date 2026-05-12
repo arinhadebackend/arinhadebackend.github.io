@@ -3838,33 +3838,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.50ms",
+            "p99": "679.24ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
-                    "http_errors": 0
+                    "true_positive_detections": 23977,
+                    "true_negative_detections": 29960,
+                    "http_errors": 4
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 20,
+                "error_rate_epsilon": 0.000371,
                 "p99_score": {
-                    "value": 2823.72,
+                    "value": 167.98,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2603.33,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -396.67,
                     "cut_triggered": false
                 },
-                "final_score": 5823.72
+                "final_score": 2771.31
             },
             "repo_url": "https://github.com/fksegundo/rinha-dotnetrust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3735",
-            "timestamp": "2026-05-12T18:27:14Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3807",
+            "timestamp": "2026-05-12T22:23:28Z"
         }
     },
     "micheloliveira-com": {
