@@ -6266,33 +6266,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.50ms",
+            "p99": "286.55ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23169,
-                    "true_negative_detections": 28928,
-                    "http_errors": 1792
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 23733,
+                    "true_negative_detections": 29672,
+                    "http_errors": 354
                 },
-                "failure_rate": "3.33%",
-                "weighted_errors_E": 8960,
-                "error_rate_epsilon": 0.166268,
+                "failure_rate": "0.66%",
+                "weighted_errors_E": 1773,
+                "error_rate_epsilon": 0.03298,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -406.51,
-                    "rate_component": 779.19,
-                    "absolute_penalty": -1185.71,
+                    "value": 542.8,
                     "cut_triggered": false
                 },
-                "final_score": -3406.51
+                "detection_score": {
+                    "value": 507.06,
+                    "rate_component": 1481.75,
+                    "absolute_penalty": -974.69,
+                    "cut_triggered": false
+                },
+                "final_score": 1049.87
             },
             "repo_url": "https://github.com/GustavoQnt/rinha-de-backend-2026-node",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3509",
-            "timestamp": "2026-05-12T02:30:09Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3521",
+            "timestamp": "2026-05-12T03:05:00Z"
         }
     },
     "muanlartins": {
