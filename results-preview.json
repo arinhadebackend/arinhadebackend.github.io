@@ -2492,33 +2492,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.50ms",
+            "p99": "2.59ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 640,
-                    "false_negative_detections": 513,
-                    "true_positive_detections": 23524,
-                    "true_negative_detections": 29382,
+                    "false_positive_detections": 9,
+                    "false_negative_detections": 19,
+                    "true_positive_detections": 24018,
+                    "true_negative_detections": 30013,
                     "http_errors": 0
                 },
-                "failure_rate": "2.13%",
-                "weighted_errors_E": 2179,
-                "error_rate_epsilon": 0.040308,
+                "failure_rate": "0.05%",
+                "weighted_errors_E": 66,
+                "error_rate_epsilon": 0.001221,
                 "p99_score": {
-                    "value": 2824.45,
+                    "value": 2586.62,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 393.07,
-                    "rate_component": 1394.61,
-                    "absolute_penalty": -1001.54,
+                    "value": 2365.5,
+                    "rate_component": 2913.32,
+                    "absolute_penalty": -547.82,
                     "cut_triggered": false
                 },
-                "final_score": 3217.52
+                "final_score": 4952.12
             },
             "repo_url": "https://github.com/VCalazans/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3487",
-            "timestamp": "2026-05-12T01:27:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3505",
+            "timestamp": "2026-05-12T02:22:32Z"
         }
     },
     "Demians12": {
