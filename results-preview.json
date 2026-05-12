@@ -2492,33 +2492,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.03ms",
+            "p99": "6.35ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 7,
-                    "false_negative_detections": 19,
-                    "true_positive_detections": 24018,
-                    "true_negative_detections": 30014,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 12,
+                    "true_positive_detections": 24025,
+                    "true_negative_detections": 30022,
                     "http_errors": 0
                 },
-                "failure_rate": "0.05%",
-                "weighted_errors_E": 64,
-                "error_rate_epsilon": 0.001184,
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 36,
+                "error_rate_epsilon": 0.000666,
                 "p99_score": {
-                    "value": 2692.27,
+                    "value": 2197.36,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2382.81,
-                    "rate_component": 2926.68,
-                    "absolute_penalty": -543.87,
+                    "value": 2529.54,
+                    "rate_component": 3000,
+                    "absolute_penalty": -470.46,
                     "cut_triggered": false
                 },
-                "final_score": 5075.08
+                "final_score": 4726.9
             },
             "repo_url": "https://github.com/VCalazans/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3690",
-            "timestamp": "2026-05-12T16:42:56Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3728",
+            "timestamp": "2026-05-12T18:15:58Z"
         }
     },
     "Demians12": {
