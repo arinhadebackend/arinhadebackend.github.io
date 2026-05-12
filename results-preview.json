@@ -6108,33 +6108,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.91ms",
+            "p99": "2002.06ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 3,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 12606,
-                    "true_negative_detections": 15809,
-                    "http_errors": 4669
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 5640,
+                    "true_negative_detections": 7173,
+                    "http_errors": 7577
                 },
-                "failure_rate": "14.13%",
-                "weighted_errors_E": 23360,
-                "error_rate_epsilon": 0.705932,
+                "failure_rate": "37.16%",
+                "weighted_errors_E": 37886,
+                "error_rate_epsilon": 1.857977,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -1159.31,
-                    "rate_component": 151.24,
-                    "absolute_penalty": -1310.55,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": -4159.31
+                "final_score": -6000
             },
             "repo_url": "https://github.com/GustavoZiaugra/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3438",
-            "timestamp": "2026-05-11T22:58:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3469",
+            "timestamp": "2026-05-12T00:44:49Z"
         }
     },
     "r-delorean": {
