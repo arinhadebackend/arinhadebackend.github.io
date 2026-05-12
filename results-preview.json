@@ -5984,17 +5984,17 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.93ms",
+            "p99": "2001.91ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 0,
                     "true_negative_detections": 0,
-                    "http_errors": 48514
+                    "http_errors": 49511
                 },
                 "failure_rate": "100%",
-                "weighted_errors_E": 242570,
+                "weighted_errors_E": 247555,
                 "error_rate_epsilon": 5,
                 "p99_score": {
                     "value": -3000,
@@ -6009,8 +6009,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/gandarez/rinha-de-backend-2026-gandarez-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3707",
-            "timestamp": "2026-05-12T17:28:12Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3822",
+            "timestamp": "2026-05-12T23:21:25Z"
         }
     },
     "breno5g": {
