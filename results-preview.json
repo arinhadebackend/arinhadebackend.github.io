@@ -6534,5 +6534,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3549",
             "timestamp": "2026-05-12T04:44:22Z"
         }
+    },
+    "luanlouzada": {
+        "luan-louzada": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2001.45ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 21140,
+                    "true_negative_detections": 26472,
+                    "http_errors": 1524
+                },
+                "failure_rate": "3.1%",
+                "weighted_errors_E": 7620,
+                "error_rate_epsilon": 0.15508,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -355.16,
+                    "rate_component": 809.44,
+                    "absolute_penalty": -1164.6,
+                    "cut_triggered": false
+                },
+                "final_score": -3355.16
+            },
+            "repo_url": "https://github.com/luanlouzada/rinha_backend2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3565",
+            "timestamp": "2026-05-12T06:11:15Z"
+        }
     }
 }
