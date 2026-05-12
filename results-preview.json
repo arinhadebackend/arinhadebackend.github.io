@@ -6106,33 +6106,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.35ms",
+            "p99": "2002.40ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 237,
-                    "false_negative_detections": 211,
-                    "true_positive_detections": 8638,
-                    "true_negative_detections": 10939,
-                    "http_errors": 273
+                    "false_positive_detections": 186,
+                    "false_negative_detections": 158,
+                    "true_positive_detections": 6408,
+                    "true_negative_detections": 8057,
+                    "http_errors": 2549
                 },
-                "failure_rate": "3.55%",
-                "weighted_errors_E": 2235,
-                "error_rate_epsilon": 0.110109,
+                "failure_rate": "16.67%",
+                "weighted_errors_E": 13405,
+                "error_rate_epsilon": 0.772266,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -46.67,
-                    "rate_component": 958.18,
-                    "absolute_penalty": -1004.84,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": -3046.67
+                "final_score": -6000
             },
             "repo_url": "https://github.com/IgorBrizack/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3409",
-            "timestamp": "2026-05-11T20:49:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3634",
+            "timestamp": "2026-05-12T12:27:54Z"
         }
     },
     "GustavoZiaugra": {
