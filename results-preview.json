@@ -3685,28 +3685,28 @@
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 21900,
-                    "true_negative_detections": 27370,
-                    "http_errors": 3244
+                    "true_positive_detections": 21018,
+                    "true_negative_detections": 26164,
+                    "http_errors": 4078
                 },
-                "failure_rate": "6.18%",
-                "weighted_errors_E": 16220,
-                "error_rate_epsilon": 0.30887,
+                "failure_rate": "7.96%",
+                "weighted_errors_E": 20390,
+                "error_rate_epsilon": 0.397776,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -752.8,
-                    "rate_component": 510.22,
-                    "absolute_penalty": -1263.02,
+                    "value": -892.47,
+                    "rate_component": 400.36,
+                    "absolute_penalty": -1292.83,
                     "cut_triggered": false
                 },
-                "final_score": -3752.8
+                "final_score": -3892.47
             },
             "repo_url": "https://github.com/Marcelovmendes/rinha-backend-2026-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3506",
-            "timestamp": "2026-05-12T02:25:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3523",
+            "timestamp": "2026-05-12T03:14:10Z"
         }
     },
     "pedrosakuma": {
