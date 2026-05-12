@@ -2492,33 +2492,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.88ms",
+            "p99": "2.03ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4,
-                    "false_negative_detections": 12,
-                    "true_positive_detections": 24025,
-                    "true_negative_detections": 30017,
-                    "http_errors": 1
+                    "false_positive_detections": 7,
+                    "false_negative_detections": 19,
+                    "true_positive_detections": 24018,
+                    "true_negative_detections": 30014,
+                    "http_errors": 0
                 },
-                "failure_rate": "0.03%",
-                "weighted_errors_E": 45,
-                "error_rate_epsilon": 0.000832,
+                "failure_rate": "0.05%",
+                "weighted_errors_E": 64,
+                "error_rate_epsilon": 0.001184,
                 "p99_score": {
-                    "value": 2540.59,
+                    "value": 2692.27,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2501.17,
-                    "rate_component": 3000,
-                    "absolute_penalty": -498.83,
+                    "value": 2382.81,
+                    "rate_component": 2926.68,
+                    "absolute_penalty": -543.87,
                     "cut_triggered": false
                 },
-                "final_score": 5041.76
+                "final_score": 5075.08
             },
             "repo_url": "https://github.com/VCalazans/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3661",
-            "timestamp": "2026-05-12T14:40:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3690",
+            "timestamp": "2026-05-12T16:42:56Z"
         }
     },
     "Demians12": {
