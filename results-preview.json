@@ -6028,33 +6028,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.92ms",
+            "p99": "2002.13ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 430,
-                    "false_negative_detections": 881,
-                    "true_positive_detections": 23156,
-                    "true_negative_detections": 29592,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 26,
+                    "true_negative_detections": 58,
+                    "http_errors": 13881
                 },
-                "failure_rate": "2.43%",
-                "weighted_errors_E": 3073,
-                "error_rate_epsilon": 0.056845,
+                "failure_rate": "99.4%",
+                "weighted_errors_E": 69408,
+                "error_rate_epsilon": 4.969784,
                 "p99_score": {
-                    "value": 2717.56,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 198.99,
-                    "rate_component": 1245.31,
-                    "absolute_penalty": -1046.31,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 2916.56
+                "final_score": -6000
             },
             "repo_url": "https://github.com/GabrielDantasDs/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3390",
-            "timestamp": "2026-05-11T19:45:56Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3472",
+            "timestamp": "2026-05-12T00:49:02Z"
         }
     },
     "IgorBrizack": {
