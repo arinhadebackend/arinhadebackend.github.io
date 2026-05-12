@@ -5070,33 +5070,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "659.52ms",
+            "p99": "2000.68ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 565,
-                    "false_negative_detections": 627,
-                    "true_positive_detections": 22493,
-                    "true_negative_detections": 28287,
-                    "http_errors": 0
+                    "false_positive_detections": 523,
+                    "false_negative_detections": 587,
+                    "true_positive_detections": 20756,
+                    "true_negative_detections": 26148,
+                    "http_errors": 2722
                 },
-                "failure_rate": "2.29%",
-                "weighted_errors_E": 2446,
-                "error_rate_epsilon": 0.047064,
+                "failure_rate": "7.55%",
+                "weighted_errors_E": 15894,
+                "error_rate_epsilon": 0.313269,
                 "p99_score": {
-                    "value": 180.77,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 310.72,
-                    "rate_component": 1327.31,
-                    "absolute_penalty": -1016.59,
+                    "value": -756.3,
+                    "rate_component": 504.08,
+                    "absolute_penalty": -1260.38,
                     "cut_triggered": false
                 },
-                "final_score": 491.5
+                "final_score": -3756.3
             },
             "repo_url": "https://github.com/mpraes/rinha-2026-python1",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3266",
-            "timestamp": "2026-05-11T12:12:06Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3596",
+            "timestamp": "2026-05-12T09:16:34Z"
         },
         "rinha-2026-python2": {
             "expected": {
