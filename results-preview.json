@@ -4870,33 +4870,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.22ms",
+            "p99": "1211.17ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 22,
-                    "false_negative_detections": 22,
-                    "true_positive_detections": 17259,
-                    "true_negative_detections": 21637,
-                    "http_errors": 541
+                    "false_positive_detections": 21,
+                    "false_negative_detections": 21,
+                    "true_positive_detections": 17191,
+                    "true_negative_detections": 21564,
+                    "http_errors": 185
                 },
-                "failure_rate": "1.48%",
-                "weighted_errors_E": 2793,
-                "error_rate_epsilon": 0.070743,
+                "failure_rate": "0.58%",
+                "weighted_errors_E": 1009,
+                "error_rate_epsilon": 0.025884,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": 116.45,
-                    "rate_component": 1150.32,
-                    "absolute_penalty": -1033.87,
+                    "value": -83.21,
                     "cut_triggered": false
                 },
-                "final_score": -2883.55
+                "detection_score": {
+                    "value": 685.68,
+                    "rate_component": 1586.97,
+                    "absolute_penalty": -901.3,
+                    "cut_triggered": false
+                },
+                "final_score": 602.47
             },
             "repo_url": "https://github.com/marvin-env/rinha-2026-py",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3652",
-            "timestamp": "2026-05-12T14:02:22Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3670",
+            "timestamp": "2026-05-12T15:29:39Z"
         }
     },
     "greg0x46": {
