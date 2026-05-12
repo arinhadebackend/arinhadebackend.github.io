@@ -6266,33 +6266,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.71ms",
+            "p99": "1.52ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 22323,
-                    "true_negative_detections": 27825,
-                    "http_errors": 2749
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30022,
+                    "http_errors": 0
                 },
-                "failure_rate": "5.2%",
-                "weighted_errors_E": 13745,
-                "error_rate_epsilon": 0.259845,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -656.17,
-                    "rate_component": 585.29,
-                    "absolute_penalty": -1241.45,
+                    "value": 2819.52,
                     "cut_triggered": false
                 },
-                "final_score": -3656.17
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 5819.52
             },
             "repo_url": "https://github.com/GustavoQnt/rinha-de-backend-2026-node",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3713",
-            "timestamp": "2026-05-12T17:43:30Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3734",
+            "timestamp": "2026-05-12T18:24:18Z"
         }
     },
     "muanlartins": {
