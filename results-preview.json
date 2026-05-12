@@ -6304,33 +6304,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "99.25ms",
+            "p99": "204.01ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 24036,
-                    "true_negative_detections": 30021,
-                    "http_errors": 0
+                    "false_negative_detections": 23984,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 29961,
+                    "http_errors": 2
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 3,
-                "error_rate_epsilon": 0.000055,
+                "failure_rate": "44.46%",
+                "weighted_errors_E": 71962,
+                "error_rate_epsilon": 1.333939,
                 "p99_score": {
-                    "value": 1003.27,
+                    "value": 690.34,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2819.38,
-                    "rate_component": 3000,
-                    "absolute_penalty": -180.62,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 3822.65
+                "final_score": -2309.66
             },
             "repo_url": "https://github.com/muanlartins/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3768",
-            "timestamp": "2026-05-12T20:10:55Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3813",
+            "timestamp": "2026-05-12T22:45:54Z"
         }
     },
     "atomosdovini": {
