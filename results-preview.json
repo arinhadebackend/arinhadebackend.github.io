@@ -6184,33 +6184,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "38.93ms",
+            "p99": "34.15ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 605,
-                    "false_negative_detections": 584,
-                    "true_positive_detections": 23453,
-                    "true_negative_detections": 29417,
+                    "false_positive_detections": 80,
+                    "false_negative_detections": 83,
+                    "true_positive_detections": 23954,
+                    "true_negative_detections": 29942,
                     "http_errors": 0
                 },
-                "failure_rate": "2.2%",
-                "weighted_errors_E": 2357,
-                "error_rate_epsilon": 0.043601,
+                "failure_rate": "0.3%",
+                "weighted_errors_E": 329,
+                "error_rate_epsilon": 0.006086,
                 "p99_score": {
-                    "value": 1409.67,
+                    "value": 1466.64,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 348.75,
-                    "rate_component": 1360.51,
-                    "absolute_penalty": -1011.76,
+                    "value": 1460.12,
+                    "rate_component": 2215.67,
+                    "absolute_penalty": -755.55,
                     "cut_triggered": false
                 },
-                "final_score": 1758.42
+                "final_score": 2926.76
             },
             "repo_url": "https://github.com/GustavoZiaugra/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3846",
-            "timestamp": "2026-05-13T00:48:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3867",
+            "timestamp": "2026-05-13T02:30:41Z"
         }
     },
     "gcesario203": {
