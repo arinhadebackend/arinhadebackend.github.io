@@ -5944,33 +5944,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.65ms",
+            "p99": "2002.22ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 22738,
-                    "true_negative_detections": 28347,
-                    "http_errors": 2012
+                    "false_positive_detections": 3,
+                    "false_negative_detections": 2,
+                    "true_positive_detections": 14925,
+                    "true_negative_detections": 18640,
+                    "http_errors": 9241
                 },
-                "failure_rate": "3.8%",
-                "weighted_errors_E": 10074,
-                "error_rate_epsilon": 0.189707,
+                "failure_rate": "21.6%",
+                "weighted_errors_E": 46214,
+                "error_rate_epsilon": 1.079489,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -479.06,
-                    "rate_component": 721.92,
-                    "absolute_penalty": -1200.97,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": -3479.06
+                "final_score": -6000
             },
             "repo_url": "https://github.com/henrich-m/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3853",
-            "timestamp": "2026-05-13T01:21:09Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4136",
+            "timestamp": "2026-05-13T19:50:31Z"
         }
     },
     "gandarez": {
