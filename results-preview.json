@@ -6184,33 +6184,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "247.26ms",
+            "p99": "147.61ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 23919,
-                    "true_negative_detections": 29903,
+                    "false_positive_detections": 620,
+                    "false_negative_detections": 604,
+                    "true_positive_detections": 23400,
+                    "true_negative_detections": 29357,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 3,
-                "error_rate_epsilon": 0.000056,
+                "failure_rate": "2.27%",
+                "weighted_errors_E": 2432,
+                "error_rate_epsilon": 0.045053,
                 "p99_score": {
-                    "value": 606.84,
+                    "value": 830.88,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2819.38,
-                    "rate_component": 3000,
-                    "absolute_penalty": -180.62,
+                    "value": 330.43,
+                    "rate_component": 1346.28,
+                    "absolute_penalty": -1015.84,
                     "cut_triggered": false
                 },
-                "final_score": 3426.22
+                "final_score": 1161.32
             },
             "repo_url": "https://github.com/GustavoZiaugra/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4032",
-            "timestamp": "2026-05-13T13:31:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4050",
+            "timestamp": "2026-05-13T14:19:34Z"
         }
     },
     "gcesario203": {
