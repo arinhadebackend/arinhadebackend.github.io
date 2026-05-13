@@ -3562,33 +3562,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.24ms",
+            "p99": "1.21ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 88,
-                    "false_negative_detections": 87,
-                    "true_positive_detections": 23950,
-                    "true_negative_detections": 29934,
+                    "false_positive_detections": 16,
+                    "false_negative_detections": 15,
+                    "true_positive_detections": 24022,
+                    "true_negative_detections": 30006,
                     "http_errors": 0
                 },
-                "failure_rate": "0.32%",
-                "weighted_errors_E": 349,
-                "error_rate_epsilon": 0.006456,
+                "failure_rate": "0.06%",
+                "weighted_errors_E": 61,
+                "error_rate_epsilon": 0.001128,
                 "p99_score": {
-                    "value": 2905.88,
+                    "value": 2916.98,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1426.82,
-                    "rate_component": 2190.04,
-                    "absolute_penalty": -763.22,
+                    "value": 2409.82,
+                    "rate_component": 2947.54,
+                    "absolute_penalty": -537.72,
                     "cut_triggered": false
                 },
-                "final_score": 4332.7
+                "final_score": 5326.8
             },
             "repo_url": "https://github.com/gabrielrauch/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4080",
-            "timestamp": "2026-05-13T16:25:41Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4124",
+            "timestamp": "2026-05-13T18:52:35Z"
         }
     },
     "JordaoGustavo": {
