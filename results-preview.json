@@ -6384,21 +6384,21 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "601.50ms",
+            "p99": "2001.49ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 879,
-                    "true_negative_detections": 1173,
-                    "http_errors": 51702
+                    "true_positive_detections": 889,
+                    "true_negative_detections": 1180,
+                    "http_errors": 50720
                 },
-                "failure_rate": "96.18%",
-                "weighted_errors_E": 258510,
-                "error_rate_epsilon": 4.80913,
+                "failure_rate": "96.08%",
+                "weighted_errors_E": 253600,
+                "error_rate_epsilon": 4.804031,
                 "p99_score": {
-                    "value": 220.76,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
                     "value": -3000,
@@ -6406,11 +6406,11 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -2779.24
+                "final_score": -6000
             },
             "repo_url": "https://github.com/ajanoni/rinhakotlin",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3883",
-            "timestamp": "2026-05-13T03:55:57Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4101",
+            "timestamp": "2026-05-13T17:49:19Z"
         }
     },
     "nicolasmmb": {
