@@ -6184,33 +6184,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.38ms",
+            "p99": "662.84ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 294,
+                    "false_positive_detections": 475,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 6810,
-                    "true_negative_detections": 8061,
-                    "http_errors": 10540
+                    "true_positive_detections": 17263,
+                    "true_negative_detections": 21169,
+                    "http_errors": 0
                 },
-                "failure_rate": "42.15%",
-                "weighted_errors_E": 52994,
-                "error_rate_epsilon": 2.061622,
+                "failure_rate": "1.22%",
+                "weighted_errors_E": 475,
+                "error_rate_epsilon": 0.012209,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 178.59,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 1110.05,
+                    "rate_component": 1913.33,
+                    "absolute_penalty": -803.28,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 1288.64
             },
             "repo_url": "https://github.com/GustavoZiaugra/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3954",
-            "timestamp": "2026-05-13T09:27:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3958",
+            "timestamp": "2026-05-13T09:39:13Z"
         }
     },
     "gcesario203": {
