@@ -598,33 +598,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "68.09ms",
+            "p99": "62.31ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 364,
-                    "false_negative_detections": 385,
-                    "true_positive_detections": 23652,
-                    "true_negative_detections": 29658,
+                    "false_positive_detections": 366,
+                    "false_negative_detections": 383,
+                    "true_positive_detections": 23654,
+                    "true_negative_detections": 29656,
                     "http_errors": 0
                 },
                 "failure_rate": "1.39%",
-                "weighted_errors_E": 1519,
-                "error_rate_epsilon": 0.028099,
+                "weighted_errors_E": 1515,
+                "error_rate_epsilon": 0.028025,
                 "p99_score": {
-                    "value": 1166.94,
+                    "value": 1205.41,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 596.76,
-                    "rate_component": 1551.31,
-                    "absolute_penalty": -954.55,
+                    "value": 598.25,
+                    "rate_component": 1552.46,
+                    "absolute_penalty": -954.21,
                     "cut_triggered": false
                 },
-                "final_score": 1763.7
+                "final_score": 1803.65
             },
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-extreme-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4448",
-            "timestamp": "2026-05-14T21:23:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4452",
+            "timestamp": "2026-05-14T21:48:00Z"
         },
         "davidalecrim1-rust": {
             "expected": {
