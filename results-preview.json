@@ -7212,5 +7212,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4202",
             "timestamp": "2026-05-13T23:54:37Z"
         }
+    },
+    "jgouvea7": {
+        "jgouvea7": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "90.34ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 24036,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 30021,
+                    "http_errors": 1
+                },
+                "failure_rate": "44.47%",
+                "weighted_errors_E": 72113,
+                "error_rate_epsilon": 1.333993,
+                "p99_score": {
+                    "value": 1044.13,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -1955.87
+            },
+            "repo_url": "https://github.com/jgouvea7/fraud-detection-api",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4208",
+            "timestamp": "2026-05-14T00:06:42Z"
+        }
     }
 }
