@@ -7772,18 +7772,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.25ms",
+            "p99": "2002.45ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 14,
-                    "false_negative_detections": 13,
-                    "true_positive_detections": 815,
-                    "true_negative_detections": 1038,
-                    "http_errors": 46329
+                    "false_positive_detections": 7,
+                    "false_negative_detections": 10,
+                    "true_positive_detections": 362,
+                    "true_negative_detections": 462,
+                    "http_errors": 26533
                 },
-                "failure_rate": "96.16%",
-                "weighted_errors_E": 231698,
-                "error_rate_epsilon": 4.806115,
+                "failure_rate": "96.99%",
+                "weighted_errors_E": 132702,
+                "error_rate_epsilon": 4.847739,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -7797,8 +7797,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/luccarhaddad/luccarhaddad-zig-rb26",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4408",
-            "timestamp": "2026-05-14T17:55:57Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4413",
+            "timestamp": "2026-05-14T18:14:22Z"
         }
     }
 }
