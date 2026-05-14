@@ -7171,6 +7171,44 @@
             "repo_url": "https://github.com/italovinicius18/rinha-ai-2026-ignore",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4212",
             "timestamp": "2026-05-14T00:16:56Z"
+        },
+        "italovinicius18-rinha-ai-np5": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "5.17ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 2,
+                    "false_negative_detections": 2,
+                    "true_positive_detections": 24035,
+                    "true_negative_detections": 30020,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 8,
+                "error_rate_epsilon": 0.000148,
+                "p99_score": {
+                    "value": 2286.64,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2713.73,
+                    "rate_component": 3000,
+                    "absolute_penalty": -286.27,
+                    "cut_triggered": false
+                },
+                "final_score": 5000.37
+            },
+            "repo_url": "https://github.com/italovinicius18/rinha-ai-2026-np5",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4217",
+            "timestamp": "2026-05-14T00:26:04Z"
         }
     },
     "rafael-takahashi": {
