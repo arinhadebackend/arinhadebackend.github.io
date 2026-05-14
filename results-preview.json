@@ -1462,33 +1462,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "127.78ms",
+            "p99": "19.80ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 25,
-                    "false_negative_detections": 28,
-                    "true_positive_detections": 23981,
-                    "true_negative_detections": 29960,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 24036,
+                    "true_negative_detections": 30022,
                     "http_errors": 0
                 },
-                "failure_rate": "0.1%",
-                "weighted_errors_E": 109,
-                "error_rate_epsilon": 0.002019,
+                "failure_rate": "0%",
+                "weighted_errors_E": 3,
+                "error_rate_epsilon": 0.000055,
                 "p99_score": {
-                    "value": 893.55,
+                    "value": 1703.3,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2082.5,
-                    "rate_component": 2694.92,
-                    "absolute_penalty": -612.42,
+                    "value": 2819.38,
+                    "rate_component": 3000,
+                    "absolute_penalty": -180.62,
                     "cut_triggered": false
                 },
-                "final_score": 2976.05
+                "final_score": 4522.68
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4306",
-            "timestamp": "2026-05-14T08:53:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4308",
+            "timestamp": "2026-05-14T09:04:57Z"
         }
     },
     "klevercorrea": {
