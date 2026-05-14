@@ -362,33 +362,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.77ms",
+            "p99": "1856.01ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 7,
                     "false_negative_detections": 5,
-                    "true_positive_detections": 8643,
-                    "true_negative_detections": 10931,
-                    "http_errors": 756
+                    "true_positive_detections": 8724,
+                    "true_negative_detections": 10998,
+                    "http_errors": 0
                 },
-                "failure_rate": "3.78%",
-                "weighted_errors_E": 3802,
-                "error_rate_epsilon": 0.186904,
+                "failure_rate": "0.06%",
+                "weighted_errors_E": 22,
+                "error_rate_epsilon": 0.001115,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -345.66,
-                    "rate_component": 728.38,
-                    "absolute_penalty": -1074.04,
+                    "value": -268.58,
                     "cut_triggered": false
                 },
-                "final_score": -3345.66
+                "detection_score": {
+                    "value": 2544.27,
+                    "rate_component": 2952.79,
+                    "absolute_penalty": -408.52,
+                    "cut_triggered": false
+                },
+                "final_score": 2275.69
             },
             "repo_url": "https://github.com/joojf/rinha-2026-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4440",
-            "timestamp": "2026-05-14T20:48:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4446",
+            "timestamp": "2026-05-14T21:15:52Z"
         }
     },
     "vitortvale": {
