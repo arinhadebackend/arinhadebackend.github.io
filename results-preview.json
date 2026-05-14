@@ -7840,5 +7840,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4432",
             "timestamp": "2026-05-14T19:30:38Z"
         }
+    },
+    "guilhermegules": {
+        "guilhermegules-java25": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "282.76ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 517,
+                    "false_negative_detections": 523,
+                    "true_positive_detections": 23464,
+                    "true_negative_detections": 29448,
+                    "http_errors": 0
+                },
+                "failure_rate": "1.93%",
+                "weighted_errors_E": 2086,
+                "error_rate_epsilon": 0.038664,
+                "p99_score": {
+                    "value": 548.58,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 416.84,
+                    "rate_component": 1412.69,
+                    "absolute_penalty": -995.86,
+                    "cut_triggered": false
+                },
+                "final_score": 965.42
+            },
+            "repo_url": "https://github.com/guilhermegules/fraud-detector",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4433",
+            "timestamp": "2026-05-14T19:34:18Z"
+        }
     }
 }
