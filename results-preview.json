@@ -7492,33 +7492,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.44ms",
+            "p99": "125.08ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 3,
                     "false_negative_detections": 3,
-                    "true_positive_detections": 19931,
-                    "true_negative_detections": 25040,
-                    "http_errors": 1365
+                    "true_positive_detections": 24019,
+                    "true_negative_detections": 30000,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.96%",
-                "weighted_errors_E": 6837,
-                "error_rate_epsilon": 0.147534,
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 12,
+                "error_rate_epsilon": 0.000222,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -319.37,
-                    "rate_component": 831.11,
-                    "absolute_penalty": -1150.48,
+                    "value": 902.83,
                     "cut_triggered": false
                 },
-                "final_score": -3319.37
+                "detection_score": {
+                    "value": 2665.82,
+                    "rate_component": 3000,
+                    "absolute_penalty": -334.18,
+                    "cut_triggered": false
+                },
+                "final_score": 3568.65
             },
             "repo_url": "https://github.com/GuilhermRodovalho/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4320",
-            "timestamp": "2026-05-14T10:29:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4382",
+            "timestamp": "2026-05-14T16:14:02Z"
         }
     },
     "mdrapha": {
