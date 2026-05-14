@@ -7484,5 +7484,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4238",
             "timestamp": "2026-05-14T01:12:17Z"
         }
+    },
+    "Fiddelis": {
+        "fiddelis-python": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "5.12ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 3,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 24032,
+                    "true_negative_detections": 30019,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 18,
+                "error_rate_epsilon": 0.000333,
+                "p99_score": {
+                    "value": 2291.02,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2616.37,
+                    "rate_component": 3000,
+                    "absolute_penalty": -383.63,
+                    "cut_triggered": false
+                },
+                "final_score": 4907.39
+            },
+            "repo_url": "https://github.com/Fiddelis/rinha-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4265",
+            "timestamp": "2026-05-14T04:24:42Z"
+        }
     }
 }
