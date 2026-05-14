@@ -6104,33 +6104,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.97ms",
+            "p99": "2001.78ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 223,
-                    "false_negative_detections": 201,
-                    "true_positive_detections": 8126,
-                    "true_negative_detections": 10258,
-                    "http_errors": 1262
+                    "false_positive_detections": 233,
+                    "false_negative_detections": 211,
+                    "true_positive_detections": 8453,
+                    "true_negative_detections": 10765,
+                    "http_errors": 657
                 },
-                "failure_rate": "8.4%",
-                "weighted_errors_E": 7136,
-                "error_rate_epsilon": 0.355556,
+                "failure_rate": "5.42%",
+                "weighted_errors_E": 4151,
+                "error_rate_epsilon": 0.204292,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -706.96,
-                    "rate_component": 449.09,
-                    "absolute_penalty": -1156.05,
+                    "value": -395.73,
+                    "rate_component": 689.75,
+                    "absolute_penalty": -1085.48,
                     "cut_triggered": false
                 },
-                "final_score": -3706.96
+                "final_score": -3395.73
             },
             "repo_url": "https://github.com/IgorBrizack/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4333",
-            "timestamp": "2026-05-14T12:05:23Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4337",
+            "timestamp": "2026-05-14T12:36:36Z"
         }
     },
     "GustavoZiaugra": {
