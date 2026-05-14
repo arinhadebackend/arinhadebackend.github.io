@@ -5664,33 +5664,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "6.04ms",
+            "p99": "12.32ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 24033,
+                    "false_positive_detections": 3,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 24032,
                     "true_negative_detections": 30018,
                     "http_errors": 0
                 },
                 "failure_rate": "0.01%",
-                "weighted_errors_E": 16,
-                "error_rate_epsilon": 0.000296,
+                "weighted_errors_E": 18,
+                "error_rate_epsilon": 0.000333,
                 "p99_score": {
-                    "value": 2219.21,
+                    "value": 1909.33,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2630.87,
+                    "value": 2616.37,
                     "rate_component": 3000,
-                    "absolute_penalty": -369.13,
+                    "absolute_penalty": -383.63,
                     "cut_triggered": false
                 },
-                "final_score": 4850.08
+                "final_score": 4525.7
             },
             "repo_url": "https://github.com/maxsonferovante/vector-based-fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4257",
-            "timestamp": "2026-05-14T03:42:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4266",
+            "timestamp": "2026-05-14T04:30:51Z"
         }
     },
     "RonieNeubauer": {
