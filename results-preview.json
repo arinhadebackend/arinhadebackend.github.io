@@ -7692,33 +7692,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "73.83ms",
+            "p99": "59.51ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 492,
-                    "false_negative_detections": 498,
-                    "true_positive_detections": 23539,
-                    "true_negative_detections": 29530,
+                    "false_positive_detections": 196,
+                    "false_negative_detections": 167,
+                    "true_positive_detections": 23870,
+                    "true_negative_detections": 29826,
                     "http_errors": 0
                 },
-                "failure_rate": "1.83%",
-                "weighted_errors_E": 1986,
-                "error_rate_epsilon": 0.036738,
+                "failure_rate": "0.67%",
+                "weighted_errors_E": 697,
+                "error_rate_epsilon": 0.012893,
                 "p99_score": {
-                    "value": 1131.77,
+                    "value": 1225.43,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 445.43,
-                    "rate_component": 1434.89,
-                    "absolute_penalty": -989.46,
+                    "value": 1036.48,
+                    "rate_component": 1889.64,
+                    "absolute_penalty": -853.16,
                     "cut_triggered": false
                 },
-                "final_score": 1577.2
+                "final_score": 2261.91
             },
             "repo_url": "https://github.com/psavelis/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4394",
-            "timestamp": "2026-05-14T17:24:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4401",
+            "timestamp": "2026-05-14T17:35:01Z"
         }
     },
     "vicelizangela": {
