@@ -4072,33 +4072,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.84ms",
+            "p99": "10.54ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 24036,
-                    "true_negative_detections": 30020,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 24037,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 30021,
                     "http_errors": 0
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 5,
-                "error_rate_epsilon": 0.000092,
+                "failure_rate": "44.47%",
+                "weighted_errors_E": 72111,
+                "error_rate_epsilon": 1.333956,
                 "p99_score": {
-                    "value": 2416.18,
+                    "value": 1977.01,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2766.55,
-                    "rate_component": 3000,
-                    "absolute_penalty": -233.45,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 5182.73
+                "final_score": -1022.99
             },
             "repo_url": "https://github.com/matheus896/rinha-back-26",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4414",
-            "timestamp": "2026-05-14T18:21:00Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4450",
+            "timestamp": "2026-05-14T21:31:24Z"
         }
     },
     "diegoph": {
