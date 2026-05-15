@@ -362,33 +362,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1856.01ms",
+            "p99": "2002.34ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 7,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 8724,
-                    "true_negative_detections": 10998,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 660,
+                    "true_negative_detections": 877,
+                    "http_errors": 12400
                 },
-                "failure_rate": "0.06%",
-                "weighted_errors_E": 22,
-                "error_rate_epsilon": 0.001115,
+                "failure_rate": "88.97%",
+                "weighted_errors_E": 62000,
+                "error_rate_epsilon": 4.44859,
                 "p99_score": {
-                    "value": -268.58,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2544.27,
-                    "rate_component": 2952.79,
-                    "absolute_penalty": -408.52,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 2275.69
+                "final_score": -6000
             },
             "repo_url": "https://github.com/joojf/rinha-2026-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4446",
-            "timestamp": "2026-05-14T21:15:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4485",
+            "timestamp": "2026-05-15T03:45:33Z"
         }
     },
     "vitortvale": {
