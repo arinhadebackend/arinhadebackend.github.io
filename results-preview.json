@@ -8109,6 +8109,44 @@
             "repo_url": "https://github.com/peregrinno/heimdall",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4568",
             "timestamp": "2026-05-15T18:01:33Z"
+        },
+        "heimdall-ii-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "157.80ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 245,
+                    "false_negative_detections": 9170,
+                    "true_positive_detections": 14858,
+                    "true_negative_detections": 29769,
+                    "http_errors": 0
+                },
+                "failure_rate": "17.42%",
+                "weighted_errors_E": 27755,
+                "error_rate_epsilon": 0.513582,
+                "p99_score": {
+                    "value": 801.88,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -2198.12
+            },
+            "repo_url": "https://github.com/peregrinno/heimdall",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4579",
+            "timestamp": "2026-05-15T19:32:24Z"
         }
     },
     "inacioiso": {
