@@ -2886,7 +2886,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.45ms",
+            "p99": "1.44ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -2899,7 +2899,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2839.52,
+                    "value": 2843.05,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -2908,11 +2908,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5839.52
+                "final_score": 5843.05
             },
             "repo_url": "https://github.com/jonathanperis/rinha4-back-end-c",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4375",
-            "timestamp": "2026-05-14T15:23:15Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4545",
+            "timestamp": "2026-05-15T14:11:52Z"
         }
     },
     "Shobon03": {
