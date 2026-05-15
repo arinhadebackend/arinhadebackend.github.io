@@ -6814,33 +6814,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.08ms",
+            "p99": "1.09ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4,
+                    "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 24037,
-                    "true_negative_detections": 30018,
+                    "true_negative_detections": 30022,
                     "http_errors": 0
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 4,
-                "error_rate_epsilon": 0.000074,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2966.55,
+                    "value": 2960.75,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2790.31,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -209.69,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5756.86
+                "final_score": 5960.75
             },
             "repo_url": "https://github.com/rafaelcoelhox/eu-sou-o-ze-pamonha",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4587",
-            "timestamp": "2026-05-15T20:37:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4589",
+            "timestamp": "2026-05-15T21:06:21Z"
         }
     },
     "oliveirajhony": {
