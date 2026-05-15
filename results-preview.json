@@ -7172,33 +7172,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "484.76ms",
+            "p99": "581.79ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 21,
-                    "false_negative_detections": 17,
-                    "true_positive_detections": 22334,
-                    "true_negative_detections": 27886,
+                    "false_positive_detections": 20,
+                    "false_negative_detections": 16,
+                    "true_positive_detections": 20819,
+                    "true_negative_detections": 26075,
                     "http_errors": 0
                 },
                 "failure_rate": "0.08%",
-                "weighted_errors_E": 72,
-                "error_rate_epsilon": 0.001433,
+                "weighted_errors_E": 68,
+                "error_rate_epsilon": 0.001449,
                 "p99_score": {
-                    "value": 314.47,
+                    "value": 235.24,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2284.88,
-                    "rate_component": 2843.87,
-                    "absolute_penalty": -559,
+                    "value": 2287.29,
+                    "rate_component": 2838.94,
+                    "absolute_penalty": -551.65,
                     "cut_triggered": false
                 },
-                "final_score": 2599.35
+                "final_score": 2522.52
             },
             "repo_url": "https://github.com/renatovico/rinha-elixir-pure",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4514",
-            "timestamp": "2026-05-15T10:14:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4539",
+            "timestamp": "2026-05-15T13:40:48Z"
         }
     },
     "yanpitangui": {
