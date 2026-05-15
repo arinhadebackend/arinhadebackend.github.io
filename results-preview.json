@@ -7958,5 +7958,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4461",
             "timestamp": "2026-05-14T22:10:32Z"
         }
+    },
+    "inacioiso": {
+        "inacioiso-node": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2002.09ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 141,
+                    "true_negative_detections": 193,
+                    "http_errors": 13588
+                },
+                "failure_rate": "97.6%",
+                "weighted_errors_E": 67940,
+                "error_rate_epsilon": 4.880046,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000
+            },
+            "repo_url": "https://github.com/inacioiso/rinha-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4478",
+            "timestamp": "2026-05-15T03:36:31Z"
+        }
     }
 }
