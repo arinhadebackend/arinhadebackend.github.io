@@ -7161,6 +7161,44 @@
             "repo_url": "https://github.com/renatovico/rinha_elixir",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4061",
             "timestamp": "2026-05-13T14:59:56Z"
+        },
+        "renatovico-elixir-pure": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "484.76ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 21,
+                    "false_negative_detections": 17,
+                    "true_positive_detections": 22334,
+                    "true_negative_detections": 27886,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.08%",
+                "weighted_errors_E": 72,
+                "error_rate_epsilon": 0.001433,
+                "p99_score": {
+                    "value": 314.47,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2284.88,
+                    "rate_component": 2843.87,
+                    "absolute_penalty": -559,
+                    "cut_triggered": false
+                },
+                "final_score": 2599.35
+            },
+            "repo_url": "https://github.com/renatovico/rinha-elixir-pure",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4514",
+            "timestamp": "2026-05-15T10:14:46Z"
         }
     },
     "yanpitangui": {
