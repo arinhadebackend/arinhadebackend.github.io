@@ -7566,33 +7566,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "135.16ms",
+            "p99": "126.27ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4404,
-                    "false_negative_detections": 3458,
-                    "true_positive_detections": 20579,
-                    "true_negative_detections": 25618,
+                    "false_positive_detections": 440,
+                    "false_negative_detections": 732,
+                    "true_positive_detections": 23302,
+                    "true_negative_detections": 29581,
                     "http_errors": 0
                 },
-                "failure_rate": "14.54%",
-                "weighted_errors_E": 14778,
-                "error_rate_epsilon": 0.273368,
+                "failure_rate": "2.17%",
+                "weighted_errors_E": 2636,
+                "error_rate_epsilon": 0.048765,
                 "p99_score": {
-                    "value": 869.15,
+                    "value": 898.7,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -687.64,
-                    "rate_component": 563.25,
-                    "absolute_penalty": -1250.89,
+                    "value": 285.56,
+                    "rate_component": 1311.89,
+                    "absolute_penalty": -1026.33,
                     "cut_triggered": false
                 },
-                "final_score": 181.51
+                "final_score": 1184.26
             },
             "repo_url": "https://github.com/jgouvea7/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4398",
-            "timestamp": "2026-05-14T17:27:45Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4552",
+            "timestamp": "2026-05-15T14:46:11Z"
         }
     },
     "GuilhermRodovalho": {
