@@ -4500,33 +4500,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.69ms",
+            "p99": "81.69ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 391,
-                    "false_negative_detections": 1873,
-                    "true_positive_detections": 15258,
-                    "true_negative_detections": 21077,
-                    "http_errors": 2430
+                    "false_positive_detections": 626,
+                    "false_negative_detections": 637,
+                    "true_positive_detections": 23383,
+                    "true_negative_detections": 29374,
+                    "http_errors": 0
                 },
-                "failure_rate": "11.44%",
-                "weighted_errors_E": 18160,
-                "error_rate_epsilon": 0.442614,
+                "failure_rate": "2.34%",
+                "weighted_errors_E": 2537,
+                "error_rate_epsilon": 0.046964,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -923.77,
-                    "rate_component": 353.98,
-                    "absolute_penalty": -1277.74,
+                    "value": 1087.82,
                     "cut_triggered": false
                 },
-                "final_score": -3923.77
+                "detection_score": {
+                    "value": 306.89,
+                    "rate_component": 1328.23,
+                    "absolute_penalty": -1021.35,
+                    "cut_triggered": false
+                },
+                "final_score": 1394.71
             },
             "repo_url": "https://github.com/marcelodelfiore/rinha-2026-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4692",
-            "timestamp": "2026-05-16T12:42:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4697",
+            "timestamp": "2026-05-16T13:11:01Z"
         }
     },
     "ChristopheNonato": {
