@@ -4500,33 +4500,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.29ms",
+            "p99": "2001.69ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 626,
-                    "false_negative_detections": 585,
-                    "true_positive_detections": 23452,
-                    "true_negative_detections": 29396,
-                    "http_errors": 0
+                    "false_positive_detections": 391,
+                    "false_negative_detections": 1873,
+                    "true_positive_detections": 15258,
+                    "true_negative_detections": 21077,
+                    "http_errors": 2430
                 },
-                "failure_rate": "2.24%",
-                "weighted_errors_E": 2381,
-                "error_rate_epsilon": 0.044044,
+                "failure_rate": "11.44%",
+                "weighted_errors_E": 18160,
+                "error_rate_epsilon": 0.442614,
                 "p99_score": {
-                    "value": 2640.98,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 343.03,
-                    "rate_component": 1356.11,
-                    "absolute_penalty": -1013.08,
+                    "value": -923.77,
+                    "rate_component": 353.98,
+                    "absolute_penalty": -1277.74,
                     "cut_triggered": false
                 },
-                "final_score": 2984
+                "final_score": -3923.77
             },
             "repo_url": "https://github.com/marcelodelfiore/rinha-2026-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3280",
-            "timestamp": "2026-05-11T12:55:25Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4692",
+            "timestamp": "2026-05-16T12:42:46Z"
         }
     },
     "ChristopheNonato": {
