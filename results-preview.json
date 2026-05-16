@@ -8040,27 +8040,27 @@
                     "false_positive_detections": 196,
                     "false_negative_detections": 167,
                     "true_positive_detections": 23870,
-                    "true_negative_detections": 29825,
+                    "true_negative_detections": 29826,
                     "http_errors": 0
                 },
                 "failure_rate": "0.67%",
                 "weighted_errors_E": 697,
-                "error_rate_epsilon": 0.012894,
+                "error_rate_epsilon": 0.012893,
                 "p99_score": {
-                    "value": 2633.62,
+                    "value": 2634.16,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1036.47,
-                    "rate_component": 1889.63,
+                    "value": 1036.48,
+                    "rate_component": 1889.64,
                     "absolute_penalty": -853.16,
                     "cut_triggered": false
                 },
-                "final_score": 3670.09
+                "final_score": 3670.64
             },
             "repo_url": "https://github.com/psavelis/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4758",
-            "timestamp": "2026-05-16T19:19:54Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4762",
+            "timestamp": "2026-05-16T19:34:13Z"
         }
     },
     "vicelizangela": {
