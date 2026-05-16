@@ -8866,33 +8866,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1683.47ms",
+            "p99": "1683.58ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 146,
-                    "false_negative_detections": 145,
-                    "true_positive_detections": 14389,
-                    "true_negative_detections": 18053,
+                    "false_positive_detections": 151,
+                    "false_negative_detections": 148,
+                    "true_positive_detections": 14958,
+                    "true_negative_detections": 18720,
                     "http_errors": 0
                 },
-                "failure_rate": "0.89%",
-                "weighted_errors_E": 581,
-                "error_rate_epsilon": 0.01775,
+                "failure_rate": "0.88%",
+                "weighted_errors_E": 595,
+                "error_rate_epsilon": 0.017512,
                 "p99_score": {
-                    "value": -226.21,
+                    "value": -226.23,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 921.33,
-                    "rate_component": 1750.81,
-                    "absolute_penalty": -829.48,
+                    "value": 924.09,
+                    "rate_component": 1756.67,
+                    "absolute_penalty": -832.57,
                     "cut_triggered": false
                 },
-                "final_score": 695.13
+                "final_score": 697.86
             },
             "repo_url": "https://github.com/DanielM08/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4789",
-            "timestamp": "2026-05-16T21:02:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4816",
+            "timestamp": "2026-05-16T22:09:51Z"
         }
     },
     "NRLacerda": {
