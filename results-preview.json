@@ -124,7 +124,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "0.96ms",
+            "p99": "0.97ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -149,8 +149,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/MXLange/c-api-rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4773",
-            "timestamp": "2026-05-16T20:08:59Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4777",
+            "timestamp": "2026-05-16T20:22:36Z"
         }
     },
     "zanfranceschi": {
