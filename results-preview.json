@@ -8034,33 +8034,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "40.30ms",
+            "p99": "2.32ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 24036,
-                    "true_negative_detections": 30020,
+                    "false_positive_detections": 196,
+                    "false_negative_detections": 167,
+                    "true_positive_detections": 23870,
+                    "true_negative_detections": 29825,
                     "http_errors": 0
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 5,
-                "error_rate_epsilon": 0.000092,
+                "failure_rate": "0.67%",
+                "weighted_errors_E": 697,
+                "error_rate_epsilon": 0.012894,
                 "p99_score": {
-                    "value": 1394.67,
+                    "value": 2633.62,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2766.55,
-                    "rate_component": 3000,
-                    "absolute_penalty": -233.45,
+                    "value": 1036.47,
+                    "rate_component": 1889.63,
+                    "absolute_penalty": -853.16,
                     "cut_triggered": false
                 },
-                "final_score": 4161.23
+                "final_score": 3670.09
             },
             "repo_url": "https://github.com/psavelis/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4406",
-            "timestamp": "2026-05-14T17:48:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4758",
+            "timestamp": "2026-05-16T19:19:54Z"
         }
     },
     "vicelizangela": {
