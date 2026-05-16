@@ -7440,20 +7440,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "132.49ms",
+            "p99": "69.45ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24029,
-                    "true_negative_detections": 30018,
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30021,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 877.8,
+                    "value": 1158.32,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -7462,11 +7462,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3877.8
+                "final_score": 4158.32
             },
             "repo_url": "https://github.com/yanpitangui/rinha-de-backend-2026-q1",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4384",
-            "timestamp": "2026-05-14T16:39:37Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4728",
+            "timestamp": "2026-05-16T16:21:33Z"
         }
     },
     "Pettecco": {
