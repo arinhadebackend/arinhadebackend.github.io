@@ -8854,5 +8854,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4780",
             "timestamp": "2026-05-16T20:30:49Z"
         }
+    },
+    "DanielM08": {
+        "danielm08-python": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "1683.47ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 146,
+                    "false_negative_detections": 145,
+                    "true_positive_detections": 14389,
+                    "true_negative_detections": 18053,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.89%",
+                "weighted_errors_E": 581,
+                "error_rate_epsilon": 0.01775,
+                "p99_score": {
+                    "value": -226.21,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 921.33,
+                    "rate_component": 1750.81,
+                    "absolute_penalty": -829.48,
+                    "cut_triggered": false
+                },
+                "final_score": 695.13
+            },
+            "repo_url": "https://github.com/DanielM08/rinha-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4789",
+            "timestamp": "2026-05-16T21:02:01Z"
+        }
     }
 }
