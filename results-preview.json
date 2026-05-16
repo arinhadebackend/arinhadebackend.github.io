@@ -6128,33 +6128,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.62ms",
+            "p99": "83.11ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 19487,
-                    "true_negative_detections": 24423,
-                    "http_errors": 1899
+                    "false_negative_detections": 2,
+                    "true_positive_detections": 24035,
+                    "true_negative_detections": 30021,
+                    "http_errors": 0
                 },
-                "failure_rate": "4.15%",
-                "weighted_errors_E": 9499,
-                "error_rate_epsilon": 0.207352,
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 7,
+                "error_rate_epsilon": 0.000129,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -510.03,
-                    "rate_component": 683.29,
-                    "absolute_penalty": -1193.32,
+                    "value": 1080.36,
                     "cut_triggered": false
                 },
-                "final_score": -3510.03
+                "detection_score": {
+                    "value": 2729.07,
+                    "rate_component": 3000,
+                    "absolute_penalty": -270.93,
+                    "cut_triggered": false
+                },
+                "final_score": 3809.43
             },
             "repo_url": "https://github.com/abeswz/rinha-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4757",
-            "timestamp": "2026-05-16T19:17:14Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4802",
+            "timestamp": "2026-05-16T21:33:50Z"
         }
     },
     "chagas42": {
