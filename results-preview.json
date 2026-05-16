@@ -8736,5 +8736,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4745",
             "timestamp": "2026-05-16T18:27:30Z"
         }
+    },
+    "lazaroborges": {
+        "lazaroborges-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "483.85ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 23157,
+                    "true_negative_detections": 28912,
+                    "http_errors": 0
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 3,
+                "error_rate_epsilon": 0.000058,
+                "p99_score": {
+                    "value": 315.29,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2819.38,
+                    "rate_component": 3000,
+                    "absolute_penalty": -180.62,
+                    "cut_triggered": false
+                },
+                "final_score": 3134.67
+            },
+            "repo_url": "https://github.com/lazaroborges/lazaroborges-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4761",
+            "timestamp": "2026-05-16T19:29:44Z"
+        }
     }
 }
