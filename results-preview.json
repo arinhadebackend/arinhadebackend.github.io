@@ -6052,33 +6052,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.80ms",
+            "p99": "2001.99ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 13,
+                    "false_positive_detections": 7,
                     "false_negative_detections": 7,
-                    "true_positive_detections": 16808,
-                    "true_negative_detections": 20962,
-                    "http_errors": 3072
+                    "true_positive_detections": 11015,
+                    "true_negative_detections": 13793,
+                    "http_errors": 5408
                 },
-                "failure_rate": "7.57%",
-                "weighted_errors_E": 15394,
-                "error_rate_epsilon": 0.376731,
+                "failure_rate": "17.94%",
+                "weighted_errors_E": 27068,
+                "error_rate_epsilon": 0.895402,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -832.25,
-                    "rate_component": 423.97,
-                    "absolute_penalty": -1256.21,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": -3832.25
+                "final_score": -6000
             },
             "repo_url": "https://github.com/abeswz/rinha-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4714",
-            "timestamp": "2026-05-16T14:53:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4720",
+            "timestamp": "2026-05-16T15:41:40Z"
         }
     },
     "chagas42": {
