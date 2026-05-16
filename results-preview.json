@@ -5772,18 +5772,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.89ms",
+            "p99": "2002.00ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 258,
-                    "false_negative_detections": 240,
-                    "true_positive_detections": 9492,
-                    "true_negative_detections": 12004,
-                    "http_errors": 15900
+                    "false_positive_detections": 46,
+                    "false_negative_detections": 45,
+                    "true_positive_detections": 1747,
+                    "true_negative_detections": 2253,
+                    "http_errors": 30539
                 },
-                "failure_rate": "43.27%",
-                "weighted_errors_E": 80478,
-                "error_rate_epsilon": 2.123766,
+                "failure_rate": "88.45%",
+                "weighted_errors_E": 152876,
+                "error_rate_epsilon": 4.414554,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -5797,8 +5797,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/KaueFSoares/rinha-de-backend-2026-java-quarkus",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3090",
-            "timestamp": "2026-05-10T22:58:56Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4715",
+            "timestamp": "2026-05-16T15:00:02Z"
         }
     },
     "gxolivei": {
