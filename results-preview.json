@@ -1224,33 +1224,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "186.88ms",
+            "p99": "1532.78ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 301,
-                    "false_negative_detections": 319,
-                    "true_positive_detections": 23692,
-                    "true_negative_detections": 29688,
-                    "http_errors": 0
+                    "false_positive_detections": 18,
+                    "false_negative_detections": 23,
+                    "true_positive_detections": 2821,
+                    "true_negative_detections": 3611,
+                    "http_errors": 44480
                 },
-                "failure_rate": "1.15%",
-                "weighted_errors_E": 1258,
-                "error_rate_epsilon": 0.023296,
+                "failure_rate": "87.38%",
+                "weighted_errors_E": 222487,
+                "error_rate_epsilon": 4.366514,
                 "p99_score": {
-                    "value": 728.43,
+                    "value": -185.48,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 702.71,
-                    "rate_component": 1632.71,
-                    "absolute_penalty": -930.01,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1431.14
+                "final_score": -3185.48
             },
             "repo_url": "https://github.com/ronaldosilva95/rinha-fraud-detection-engine",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/834",
-            "timestamp": "2026-05-03T02:02:18Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4632",
+            "timestamp": "2026-05-16T01:48:11Z"
         }
     },
     "pandrRe": {
