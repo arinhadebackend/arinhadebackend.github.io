@@ -400,33 +400,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.58ms",
+            "p99": "2001.89ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 1508,
-                    "true_negative_detections": 1990,
-                    "http_errors": 10802
+                    "false_positive_detections": 6,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 16418,
+                    "true_negative_detections": 20542,
+                    "http_errors": 2824
                 },
-                "failure_rate": "75.54%",
-                "weighted_errors_E": 54010,
-                "error_rate_epsilon": 3.776923,
+                "failure_rate": "7.12%",
+                "weighted_errors_E": 14141,
+                "error_rate_epsilon": 0.355346,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -795.8,
+                    "rate_component": 449.35,
+                    "absolute_penalty": -1245.15,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -3795.8
             },
             "repo_url": "https://github.com/joojf/rinha-2026-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4605",
-            "timestamp": "2026-05-15T22:33:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4624",
+            "timestamp": "2026-05-16T00:52:01Z"
         }
     },
     "vitortvale": {
