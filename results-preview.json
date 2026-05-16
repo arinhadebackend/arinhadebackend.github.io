@@ -3634,7 +3634,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "15.62ms",
+            "p99": "1.68ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -3647,7 +3647,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1806.41,
+                    "value": 2774.32,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -3656,11 +3656,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4806.41
+                "final_score": 5774.32
             },
             "repo_url": "https://github.com/macedot/rinha-2026-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3214",
-            "timestamp": "2026-05-11T06:43:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4707",
+            "timestamp": "2026-05-16T14:10:30Z"
         },
         "macedot-rinha-2026-c": {
             "expected": {
