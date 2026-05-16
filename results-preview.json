@@ -6090,33 +6090,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.99ms",
+            "p99": "2001.70ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 7,
-                    "false_negative_detections": 7,
-                    "true_positive_detections": 11015,
-                    "true_negative_detections": 13793,
-                    "http_errors": 5408
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 18799,
+                    "true_negative_detections": 23580,
+                    "http_errors": 2500
                 },
-                "failure_rate": "17.94%",
-                "weighted_errors_E": 27068,
-                "error_rate_epsilon": 0.895402,
+                "failure_rate": "5.57%",
+                "weighted_errors_E": 12504,
+                "error_rate_epsilon": 0.278603,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -674.11,
+                    "rate_component": 555.01,
+                    "absolute_penalty": -1229.13,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -3674.11
             },
             "repo_url": "https://github.com/abeswz/rinha-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4720",
-            "timestamp": "2026-05-16T15:41:40Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4739",
+            "timestamp": "2026-05-16T17:28:32Z"
         }
     },
     "chagas42": {
