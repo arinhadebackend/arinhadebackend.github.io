@@ -8704,33 +8704,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "4.30ms",
+            "p99": "4.05ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 6,
-                    "false_negative_detections": 6,
-                    "true_positive_detections": 24031,
+                    "false_negative_detections": 8,
+                    "true_positive_detections": 24029,
                     "true_negative_detections": 30015,
                     "http_errors": 0
                 },
-                "failure_rate": "0.02%",
-                "weighted_errors_E": 24,
-                "error_rate_epsilon": 0.000444,
+                "failure_rate": "0.03%",
+                "weighted_errors_E": 30,
+                "error_rate_epsilon": 0.000555,
                 "p99_score": {
-                    "value": 2366.27,
+                    "value": 2392.61,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2580.62,
+                    "value": 2552.59,
                     "rate_component": 3000,
-                    "absolute_penalty": -419.38,
+                    "absolute_penalty": -447.41,
                     "cut_triggered": false
                 },
-                "final_score": 4946.89
+                "final_score": 4945.2
             },
             "repo_url": "https://github.com/viniciusmoreiraa/rinha-de-backend-2026-vina-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4937",
-            "timestamp": "2026-05-17T06:18:41Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4938",
+            "timestamp": "2026-05-17T06:26:13Z"
         }
     },
     "santannaf": {
