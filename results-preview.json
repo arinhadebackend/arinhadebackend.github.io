@@ -9224,33 +9224,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "55.94ms",
+            "p99": "2002.22ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 321,
-                    "false_negative_detections": 461,
-                    "true_positive_detections": 23545,
-                    "true_negative_detections": 29658,
-                    "http_errors": 35
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 17,
+                    "true_negative_detections": 18,
+                    "http_errors": 13792
                 },
-                "failure_rate": "1.51%",
-                "weighted_errors_E": 1879,
-                "error_rate_epsilon": 0.034783,
+                "failure_rate": "99.75%",
+                "weighted_errors_E": 68960,
+                "error_rate_epsilon": 4.987344,
                 "p99_score": {
-                    "value": 1252.3,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 476.38,
-                    "rate_component": 1458.63,
-                    "absolute_penalty": -982.25,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1728.68
+                "final_score": -6000
             },
             "repo_url": "https://github.com/iasply/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5033",
-            "timestamp": "2026-05-17T17:21:14Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5060",
+            "timestamp": "2026-05-17T19:50:49Z"
         }
     },
     "arturlbg": {
