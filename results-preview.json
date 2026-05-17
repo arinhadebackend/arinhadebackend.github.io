@@ -3038,7 +3038,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "0.99ms",
+            "p99": "0.97ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -3063,8 +3063,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/jonathanperis/rinha4-back-end-c",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5043",
-            "timestamp": "2026-05-17T18:46:09Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5070",
+            "timestamp": "2026-05-17T20:19:45Z"
         }
     },
     "Shobon03": {
