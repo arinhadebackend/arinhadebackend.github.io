@@ -8270,33 +8270,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "282.76ms",
+            "p99": "650.50ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 517,
-                    "false_negative_detections": 523,
-                    "true_positive_detections": 23464,
-                    "true_negative_detections": 29448,
-                    "http_errors": 0
+                    "false_positive_detections": 510,
+                    "false_negative_detections": 517,
+                    "true_positive_detections": 23175,
+                    "true_negative_detections": 29093,
+                    "http_errors": 20
                 },
-                "failure_rate": "1.93%",
-                "weighted_errors_E": 2086,
-                "error_rate_epsilon": 0.038664,
+                "failure_rate": "1.96%",
+                "weighted_errors_E": 2161,
+                "error_rate_epsilon": 0.040533,
                 "p99_score": {
-                    "value": 548.58,
+                    "value": 186.75,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 416.84,
-                    "rate_component": 1412.69,
-                    "absolute_penalty": -995.86,
+                    "value": 391.74,
+                    "rate_component": 1392.19,
+                    "absolute_penalty": -1000.46,
                     "cut_triggered": false
                 },
-                "final_score": 965.42
+                "final_score": 578.49
             },
             "repo_url": "https://github.com/guilhermegules/fraud-detector",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4433",
-            "timestamp": "2026-05-14T19:34:18Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5099",
+            "timestamp": "2026-05-17T22:25:07Z"
         }
     },
     "peregrinno": {
