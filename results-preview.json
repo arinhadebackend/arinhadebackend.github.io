@@ -8784,33 +8784,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.23ms",
+            "p99": "980.82ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 640,
-                    "false_negative_detections": 588,
-                    "true_positive_detections": 23449,
-                    "true_negative_detections": 29381,
-                    "http_errors": 1
+                    "false_positive_detections": 462,
+                    "false_negative_detections": 438,
+                    "true_positive_detections": 17486,
+                    "true_negative_detections": 21970,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.27%",
-                "weighted_errors_E": 2409,
-                "error_rate_epsilon": 0.044562,
+                "failure_rate": "2.23%",
+                "weighted_errors_E": 1776,
+                "error_rate_epsilon": 0.044008,
                 "p99_score": {
-                    "value": 2650.83,
+                    "value": 8.41,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 336.43,
-                    "rate_component": 1351.03,
-                    "absolute_penalty": -1014.61,
+                    "value": 381.56,
+                    "rate_component": 1356.47,
+                    "absolute_penalty": -974.91,
                     "cut_triggered": false
                 },
-                "final_score": 2987.26
+                "final_score": 389.97
             },
             "repo_url": "https://github.com/EdnaldoLuiz/rinha-de-backend-2026-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4850",
-            "timestamp": "2026-05-17T00:09:16Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4867",
+            "timestamp": "2026-05-17T01:20:08Z"
         }
     },
     "lazaroborges": {
