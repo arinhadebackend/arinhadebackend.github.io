@@ -1534,7 +1534,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2.87ms",
+            "p99": "2.79ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -1547,7 +1547,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2542.22,
+                    "value": 2554.94,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1556,11 +1556,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5542.22
+                "final_score": 5554.94
             },
             "repo_url": "https://github.com/cleissonbarbosa/rinha-backend-2026-rinha",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4930",
-            "timestamp": "2026-05-17T05:26:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4984",
+            "timestamp": "2026-05-17T14:37:38Z"
         }
     },
     "JosineyJr": {
