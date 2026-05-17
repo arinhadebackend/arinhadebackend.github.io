@@ -9132,5 +9132,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4969",
             "timestamp": "2026-05-17T13:37:34Z"
         }
+    },
+    "evinicius16": {
+        "evinicius16-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2001.52ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 188,
+                    "false_negative_detections": 203,
+                    "true_positive_detections": 19115,
+                    "true_negative_detections": 24015,
+                    "http_errors": 1450
+                },
+                "failure_rate": "4.09%",
+                "weighted_errors_E": 8047,
+                "error_rate_epsilon": 0.178938,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -424.41,
+                    "rate_component": 747.3,
+                    "absolute_penalty": -1171.71,
+                    "cut_triggered": false
+                },
+                "final_score": -3424.41
+            },
+            "repo_url": "https://github.com/evinicius16/fraud-detection-knn-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4971",
+            "timestamp": "2026-05-17T13:50:59Z"
+        }
     }
 }
