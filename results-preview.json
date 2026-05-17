@@ -8704,33 +8704,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "144.64ms",
+            "p99": "617.12ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 6,
-                    "false_negative_detections": 7,
-                    "true_positive_detections": 24029,
-                    "true_negative_detections": 30015,
-                    "http_errors": 0
+                    "false_positive_detections": 3,
+                    "false_negative_detections": 2,
+                    "true_positive_detections": 23683,
+                    "true_negative_detections": 29615,
+                    "http_errors": 369
                 },
-                "failure_rate": "0.02%",
-                "weighted_errors_E": 27,
-                "error_rate_epsilon": 0.000499,
+                "failure_rate": "0.7%",
+                "weighted_errors_E": 1854,
+                "error_rate_epsilon": 0.034543,
                 "p99_score": {
-                    "value": 839.72,
+                    "value": 209.63,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2565.85,
-                    "rate_component": 3000,
-                    "absolute_penalty": -434.15,
+                    "value": 481.13,
+                    "rate_component": 1461.64,
+                    "absolute_penalty": -980.5,
                     "cut_triggered": false
                 },
-                "final_score": 3405.57
+                "final_score": 690.77
             },
             "repo_url": "https://github.com/viniciusmoreiraa/rinha-de-backend-2026-vina-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4657",
-            "timestamp": "2026-05-16T04:11:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4895",
+            "timestamp": "2026-05-17T03:37:28Z"
         }
     },
     "santannaf": {
