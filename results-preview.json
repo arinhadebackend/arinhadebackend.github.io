@@ -8984,18 +8984,18 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.81ms",
+            "p99": "2001.50ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 180,
-                    "true_negative_detections": 223,
-                    "http_errors": 52218
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 129,
+                    "true_negative_detections": 166,
+                    "http_errors": 53491
                 },
-                "failure_rate": "99.23%",
-                "weighted_errors_E": 261106,
-                "error_rate_epsilon": 4.961446,
+                "failure_rate": "99.45%",
+                "weighted_errors_E": 267464,
+                "error_rate_epsilon": 4.972466,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -9009,8 +9009,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/ericbsantana/rinha-de-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4862",
-            "timestamp": "2026-05-17T00:34:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4872",
+            "timestamp": "2026-05-17T01:37:22Z"
         }
     }
 }
