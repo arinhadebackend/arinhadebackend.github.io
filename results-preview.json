@@ -8864,7 +8864,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "24.14ms",
+            "p99": "39.14ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -8877,7 +8877,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1617.2,
+                    "value": 1407.33,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -8886,11 +8886,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4617.2
+                "final_score": 4407.33
             },
             "repo_url": "https://github.com/iamjoaovytor/iamjoaovytor-swift",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4881",
-            "timestamp": "2026-05-17T02:26:28Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4887",
+            "timestamp": "2026-05-17T02:47:41Z"
         }
     },
     "DanielM08": {
