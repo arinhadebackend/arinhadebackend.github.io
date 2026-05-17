@@ -3645,7 +3645,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2928.8,
+                    "value": 2929.47,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -3654,11 +3654,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5928.8
+                "final_score": 5929.47
             },
             "repo_url": "https://github.com/joycegodinho/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5042",
-            "timestamp": "2026-05-17T18:43:15Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5053",
+            "timestamp": "2026-05-17T19:03:43Z"
         }
     },
     "macedot": {
