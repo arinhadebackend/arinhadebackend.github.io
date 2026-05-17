@@ -8824,20 +8824,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "480.65ms",
+            "p99": "477.58ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 23357,
-                    "true_negative_detections": 29181,
+                    "true_positive_detections": 23369,
+                    "true_negative_detections": 29194,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
                 "error_rate_epsilon": 0.000057,
                 "p99_score": {
-                    "value": 318.17,
+                    "value": 320.95,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -8846,11 +8846,11 @@
                     "absolute_penalty": -180.62,
                     "cut_triggered": false
                 },
-                "final_score": 3137.55
+                "final_score": 3140.33
             },
             "repo_url": "https://github.com/lazaroborges/lazaroborges-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4808",
-            "timestamp": "2026-05-16T21:48:58Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4860",
+            "timestamp": "2026-05-17T00:31:34Z"
         }
     },
     "iamjoaovytor": {
