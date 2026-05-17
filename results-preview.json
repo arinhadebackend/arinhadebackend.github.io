@@ -4852,20 +4852,20 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "279.18ms",
+            "p99": "268.71ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23962,
-                    "true_negative_detections": 29939,
+                    "true_positive_detections": 23949,
+                    "true_negative_detections": 29926,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 554.12,
+                    "value": 570.72,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -4874,11 +4874,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3554.12
+                "final_score": 3570.72
             },
             "repo_url": "https://github.com/JoaoVitorGirardii/rinha-with-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4855",
-            "timestamp": "2026-05-17T00:19:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4886",
+            "timestamp": "2026-05-17T02:44:43Z"
         }
     },
     "mtbarr": {
