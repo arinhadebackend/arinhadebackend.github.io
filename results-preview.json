@@ -7870,33 +7870,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "126.27ms",
+            "p99": "2002.12ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 440,
-                    "false_negative_detections": 732,
-                    "true_positive_detections": 23302,
-                    "true_negative_detections": 29581,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 18,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 20,
+                    "http_errors": 13787
                 },
-                "failure_rate": "2.17%",
-                "weighted_errors_E": 2636,
-                "error_rate_epsilon": 0.048765,
+                "failure_rate": "99.86%",
+                "weighted_errors_E": 68989,
+                "error_rate_epsilon": 4.990163,
                 "p99_score": {
-                    "value": 898.7,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 285.56,
-                    "rate_component": 1311.89,
-                    "absolute_penalty": -1026.33,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1184.26
+                "final_score": -6000
             },
             "repo_url": "https://github.com/jgouvea7/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4552",
-            "timestamp": "2026-05-15T14:46:11Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5087",
+            "timestamp": "2026-05-17T21:49:08Z"
         }
     },
     "GuilhermRodovalho": {
