@@ -9092,5 +9092,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4932",
             "timestamp": "2026-05-17T05:34:26Z"
         }
+    },
+    "paulohrpinheiro": {
+        "paulohrpinheiro-goLang_1.26.3": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2001.95ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 16,
+                    "false_negative_detections": 14,
+                    "true_positive_detections": 587,
+                    "true_negative_detections": 769,
+                    "http_errors": 39554
+                },
+                "failure_rate": "96.69%",
+                "weighted_errors_E": 197828,
+                "error_rate_epsilon": 4.832145,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000
+            },
+            "repo_url": "https://github.com/paulohrpinheiro/rinha-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4969",
+            "timestamp": "2026-05-17T13:37:34Z"
+        }
     }
 }
