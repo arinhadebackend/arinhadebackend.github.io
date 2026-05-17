@@ -4841,6 +4841,44 @@
             "repo_url": "https://github.com/JoaoVitorGirardii/rinha-2026-rust",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3223",
             "timestamp": "2026-05-11T08:18:21Z"
+        },
+        "joao-girardi-with-rust": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "279.18ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23962,
+                    "true_negative_detections": 29939,
+                    "http_errors": 0
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
+                "p99_score": {
+                    "value": 554.12,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 3554.12
+            },
+            "repo_url": "https://github.com/JoaoVitorGirardii/rinha-with-rust",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4855",
+            "timestamp": "2026-05-17T00:19:51Z"
         }
     },
     "mtbarr": {
