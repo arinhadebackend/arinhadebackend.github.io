@@ -6166,33 +6166,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.61ms",
+            "p99": "84.33ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 13,
-                    "false_negative_detections": 6,
-                    "true_positive_detections": 20109,
-                    "true_negative_detections": 25214,
-                    "http_errors": 1986
+                    "false_positive_detections": 17,
+                    "false_negative_detections": 11,
+                    "true_positive_detections": 24026,
+                    "true_negative_detections": 30005,
+                    "http_errors": 0
                 },
-                "failure_rate": "4.24%",
-                "weighted_errors_E": 9961,
-                "error_rate_epsilon": 0.210467,
+                "failure_rate": "0.05%",
+                "weighted_errors_E": 50,
+                "error_rate_epsilon": 0.000925,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -522.69,
-                    "rate_component": 676.82,
-                    "absolute_penalty": -1199.5,
+                    "value": 1074.02,
                     "cut_triggered": false
                 },
-                "final_score": -3522.69
+                "detection_score": {
+                    "value": 2487.73,
+                    "rate_component": 3000,
+                    "absolute_penalty": -512.27,
+                    "cut_triggered": false
+                },
+                "final_score": 3561.75
             },
             "repo_url": "https://github.com/abeswz/rinha-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4945",
-            "timestamp": "2026-05-17T10:56:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4952",
+            "timestamp": "2026-05-17T12:05:50Z"
         }
     },
     "chagas42": {
