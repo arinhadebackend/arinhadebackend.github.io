@@ -9212,5 +9212,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4994",
             "timestamp": "2026-05-17T15:14:26Z"
         }
+    },
+    "iasply": {
+        "iasply-java25": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2001.26ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 312,
+                    "false_negative_detections": 447,
+                    "true_positive_detections": 22994,
+                    "true_negative_detections": 29005,
+                    "http_errors": 782
+                },
+                "failure_rate": "2.88%",
+                "weighted_errors_E": 5563,
+                "error_rate_epsilon": 0.103904,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -140.25,
+                    "rate_component": 983.37,
+                    "absolute_penalty": -1123.62,
+                    "cut_triggered": false
+                },
+                "final_score": -3140.25
+            },
+            "repo_url": "https://github.com/iasply/rinha-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5005",
+            "timestamp": "2026-05-17T15:53:14Z"
+        }
     }
 }
