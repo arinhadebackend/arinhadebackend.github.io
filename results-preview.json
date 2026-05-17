@@ -4258,7 +4258,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "59.49ms",
+            "p99": "7.16ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 4,
@@ -4271,7 +4271,7 @@
                 "weighted_errors_E": 16,
                 "error_rate_epsilon": 0.000296,
                 "p99_score": {
-                    "value": 1225.59,
+                    "value": 2144.84,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -4280,11 +4280,11 @@
                     "absolute_penalty": -369.13,
                     "cut_triggered": false
                 },
-                "final_score": 3856.45
+                "final_score": 4775.71
             },
             "repo_url": "https://github.com/micheloliveira-com/rinha-de-backend-2026-dotnet-csharp-with-faiss-interop",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5098",
-            "timestamp": "2026-05-17T22:21:03Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5104",
+            "timestamp": "2026-05-17T22:37:07Z"
         }
     },
     "lhupalo": {
