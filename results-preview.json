@@ -9418,33 +9418,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "247.79ms",
+            "p99": "90.74ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 135,
-                    "false_negative_detections": 172,
-                    "true_positive_detections": 23780,
-                    "true_negative_detections": 29794,
+                    "false_positive_detections": 290,
+                    "false_negative_detections": 318,
+                    "true_positive_detections": 23719,
+                    "true_negative_detections": 29731,
                     "http_errors": 0
                 },
-                "failure_rate": "0.57%",
-                "weighted_errors_E": 651,
-                "error_rate_epsilon": 0.012082,
+                "failure_rate": "1.12%",
+                "weighted_errors_E": 1244,
+                "error_rate_epsilon": 0.023012,
                 "p99_score": {
-                    "value": 605.91,
+                    "value": 1042.18,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1073.58,
-                    "rate_component": 1917.85,
-                    "absolute_penalty": -844.27,
+                    "value": 709.49,
+                    "rate_component": 1638.04,
+                    "absolute_penalty": -928.55,
                     "cut_triggered": false
                 },
-                "final_score": 1679.49
+                "final_score": 1751.67
             },
             "repo_url": "https://github.com/nelsonsimionato/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5231",
-            "timestamp": "2026-05-18T12:05:45Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5242",
+            "timestamp": "2026-05-18T12:56:04Z"
         }
     },
     "rodrigocaldeira": {
