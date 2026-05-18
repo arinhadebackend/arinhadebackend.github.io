@@ -9766,5 +9766,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5250",
             "timestamp": "2026-05-18T13:33:53Z"
         }
+    },
+    "danielwisky": {
+        "danielwisky-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "891.63ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 84,
+                    "false_negative_detections": 110,
+                    "true_positive_detections": 19353,
+                    "true_negative_detections": 24244,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.44%",
+                "weighted_errors_E": 414,
+                "error_rate_epsilon": 0.009454,
+                "p99_score": {
+                    "value": 49.82,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1238.97,
+                    "rate_component": 2024.38,
+                    "absolute_penalty": -785.41,
+                    "cut_triggered": false
+                },
+                "final_score": 1288.79
+            },
+            "repo_url": "https://github.com/danielwisky/rinha-backend-2026-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5259",
+            "timestamp": "2026-05-18T14:17:51Z"
+        }
     }
 }
