@@ -9844,5 +9844,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5259",
             "timestamp": "2026-05-18T14:17:51Z"
         }
+    },
+    "rrs6": {
+        "rrs6-java": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "97.90ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 143,
+                    "false_negative_detections": 159,
+                    "true_positive_detections": 23878,
+                    "true_negative_detections": 29879,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.56%",
+                "weighted_errors_E": 620,
+                "error_rate_epsilon": 0.011469,
+                "p99_score": {
+                    "value": 1009.24,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1102.55,
+                    "rate_component": 1940.48,
+                    "absolute_penalty": -837.93,
+                    "cut_triggered": false
+                },
+                "final_score": 2111.78
+            },
+            "repo_url": "https://github.com/rrs6/rinha-backend-2026-fraud-detection",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5301",
+            "timestamp": "2026-05-18T16:49:38Z"
+        }
     }
 }
