@@ -8826,27 +8826,27 @@
                     "false_positive_detections": 75,
                     "false_negative_detections": 72,
                     "true_positive_detections": 23965,
-                    "true_negative_detections": 29946,
+                    "true_negative_detections": 29947,
                     "http_errors": 0
                 },
                 "failure_rate": "0.27%",
                 "weighted_errors_E": 291,
                 "error_rate_epsilon": 0.005383,
                 "p99_score": {
-                    "value": 2596.49,
+                    "value": 2596.72,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1529.35,
-                    "rate_component": 2268.97,
+                    "value": 1529.36,
+                    "rate_component": 2268.98,
                     "absolute_penalty": -739.61,
                     "cut_triggered": false
                 },
-                "final_score": 4125.84
+                "final_score": 4126.08
             },
             "repo_url": "https://github.com/santannaf/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5266",
-            "timestamp": "2026-05-18T14:53:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5273",
+            "timestamp": "2026-05-18T15:05:29Z"
         }
     },
     "EdnaldoLuiz": {
