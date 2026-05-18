@@ -9182,33 +9182,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "357.19ms",
+            "p99": "373.91ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 232,
-                    "false_negative_detections": 251,
-                    "true_positive_detections": 23401,
-                    "true_negative_detections": 29339,
+                    "false_positive_detections": 227,
+                    "false_negative_detections": 249,
+                    "true_positive_detections": 23120,
+                    "true_negative_detections": 28965,
                     "http_errors": 0
                 },
                 "failure_rate": "0.91%",
-                "weighted_errors_E": 985,
-                "error_rate_epsilon": 0.018507,
+                "weighted_errors_E": 974,
+                "error_rate_epsilon": 0.018531,
                 "p99_score": {
-                    "value": 447.1,
+                    "value": 427.23,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 834.5,
-                    "rate_component": 1732.66,
-                    "absolute_penalty": -898.16,
+                    "value": 835.4,
+                    "rate_component": 1732.1,
+                    "absolute_penalty": -896.7,
                     "cut_triggered": false
                 },
-                "final_score": 1281.6
+                "final_score": 1262.64
             },
             "repo_url": "https://github.com/evinicius16/fraud-detection-knn-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5143",
-            "timestamp": "2026-05-18T00:51:58Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5150",
+            "timestamp": "2026-05-18T01:08:46Z"
         }
     },
     "VitorNathanG": {
