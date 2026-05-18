@@ -9100,33 +9100,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "96.02ms",
+            "p99": "28.07ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 456,
-                    "false_negative_detections": 470,
-                    "true_positive_detections": 23558,
-                    "true_negative_detections": 29553,
-                    "http_errors": 1
+                    "false_negative_detections": 471,
+                    "true_positive_detections": 23566,
+                    "true_negative_detections": 29565,
+                    "http_errors": 0
                 },
-                "failure_rate": "1.72%",
-                "weighted_errors_E": 1871,
-                "error_rate_epsilon": 0.034624,
+                "failure_rate": "1.71%",
+                "weighted_errors_E": 1869,
+                "error_rate_epsilon": 0.034574,
                 "p99_score": {
-                    "value": 1017.65,
+                    "value": 1551.77,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 478.93,
-                    "rate_component": 1460.63,
-                    "absolute_penalty": -981.69,
+                    "value": 479.7,
+                    "rate_component": 1461.25,
+                    "absolute_penalty": -981.55,
                     "cut_triggered": false
                 },
-                "final_score": 1496.58
+                "final_score": 2031.47
             },
             "repo_url": "https://github.com/brunonunestx/backend-fight-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5355",
-            "timestamp": "2026-05-18T21:04:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5363",
+            "timestamp": "2026-05-18T22:09:39Z"
         }
     },
     "fullzer4": {
