@@ -9528,5 +9528,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5101",
             "timestamp": "2026-05-17T22:31:14Z"
         }
+    },
+    "rodrigodotdev": {
+        "rodrigodotdev": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2.70ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30021,
+                    "http_errors": 0
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 1,
+                "error_rate_epsilon": 0.000018,
+                "p99_score": {
+                    "value": 2569.44,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2909.69,
+                    "rate_component": 3000,
+                    "absolute_penalty": -90.31,
+                    "cut_triggered": false
+                },
+                "final_score": 5479.13
+            },
+            "repo_url": "https://github.com/rodrigodotdev/rinha-backend-2026-bun-zig",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5152",
+            "timestamp": "2026-05-18T01:15:00Z"
+        }
     }
 }
