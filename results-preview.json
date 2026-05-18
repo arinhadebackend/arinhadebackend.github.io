@@ -9924,5 +9924,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5303",
             "timestamp": "2026-05-18T17:02:54Z"
         }
+    },
+    "geeksilva97": {
+        "geeksilva97-ruby-vec1": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "1139.09ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 11,
+                    "false_negative_detections": 17,
+                    "true_positive_detections": 22302,
+                    "true_negative_detections": 27868,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.06%",
+                "weighted_errors_E": 62,
+                "error_rate_epsilon": 0.001235,
+                "p99_score": {
+                    "value": -56.56,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2368.49,
+                    "rate_component": 2908.29,
+                    "absolute_penalty": -539.8,
+                    "cut_triggered": false
+                },
+                "final_score": 2311.93
+            },
+            "repo_url": "https://github.com/geeksilva97/rinha-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5322",
+            "timestamp": "2026-05-18T18:24:49Z"
+        }
     }
 }
