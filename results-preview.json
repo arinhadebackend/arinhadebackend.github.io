@@ -9456,33 +9456,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "90.74ms",
+            "p99": "606.03ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 290,
-                    "false_negative_detections": 318,
-                    "true_positive_detections": 23719,
-                    "true_negative_detections": 29731,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 314,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 29105,
                     "http_errors": 0
                 },
-                "failure_rate": "1.12%",
-                "weighted_errors_E": 1244,
-                "error_rate_epsilon": 0.023012,
+                "failure_rate": "1.07%",
+                "weighted_errors_E": 942,
+                "error_rate_epsilon": 0.03202,
                 "p99_score": {
-                    "value": 1042.18,
+                    "value": 217.51,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 709.49,
-                    "rate_component": 1638.04,
-                    "absolute_penalty": -928.55,
+                    "value": 602.22,
+                    "rate_component": 1494.58,
+                    "absolute_penalty": -892.35,
                     "cut_triggered": false
                 },
-                "final_score": 1751.67
+                "final_score": 819.73
             },
             "repo_url": "https://github.com/nelsonsimionato/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5242",
-            "timestamp": "2026-05-18T12:56:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5320",
+            "timestamp": "2026-05-18T18:18:53Z"
         }
     },
     "rodrigocaldeira": {
