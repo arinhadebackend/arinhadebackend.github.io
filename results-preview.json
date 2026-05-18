@@ -4180,33 +4180,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.22ms",
+            "p99": "1.06ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23194,
-                    "true_negative_detections": 28932,
-                    "http_errors": 1933
+                    "true_positive_detections": 24037,
+                    "true_negative_detections": 30022,
+                    "http_errors": 0
                 },
-                "failure_rate": "3.58%",
-                "weighted_errors_E": 9665,
-                "error_rate_epsilon": 0.178786,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -447.91,
-                    "rate_component": 747.67,
-                    "absolute_penalty": -1195.57,
+                    "value": 2974.3,
                     "cut_triggered": false
                 },
-                "final_score": -3447.91
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 5974.3
             },
             "repo_url": "https://github.com/fksegundo/rinha-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5309",
-            "timestamp": "2026-05-18T17:32:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5348",
+            "timestamp": "2026-05-18T20:28:30Z"
         },
         "fksegundo-dotnet": {
             "expected": {
