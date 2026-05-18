@@ -7605,7 +7605,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2932.01,
+                    "value": 2931.35,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -7614,11 +7614,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5932.01
+                "final_score": 5931.35
             },
             "repo_url": "https://github.com/yanpitangui/rinha-de-backend-2026-q1",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4866",
-            "timestamp": "2026-05-17T01:14:23Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5330",
+            "timestamp": "2026-05-18T18:49:34Z"
         }
     },
     "Pettecco": {
