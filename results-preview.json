@@ -6471,6 +6471,44 @@
             "repo_url": "https://github.com/GabrielDantasDs/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5085",
             "timestamp": "2026-05-17T21:45:53Z"
+        },
+        "gabriel-dantas-c-hnsw": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "30.06ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 525,
+                    "false_negative_detections": 714,
+                    "true_positive_detections": 23323,
+                    "true_negative_detections": 29497,
+                    "http_errors": 0
+                },
+                "failure_rate": "2.29%",
+                "weighted_errors_E": 2667,
+                "error_rate_epsilon": 0.049335,
+                "p99_score": {
+                    "value": 1521.98,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 278.99,
+                    "rate_component": 1306.84,
+                    "absolute_penalty": -1027.86,
+                    "cut_triggered": false
+                },
+                "final_score": 1800.96
+            },
+            "repo_url": "https://github.com/GabrielDantasDs/rinha-backend-2026-novo",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5261",
+            "timestamp": "2026-05-18T14:40:08Z"
         }
     },
     "IgorBrizack": {
