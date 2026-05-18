@@ -9329,6 +9329,44 @@
             "repo_url": "https://github.com/arturlbg/rinha-backend-2026-go",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5015",
             "timestamp": "2026-05-17T16:36:16Z"
+        },
+        "arturlbg-go-fdpass": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "2.49ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 13,
+                    "false_negative_detections": 14,
+                    "true_positive_detections": 24023,
+                    "true_negative_detections": 30009,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.05%",
+                "weighted_errors_E": 55,
+                "error_rate_epsilon": 0.001017,
+                "p99_score": {
+                    "value": 2604.19,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2468.05,
+                    "rate_component": 2992.51,
+                    "absolute_penalty": -524.46,
+                    "cut_triggered": false
+                },
+                "final_score": 5072.24
+            },
+            "repo_url": "https://github.com/arturlbg/rinha-backend-2026-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5138",
+            "timestamp": "2026-05-18T00:43:43Z"
         }
     },
     "nelsonsimionato": {
