@@ -8545,13 +8545,13 @@
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 141,
-                    "true_negative_detections": 193,
-                    "http_errors": 13588
+                    "true_positive_detections": 54,
+                    "true_negative_detections": 66,
+                    "http_errors": 13768
                 },
-                "failure_rate": "97.6%",
-                "weighted_errors_E": 67940,
-                "error_rate_epsilon": 4.880046,
+                "failure_rate": "99.14%",
+                "weighted_errors_E": 68840,
+                "error_rate_epsilon": 4.956797,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -8565,8 +8565,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/inacioiso/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4478",
-            "timestamp": "2026-05-15T03:36:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5382",
+            "timestamp": "2026-05-19T00:17:43Z"
         }
     },
     "marcelolds": {
