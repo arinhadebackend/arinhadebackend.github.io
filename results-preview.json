@@ -9934,33 +9934,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.81ms",
+            "p99": "2001.63ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 21,
-                    "false_negative_detections": 13,
-                    "true_positive_detections": 14517,
-                    "true_negative_detections": 18116,
-                    "http_errors": 1868
+                    "false_positive_detections": 23,
+                    "false_negative_detections": 17,
+                    "true_positive_detections": 17409,
+                    "true_negative_detections": 21857,
+                    "http_errors": 1250
                 },
-                "failure_rate": "5.51%",
-                "weighted_errors_E": 9400,
-                "error_rate_epsilon": 0.272188,
+                "failure_rate": "3.18%",
+                "weighted_errors_E": 6324,
+                "error_rate_epsilon": 0.155933,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -626.82,
-                    "rate_component": 565.13,
-                    "absolute_penalty": -1191.95,
+                    "value": -333.25,
+                    "rate_component": 807.06,
+                    "absolute_penalty": -1140.32,
                     "cut_triggered": false
                 },
-                "final_score": -3626.82
+                "final_score": -3333.25
             },
             "repo_url": "https://github.com/adanSiqueira/vector-fraud-detection-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5454",
-            "timestamp": "2026-05-19T05:58:16Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5456",
+            "timestamp": "2026-05-19T06:15:32Z"
         }
     },
     "geeksilva97": {
