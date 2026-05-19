@@ -5410,33 +5410,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2002.05ms",
+            "p99": "147.35ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 25,
-                    "false_negative_detections": 24,
-                    "true_positive_detections": 1197,
-                    "true_negative_detections": 1471,
-                    "http_errors": 33292
+                    "false_positive_detections": 538,
+                    "false_negative_detections": 681,
+                    "true_positive_detections": 23339,
+                    "true_negative_detections": 29463,
+                    "http_errors": 0
                 },
-                "failure_rate": "92.59%",
-                "weighted_errors_E": 166557,
-                "error_rate_epsilon": 4.625427,
+                "failure_rate": "2.26%",
+                "weighted_errors_E": 2581,
+                "error_rate_epsilon": 0.047778,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 831.64,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 297.19,
+                    "rate_component": 1320.77,
+                    "absolute_penalty": -1023.59,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 1128.82
             },
             "repo_url": "https://github.com/mpraes/rinha-2026-python1",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5576",
-            "timestamp": "2026-05-19T19:30:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5582",
+            "timestamp": "2026-05-19T20:14:31Z"
         },
         "rinha-2026-python2": {
             "expected": {
