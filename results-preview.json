@@ -2602,33 +2602,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1784.39ms",
+            "p99": "184.29ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 430,
-                    "false_negative_detections": 403,
-                    "true_positive_detections": 16106,
-                    "true_negative_detections": 20258,
-                    "http_errors": 164
+                    "false_positive_detections": 644,
+                    "false_negative_detections": 586,
+                    "true_positive_detections": 23436,
+                    "true_negative_detections": 29359,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.67%",
-                "weighted_errors_E": 2459,
-                "error_rate_epsilon": 0.065817,
+                "failure_rate": "2.28%",
+                "weighted_errors_E": 2402,
+                "error_rate_epsilon": 0.044461,
                 "p99_score": {
-                    "value": -251.49,
+                    "value": 734.5,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 164.38,
-                    "rate_component": 1181.66,
-                    "absolute_penalty": -1017.28,
+                    "value": 337.8,
+                    "rate_component": 1352.02,
+                    "absolute_penalty": -1014.23,
                     "cut_triggered": false
                 },
-                "final_score": -87.11
+                "final_score": 1072.29
             },
             "repo_url": "https://github.com/bulletdev/bulletonrails-zig",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1918",
-            "timestamp": "2026-05-06T20:50:55Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5528",
+            "timestamp": "2026-05-19T16:05:16Z"
         }
     },
     "Jovinull": {
