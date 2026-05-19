@@ -9932,33 +9932,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "605.43ms",
+            "p99": "98.67ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 142,
-                    "false_negative_detections": 158,
-                    "true_positive_detections": 23745,
-                    "true_negative_detections": 29739,
-                    "http_errors": 1
+                    "false_positive_detections": 143,
+                    "false_negative_detections": 159,
+                    "true_positive_detections": 23878,
+                    "true_negative_detections": 29879,
+                    "http_errors": 0
                 },
                 "failure_rate": "0.56%",
-                "weighted_errors_E": 621,
-                "error_rate_epsilon": 0.011546,
+                "weighted_errors_E": 620,
+                "error_rate_epsilon": 0.011469,
                 "p99_score": {
-                    "value": 217.94,
+                    "value": 1005.8,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1099.43,
-                    "rate_component": 1937.57,
-                    "absolute_penalty": -838.14,
+                    "value": 1102.55,
+                    "rate_component": 1940.48,
+                    "absolute_penalty": -837.93,
                     "cut_triggered": false
                 },
-                "final_score": 1317.37
+                "final_score": 2108.35
             },
             "repo_url": "https://github.com/rrs6/rinha-backend-2026-fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5478",
-            "timestamp": "2026-05-19T11:47:15Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5480",
+            "timestamp": "2026-05-19T12:02:25Z"
         }
     },
     "adanSiqueira": {
