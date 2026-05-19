@@ -5410,33 +5410,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "147.35ms",
+            "p99": "318.91ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 538,
-                    "false_negative_detections": 681,
-                    "true_positive_detections": 23339,
-                    "true_negative_detections": 29463,
+                    "false_positive_detections": 535,
+                    "false_negative_detections": 686,
+                    "true_positive_detections": 23155,
+                    "true_negative_detections": 29269,
                     "http_errors": 0
                 },
-                "failure_rate": "2.26%",
-                "weighted_errors_E": 2581,
-                "error_rate_epsilon": 0.047778,
+                "failure_rate": "2.28%",
+                "weighted_errors_E": 2593,
+                "error_rate_epsilon": 0.048336,
                 "p99_score": {
-                    "value": 831.64,
+                    "value": 496.33,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 297.19,
-                    "rate_component": 1320.77,
-                    "absolute_penalty": -1023.59,
+                    "value": 291.54,
+                    "rate_component": 1315.73,
+                    "absolute_penalty": -1024.19,
                     "cut_triggered": false
                 },
-                "final_score": 1128.82
+                "final_score": 787.87
             },
             "repo_url": "https://github.com/mpraes/rinha-2026-python1",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5582",
-            "timestamp": "2026-05-19T20:14:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5605",
+            "timestamp": "2026-05-19T22:47:55Z"
         },
         "rinha-2026-python2": {
             "expected": {
