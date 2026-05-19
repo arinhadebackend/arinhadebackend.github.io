@@ -1024,7 +1024,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.97ms",
+            "p99": "1.43ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -1037,7 +1037,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2706.31,
+                    "value": 2843.59,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1046,11 +1046,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5706.31
+                "final_score": 5843.59
             },
             "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5453",
-            "timestamp": "2026-05-19T05:53:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5460",
+            "timestamp": "2026-05-19T06:49:57Z"
         }
     },
     "viniciusdsandrade": {
