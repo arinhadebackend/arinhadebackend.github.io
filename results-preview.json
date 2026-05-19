@@ -6044,33 +6044,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "4.03ms",
+            "p99": "617.67ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 24033,
-                    "true_negative_detections": 30020,
-                    "http_errors": 0
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 22909,
+                    "true_negative_detections": 28611,
+                    "http_errors": 9
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 14,
-                "error_rate_epsilon": 0.000259,
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 49,
+                "error_rate_epsilon": 0.000951,
                 "p99_score": {
-                    "value": 2394.24,
+                    "value": 209.24,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2647.17,
+                    "value": 2490.31,
                     "rate_component": 3000,
-                    "absolute_penalty": -352.83,
+                    "absolute_penalty": -509.69,
                     "cut_triggered": false
                 },
-                "final_score": 5041.42
+                "final_score": 2699.55
             },
             "repo_url": "https://github.com/maxsonferovante/vector-based-fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4594",
-            "timestamp": "2026-05-15T21:39:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5560",
+            "timestamp": "2026-05-19T18:14:40Z"
         }
     },
     "RonieNeubauer": {
