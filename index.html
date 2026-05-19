@@ -353,14 +353,31 @@
             timestamp: { get: r => r.timestamp ? Date.parse(r.timestamp) : null, defaultDir: 'desc', numeric: true },
         };
 
+        const tieBreakers = [
+            { key: 'p99', get: r => parseNum(r.p99) },
+            { key: 'failure', get: r => parseNum(r.failure) },
+        ];
+
+        const compareNullableAsc = (a, b) => {
+            if (a == null && b == null) return 0;
+            if (a == null) return 1;
+            if (b == null) return -1;
+            if (a < b) return -1;
+            if (a > b) return 1;
+            return 0;
+        };
+
         const compareWith = (key, dir) => (a, b) => {
-            const av = sortKeys[key].get(a);
-            const bv = sortKeys[key].get(b);
-            if (av == null && bv == null) return 0;
-            if (av == null) return 1;
-            if (bv == null) return -1;
-            const cmp = av < bv ? -1 : av > bv ? 1 : 0;
-            return dir === 'asc' ? cmp : -cmp;
+            const primary = compareNullableAsc(sortKeys[key].get(a), sortKeys[key].get(b));
+            if (primary !== 0) return dir === 'asc' ? primary : -primary;
+
+            for (const tieBreaker of tieBreakers) {
+                if (key === tieBreaker.key) continue;
+                const tie = compareNullableAsc(tieBreaker.get(a), tieBreaker.get(b));
+                if (tie !== 0) return tie;
+            }
+
+            return 0;
         };
 
         async function load() {
@@ -399,7 +416,7 @@
                     }
                 }
 
-                rows.sort((a, b) => b.score - a.score);
+                rows.sort(compareWith('score', 'desc'));
                 rows.forEach((r, i) => { r.rank = i + 1; });
 
                 let sort = { key: 'score', dir: 'desc' };
