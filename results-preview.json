@@ -3076,7 +3076,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "0.92ms",
+            "p99": "0.89ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -3101,8 +3101,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/jonathanperis/rinha4-yolo-mode",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5181",
-            "timestamp": "2026-05-18T03:20:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5536",
+            "timestamp": "2026-05-19T16:38:28Z"
         }
     },
     "Shobon03": {
