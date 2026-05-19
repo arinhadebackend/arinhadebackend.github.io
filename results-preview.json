@@ -9934,33 +9934,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "824.09ms",
+            "p99": "2001.75ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 26,
-                    "false_negative_detections": 18,
-                    "true_positive_detections": 19242,
-                    "true_negative_detections": 24002,
-                    "http_errors": 0
+                    "false_positive_detections": 23,
+                    "false_negative_detections": 16,
+                    "true_positive_detections": 16652,
+                    "true_negative_detections": 20845,
+                    "http_errors": 1729
                 },
-                "failure_rate": "0.1%",
-                "weighted_errors_E": 80,
-                "error_rate_epsilon": 0.001848,
+                "failure_rate": "4.5%",
+                "weighted_errors_E": 8716,
+                "error_rate_epsilon": 0.221979,
                 "p99_score": {
-                    "value": 84.03,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2160.73,
-                    "rate_component": 2733.28,
-                    "absolute_penalty": -572.55,
+                    "value": -528.42,
+                    "rate_component": 653.69,
+                    "absolute_penalty": -1182.11,
                     "cut_triggered": false
                 },
-                "final_score": 2244.76
+                "final_score": -3528.42
             },
             "repo_url": "https://github.com/adanSiqueira/vector-fraud-detection-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5445",
-            "timestamp": "2026-05-19T05:14:19Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5451",
+            "timestamp": "2026-05-19T05:41:45Z"
         }
     },
     "geeksilva97": {
