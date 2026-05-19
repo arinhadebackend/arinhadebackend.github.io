@@ -7198,33 +7198,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1904.93ms",
+            "p99": "80.60ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 370,
-                    "false_negative_detections": 364,
-                    "true_positive_detections": 14852,
-                    "true_negative_detections": 18657,
-                    "http_errors": 212
+                    "false_positive_detections": 125,
+                    "false_negative_detections": 112,
+                    "true_positive_detections": 23925,
+                    "true_negative_detections": 29896,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.75%",
-                "weighted_errors_E": 2522,
-                "error_rate_epsilon": 0.073197,
+                "failure_rate": "0.44%",
+                "weighted_errors_E": 461,
+                "error_rate_epsilon": 0.008528,
                 "p99_score": {
-                    "value": -279.88,
+                    "value": 1093.67,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 114.93,
-                    "rate_component": 1135.51,
-                    "absolute_penalty": -1020.58,
+                    "value": 1269.77,
+                    "rate_component": 2069.16,
+                    "absolute_penalty": -799.39,
                     "cut_triggered": false
                 },
-                "final_score": -164.95
+                "final_score": 2363.44
             },
             "repo_url": "https://github.com/isaquetdiniz/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4154",
-            "timestamp": "2026-05-13T21:15:30Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5399",
+            "timestamp": "2026-05-19T01:23:44Z"
         }
     },
     "AndreBBM": {
