@@ -9865,7 +9865,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2913.75,
+                    "value": 2914.03,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -9874,11 +9874,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5913.75
+                "final_score": 5914.03
             },
             "repo_url": "https://github.com/lucasmenchon/rinha-de-backend-2026-c",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5468",
-            "timestamp": "2026-05-19T09:41:37Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5469",
+            "timestamp": "2026-05-19T10:08:22Z"
         }
     },
     "danielwisky": {
