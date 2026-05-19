@@ -5924,33 +5924,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "36.31ms",
+            "p99": "2001.73ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 642,
-                    "false_negative_detections": 587,
-                    "true_positive_detections": 23450,
-                    "true_negative_detections": 29380,
-                    "http_errors": 0
+                    "false_positive_detections": 455,
+                    "false_negative_detections": 430,
+                    "true_positive_detections": 17282,
+                    "true_negative_detections": 21723,
+                    "http_errors": 2404
                 },
-                "failure_rate": "2.27%",
-                "weighted_errors_E": 2403,
-                "error_rate_epsilon": 0.044451,
+                "failure_rate": "7.78%",
+                "weighted_errors_E": 13765,
+                "error_rate_epsilon": 0.32546,
                 "p99_score": {
-                    "value": 1439.95,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 337.83,
-                    "rate_component": 1352.11,
-                    "absolute_penalty": -1014.28,
+                    "value": -754.14,
+                    "rate_component": 487.5,
+                    "absolute_penalty": -1241.64,
                     "cut_triggered": false
                 },
-                "final_score": 1777.78
+                "final_score": -3754.14
             },
             "repo_url": "https://github.com/KaueFSoares/rinha-de-backend-2026-java-quarkus",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4718",
-            "timestamp": "2026-05-16T15:30:55Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5487",
+            "timestamp": "2026-05-19T12:45:35Z"
         }
     },
     "gxolivei": {
