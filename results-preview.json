@@ -10004,5 +10004,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5339",
             "timestamp": "2026-05-18T19:56:19Z"
         }
+    },
+    "Luckstai": {
+        "luckstai-rust": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "141.52ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 5,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 24016,
+                    "true_negative_detections": 29996,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 17,
+                "error_rate_epsilon": 0.000315,
+                "p99_score": {
+                    "value": 849.18,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2623.42,
+                    "rate_component": 3000,
+                    "absolute_penalty": -376.58,
+                    "cut_triggered": false
+                },
+                "final_score": 3472.6
+            },
+            "repo_url": "https://github.com/Luckstai/rinha-de-backend-2026-luckstai-rust",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5388",
+            "timestamp": "2026-05-19T00:30:50Z"
+        }
     }
 }
