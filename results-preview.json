@@ -9812,21 +9812,21 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "69.27ms",
+            "p99": "2002.33ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 0,
-                    "true_negative_detections": 0,
-                    "http_errors": 54059
+                    "false_negative_detections": 108,
+                    "true_positive_detections": 3021,
+                    "true_negative_detections": 3982,
+                    "http_errors": 7466
                 },
-                "failure_rate": "100%",
-                "weighted_errors_E": 270295,
-                "error_rate_epsilon": 5,
+                "failure_rate": "51.96%",
+                "weighted_errors_E": 37654,
+                "error_rate_epsilon": 2.58311,
                 "p99_score": {
-                    "value": 1159.47,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
                     "value": -3000,
@@ -9834,11 +9834,11 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -1840.53
+                "final_score": -6000
             },
             "repo_url": "https://github.com/engelguidev/rinha-de-backend-2026-guilherme-engel",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5391",
-            "timestamp": "2026-05-19T00:40:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5493",
+            "timestamp": "2026-05-19T13:33:02Z"
         }
     },
     "lucasmenchon": {
