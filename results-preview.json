@@ -10012,33 +10012,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.87ms",
+            "p99": "2002.35ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 21,
-                    "false_negative_detections": 18,
-                    "true_positive_detections": 8359,
-                    "true_negative_detections": 10560,
-                    "http_errors": 1324
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 1989,
+                    "true_negative_detections": 2522,
+                    "http_errors": 12351
                 },
-                "failure_rate": "6.72%",
-                "weighted_errors_E": 6695,
-                "error_rate_epsilon": 0.330096,
+                "failure_rate": "73.25%",
+                "weighted_errors_E": 61756,
+                "error_rate_epsilon": 3.662219,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -666.38,
-                    "rate_component": 481.36,
-                    "absolute_penalty": -1147.74,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": -3666.38
+                "final_score": -6000
             },
             "repo_url": "https://github.com/geeksilva97/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5486",
-            "timestamp": "2026-05-19T12:39:56Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5502",
+            "timestamp": "2026-05-19T14:14:42Z"
         }
     },
     "torreslucas13": {
