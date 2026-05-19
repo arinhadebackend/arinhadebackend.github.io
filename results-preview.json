@@ -8858,7 +8858,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "3.07ms",
+            "p99": "2.79ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -8871,7 +8871,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2512.93,
+                    "value": 2554.14,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -8880,11 +8880,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5512.93
+                "final_score": 5554.14
             },
             "repo_url": "https://github.com/santannaf/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5377",
-            "timestamp": "2026-05-18T23:35:18Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5471",
+            "timestamp": "2026-05-19T10:57:32Z"
         }
     },
     "EdnaldoLuiz": {
