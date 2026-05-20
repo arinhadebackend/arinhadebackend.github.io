@@ -10674,5 +10674,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5761",
             "timestamp": "2026-05-20T20:53:45Z"
         }
+    },
+    "morais15": {
+        "morais15-vertx": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "2002.07ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 84,
+                    "true_negative_detections": 92,
+                    "http_errors": 13653
+                },
+                "failure_rate": "98.73%",
+                "weighted_errors_E": 68265,
+                "error_rate_epsilon": 4.936366,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000
+            },
+            "repo_url": "https://github.com/morais15/rinha-backend-2026-vertx",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5765",
+            "timestamp": "2026-05-20T21:22:56Z"
+        }
     }
 }
