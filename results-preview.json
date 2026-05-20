@@ -1064,7 +1064,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.05ms",
+            "p99": "1.04ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -1077,7 +1077,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2979.23,
+                    "value": 2983.16,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1086,11 +1086,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5979.23
+                "final_score": 5983.16
             },
             "repo_url": "https://github.com/viniciusdsandrade/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5624",
-            "timestamp": "2026-05-20T01:48:22Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5633",
+            "timestamp": "2026-05-20T03:03:44Z"
         },
         "andrade-rust-ivf": {
             "expected": {
