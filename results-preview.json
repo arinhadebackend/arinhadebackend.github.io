@@ -7592,7 +7592,7 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "1.17ms",
+            "p99": "1.20ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -7605,7 +7605,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2931.35,
+                    "value": 2921.84,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -7614,11 +7614,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5931.35
+                "final_score": 5921.84
             },
             "repo_url": "https://github.com/yanpitangui/rinha-de-backend-2026-q1",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5330",
-            "timestamp": "2026-05-18T18:49:34Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5718",
+            "timestamp": "2026-05-20T15:54:16Z"
         },
         "yanpitangui-dotnet-vptree": {
             "expected": {
