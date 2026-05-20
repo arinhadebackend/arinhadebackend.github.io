@@ -10010,33 +10010,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.91ms",
+            "p99": "883.79ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 23,
-                    "false_negative_detections": 15,
-                    "true_positive_detections": 14605,
-                    "true_negative_detections": 18266,
-                    "http_errors": 2534
+                    "false_positive_detections": 27,
+                    "false_negative_detections": 19,
+                    "true_positive_detections": 19861,
+                    "true_negative_detections": 24855,
+                    "http_errors": 0
                 },
-                "failure_rate": "7.26%",
-                "weighted_errors_E": 12738,
-                "error_rate_epsilon": 0.359394,
+                "failure_rate": "0.1%",
+                "weighted_errors_E": 84,
+                "error_rate_epsilon": 0.001877,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -787.11,
-                    "rate_component": 444.43,
-                    "absolute_penalty": -1231.54,
+                    "value": 53.65,
                     "cut_triggered": false
                 },
-                "final_score": -3787.11
+                "detection_score": {
+                    "value": 2147.8,
+                    "rate_component": 2726.63,
+                    "absolute_penalty": -578.83,
+                    "cut_triggered": false
+                },
+                "final_score": 2201.46
             },
             "repo_url": "https://github.com/adanSiqueira/vector-fraud-detection-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5656",
-            "timestamp": "2026-05-20T04:43:47Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5661",
+            "timestamp": "2026-05-20T05:00:08Z"
         }
     },
     "geeksilva97": {
