@@ -10010,33 +10010,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.72ms",
+            "p99": "2001.91ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 22,
+                    "false_positive_detections": 23,
                     "false_negative_detections": 15,
-                    "true_positive_detections": 15104,
-                    "true_negative_detections": 18915,
-                    "http_errors": 1414
+                    "true_positive_detections": 14605,
+                    "true_negative_detections": 18266,
+                    "http_errors": 2534
                 },
-                "failure_rate": "4.09%",
-                "weighted_errors_E": 7137,
-                "error_rate_epsilon": 0.201212,
+                "failure_rate": "7.26%",
+                "weighted_errors_E": 12738,
+                "error_rate_epsilon": 0.359394,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -459.73,
-                    "rate_component": 696.35,
-                    "absolute_penalty": -1156.07,
+                    "value": -787.11,
+                    "rate_component": 444.43,
+                    "absolute_penalty": -1231.54,
                     "cut_triggered": false
                 },
-                "final_score": -3459.73
+                "final_score": -3787.11
             },
             "repo_url": "https://github.com/adanSiqueira/vector-fraud-detection-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5651",
-            "timestamp": "2026-05-20T04:21:57Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5656",
+            "timestamp": "2026-05-20T04:43:47Z"
         }
     },
     "geeksilva97": {
