@@ -1614,33 +1614,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "158.01ms",
+            "p99": "147.04ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 28,
-                    "false_negative_detections": 24,
-                    "true_positive_detections": 23987,
-                    "true_negative_detections": 29957,
+                    "false_positive_detections": 45,
+                    "false_negative_detections": 50,
+                    "true_positive_detections": 23949,
+                    "true_negative_detections": 29930,
                     "http_errors": 0
                 },
-                "failure_rate": "0.1%",
-                "weighted_errors_E": 100,
-                "error_rate_epsilon": 0.001852,
+                "failure_rate": "0.18%",
+                "weighted_errors_E": 195,
+                "error_rate_epsilon": 0.003613,
                 "p99_score": {
-                    "value": 801.3,
+                    "value": 832.55,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2131.07,
-                    "rate_component": 2732.36,
-                    "absolute_penalty": -601.3,
+                    "value": 1754.47,
+                    "rate_component": 2442.15,
+                    "absolute_penalty": -687.68,
                     "cut_triggered": false
                 },
-                "final_score": 2932.37
+                "final_score": 2587.03
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5669",
-            "timestamp": "2026-05-20T07:03:34Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5670",
+            "timestamp": "2026-05-20T08:28:43Z"
         }
     },
     "klevercorrea": {
