@@ -10634,5 +10634,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5757",
             "timestamp": "2026-05-20T20:37:27Z"
         }
+    },
+    "alexoliveiramartins": {
+        "alexmartins-golang": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 24058,
+                "legit_count": 30042,
+                "fraud_rate": 0.4447,
+                "legit_rate": 0.5553,
+                "edge_case_count": 797,
+                "edge_case_rate": 0.0147
+            },
+            "p99": "1373.83ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 84,
+                    "false_negative_detections": 97,
+                    "true_positive_detections": 18700,
+                    "true_negative_detections": 23423,
+                    "http_errors": 50
+                },
+                "failure_rate": "0.55%",
+                "weighted_errors_E": 625,
+                "error_rate_epsilon": 0.014757,
+                "p99_score": {
+                    "value": -137.93,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 992.04,
+                    "rate_component": 1831.01,
+                    "absolute_penalty": -838.97,
+                    "cut_triggered": false
+                },
+                "final_score": 854.11
+            },
+            "repo_url": "https://github.com/alexoliveiramartins/fraud-detection",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5761",
+            "timestamp": "2026-05-20T20:53:45Z"
+        }
     }
 }
