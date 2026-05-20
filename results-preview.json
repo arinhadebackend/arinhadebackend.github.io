@@ -9294,33 +9294,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "2001.64ms",
+            "p99": "2000.92ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 110,
-                    "false_negative_detections": 10598,
-                    "true_positive_detections": 5297,
-                    "true_negative_detections": 19783,
-                    "http_errors": 3783
+                    "false_positive_detections": 517,
+                    "false_negative_detections": 537,
+                    "true_positive_detections": 20855,
+                    "true_negative_detections": 26243,
+                    "http_errors": 1812
                 },
-                "failure_rate": "36.62%",
-                "weighted_errors_E": 50819,
-                "error_rate_epsilon": 1.284249,
+                "failure_rate": "5.74%",
+                "weighted_errors_E": 11188,
+                "error_rate_epsilon": 0.223921,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -564.73,
+                    "rate_component": 649.9,
+                    "absolute_penalty": -1214.64,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -3564.73
             },
             "repo_url": "https://github.com/paulohrpinheiro/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5707",
-            "timestamp": "2026-05-20T14:35:12Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5724",
+            "timestamp": "2026-05-20T16:15:40Z"
         }
     },
     "evinicius16": {
