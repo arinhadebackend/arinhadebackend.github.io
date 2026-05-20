@@ -8976,33 +8976,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "26.29ms",
+            "p99": "98.98ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 5,
-                    "false_negative_detections": 6,
-                    "true_positive_detections": 24031,
-                    "true_negative_detections": 30016,
+                    "false_positive_detections": 52,
+                    "false_negative_detections": 63,
+                    "true_positive_detections": 23971,
+                    "true_negative_detections": 29968,
                     "http_errors": 0
                 },
-                "failure_rate": "0.02%",
-                "weighted_errors_E": 23,
-                "error_rate_epsilon": 0.000425,
+                "failure_rate": "0.21%",
+                "weighted_errors_E": 241,
+                "error_rate_epsilon": 0.004459,
                 "p99_score": {
-                    "value": 1580.23,
+                    "value": 1004.47,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2585.94,
-                    "rate_component": 3000,
-                    "absolute_penalty": -414.06,
+                    "value": 1635.67,
+                    "rate_component": 2350.81,
+                    "absolute_penalty": -715.14,
                     "cut_triggered": false
                 },
-                "final_score": 4166.16
+                "final_score": 2640.14
             },
             "repo_url": "https://github.com/lazaroborges/lazaroborges-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5281",
-            "timestamp": "2026-05-18T15:30:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5679",
+            "timestamp": "2026-05-20T11:49:33Z"
         }
     },
     "iamjoaovytor": {
