@@ -9532,33 +9532,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "550.53ms",
+            "p99": "1471.99ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 9873,
-                    "true_positive_detections": 13500,
-                    "true_negative_detections": 29349,
-                    "http_errors": 0
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 15006,
+                    "true_negative_detections": 18980,
+                    "http_errors": 77
                 },
-                "failure_rate": "18.73%",
-                "weighted_errors_E": 29619,
-                "error_rate_epsilon": 0.561796,
+                "failure_rate": "0.23%",
+                "weighted_errors_E": 385,
+                "error_rate_epsilon": 0.011303,
                 "p99_score": {
-                    "value": 259.22,
+                    "value": -167.9,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 1170.85,
+                    "rate_component": 1946.82,
+                    "absolute_penalty": -775.98,
+                    "cut_triggered": false
                 },
-                "final_score": -2740.78
+                "final_score": 1002.94
             },
             "repo_url": "https://github.com/vinnedev/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5778",
-            "timestamp": "2026-05-20T23:01:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5782",
+            "timestamp": "2026-05-20T23:35:33Z"
         }
     },
     "lucas-rl": {
