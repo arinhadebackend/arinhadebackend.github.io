@@ -1614,33 +1614,33 @@
                 "edge_case_count": 797,
                 "edge_case_rate": 0.0147
             },
-            "p99": "152.73ms",
+            "p99": "147.31ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 31,
-                    "false_negative_detections": 43,
-                    "true_positive_detections": 23968,
-                    "true_negative_detections": 29955,
+                    "false_positive_detections": 18,
+                    "false_negative_detections": 28,
+                    "true_positive_detections": 23977,
+                    "true_negative_detections": 29961,
                     "http_errors": 0
                 },
-                "failure_rate": "0.14%",
-                "weighted_errors_E": 160,
-                "error_rate_epsilon": 0.002963,
+                "failure_rate": "0.09%",
+                "weighted_errors_E": 102,
+                "error_rate_epsilon": 0.001889,
                 "p99_score": {
-                    "value": 816.07,
+                    "value": 831.76,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1866.2,
-                    "rate_component": 2528.25,
-                    "absolute_penalty": -662.05,
+                    "value": 2119.81,
+                    "rate_component": 2723.66,
+                    "absolute_penalty": -603.85,
                     "cut_triggered": false
                 },
-                "final_score": 2682.27
+                "final_score": 2951.57
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5682",
-            "timestamp": "2026-05-20T12:06:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5686",
+            "timestamp": "2026-05-20T12:44:39Z"
         }
     },
     "klevercorrea": {
