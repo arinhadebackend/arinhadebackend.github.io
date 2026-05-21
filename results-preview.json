@@ -10646,7 +10646,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2003.92ms",
+            "p99": "2003.79ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -10671,8 +10671,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/claudin-io/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5931",
-            "timestamp": "2026-05-21T21:16:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5938",
+            "timestamp": "2026-05-21T22:04:57Z"
         }
     },
     "MarcusAdriano": {
