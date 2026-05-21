@@ -9485,40 +9485,40 @@
         "rodrigocaldeira-elixir-c": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "87.63ms",
+            "p99": "95.54ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
+                    "false_positive_detections": 52,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24036,
-                    "true_negative_detections": 30021,
+                    "true_positive_detections": 23941,
+                    "true_negative_detections": 30063,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.1%",
+                "weighted_errors_E": 52,
+                "error_rate_epsilon": 0.000962,
                 "p99_score": {
-                    "value": 1057.34,
+                    "value": 1019.83,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2482.72,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -517.28,
                     "cut_triggered": false
                 },
-                "final_score": 4057.34
+                "final_score": 3502.55
             },
             "repo_url": "https://github.com/rodrigocaldeira/rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5221",
-            "timestamp": "2026-05-18T11:12:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5799",
+            "timestamp": "2026-05-21T01:25:01Z"
         }
     },
     "vinnedev": {
