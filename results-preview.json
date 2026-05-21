@@ -7193,40 +7193,40 @@
         "JoaoMarcos160-bun": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "35.48ms",
+            "p99": "2001.99ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 14,
-                    "false_negative_detections": 398,
-                    "true_positive_detections": 23639,
-                    "true_negative_detections": 30008,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 7,
+                    "true_positive_detections": 492,
+                    "true_negative_detections": 668,
+                    "http_errors": 26367
                 },
-                "failure_rate": "0.76%",
-                "weighted_errors_E": 1208,
-                "error_rate_epsilon": 0.022346,
+                "failure_rate": "95.79%",
+                "weighted_errors_E": 131856,
+                "error_rate_epsilon": 4.788843,
                 "p99_score": {
-                    "value": 1450.07,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 726.07,
-                    "rate_component": 1650.8,
-                    "absolute_penalty": -924.73,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 2176.15
+                "final_score": -6000
             },
             "repo_url": "https://github.com/JoaoMarcos160/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5258",
-            "timestamp": "2026-05-18T14:07:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5795",
+            "timestamp": "2026-05-21T01:01:39Z"
         },
         "JoaoMarcos160-node": {
             "expected": {
