@@ -9921,40 +9921,40 @@
         "rrs6-java": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "97.78ms",
+            "p99": "1270.04ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 143,
-                    "false_negative_detections": 159,
-                    "true_positive_detections": 23878,
-                    "true_negative_detections": 29879,
-                    "http_errors": 0
+                    "false_positive_detections": 215,
+                    "false_negative_detections": 133,
+                    "true_positive_detections": 22908,
+                    "true_negative_detections": 28747,
+                    "http_errors": 282
                 },
-                "failure_rate": "0.56%",
-                "weighted_errors_E": 620,
-                "error_rate_epsilon": 0.011469,
+                "failure_rate": "1.2%",
+                "weighted_errors_E": 2024,
+                "error_rate_epsilon": 0.038711,
                 "p99_score": {
-                    "value": 1009.74,
+                    "value": -103.82,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1102.55,
-                    "rate_component": 1940.48,
-                    "absolute_penalty": -837.93,
+                    "value": 420.24,
+                    "rate_component": 1412.17,
+                    "absolute_penalty": -991.93,
                     "cut_triggered": false
                 },
-                "final_score": 2112.29
+                "final_score": 316.42
             },
             "repo_url": "https://github.com/rrs6/rinha-backend-2026-fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5733",
-            "timestamp": "2026-05-20T17:38:20Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5909",
+            "timestamp": "2026-05-21T18:42:15Z"
         }
     },
     "adanSiqueira": {
