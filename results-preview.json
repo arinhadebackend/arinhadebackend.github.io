@@ -10530,18 +10530,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.17ms",
+            "p99": "2002.23ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 22,
-                    "true_negative_detections": 29,
-                    "http_errors": 13777
+                    "true_positive_detections": 11,
+                    "true_negative_detections": 12,
+                    "http_errors": 13805
                 },
-                "failure_rate": "99.63%",
-                "weighted_errors_E": 68885,
-                "error_rate_epsilon": 4.981559,
+                "failure_rate": "99.83%",
+                "weighted_errors_E": 69025,
+                "error_rate_epsilon": 4.991684,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -10555,8 +10555,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/morais15/rinha-backend-2026-vertx",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5771",
-            "timestamp": "2026-05-20T22:06:47Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5797",
+            "timestamp": "2026-05-21T01:15:01Z"
         }
     },
     "Tavernari": {
