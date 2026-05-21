@@ -10638,5 +10638,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5801",
             "timestamp": "2026-05-21T01:31:30Z"
         }
+    },
+    "RenanOfugi": {
+        "renan-ofugi-java": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "201.58ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 8,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 23893,
+                    "true_negative_detections": 30059,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 20,
+                "error_rate_epsilon": 0.000371,
+                "p99_score": {
+                    "value": 695.56,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2603.33,
+                    "rate_component": 3000,
+                    "absolute_penalty": -396.67,
+                    "cut_triggered": false
+                },
+                "final_score": 3298.89
+            },
+            "repo_url": "https://github.com/RenanOfugi/rinha2026-deteccao-fraude-java",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5821",
+            "timestamp": "2026-05-21T04:44:35Z"
+        }
     }
 }
