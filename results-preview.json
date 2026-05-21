@@ -10646,18 +10646,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2003.60ms",
+            "p99": "2003.92ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 1,
+                    "true_positive_detections": 0,
                     "true_negative_detections": 0,
-                    "http_errors": 13827
+                    "http_errors": 13829
                 },
-                "failure_rate": "99.99%",
-                "weighted_errors_E": 69135,
-                "error_rate_epsilon": 4.999638,
+                "failure_rate": "100%",
+                "weighted_errors_E": 69145,
+                "error_rate_epsilon": 5,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -10671,8 +10671,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/claudin-io/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5897",
-            "timestamp": "2026-05-21T17:21:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5931",
+            "timestamp": "2026-05-21T21:16:01Z"
         }
     },
     "MarcusAdriano": {
