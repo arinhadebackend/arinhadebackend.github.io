@@ -10328,33 +10328,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1068.75ms",
+            "p99": "2002.02ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 656,
-                    "false_negative_detections": 526,
-                    "true_positive_detections": 21925,
-                    "true_negative_detections": 27535,
-                    "http_errors": 0
+                    "false_positive_detections": 357,
+                    "false_negative_detections": 325,
+                    "true_positive_detections": 12506,
+                    "true_negative_detections": 15844,
+                    "http_errors": 3896
                 },
-                "failure_rate": "2.33%",
-                "weighted_errors_E": 2234,
-                "error_rate_epsilon": 0.044114,
+                "failure_rate": "13.9%",
+                "weighted_errors_E": 20812,
+                "error_rate_epsilon": 0.632046,
                 "p99_score": {
-                    "value": -28.88,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 350.64,
-                    "rate_component": 1355.43,
-                    "absolute_penalty": -1004.78,
+                    "value": -1096.25,
+                    "rate_component": 199.25,
+                    "absolute_penalty": -1295.5,
                     "cut_triggered": false
                 },
-                "final_score": 321.77
+                "final_score": -4096.25
             },
             "repo_url": "https://github.com/wendellunny/php-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5904",
-            "timestamp": "2026-05-21T18:10:19Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5947",
+            "timestamp": "2026-05-21T22:45:44Z"
         }
     },
     "rluuan": {
