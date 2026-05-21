@@ -10486,33 +10486,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2001.48ms",
+            "p99": "848.89ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 6766,
-                    "true_negative_detections": 8510,
-                    "http_errors": 1431
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 0,
+                    "http_errors": 45800
                 },
-                "failure_rate": "8.57%",
-                "weighted_errors_E": 7155,
-                "error_rate_epsilon": 0.428264,
+                "failure_rate": "100%",
+                "weighted_errors_E": 229000,
+                "error_rate_epsilon": 5,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -788.11,
-                    "rate_component": 368.29,
-                    "absolute_penalty": -1156.4,
+                    "value": 71.15,
                     "cut_triggered": false
                 },
-                "final_score": -3788.11
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -2928.85
             },
             "repo_url": "https://github.com/sl4ureano/rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5850",
-            "timestamp": "2026-05-21T13:22:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5907",
+            "timestamp": "2026-05-21T18:29:57Z"
         }
     },
     "jutamagno": {
