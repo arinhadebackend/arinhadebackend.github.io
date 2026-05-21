@@ -9165,40 +9165,40 @@
         "brunonunestx-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "26.15ms",
+            "p99": "27.28ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 456,
-                    "false_negative_detections": 471,
-                    "true_positive_detections": 23566,
-                    "true_negative_detections": 29566,
+                    "false_positive_detections": 257,
+                    "false_negative_detections": 11262,
+                    "true_positive_detections": 12680,
+                    "true_negative_detections": 29860,
                     "http_errors": 0
                 },
-                "failure_rate": "1.71%",
-                "weighted_errors_E": 1869,
-                "error_rate_epsilon": 0.034573,
+                "failure_rate": "21.31%",
+                "weighted_errors_E": 34043,
+                "error_rate_epsilon": 0.629738,
                 "p99_score": {
-                    "value": 1582.54,
+                    "value": 1564.14,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 479.71,
-                    "rate_component": 1461.26,
-                    "absolute_penalty": -981.55,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 2062.24
+                "final_score": -1435.86
             },
             "repo_url": "https://github.com/brunonunestx/backend-fight-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5658",
-            "timestamp": "2026-05-20T04:49:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5858",
+            "timestamp": "2026-05-21T13:57:48Z"
         }
     },
     "fullzer4": {
