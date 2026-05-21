@@ -8767,28 +8767,28 @@
         "jaoppb-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2002.06ms",
+            "p99": "1.27ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 7,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 586,
-                    "true_negative_detections": 777,
-                    "http_errors": 12538
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 0,
+                    "http_errors": 54059
                 },
-                "failure_rate": "90.2%",
-                "weighted_errors_E": 62712,
-                "error_rate_epsilon": 4.507439,
+                "failure_rate": "100%",
+                "weighted_errors_E": 270295,
+                "error_rate_epsilon": 5,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 2897.63,
+                    "cut_triggered": false
                 },
                 "detection_score": {
                     "value": -3000,
@@ -8796,11 +8796,11 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -6000
+                "final_score": -102.37
             },
             "repo_url": "https://github.com/jaoppb/rinha-de-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4646",
-            "timestamp": "2026-05-16T03:33:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5902",
+            "timestamp": "2026-05-21T17:40:52Z"
         }
     },
     "viniciusmoreiraa": {
