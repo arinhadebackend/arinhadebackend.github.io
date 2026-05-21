@@ -9252,33 +9252,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "191.53ms",
+            "p99": "197.76ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 734,
-                    "false_negative_detections": 412,
-                    "true_positive_detections": 23459,
-                    "true_negative_detections": 29314,
-                    "http_errors": 70
+                    "false_positive_detections": 196,
+                    "false_negative_detections": 19118,
+                    "true_positive_detections": 4758,
+                    "true_negative_detections": 29849,
+                    "http_errors": 56
                 },
-                "failure_rate": "2.25%",
-                "weighted_errors_E": 2320,
-                "error_rate_epsilon": 0.042972,
+                "failure_rate": "35.89%",
+                "weighted_errors_E": 57830,
+                "error_rate_epsilon": 1.071382,
                 "p99_score": {
-                    "value": 717.75,
+                    "value": 703.87,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 357.11,
-                    "rate_component": 1366.82,
-                    "absolute_penalty": -1009.7,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1074.87
+                "final_score": -2296.13
             },
             "repo_url": "https://github.com/paulohrpinheiro/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5915",
-            "timestamp": "2026-05-21T19:09:37Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5922",
+            "timestamp": "2026-05-21T19:47:12Z"
         }
     },
     "evinicius16": {
