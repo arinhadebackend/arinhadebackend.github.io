@@ -9928,33 +9928,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1270.04ms",
+            "p99": "1038.38ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 215,
-                    "false_negative_detections": 133,
-                    "true_positive_detections": 22908,
-                    "true_negative_detections": 28747,
-                    "http_errors": 282
+                    "false_positive_detections": 221,
+                    "false_negative_detections": 136,
+                    "true_positive_detections": 23587,
+                    "true_negative_detections": 29650,
+                    "http_errors": 255
                 },
-                "failure_rate": "1.2%",
-                "weighted_errors_E": 2024,
-                "error_rate_epsilon": 0.038711,
+                "failure_rate": "1.14%",
+                "weighted_errors_E": 1904,
+                "error_rate_epsilon": 0.035358,
                 "p99_score": {
-                    "value": -103.82,
+                    "value": -16.36,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 420.24,
-                    "rate_component": 1412.17,
-                    "absolute_penalty": -991.93,
+                    "value": 467.54,
+                    "rate_component": 1451.51,
+                    "absolute_penalty": -983.97,
                     "cut_triggered": false
                 },
-                "final_score": 316.42
+                "final_score": 451.18
             },
             "repo_url": "https://github.com/rrs6/rinha-backend-2026-fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5909",
-            "timestamp": "2026-05-21T18:42:15Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5919",
+            "timestamp": "2026-05-21T19:25:43Z"
         }
     },
     "adanSiqueira": {
