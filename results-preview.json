@@ -10519,40 +10519,40 @@
         "jutamagno-clojure": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1076.68ms",
+            "p99": "2001.69ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 20445,
-                    "true_negative_detections": 25619,
-                    "http_errors": 2
+                    "false_positive_detections": 9,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 19047,
+                    "true_negative_detections": 23832,
+                    "http_errors": 2085
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 15,
-                "error_rate_epsilon": 0.000326,
+                "failure_rate": "4.66%",
+                "weighted_errors_E": 10443,
+                "error_rate_epsilon": 0.232191,
                 "p99_score": {
-                    "value": -32.09,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2638.76,
-                    "rate_component": 3000,
-                    "absolute_penalty": -361.24,
+                    "value": -571.5,
+                    "rate_component": 634.16,
+                    "absolute_penalty": -1205.66,
                     "cut_triggered": false
                 },
-                "final_score": 2606.68
+                "final_score": -3571.5
             },
             "repo_url": "https://github.com/jutamagno/rinha-de-backend-2026-clojure",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5757",
-            "timestamp": "2026-05-20T20:37:27Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5866",
+            "timestamp": "2026-05-21T14:42:08Z"
         }
     },
     "alexoliveiramartins": {
