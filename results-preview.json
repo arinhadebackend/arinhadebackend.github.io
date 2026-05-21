@@ -3474,33 +3474,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2.50ms",
+            "p99": "2.02ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 60,
+                    "false_positive_detections": 18,
                     "false_negative_detections": 5,
                     "true_positive_detections": 23937,
-                    "true_negative_detections": 30056,
+                    "true_negative_detections": 30099,
                     "http_errors": 0
                 },
-                "failure_rate": "0.12%",
-                "weighted_errors_E": 75,
-                "error_rate_epsilon": 0.001387,
+                "failure_rate": "0.04%",
+                "weighted_errors_E": 33,
+                "error_rate_epsilon": 0.00061,
                 "p99_score": {
-                    "value": 2602.38,
+                    "value": 2695.18,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2293.55,
-                    "rate_component": 2857.8,
-                    "absolute_penalty": -564.24,
+                    "value": 2540.56,
+                    "rate_component": 3000,
+                    "absolute_penalty": -459.44,
                     "cut_triggered": false
                 },
-                "final_score": 4895.93
+                "final_score": 5235.74
             },
             "repo_url": "https://github.com/josehenrique-dev/rinha-de-backend-2026-henrique-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5905",
-            "timestamp": "2026-05-21T18:13:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5914",
+            "timestamp": "2026-05-21T19:04:02Z"
         }
     },
     "ogrodev": {
