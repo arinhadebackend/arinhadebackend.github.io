@@ -10566,33 +10566,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2001.81ms",
+            "p99": "2001.83ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 452,
-                    "false_negative_detections": 191,
-                    "true_positive_detections": 16671,
-                    "true_negative_detections": 20757,
-                    "http_errors": 2800
+                    "false_positive_detections": 456,
+                    "false_negative_detections": 173,
+                    "true_positive_detections": 16472,
+                    "true_negative_detections": 20478,
+                    "http_errors": 2929
                 },
-                "failure_rate": "8.42%",
-                "weighted_errors_E": 15025,
-                "error_rate_epsilon": 0.36762,
+                "failure_rate": "8.78%",
+                "weighted_errors_E": 15620,
+                "error_rate_epsilon": 0.385603,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -818.45,
-                    "rate_component": 434.6,
-                    "absolute_penalty": -1253.05,
+                    "value": -844.25,
+                    "rate_component": 413.86,
+                    "absolute_penalty": -1258.11,
                     "cut_triggered": false
                 },
-                "final_score": -3818.45
+                "final_score": -3844.25
             },
             "repo_url": "https://github.com/alexoliveiramartins/fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5818",
-            "timestamp": "2026-05-21T04:07:32Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5851",
+            "timestamp": "2026-05-21T13:26:04Z"
         }
     },
     "morais15": {
