@@ -10526,33 +10526,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2001.69ms",
+            "p99": "2001.31ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 9,
+                    "false_positive_detections": 11,
                     "false_negative_detections": 3,
-                    "true_positive_detections": 19047,
-                    "true_negative_detections": 23832,
-                    "http_errors": 2085
+                    "true_positive_detections": 20031,
+                    "true_negative_detections": 25111,
+                    "http_errors": 771
                 },
-                "failure_rate": "4.66%",
-                "weighted_errors_E": 10443,
-                "error_rate_epsilon": 0.232191,
+                "failure_rate": "1.71%",
+                "weighted_errors_E": 3875,
+                "error_rate_epsilon": 0.084373,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -571.5,
-                    "rate_component": 634.16,
-                    "absolute_penalty": -1205.66,
+                    "value": -2.72,
+                    "rate_component": 1073.8,
+                    "absolute_penalty": -1076.52,
                     "cut_triggered": false
                 },
-                "final_score": -3571.5
+                "final_score": -3002.72
             },
             "repo_url": "https://github.com/jutamagno/rinha-de-backend-2026-clojure",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5866",
-            "timestamp": "2026-05-21T14:42:08Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5881",
+            "timestamp": "2026-05-21T16:00:42Z"
         }
     },
     "alexoliveiramartins": {
