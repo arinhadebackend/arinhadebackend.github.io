@@ -10650,33 +10650,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "201.58ms",
+            "p99": "382.62ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 8,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 23893,
-                    "true_negative_detections": 30059,
+                    "false_positive_detections": 6,
+                    "false_negative_detections": 2,
+                    "true_positive_detections": 23665,
+                    "true_negative_detections": 29737,
                     "http_errors": 0
                 },
-                "failure_rate": "0.02%",
-                "weighted_errors_E": 20,
-                "error_rate_epsilon": 0.000371,
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 12,
+                "error_rate_epsilon": 0.000225,
                 "p99_score": {
-                    "value": 695.56,
+                    "value": 417.24,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2603.33,
+                    "value": 2665.82,
                     "rate_component": 3000,
-                    "absolute_penalty": -396.67,
+                    "absolute_penalty": -334.18,
                     "cut_triggered": false
                 },
-                "final_score": 3298.89
+                "final_score": 3083.05
             },
             "repo_url": "https://github.com/RenanOfugi/rinha2026-deteccao-fraude-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5821",
-            "timestamp": "2026-05-21T04:44:35Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5823",
+            "timestamp": "2026-05-21T05:05:01Z"
         }
     }
 }
