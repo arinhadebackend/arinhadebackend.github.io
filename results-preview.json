@@ -9252,33 +9252,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "195.23ms",
+            "p99": "192.05ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 733,
+                    "false_positive_detections": 732,
                     "false_negative_detections": 413,
-                    "true_positive_detections": 23476,
-                    "true_negative_detections": 29322,
-                    "http_errors": 57
+                    "true_positive_detections": 23455,
+                    "true_negative_detections": 29297,
+                    "http_errors": 70
                 },
-                "failure_rate": "2.23%",
-                "weighted_errors_E": 2257,
-                "error_rate_epsilon": 0.041796,
+                "failure_rate": "2.25%",
+                "weighted_errors_E": 2321,
+                "error_rate_epsilon": 0.043008,
                 "p99_score": {
-                    "value": 709.45,
+                    "value": 716.58,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 372.75,
-                    "rate_component": 1378.87,
-                    "absolute_penalty": -1006.12,
+                    "value": 356.69,
+                    "rate_component": 1366.45,
+                    "absolute_penalty": -1009.76,
                     "cut_triggered": false
                 },
-                "final_score": 1082.21
+                "final_score": 1073.28
             },
             "repo_url": "https://github.com/paulohrpinheiro/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5846",
-            "timestamp": "2026-05-21T12:54:20Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5855",
+            "timestamp": "2026-05-21T13:33:43Z"
         }
     },
     "evinicius16": {
