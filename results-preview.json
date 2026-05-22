@@ -1064,33 +1064,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.10ms",
+            "p99": "1.25ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 21,
-                    "false_negative_detections": 15,
-                    "true_positive_detections": 23927,
-                    "true_negative_detections": 30096,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
-                "failure_rate": "0.07%",
-                "weighted_errors_E": 66,
-                "error_rate_epsilon": 0.001221,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2958.58,
+                    "value": 2903.69,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2365.5,
-                    "rate_component": 2913.32,
-                    "absolute_penalty": -547.82,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5324.08
+                "final_score": 5903.69
             },
             "repo_url": "https://github.com/viniciusdsandrade/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5994",
-            "timestamp": "2026-05-22T07:48:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5999",
+            "timestamp": "2026-05-22T08:35:13Z"
         },
         "andrade-rust-ivf": {
             "expected": {
