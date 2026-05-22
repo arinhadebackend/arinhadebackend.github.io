@@ -1527,27 +1527,27 @@
         "cleissonbarbosa-rinha": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2.79ms",
+            "p99": "53.69ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2554.94,
+                    "value": 1270.08,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1556,11 +1556,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5554.94
+                "final_score": 4270.08
             },
             "repo_url": "https://github.com/cleissonbarbosa/rinha-backend-2026-rinha",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4984",
-            "timestamp": "2026-05-17T14:37:38Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6110",
+            "timestamp": "2026-05-22T22:27:14Z"
         }
     },
     "JosineyJr": {
