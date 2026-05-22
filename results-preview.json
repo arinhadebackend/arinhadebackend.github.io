@@ -10560,33 +10560,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2001.44ms",
+            "p99": "2.46ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 4,
                     "false_negative_detections": 3,
-                    "true_positive_detections": 23206,
-                    "true_negative_detections": 29175,
-                    "http_errors": 1464
+                    "true_positive_detections": 23939,
+                    "true_negative_detections": 30113,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.73%",
-                "weighted_errors_E": 7333,
-                "error_rate_epsilon": 0.13617,
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 13,
+                "error_rate_epsilon": 0.00024,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -293.68,
-                    "rate_component": 865.92,
-                    "absolute_penalty": -1159.6,
+                    "value": 2609.11,
                     "cut_triggered": false
                 },
-                "final_score": -3293.68
+                "detection_score": {
+                    "value": 2656.16,
+                    "rate_component": 3000,
+                    "absolute_penalty": -343.84,
+                    "cut_triggered": false
+                },
+                "final_score": 5265.27
             },
             "repo_url": "https://github.com/BertBR/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6083",
-            "timestamp": "2026-05-22T19:45:28Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6089",
+            "timestamp": "2026-05-22T20:23:04Z"
         }
     },
     "sl4ureano": {
