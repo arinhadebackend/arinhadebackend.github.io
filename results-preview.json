@@ -9355,6 +9355,44 @@
             "repo_url": "https://github.com/paulohrpinheiro/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5924",
             "timestamp": "2026-05-21T20:21:04Z"
+        },
+        "paulohrpinheiro-Vlang": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "80.97ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 608,
+                    "false_negative_detections": 3776,
+                    "true_positive_detections": 20166,
+                    "true_negative_detections": 29508,
+                    "http_errors": 0
+                },
+                "failure_rate": "8.11%",
+                "weighted_errors_E": 11936,
+                "error_rate_epsilon": 0.2208,
+                "p99_score": {
+                    "value": 1091.69,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": -567.07,
+                    "rate_component": 656,
+                    "absolute_penalty": -1223.07,
+                    "cut_triggered": false
+                },
+                "final_score": 524.62
+            },
+            "repo_url": "https://github.com/paulohrpinheiro/rinha2026-em-v",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6070",
+            "timestamp": "2026-05-22T18:19:35Z"
         }
     },
     "evinicius16": {
