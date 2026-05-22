@@ -4140,7 +4140,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "49.12ms",
+            "p99": "13.93ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -4153,7 +4153,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1308.74,
+                    "value": 1856.15,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -4162,11 +4162,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4308.74
+                "final_score": 4856.15
             },
             "repo_url": "https://github.com/fksegundo/rinha-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5975",
-            "timestamp": "2026-05-22T03:19:54Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5982",
+            "timestamp": "2026-05-22T04:17:56Z"
         }
     },
     "micheloliveira-com": {
