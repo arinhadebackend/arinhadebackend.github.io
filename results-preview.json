@@ -10328,33 +10328,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2001.86ms",
+            "p99": "2002.03ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 406,
-                    "false_negative_detections": 332,
-                    "true_positive_detections": 13353,
-                    "true_negative_detections": 16804,
-                    "http_errors": 1912
+                    "false_positive_detections": 252,
+                    "false_negative_detections": 391,
+                    "true_positive_detections": 12016,
+                    "true_negative_detections": 15398,
+                    "http_errors": 3791
                 },
-                "failure_rate": "8.08%",
-                "weighted_errors_E": 10962,
-                "error_rate_epsilon": 0.334136,
+                "failure_rate": "13.92%",
+                "weighted_errors_E": 20380,
+                "error_rate_epsilon": 0.639915,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -735.9,
-                    "rate_component": 476.08,
-                    "absolute_penalty": -1211.98,
+                    "value": -1098.89,
+                    "rate_component": 193.88,
+                    "absolute_penalty": -1292.77,
                     "cut_triggered": false
                 },
-                "final_score": -3735.9
+                "final_score": -4098.89
             },
             "repo_url": "https://github.com/wendellunny/php-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5965",
-            "timestamp": "2026-05-22T01:34:32Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5972",
+            "timestamp": "2026-05-22T02:52:49Z"
         }
     },
     "rluuan": {
