@@ -1489,40 +1489,40 @@
         "cleissonbarbosa-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "87.22ms",
+            "p99": "2.07ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23928,
-                    "true_negative_detections": 29909,
+                    "false_positive_detections": 12,
+                    "false_negative_detections": 6,
+                    "true_positive_detections": 23936,
+                    "true_negative_detections": 30105,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.03%",
+                "weighted_errors_E": 30,
+                "error_rate_epsilon": 0.000555,
                 "p99_score": {
-                    "value": 1059.38,
+                    "value": 2683.07,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2552.59,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -447.41,
                     "cut_triggered": false
                 },
-                "final_score": 4059.38
+                "final_score": 5235.66
             },
             "repo_url": "https://github.com/cleissonbarbosa/rinha-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4648",
-            "timestamp": "2026-05-16T03:44:29Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6111",
+            "timestamp": "2026-05-22T22:30:26Z"
         },
         "cleissonbarbosa-rinha": {
             "expected": {
