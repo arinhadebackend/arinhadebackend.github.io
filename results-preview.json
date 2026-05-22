@@ -10560,33 +10560,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "85.33ms",
+            "p99": "2001.44ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23855,
-                    "true_negative_detections": 30008,
-                    "http_errors": 192
+                    "false_positive_detections": 4,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 23206,
+                    "true_negative_detections": 29175,
+                    "http_errors": 1464
                 },
-                "failure_rate": "0.36%",
-                "weighted_errors_E": 960,
-                "error_rate_epsilon": 0.01776,
+                "failure_rate": "2.73%",
+                "weighted_errors_E": 7333,
+                "error_rate_epsilon": 0.13617,
                 "p99_score": {
-                    "value": 1068.9,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 855.75,
-                    "rate_component": 1750.56,
-                    "absolute_penalty": -894.82,
+                    "value": -293.68,
+                    "rate_component": 865.92,
+                    "absolute_penalty": -1159.6,
                     "cut_triggered": false
                 },
-                "final_score": 1924.65
+                "final_score": -3293.68
             },
             "repo_url": "https://github.com/BertBR/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6079",
-            "timestamp": "2026-05-22T19:22:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6083",
+            "timestamp": "2026-05-22T19:45:28Z"
         }
     },
     "sl4ureano": {
