@@ -9172,7 +9172,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "29.69ms",
+            "p99": "29.66ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 257,
@@ -9185,7 +9185,7 @@
                 "weighted_errors_E": 34043,
                 "error_rate_epsilon": 0.629738,
                 "p99_score": {
-                    "value": 1527.38,
+                    "value": 1527.85,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -9194,11 +9194,11 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -1472.62
+                "final_score": -1472.15
             },
             "repo_url": "https://github.com/brunonunestx/backend-fight-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5949",
-            "timestamp": "2026-05-21T23:12:22Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5955",
+            "timestamp": "2026-05-22T00:36:56Z"
         }
     },
     "fullzer4": {
