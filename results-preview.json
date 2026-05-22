@@ -1652,33 +1652,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.21ms",
+            "p99": "87.08ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 925,
-                    "true_negative_detections": 1148,
-                    "http_errors": 12446
+                    "false_positive_detections": 58,
+                    "false_negative_detections": 42,
+                    "true_positive_detections": 23900,
+                    "true_negative_detections": 30059,
+                    "http_errors": 0
                 },
-                "failure_rate": "85.72%",
-                "weighted_errors_E": 62232,
-                "error_rate_epsilon": 4.285655,
+                "failure_rate": "0.18%",
+                "weighted_errors_E": 184,
+                "error_rate_epsilon": 0.003404,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 1060.06,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 1787.9,
+                    "rate_component": 2468.05,
+                    "absolute_penalty": -680.15,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 2847.96
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6000",
-            "timestamp": "2026-05-22T08:44:23Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6031",
+            "timestamp": "2026-05-22T13:41:29Z"
         }
     },
     "klevercorrea": {
