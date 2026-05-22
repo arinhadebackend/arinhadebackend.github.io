@@ -11028,5 +11028,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6021",
             "timestamp": "2026-05-22T12:52:21Z"
         }
+    },
+    "ERF88": {
+        "erf88-rinha-zig": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "1.09ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 26,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 23938,
+                    "true_negative_detections": 30091,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.06%",
+                "weighted_errors_E": 38,
+                "error_rate_epsilon": 0.000703,
+                "p99_score": {
+                    "value": 2964.45,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2522.68,
+                    "rate_component": 3000,
+                    "absolute_penalty": -477.32,
+                    "cut_triggered": false
+                },
+                "final_score": 5487.13
+            },
+            "repo_url": "https://github.com/ERF88/rinha_zig",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6074",
+            "timestamp": "2026-05-22T18:54:28Z"
+        }
     }
 }
