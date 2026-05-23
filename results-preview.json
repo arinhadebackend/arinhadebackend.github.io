@@ -1652,18 +1652,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.17ms",
+            "p99": "2002.13ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
+                    "false_positive_detections": 1,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 542,
-                    "true_negative_detections": 739,
-                    "http_errors": 12806
+                    "true_positive_detections": 160,
+                    "true_negative_detections": 208,
+                    "http_errors": 13454
                 },
-                "failure_rate": "90.91%",
-                "weighted_errors_E": 64032,
-                "error_rate_epsilon": 4.544822,
+                "failure_rate": "97.34%",
+                "weighted_errors_E": 67271,
+                "error_rate_epsilon": 4.866599,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -1677,8 +1677,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6170",
-            "timestamp": "2026-05-23T12:01:43Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6171",
+            "timestamp": "2026-05-23T12:11:40Z"
         }
     },
     "klevercorrea": {
