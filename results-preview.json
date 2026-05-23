@@ -5051,40 +5051,50 @@
         "joao-girardi-js": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "924.88ms",
+            "p99": "594.97ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1133,
-                    "false_negative_detections": 41,
-                    "true_positive_detections": 22971,
-                    "true_negative_detections": 27580,
+                    "false_positive_detections": 1565,
+                    "false_negative_detections": 15,
+                    "true_positive_detections": 23724,
+                    "true_negative_detections": 28283,
                     "http_errors": 0
                 },
-                "failure_rate": "2.27%",
-                "weighted_errors_E": 1256,
-                "error_rate_epsilon": 0.024282,
+                "failure_rate": "2.95%",
+                "weighted_errors_E": 1610,
+                "error_rate_epsilon": 0.030045,
                 "p99_score": {
-                    "value": 33.92,
+                    "value": 225.51,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 684.91,
-                    "rate_component": 1614.71,
-                    "absolute_penalty": -929.8,
+                    "value": 560.1,
+                    "rate_component": 1522.23,
+                    "absolute_penalty": -962.13,
                     "cut_triggered": false
                 },
-                "final_score": 718.83
+                "final_score": 785.61,
+                "raw": {
+                    "p99_ms": 594.965087,
+                    "failure_rate": 0.0294847630955269,
+                    "error_rate_epsilon": 0.0300446003694926,
+                    "p99_score": 225.5085182514708,
+                    "detection_score": 560.1049061426647,
+                    "rate_component": 1522.23356826843,
+                    "absolute_penalty": -962.1286621257652,
+                    "final_score": 785.6134243941356
+                }
             },
             "repo_url": "https://github.com/JoaoVitorGirardii/rinha-2026-js",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2481",
-            "timestamp": "2026-05-09T05:18:55Z"
+            "timestamp": "2026-05-23T20:30:18Z"
         },
         "joao-girardi-rust": {
             "expected": {
