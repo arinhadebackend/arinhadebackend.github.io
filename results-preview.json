@@ -10042,7 +10042,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "99.45ms",
+            "p99": "98.73ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 228,
@@ -10055,7 +10055,7 @@
                 "weighted_errors_E": 639,
                 "error_rate_epsilon": 0.01182,
                 "p99_score": {
-                    "value": 1002.38,
+                    "value": 1005.55,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10064,11 +10064,11 @@
                     "absolute_penalty": -841.85,
                     "cut_triggered": false
                 },
-                "final_score": 2087.9
+                "final_score": 2091.06
             },
             "repo_url": "https://github.com/rrs6/rinha-backend-2026-fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6182",
-            "timestamp": "2026-05-23T13:54:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6185",
+            "timestamp": "2026-05-23T14:16:01Z"
         }
     },
     "adanSiqueira": {
