@@ -4523,40 +4523,50 @@
         "lhupalo-go": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "393.03ms",
+            "p99": "2001.28ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 53,
-                    "false_negative_detections": 62,
-                    "true_positive_detections": 22467,
-                    "true_negative_detections": 28076,
-                    "http_errors": 70
+                    "false_positive_detections": 109,
+                    "false_negative_detections": 86,
+                    "true_positive_detections": 21071,
+                    "true_negative_detections": 26410,
+                    "http_errors": 1009
                 },
-                "failure_rate": "0.36%",
-                "weighted_errors_E": 589,
-                "error_rate_epsilon": 0.011611,
+                "failure_rate": "2.47%",
+                "weighted_errors_E": 5412,
+                "error_rate_epsilon": 0.111164,
                 "p99_score": {
-                    "value": 405.57,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 1103.88,
-                    "rate_component": 1935.13,
-                    "absolute_penalty": -831.26,
+                    "value": -165.99,
+                    "rate_component": 954.04,
+                    "absolute_penalty": -1120.03,
                     "cut_triggered": false
                 },
-                "final_score": 1509.45
+                "final_score": -3165.99,
+                "raw": {
+                    "p99_ms": 2001.2794960800002,
+                    "failure_rate": 0.024730409777138748,
+                    "error_rate_epsilon": 0.1111636027523878,
+                    "p99_score": -3000,
+                    "detection_score": -165.99402171058182,
+                    "rate_component": 954.0373864167366,
+                    "absolute_penalty": -1120.0314081273184,
+                    "final_score": -3165.994021710582
+                }
             },
             "repo_url": "https://github.com/lhupalo/rbc-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2268",
-            "timestamp": "2026-05-08T17:09:37Z"
+            "timestamp": "2026-05-23T20:14:20Z"
         }
     },
     "matheus896": {
