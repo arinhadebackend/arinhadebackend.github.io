@@ -3235,40 +3235,50 @@
         "marcoscarvalho04": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1.95ms",
+            "p99": "1.97ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 10,
+                    "false_positive_detections": 20,
                     "false_negative_detections": 3,
-                    "true_positive_detections": 24034,
-                    "true_negative_detections": 30012,
+                    "true_positive_detections": 23939,
+                    "true_negative_detections": 30097,
                     "http_errors": 0
                 },
-                "failure_rate": "0.02%",
-                "weighted_errors_E": 19,
-                "error_rate_epsilon": 0.000351,
+                "failure_rate": "0.04%",
+                "weighted_errors_E": 29,
+                "error_rate_epsilon": 0.000536,
                 "p99_score": {
-                    "value": 2709.62,
+                    "value": 2705.06,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2609.69,
+                    "value": 2556.86,
                     "rate_component": 3000,
-                    "absolute_penalty": -390.31,
+                    "absolute_penalty": -443.14,
                     "cut_triggered": false
                 },
-                "final_score": 5319.31
+                "final_score": 5261.92,
+                "raw": {
+                    "p99_ms": 1.97216438,
+                    "failure_rate": 0.00042546107031206647,
+                    "error_rate_epsilon": 0.0005364509147413012,
+                    "p99_score": 2705.0568894193,
+                    "detection_score": 2556.8636235841013,
+                    "rate_component": 3000,
+                    "absolute_penalty": -443.1363764158987,
+                    "final_score": 5261.9205130034015
+                }
             },
             "repo_url": "https://github.com/marcoscarvalho04/rinha-backend-marcos-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1740",
-            "timestamp": "2026-05-06T04:39:50Z"
+            "timestamp": "2026-05-23T18:46:16Z"
         }
     },
     "Joaopdiasventura": {
