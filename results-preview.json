@@ -2449,40 +2449,50 @@
         "heindall-fasthttp": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2.22ms",
+            "p99": "2.55ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
-                    "http_errors": 1
+                    "false_positive_detections": 18,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 23937,
+                    "true_negative_detections": 30098,
+                    "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 5,
-                "error_rate_epsilon": 0.000092,
+                "failure_rate": "0.04%",
+                "weighted_errors_E": 33,
+                "error_rate_epsilon": 0.00061,
                 "p99_score": {
-                    "value": 2653.86,
+                    "value": 2593.17,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2766.55,
+                    "value": 2540.56,
                     "rate_component": 3000,
-                    "absolute_penalty": -233.45,
+                    "absolute_penalty": -459.44,
                     "cut_triggered": false
                 },
-                "final_score": 5420.41
+                "final_score": 5133.73,
+                "raw": {
+                    "p99_ms": 2.55169615,
+                    "failure_rate": 0.000425468940767324,
+                    "error_rate_epsilon": 0.000610455436753117,
+                    "p99_score": 2593.1710416416204,
+                    "detection_score": 2540.5563248873236,
+                    "rate_component": 3000,
+                    "absolute_penalty": -459.44367511267654,
+                    "final_score": 5133.727366528944
+                }
             },
             "repo_url": "https://github.com/whoisclebs/heindall-fasthttp",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1727",
-            "timestamp": "2026-05-06T03:30:48Z"
+            "timestamp": "2026-05-23T18:43:39Z"
         },
         "heindall-golpher": {
             "expected": {
