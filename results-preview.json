@@ -1458,33 +1458,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2.74ms",
+            "p99": "2.76ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 22657,
-                    "true_negative_detections": 28545,
-                    "http_errors": 2857
+                    "true_positive_detections": 22956,
+                    "true_negative_detections": 28857,
+                    "http_errors": 2246
                 },
-                "failure_rate": "5.28%",
-                "weighted_errors_E": 14285,
-                "error_rate_epsilon": 0.264248,
+                "failure_rate": "4.15%",
+                "weighted_errors_E": 11230,
+                "error_rate_epsilon": 0.207736,
                 "p99_score": {
-                    "value": 2562.43,
+                    "value": 2559.41,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -668.49,
-                    "rate_component": 577.99,
-                    "absolute_penalty": -1246.47,
+                    "value": -532.64,
+                    "rate_component": 682.49,
+                    "absolute_penalty": -1215.13,
                     "cut_triggered": false
                 },
-                "final_score": 1893.94
+                "final_score": 2026.77
             },
             "repo_url": "https://github.com/cleissonbarbosa/rinha-backend-2026-ispc",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6143",
-            "timestamp": "2026-05-23T03:13:05Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6149",
+            "timestamp": "2026-05-23T04:09:49Z"
         },
         "cleissonbarbosa-rust": {
             "expected": {
