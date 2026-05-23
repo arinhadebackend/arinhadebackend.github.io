@@ -8787,40 +8787,50 @@
         "guilherme-rodovalho-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "125.08ms",
+            "p99": "162.29ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 3,
-                    "false_negative_detections": 3,
-                    "true_positive_detections": 24019,
-                    "true_negative_detections": 30000,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 19023,
+                    "true_positive_detections": 4870,
+                    "true_negative_detections": 30061,
                     "http_errors": 0
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 12,
-                "error_rate_epsilon": 0.000222,
+                "failure_rate": "35.26%",
+                "weighted_errors_E": 57069,
+                "error_rate_epsilon": 1.057734,
                 "p99_score": {
-                    "value": 902.83,
+                    "value": 789.71,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2665.82,
-                    "rate_component": 3000,
-                    "absolute_penalty": -334.18,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 3568.65
+                "final_score": -2210.29,
+                "raw": {
+                    "p99_ms": 162.29014863,
+                    "failure_rate": 0.3525781221040145,
+                    "error_rate_epsilon": 1.0577343663120435,
+                    "p99_score": 789.70784200668,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -2210.29215799332
+                }
             },
             "repo_url": "https://github.com/GuilhermRodovalho/rinha-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4382",
-            "timestamp": "2026-05-14T16:14:02Z"
+            "timestamp": "2026-05-23T23:06:51Z"
         }
     },
     "mdrapha": {
