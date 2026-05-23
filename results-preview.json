@@ -1877,40 +1877,50 @@
         "csharp-nativeaot": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2.55ms",
+            "p99": "4.5ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
+                    "false_positive_detections": 12,
+                    "false_negative_detections": 7,
+                    "true_positive_detections": 23935,
+                    "true_negative_detections": 30105,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.04%",
+                "weighted_errors_E": 33,
+                "error_rate_epsilon": 0.00061,
                 "p99_score": {
-                    "value": 2593.5,
+                    "value": 2347.15,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2540.56,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -459.44,
                     "cut_triggered": false
                 },
-                "final_score": 5593.5
+                "final_score": 4887.7,
+                "raw": {
+                    "p99_ms": 4.496291499999999,
+                    "failure_rate": 0.00035146784069257664,
+                    "error_rate_epsilon": 0.000610444144360791,
+                    "p99_score": 2347.145540691292,
+                    "detection_score": 2540.5563248873236,
+                    "rate_component": 3000,
+                    "absolute_penalty": -459.44367511267654,
+                    "final_score": 4887.701865578616
+                }
             },
             "repo_url": "https://github.com/Hanake0/rinha-backend-2026-csharp-nativeaot",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2168",
-            "timestamp": "2026-05-08T12:15:38Z"
+            "timestamp": "2026-05-23T19:59:05Z"
         }
     },
     "leofmarciano": {
