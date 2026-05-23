@@ -3443,40 +3443,50 @@
         "jonaselias-php-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1.57ms",
+            "p99": "1.56ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
-                    "http_errors": 0
+                    "false_positive_detections": 16,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 23940,
+                    "true_negative_detections": 30100,
+                    "http_errors": 1
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.03%",
+                "weighted_errors_E": 24,
+                "error_rate_epsilon": 0.000444,
                 "p99_score": {
-                    "value": 2805.22,
+                    "value": 2805.82,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2580.62,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -419.38,
                     "cut_triggered": false
                 },
-                "final_score": 5805.22
+                "final_score": 5386.44,
+                "raw": {
+                    "p99_ms": 1.5637895,
+                    "failure_rate": 0.00033297569277442745,
+                    "error_rate_epsilon": 0.00044396759036590327,
+                    "p99_score": 2805.821707248722,
+                    "detection_score": 2580.617997398389,
+                    "rate_component": 3000,
+                    "absolute_penalty": -419.38200260161125,
+                    "final_score": 5386.439704647111
+                }
             },
             "repo_url": "https://github.com/jonas-elias/rinha-backend-2026-php-rust",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1962",
-            "timestamp": "2026-05-07T00:04:54Z"
+            "timestamp": "2026-05-23T19:11:31Z"
         },
         "jonaselias-php": {
             "expected": {
