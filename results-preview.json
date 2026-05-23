@@ -6031,25 +6031,25 @@
         "joaoMiraya-rust-qdrant": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2002.04ms",
+            "p99": "2002.1ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 434,
-                    "false_negative_detections": 376,
-                    "true_positive_detections": 6426,
-                    "true_negative_detections": 8101,
-                    "http_errors": 2033
+                    "false_positive_detections": 286,
+                    "false_negative_detections": 393,
+                    "true_positive_detections": 5292,
+                    "true_negative_detections": 6897,
+                    "http_errors": 3531
                 },
-                "failure_rate": "16.37%",
-                "weighted_errors_E": 11727,
-                "error_rate_epsilon": 0.67513,
+                "failure_rate": "25.67%",
+                "weighted_errors_E": 19120,
+                "error_rate_epsilon": 1.165925,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -6060,11 +6060,21 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -6000
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2002.10463506,
+                    "failure_rate": 0.25672297091286056,
+                    "error_rate_epsilon": 1.1659247515092384,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/joaoMiraya/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2963",
-            "timestamp": "2026-05-10T16:24:02Z"
+            "timestamp": "2026-05-23T21:04:19Z"
         }
     },
     "reidn3r": {
