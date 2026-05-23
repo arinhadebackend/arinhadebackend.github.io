@@ -5587,40 +5587,50 @@
         "marvin-env": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2001.59ms",
+            "p99": "790.68ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 22,
+                    "false_positive_detections": 26,
                     "false_negative_detections": 22,
-                    "true_positive_detections": 17164,
-                    "true_negative_detections": 21540,
-                    "http_errors": 870
+                    "true_positive_detections": 17687,
+                    "true_negative_detections": 22197,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.31%",
-                "weighted_errors_E": 4438,
-                "error_rate_epsilon": 0.11202,
+                "failure_rate": "0.12%",
+                "weighted_errors_E": 92,
+                "error_rate_epsilon": 0.002304,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -143.48,
-                    "rate_component": 950.71,
-                    "absolute_penalty": -1094.19,
+                    "value": 102,
                     "cut_triggered": false
                 },
-                "final_score": -3143.48
+                "detection_score": {
+                    "value": 2046.99,
+                    "rate_component": 2637.53,
+                    "absolute_penalty": -590.54,
+                    "cut_triggered": false
+                },
+                "final_score": 2148.99,
+                "raw": {
+                    "p99_ms": 790.6777108500036,
+                    "failure_rate": 0.0012020434739056396,
+                    "error_rate_epsilon": 0.0023039166583191427,
+                    "p99_score": 102.00050376135569,
+                    "detection_score": 2046.9883505293267,
+                    "rate_component": 2637.5332350955073,
+                    "absolute_penalty": -590.5448845661806,
+                    "final_score": 2148.9888542906824
+                }
             },
             "repo_url": "https://github.com/marvin-env/rinha-2026-py",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3710",
-            "timestamp": "2026-05-12T17:34:17Z"
+            "timestamp": "2026-05-23T22:09:20Z"
         }
     },
     "greg0x46": {
