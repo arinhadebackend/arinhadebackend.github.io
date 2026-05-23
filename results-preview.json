@@ -2845,40 +2845,50 @@
         "demians12-go-vptree": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "25.40ms",
+            "p99": "2001.99ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 26,
-                    "false_negative_detections": 30,
-                    "true_positive_detections": 24007,
-                    "true_negative_detections": 29996,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 254,
+                    "true_negative_detections": 536,
+                    "http_errors": 13069
                 },
-                "failure_rate": "0.1%",
-                "weighted_errors_E": 116,
-                "error_rate_epsilon": 0.002146,
+                "failure_rate": "94.3%",
+                "weighted_errors_E": 65345,
+                "error_rate_epsilon": 4.714987,
                 "p99_score": {
-                    "value": 1595.24,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2047.95,
-                    "rate_component": 2668.41,
-                    "absolute_penalty": -620.46,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 3643.19
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2001.98838142,
+                    "failure_rate": 0.9429973302547081,
+                    "error_rate_epsilon": 4.7149866512735406,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/Demians12/rinha-de-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1929",
-            "timestamp": "2026-05-06T21:26:20Z"
+            "timestamp": "2026-05-23T19:01:25Z"
         }
     },
     "bernardoazevedo": {
