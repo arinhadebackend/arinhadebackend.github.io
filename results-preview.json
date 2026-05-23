@@ -48,7 +48,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "3.7ms",
+            "p99": "3.6ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -61,7 +61,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2431.49,
+                    "value": 2443.86,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -70,21 +70,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5431.49,
+                "final_score": 5443.86,
                 "raw": {
-                    "p99_ms": 3.702622839999993,
+                    "p99_ms": 3.598658859999992,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2431.490524204679,
+                    "p99_score": 2443.8593209607675,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5431.490524204679
+                    "final_score": 5443.859320960768
                 }
             },
             "repo_url": "https://github.com/MXLange/go-api-rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/540",
-            "timestamp": "2026-05-23T16:39:05Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5538",
+            "timestamp": "2026-05-23T16:41:50Z"
         },
         "c-api-rinha2026": {
             "expected": {
