@@ -147,7 +147,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 1,
-                "error_rate_epsilon": 1.8e-05,
+                "error_rate_epsilon": 0.000018,
                 "p99_score": {
                     "value": 2758.31,
                     "cut_triggered": false
@@ -471,7 +471,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 5,
-                "error_rate_epsilon": 9.2e-05,
+                "error_rate_epsilon": 0.000092,
                 "p99_score": {
                     "value": 1403.9,
                     "cut_triggered": false
@@ -536,20 +536,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "599.35ms",
+            "p99": "613.98ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 19448,
-                    "true_negative_detections": 24410,
+                    "true_positive_detections": 19604,
+                    "true_negative_detections": 24594,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 222.32,
+                    "value": 211.84,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -558,11 +558,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3222.32
+                "final_score": 3211.84,
+                "raw": {
+                    "p99_ms": 613.98166896,
+                    "failure_rate": 0,
+                    "error_rate_epsilon": 0,
+                    "p99_score": 211.8445949636552,
+                    "detection_score": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "final_score": 3211.8445949636553
+                }
             },
             "repo_url": "https://github.com/vitortvale/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6044",
-            "timestamp": "2026-05-22T14:46:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/528",
+            "timestamp": "2026-05-23T16:51:45Z"
         }
     },
     "JulianySavazzi": {
@@ -901,7 +911,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 1,
-                "error_rate_epsilon": 2.9e-05,
+                "error_rate_epsilon": 0.000029,
                 "p99_score": {
                     "value": 11.87,
                     "cut_triggered": false
@@ -2357,7 +2367,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 5,
-                "error_rate_epsilon": 9.2e-05,
+                "error_rate_epsilon": 0.000092,
                 "p99_score": {
                     "value": 2653.86,
                     "cut_triggered": false
@@ -2395,7 +2405,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 5,
-                "error_rate_epsilon": 9.2e-05,
+                "error_rate_epsilon": 0.000092,
                 "p99_score": {
                     "value": 2612.05,
                     "cut_triggered": false
@@ -2435,7 +2445,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
-                "error_rate_epsilon": 5.5e-05,
+                "error_rate_epsilon": 0.000055,
                 "p99_score": {
                     "value": 2723.26,
                     "cut_triggered": false
@@ -4251,7 +4261,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 1,
-                "error_rate_epsilon": 1.8e-05,
+                "error_rate_epsilon": 0.000018,
                 "p99_score": {
                     "value": 2606.51,
                     "cut_triggered": false
@@ -5125,7 +5135,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 2,
-                "error_rate_epsilon": 3.7e-05,
+                "error_rate_epsilon": 0.000037,
                 "p99_score": {
                     "value": 2550.72,
                     "cut_triggered": false
@@ -5519,7 +5529,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 1,
-                "error_rate_epsilon": 1.8e-05,
+                "error_rate_epsilon": 0.000018,
                 "p99_score": {
                     "value": 2651.36,
                     "cut_triggered": false
@@ -6165,7 +6175,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 2,
-                "error_rate_epsilon": 3.7e-05,
+                "error_rate_epsilon": 0.000037,
                 "p99_score": {
                     "value": 2493.98,
                     "cut_triggered": false
@@ -6285,7 +6295,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 2,
-                "error_rate_epsilon": 3.9e-05,
+                "error_rate_epsilon": 0.000039,
                 "p99_score": {
                     "value": 248.87,
                     "cut_triggered": false
@@ -6523,7 +6533,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
-                "error_rate_epsilon": 6.4e-05,
+                "error_rate_epsilon": 0.000064,
                 "p99_score": {
                     "value": -14.92,
                     "cut_triggered": false
@@ -6563,7 +6573,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 2,
-                "error_rate_epsilon": 3.7e-05,
+                "error_rate_epsilon": 0.000037,
                 "p99_score": {
                     "value": 2264.97,
                     "cut_triggered": false
@@ -6577,8 +6587,8 @@
                 "final_score": 5121.84,
                 "raw": {
                     "p99_ms": 5.4328170500000015,
-                    "failure_rate": 3.699729919715861e-05,
-                    "error_rate_epsilon": 3.699729919715861e-05,
+                    "failure_rate": 0.00003699729919715861,
+                    "error_rate_epsilon": 0.00003699729919715861,
                     "p99_score": 2264.974919577591,
                     "detection_score": 2856.8636235841013,
                     "rate_component": 3000,
@@ -7051,7 +7061,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
-                "error_rate_epsilon": 5.5e-05,
+                "error_rate_epsilon": 0.000055,
                 "p99_score": {
                     "value": 2764.57,
                     "cut_triggered": false
@@ -7721,7 +7731,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
-                "error_rate_epsilon": 5.5e-05,
+                "error_rate_epsilon": 0.000055,
                 "p99_score": {
                     "value": 2277.68,
                     "cut_triggered": false
@@ -7759,7 +7769,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 4,
-                "error_rate_epsilon": 7.4e-05,
+                "error_rate_epsilon": 0.000074,
                 "p99_score": {
                     "value": 2281.16,
                     "cut_triggered": false
@@ -7797,7 +7807,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
-                "error_rate_epsilon": 5.5e-05,
+                "error_rate_epsilon": 0.000055,
                 "p99_score": {
                     "value": 1346.44,
                     "cut_triggered": false
@@ -7835,7 +7845,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
-                "error_rate_epsilon": 5.5e-05,
+                "error_rate_epsilon": 0.000055,
                 "p99_score": {
                     "value": 2271.64,
                     "cut_triggered": false
@@ -7875,7 +7885,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
-                "error_rate_epsilon": 5.5e-05,
+                "error_rate_epsilon": 0.000055,
                 "p99_score": {
                     "value": 2103.67,
                     "cut_triggered": false
@@ -9737,7 +9747,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 1,
-                "error_rate_epsilon": 1.8e-05,
+                "error_rate_epsilon": 0.000018,
                 "p99_score": {
                     "value": 2575.3,
                     "cut_triggered": false
@@ -9817,7 +9827,7 @@
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 3,
-                "error_rate_epsilon": 5.6e-05,
+                "error_rate_epsilon": 0.000056,
                 "p99_score": {
                     "value": 422.19,
                     "cut_triggered": false
