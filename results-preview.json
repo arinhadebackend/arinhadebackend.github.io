@@ -11120,33 +11120,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "32.20ms",
+            "p99": "2.53ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 377,
-                    "false_negative_detections": 269,
-                    "true_positive_detections": 23667,
-                    "true_negative_detections": 29738,
-                    "http_errors": 8
+                    "false_positive_detections": 369,
+                    "false_negative_detections": 278,
+                    "true_positive_detections": 23664,
+                    "true_negative_detections": 29748,
+                    "http_errors": 0
                 },
-                "failure_rate": "1.21%",
-                "weighted_errors_E": 1224,
-                "error_rate_epsilon": 0.022642,
+                "failure_rate": "1.2%",
+                "weighted_errors_E": 1203,
+                "error_rate_epsilon": 0.022253,
                 "p99_score": {
-                    "value": 1492.17,
+                    "value": 2596.06,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 718.65,
-                    "rate_component": 1645.09,
-                    "absolute_penalty": -926.44,
+                    "value": 728.41,
+                    "rate_component": 1652.6,
+                    "absolute_penalty": -924.19,
                     "cut_triggered": false
                 },
-                "final_score": 2210.81
+                "final_score": 3324.48
             },
             "repo_url": "https://github.com/SrPatoS/rinha-2026-c",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6180",
-            "timestamp": "2026-05-23T13:44:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6194",
+            "timestamp": "2026-05-23T14:56:22Z"
         }
     },
     "NormanFrieman": {
