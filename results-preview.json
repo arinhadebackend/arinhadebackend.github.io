@@ -2835,40 +2835,50 @@
         "bernardoazevedo-go": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "32.29ms",
+            "p99": "34.55ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1191,
-                    "false_negative_detections": 49,
-                    "true_positive_detections": 23988,
-                    "true_negative_detections": 28831,
+                    "false_positive_detections": 479,
+                    "false_negative_detections": 563,
+                    "true_positive_detections": 23379,
+                    "true_negative_detections": 29638,
                     "http_errors": 0
                 },
-                "failure_rate": "2.29%",
-                "weighted_errors_E": 1338,
-                "error_rate_epsilon": 0.024751,
+                "failure_rate": "1.93%",
+                "weighted_errors_E": 2168,
+                "error_rate_epsilon": 0.040104,
                 "p99_score": {
-                    "value": 1490.95,
+                    "value": 1461.59,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 668.38,
-                    "rate_component": 1606.41,
-                    "absolute_penalty": -938.03,
+                    "value": 395.93,
+                    "rate_component": 1396.81,
+                    "absolute_penalty": -1000.88,
                     "cut_triggered": false
                 },
-                "final_score": 2159.33
+                "final_score": 1857.52,
+                "raw": {
+                    "p99_ms": 34.54727661999999,
+                    "failure_rate": 0.019275236315877096,
+                    "error_rate_epsilon": 0.04010433045376348,
+                    "p99_score": 1461.5861826030468,
+                    "detection_score": 395.93086425357285,
+                    "rate_component": 1396.808729857831,
+                    "absolute_penalty": -1000.8778656042581,
+                    "final_score": 1857.5170468566198
+                }
             },
             "repo_url": "https://github.com/bernardoazevedo/rinha-backend-2026-gopy-lightgbm",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1361",
-            "timestamp": "2026-05-05T03:04:00Z"
+            "timestamp": "2026-05-23T17:59:38Z"
         }
     },
     "whereisanzi": {
