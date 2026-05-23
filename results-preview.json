@@ -579,40 +579,50 @@
         "juliany-savazzi-php": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1286.94ms",
+            "p99": "1958.38ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 375,
-                    "false_negative_detections": 366,
-                    "true_positive_detections": 14488,
-                    "true_negative_detections": 18219,
-                    "http_errors": 0
+                    "false_positive_detections": 303,
+                    "false_negative_detections": 243,
+                    "true_positive_detections": 13279,
+                    "true_negative_detections": 16737,
+                    "http_errors": 28
                 },
-                "failure_rate": "2.22%",
-                "weighted_errors_E": 1473,
-                "error_rate_epsilon": 0.044039,
+                "failure_rate": "1.88%",
+                "weighted_errors_E": 1172,
+                "error_rate_epsilon": 0.038313,
                 "p99_score": {
-                    "value": -109.56,
+                    "value": -291.9,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 405.62,
-                    "rate_component": 1356.17,
-                    "absolute_penalty": -950.55,
+                    "value": 495.86,
+                    "rate_component": 1416.65,
+                    "absolute_penalty": -920.79,
                     "cut_triggered": false
                 },
-                "final_score": 296.06
+                "final_score": 203.96,
+                "raw": {
+                    "p99_ms": 1958.38368324,
+                    "failure_rate": 0.018764302059496567,
+                    "error_rate_epsilon": 0.03831317423994769,
+                    "p99_score": -291.8977820482128,
+                    "detection_score": 495.8624616679481,
+                    "rate_component": 1416.651865302607,
+                    "absolute_penalty": -920.7894036346588,
+                    "final_score": 203.9646796197353
+                }
             },
             "repo_url": "https://github.com/JulianySavazzi/rinha",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/939",
-            "timestamp": "2026-05-03T21:58:46Z"
+            "timestamp": "2026-05-23T17:07:03Z"
         }
     },
     "MuriloChianfa": {
