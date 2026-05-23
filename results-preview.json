@@ -5607,25 +5607,25 @@
         "pmenta-bun": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2002.28ms",
+            "p99": "2002.22ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 5,
-                    "true_negative_detections": 9,
-                    "http_errors": 13820
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 0,
+                    "http_errors": 13835
                 },
-                "failure_rate": "99.9%",
-                "weighted_errors_E": 69100,
-                "error_rate_epsilon": 4.99494,
+                "failure_rate": "100%",
+                "weighted_errors_E": 69175,
+                "error_rate_epsilon": 5,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -5636,11 +5636,21 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -6000
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2002.21561268,
+                    "failure_rate": 1,
+                    "error_rate_epsilon": 5,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/pmenta/rinha26",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2717",
-            "timestamp": "2026-05-09T21:39:02Z"
+            "timestamp": "2026-05-23T20:40:51Z"
         }
     },
     "banjohann": {
