@@ -11148,5 +11148,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6153",
             "timestamp": "2026-05-23T05:06:30Z"
         }
+    },
+    "NormanFrieman": {
+        "norman-dotnet": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "8.13ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 2,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 23938,
+                    "true_negative_detections": 30115,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 14,
+                "error_rate_epsilon": 0.000259,
+                "p99_score": {
+                    "value": 2089.92,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2647.17,
+                    "rate_component": 3000,
+                    "absolute_penalty": -352.83,
+                    "cut_triggered": false
+                },
+                "final_score": 4737.09
+            },
+            "repo_url": "https://github.com/NormanFrieman/fraude",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6163",
+            "timestamp": "2026-05-23T10:25:24Z"
+        }
     }
 }
