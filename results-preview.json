@@ -4781,40 +4781,50 @@
         "BoscoBecker": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "499.99ms",
+            "p99": "2001.1ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 503,
-                    "false_negative_detections": 526,
-                    "true_positive_detections": 22246,
-                    "true_negative_detections": 27903,
-                    "http_errors": 30
+                    "false_positive_detections": 420,
+                    "false_negative_detections": 8982,
+                    "true_positive_detections": 12459,
+                    "true_negative_detections": 26496,
+                    "http_errors": 727
                 },
-                "failure_rate": "2.07%",
-                "weighted_errors_E": 2231,
-                "error_rate_epsilon": 0.043567,
+                "failure_rate": "20.64%",
+                "weighted_errors_E": 31001,
+                "error_rate_epsilon": 0.631591,
                 "p99_score": {
-                    "value": 301.04,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 356.23,
-                    "rate_component": 1360.84,
-                    "absolute_penalty": -1004.61,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 657.27
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2001.10334225,
+                    "failure_rate": 0.20636052481460354,
+                    "error_rate_epsilon": 0.6315907424007823,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/BoscoBecker/Rinha.Net",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2309",
-            "timestamp": "2026-05-08T19:10:50Z"
+            "timestamp": "2026-05-23T20:19:03Z"
         }
     },
     "marcelodelfiore": {
