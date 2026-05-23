@@ -3837,40 +3837,50 @@
         "ogrodev-rdb-ultra": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "14.77ms",
+            "p99": "36.62ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
+                    "false_positive_detections": 1347,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 28769,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "2.49%",
+                "weighted_errors_E": 1347,
+                "error_rate_epsilon": 0.024918,
                 "p99_score": {
-                    "value": 1830.74,
+                    "value": 1436.25,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 664.59,
+                    "rate_component": 1603.49,
+                    "absolute_penalty": -938.91,
                     "cut_triggered": false
                 },
-                "final_score": 4830.74
+                "final_score": 2100.84,
+                "raw": {
+                    "p99_ms": 36.622435110000005,
+                    "failure_rate": 0.024917681009286322,
+                    "error_rate_epsilon": 0.024917681009286322,
+                    "p99_score": 1436.2527818345566,
+                    "detection_score": 664.5854105542676,
+                    "rate_component": 1603.492378214058,
+                    "absolute_penalty": -938.9069676597903,
+                    "final_score": 2100.838192388824
+                }
             },
             "repo_url": "https://github.com/ogrodev/rdb-ultra",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3129",
-            "timestamp": "2026-05-11T01:11:27Z"
+            "timestamp": "2026-05-23T21:20:13Z"
         }
     },
     "joycegodinho": {
