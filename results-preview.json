@@ -5387,40 +5387,50 @@
         "davivoltas": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1108.30ms",
+            "p99": "1171.01ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 145,
-                    "false_negative_detections": 970,
-                    "true_positive_detections": 20342,
-                    "true_negative_detections": 26528,
-                    "http_errors": 26
+                    "false_positive_detections": 279,
+                    "false_negative_detections": 707,
+                    "true_positive_detections": 21380,
+                    "true_negative_detections": 27427,
+                    "http_errors": 0
                 },
-                "failure_rate": "2.38%",
-                "weighted_errors_E": 3185,
-                "error_rate_epsilon": 0.066339,
+                "failure_rate": "1.98%",
+                "weighted_errors_E": 2400,
+                "error_rate_epsilon": 0.0482,
                 "p99_score": {
-                    "value": -44.66,
+                    "value": -68.56,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 127.26,
-                    "rate_component": 1178.23,
-                    "absolute_penalty": -1050.97,
+                    "value": 302.84,
+                    "rate_component": 1316.96,
+                    "absolute_penalty": -1014.12,
                     "cut_triggered": false
                 },
-                "final_score": 82.6
+                "final_score": 234.28,
+                "raw": {
+                    "p99_ms": 1171.0075932000004,
+                    "failure_rate": 0.019801980198019802,
+                    "error_rate_epsilon": 0.0481995461209407,
+                    "p99_score": -68.559711190355,
+                    "detection_score": 302.83940333115834,
+                    "rate_component": 1316.9570513482665,
+                    "absolute_penalty": -1014.1176480171082,
+                    "final_score": 234.27969214080332
+                }
             },
             "repo_url": "https://github.com/davivoltas/go-cocorico",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2558",
-            "timestamp": "2026-05-09T12:54:24Z"
+            "timestamp": "2026-05-23T20:33:16Z"
         }
     },
     "leoralph": {
