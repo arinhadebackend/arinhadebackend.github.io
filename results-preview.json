@@ -3045,25 +3045,25 @@
         "gabrielbr07-dotnet": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2002.99ms",
+            "p99": "2003.11ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 14,
-                    "true_negative_detections": 21,
-                    "http_errors": 13795
+                    "true_positive_detections": 12,
+                    "true_negative_detections": 12,
+                    "http_errors": 13807
                 },
-                "failure_rate": "99.75%",
-                "weighted_errors_E": 68975,
-                "error_rate_epsilon": 4.987346,
+                "failure_rate": "99.83%",
+                "weighted_errors_E": 69035,
+                "error_rate_epsilon": 4.991324,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -3074,11 +3074,21 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -6000
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2003.1118794,
+                    "failure_rate": 0.9982647675511532,
+                    "error_rate_epsilon": 4.991323837755766,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/Gabriel-br07/rinha-de-backend-2026-dotnet",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2072",
-            "timestamp": "2026-05-07T22:44:16Z"
+            "timestamp": "2026-05-23T19:37:01Z"
         }
     },
     "carlosportella16": {
