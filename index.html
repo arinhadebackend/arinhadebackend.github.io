@@ -351,11 +351,11 @@
             spellcheck="false"
             hidden
         >
-        <div id="raw-toggle" style="display:none;text-align:right;margin-bottom:0.75rem;">
+        <div id="rounded-toggle" style="display:none;text-align:right;margin-bottom:0.75rem;">
             <label style="display:inline-flex;align-items:center;gap:0.5rem;font-size:0.8rem;color:var(--muted);cursor:pointer;user-select:none;">
-                <span>show raw values</span>
+                <span>show rounded values</span>
                 <span class="toggle-switch">
-                    <input type="checkbox" id="raw-check">
+                    <input type="checkbox" id="rounded-check">
                     <span class="slider"></span>
                 </span>
             </label>
@@ -497,7 +497,7 @@
 
                 let sort = { key: 'score', dir: 'desc' };
                 let query = '';
-                let showRaw = false;
+                let showRounded = false;
                 const VISIBLE_LIMIT = 100;
                 let showAll = false;
 
@@ -538,9 +538,9 @@
                         const issueLabel = r.issue
                             ? `<span class="issue-sep">·</span><a class="issue-link" href="${r.issue}" target="_blank" rel="noopener noreferrer">details</a>`
                             : '';
-                        const p99Val = showRaw ? fmtRawP99(r.rawP99) : r.p99;
-                        const failVal = showRaw ? fmtRawPct(r.rawFailure) : r.failure;
-                        const scoreVal = showRaw ? fmtRaw(r.rawScore) : fmtScore(r.score);
+                        const p99Val = showRounded ? r.p99 : fmtRawP99(r.rawP99);
+                        const failVal = showRounded ? r.failure : fmtRawPct(r.rawFailure);
+                        const scoreVal = showRounded ? fmtScore(r.score) : fmtRaw(r.rawScore);
                         const metaParts = [
                             `p99 ${p99Val}`,
                             `${failVal} fail`,
@@ -581,12 +581,12 @@
                         : `${rows.length} submissions`;
                 };
 
-                const rawToggleEl = document.getElementById('raw-toggle');
-                const rawCheckEl = document.getElementById('raw-check');
+                const roundedToggleEl = document.getElementById('rounded-toggle');
+                const roundedCheckEl = document.getElementById('rounded-check');
 
                 statusEl.hidden = true;
                 searchEl.hidden = false;
-                rawToggleEl.style.display = 'block';
+                roundedToggleEl.style.display = 'block';
                 footerEl.hidden = false;
 
                 searchEl.addEventListener('input', (e) => {
@@ -600,8 +600,8 @@
                     render();
                 });
 
-                rawCheckEl.addEventListener('change', () => {
-                    showRaw = rawCheckEl.checked;
+                roundedCheckEl.addEventListener('change', () => {
+                    showRounded = roundedCheckEl.checked;
                     render();
                 });
 
