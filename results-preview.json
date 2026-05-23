@@ -1907,40 +1907,50 @@
         "leofmarciano-native-ivf": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "13.00ms",
+            "p99": "14.28ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
+                    "false_positive_detections": 39,
+                    "false_negative_detections": 1012,
+                    "true_positive_detections": 22930,
+                    "true_negative_detections": 30078,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "1.94%",
+                "weighted_errors_E": 3075,
+                "error_rate_epsilon": 0.056882,
                 "p99_score": {
-                    "value": 1886.21,
+                    "value": 1845.4,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 198.63,
+                    "rate_component": 1245.02,
+                    "absolute_penalty": -1046.4,
                     "cut_triggered": false
                 },
-                "final_score": 4886.21
+                "final_score": 2044.03,
+                "raw": {
+                    "p99_ms": 14.275747479999973,
+                    "failure_rate": 0.01944172108252095,
+                    "error_rate_epsilon": 0.0568822952699828,
+                    "p99_score": 1845.401142771051,
+                    "detection_score": 198.6269882739266,
+                    "rate_component": 1245.0228876127446,
+                    "absolute_penalty": -1046.395899338818,
+                    "final_score": 2044.0281310449775
+                }
             },
             "repo_url": "https://github.com/leofmarciano/rinha-de-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1136",
-            "timestamp": "2026-05-04T14:12:33Z"
+            "timestamp": "2026-05-23T17:37:21Z"
         },
         "leofmarciano-k4096-p20": {
             "expected": {
