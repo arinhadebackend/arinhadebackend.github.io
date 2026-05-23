@@ -5707,40 +5707,50 @@
         "rinha-2026-go": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "5.85ms",
+            "p99": "3.5ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 16,
-                    "false_negative_detections": 14,
-                    "true_positive_detections": 24023,
-                    "true_negative_detections": 30006,
+                    "false_positive_detections": 11,
+                    "false_negative_detections": 13,
+                    "true_positive_detections": 23929,
+                    "true_negative_detections": 30106,
                     "http_errors": 0
                 },
-                "failure_rate": "0.06%",
-                "weighted_errors_E": 58,
-                "error_rate_epsilon": 0.001073,
+                "failure_rate": "0.04%",
+                "weighted_errors_E": 50,
+                "error_rate_epsilon": 0.000925,
                 "p99_score": {
-                    "value": 2233.21,
+                    "value": 2456.27,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2438.18,
-                    "rate_component": 2969.44,
-                    "absolute_penalty": -531.26,
+                    "value": 2487.73,
+                    "rate_component": 3000,
+                    "absolute_penalty": -512.27,
                     "cut_triggered": false
                 },
-                "final_score": 4671.39
+                "final_score": 4944,
+                "raw": {
+                    "p99_ms": 3.497264519999998,
+                    "failure_rate": 0.0004439593777169389,
+                    "error_rate_epsilon": 0.0009249153702436227,
+                    "p99_score": 2456.271518039136,
+                    "detection_score": 2487.728947170619,
+                    "rate_component": 3000,
+                    "absolute_penalty": -512.2710528293809,
+                    "final_score": 4944.000465209755
+                }
             },
             "repo_url": "https://github.com/banjohann/rinha-2026-go",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3111",
-            "timestamp": "2026-05-11T00:15:48Z"
+            "timestamp": "2026-05-23T21:17:26Z"
         }
     },
     "mpraes": {
