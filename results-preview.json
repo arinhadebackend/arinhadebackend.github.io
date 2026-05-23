@@ -2647,40 +2647,50 @@
         "icarowil-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1988.25ms",
+            "p99": "2001.82ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 68,
-                    "false_negative_detections": 81,
-                    "true_positive_detections": 8712,
-                    "true_negative_detections": 11029,
-                    "http_errors": 119
+                    "false_positive_detections": 141,
+                    "false_negative_detections": 56,
+                    "true_positive_detections": 7971,
+                    "true_negative_detections": 9788,
+                    "http_errors": 655
                 },
-                "failure_rate": "1.34%",
-                "weighted_errors_E": 906,
-                "error_rate_epsilon": 0.04528,
+                "failure_rate": "4.58%",
+                "weighted_errors_E": 3584,
+                "error_rate_epsilon": 0.192574,
                 "p99_score": {
-                    "value": -298.47,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 456.82,
-                    "rate_component": 1344.1,
-                    "absolute_penalty": -887.28,
+                    "value": -350.95,
+                    "rate_component": 715.4,
+                    "absolute_penalty": -1066.35,
                     "cut_triggered": false
                 },
-                "final_score": 158.34
+                "final_score": -3350.95,
+                "raw": {
+                    "p99_ms": 2001.816282,
+                    "failure_rate": 0.04577937778733007,
+                    "error_rate_epsilon": 0.19257428402557628,
+                    "p99_score": -3000,
+                    "detection_score": -350.94503986831114,
+                    "rate_component": 715.4017081328348,
+                    "absolute_penalty": -1066.346748001146,
+                    "final_score": -3350.945039868311
+                }
             },
             "repo_url": "https://github.com/IcaroWil/Rinha-do-Backend",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/1376",
-            "timestamp": "2026-05-05T04:06:11Z"
+            "timestamp": "2026-05-23T18:16:22Z"
         }
     },
     "Bulletdev": {
