@@ -1847,40 +1847,50 @@
         "will-go": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "112.27ms",
+            "p99": "114.59ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1091,
+                    "false_positive_detections": 905,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24022,
-                    "true_negative_detections": 28913,
+                    "true_positive_detections": 23934,
+                    "true_negative_detections": 29207,
                     "http_errors": 0
                 },
-                "failure_rate": "2.02%",
-                "weighted_errors_E": 1091,
-                "error_rate_epsilon": 0.020194,
+                "failure_rate": "1.67%",
+                "weighted_errors_E": 905,
+                "error_rate_epsilon": 0.016745,
                 "p99_score": {
-                    "value": 949.73,
+                    "value": 940.85,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 783.31,
-                    "rate_component": 1694.78,
-                    "absolute_penalty": -911.47,
+                    "value": 888.98,
+                    "rate_component": 1776.11,
+                    "absolute_penalty": -887.14,
                     "cut_triggered": false
                 },
-                "final_score": 1733.04
+                "final_score": 1829.83,
+                "raw": {
+                    "p99_ms": 114.59051215000099,
+                    "failure_rate": 0.016744995004255633,
+                    "error_rate_epsilon": 0.016744995004255633,
+                    "p99_score": 940.8513395368675,
+                    "detection_score": 888.9765183895705,
+                    "rate_component": 1776.1149776926145,
+                    "absolute_penalty": -887.138459303044,
+                    "final_score": 1829.827857926438
+                }
             },
             "repo_url": "https://github.com/willy-r/aGOrinha-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2613",
-            "timestamp": "2026-05-09T16:35:18Z"
+            "timestamp": "2026-05-23T20:36:28Z"
         }
     },
     "Hanake0": {
