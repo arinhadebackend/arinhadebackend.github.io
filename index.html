@@ -271,6 +271,48 @@
             border-bottom-color: var(--muted);
         }
 
+        .toggle-switch {
+            position: relative;
+            width: 34px;
+            height: 20px;
+            flex-shrink: 0;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-switch .slider {
+            position: absolute;
+            inset: 0;
+            background: var(--border);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .toggle-switch .slider::before {
+            content: '';
+            position: absolute;
+            left: 3px;
+            top: 3px;
+            width: 14px;
+            height: 14px;
+            background: var(--bg);
+            border-radius: 50%;
+            transition: transform 0.2s ease;
+        }
+
+        .toggle-switch input:checked + .slider {
+            background: var(--muted);
+        }
+
+        .toggle-switch input:checked + .slider::before {
+            transform: translateX(14px);
+        }
+
         @media (max-width: 720px) {
             main { padding: 2rem 1rem 4rem; }
             .hide-mobile { display: none; }
@@ -300,6 +342,15 @@
             spellcheck="false"
             hidden
         >
+        <div id="raw-toggle" style="display:none;text-align:right;margin-bottom:0.75rem;">
+            <label style="display:inline-flex;align-items:center;gap:0.5rem;font-size:0.8rem;color:var(--muted);cursor:pointer;user-select:none;">
+                <span>show raw values</span>
+                <span class="toggle-switch">
+                    <input type="checkbox" id="raw-check">
+                    <span class="slider"></span>
+                </span>
+            </label>
+        </div>
 
         <div id="empty" class="empty" hidden>No matches.</div>
 
@@ -386,11 +437,15 @@
                         const id = `${participant} (${name})`;
                         const repo = info.repo_url ?? null;
                         const issue = info.issue_url ?? null;
+                        const raw = info.scoring?.raw ?? null;
                         rows.push({
                             id,
                             p99: info.p99 ?? '—',
                             failure: info.scoring?.failure_rate ?? '—',
                             score: info.scoring?.final_score ?? 0,
+                            rawScore: raw?.final_score ?? null,
+                            rawP99: raw?.p99_ms ?? null,
+                            rawFailure: raw?.failure_rate ?? null,
                             repo,
                             issue,
                             timestamp: info.timestamp ?? null,
@@ -399,11 +454,33 @@
                     }
                 }
 
-                rows.sort((a, b) => b.score - a.score);
-                rows.forEach((r, i) => { r.rank = i + 1; });
+                const rankScore = (r) => r.rawScore ?? r.score;
+                const rankP99 = (r) => r.rawP99 ?? parseNum(r.p99);
+
+                rows.sort((a, b) => {
+                    const sa = rankScore(a), sb = rankScore(b);
+                    if (sb !== sa) return sb - sa;
+                    const ap = rankP99(a), bp = rankP99(b);
+                    if (ap == null && bp == null) return 0;
+                    if (ap == null) return 1;
+                    if (bp == null) return -1;
+                    return ap - bp;
+                });
+                rows.forEach((r, i, arr) => {
+                    if (i === 0) { r.rank = 1; return; }
+                    const prev = arr[i - 1];
+                    r.rank = (rankScore(r) === rankScore(prev) && rankP99(r) === rankP99(prev))
+                        ? prev.rank
+                        : prev.rank + 1;
+                });
 
                 let sort = { key: 'score', dir: 'desc' };
                 let query = '';
+                let showRaw = false;
+
+                const fmtRaw = (n) => n == null ? '—' : n.toLocaleString('en-US', { minimumFractionDigits: 6, maximumFractionDigits: 6 });
+                const fmtRawP99 = (n) => n == null ? '—' : n.toLocaleString('en-US', { minimumFractionDigits: 6, maximumFractionDigits: 6 }) + 'ms';
+                const fmtRawPct = (n) => n == null ? '—' : (n * 100).toLocaleString('en-US', { minimumFractionDigits: 6, maximumFractionDigits: 6 }) + '%';
 
                 const render = () => {
                     const q = stripParens(query).trim().toLowerCase();
@@ -420,9 +497,12 @@
                         const issueLabel = r.issue
                             ? `<span class="issue-sep">·</span><a class="issue-link" href="${r.issue}" target="_blank" rel="noopener noreferrer">details</a>`
                             : '';
+                        const p99Val = showRaw ? fmtRawP99(r.rawP99) : r.p99;
+                        const failVal = showRaw ? fmtRawPct(r.rawFailure) : r.failure;
+                        const scoreVal = showRaw ? fmtRaw(r.rawScore) : fmtScore(r.score);
                         const metaParts = [
-                            `p99 ${r.p99}`,
-                            `${r.failure} fail`,
+                            `p99 ${p99Val}`,
+                            `${failVal} fail`,
                         ];
                         const tsLabel = fmtTimestamp(r.timestamp);
                         const metaLine = `
@@ -435,9 +515,9 @@
                             <tr>
                                 <td class="rank num">${r.rank}</td>
                                 <td class="id">${idLabel}${issueLabel}${metaLine}</td>
-                                <td class="num hide-mobile">${r.p99}</td>
-                                <td class="num hide-mobile">${r.failure}</td>
-                                <td class="num score">${fmtScore(r.score)}</td>
+                                <td class="num hide-mobile">${p99Val}</td>
+                                <td class="num hide-mobile">${failVal}</td>
+                                <td class="num score">${scoreVal}</td>
                                 <td class="timestamp hide-mobile">${tsLabel}</td>
                             </tr>
                         `;
@@ -459,12 +539,21 @@
                         : `${rows.length} submissions`;
                 };
 
+                const rawToggleEl = document.getElementById('raw-toggle');
+                const rawCheckEl = document.getElementById('raw-check');
+
                 statusEl.hidden = true;
                 searchEl.hidden = false;
+                rawToggleEl.style.display = 'block';
                 footerEl.hidden = false;
 
                 searchEl.addEventListener('input', (e) => {
                     query = e.target.value;
+                    render();
+                });
+
+                rawCheckEl.addEventListener('change', () => {
+                    showRaw = rawCheckEl.checked;
                     render();
                 });
 
