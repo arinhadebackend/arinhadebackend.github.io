@@ -377,6 +377,18 @@
             <tbody></tbody>
         </table>
 
+        <div id="show-all-wrap" style="display:none;text-align:center;margin:1rem 0;">
+            <button id="show-all-btn" style="
+                background:var(--bg);
+                color:var(--fg);
+                border:1px solid var(--border);
+                padding:0.5rem 1.25rem;
+                border-radius:6px;
+                cursor:pointer;
+                font-size:0.85rem;
+            "></button>
+        </div>
+
         <footer id="footer" hidden>
             <span id="count"></span>
             <div class="note">
@@ -486,10 +498,15 @@
                 let sort = { key: 'score', dir: 'desc' };
                 let query = '';
                 let showRaw = false;
+                const VISIBLE_LIMIT = 100;
+                let showAll = false;
 
                 const fmtRaw = (n) => n == null ? '—' : n.toLocaleString('en-US', { minimumFractionDigits: 6, maximumFractionDigits: 6 });
                 const fmtRawP99 = (n) => n == null ? '—' : n.toLocaleString('en-US', { minimumFractionDigits: 6, maximumFractionDigits: 6 }) + 'ms';
                 const fmtRawPct = (n) => n == null ? '—' : (n * 100).toLocaleString('en-US', { minimumFractionDigits: 6, maximumFractionDigits: 6 }) + '%';
+
+                const showAllWrapEl = document.getElementById('show-all-wrap');
+                const showAllBtnEl = document.getElementById('show-all-btn');
 
                 const render = () => {
                     const q = stripParens(query).trim().toLowerCase();
@@ -499,7 +516,22 @@
 
                     filtered.sort(compareWith(sort.key, sort.dir));
 
-                    tbodyEl.innerHTML = filtered.map(r => {
+                    const truncated = !showAll && filtered.length > VISIBLE_LIMIT;
+                    const visible = truncated ? filtered.slice(0, VISIBLE_LIMIT) : filtered;
+
+                    if (filtered.length > VISIBLE_LIMIT) {
+                        if (truncated) {
+                            const remaining = filtered.length - VISIBLE_LIMIT;
+                            showAllBtnEl.textContent = `Show remaining ${remaining} submissions`;
+                        } else {
+                            showAllBtnEl.textContent = `Show top ${VISIBLE_LIMIT} only`;
+                        }
+                        showAllWrapEl.style.display = 'block';
+                    } else {
+                        showAllWrapEl.style.display = 'none';
+                    }
+
+                    tbodyEl.innerHTML = visible.map(r => {
                         const idLabel = r.repo
                             ? `<a href="${r.repo}" target="_blank" rel="noopener noreferrer">${r.id}</a>`
                             : `<span class="plain">${r.id}</span>`;
@@ -559,6 +591,12 @@
 
                 searchEl.addEventListener('input', (e) => {
                     query = e.target.value;
+                    showAll = false;
+                    render();
+                });
+
+                showAllBtnEl.addEventListener('click', () => {
+                    showAll = !showAll;
                     render();
                 });
 
