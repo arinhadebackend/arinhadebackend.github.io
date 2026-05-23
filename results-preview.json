@@ -4485,40 +4485,50 @@
         "micheloliveira-com-dotnet-csharp-with-python-faiss": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "112.40ms",
+            "p99": "136.58ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 24033,
-                    "true_negative_detections": 30017,
+                    "false_positive_detections": 21,
+                    "false_negative_detections": 9,
+                    "true_positive_detections": 23677,
+                    "true_negative_detections": 29753,
                     "http_errors": 0
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 16,
-                "error_rate_epsilon": 0.000296,
+                "failure_rate": "0.06%",
+                "weighted_errors_E": 48,
+                "error_rate_epsilon": 0.000898,
                 "p99_score": {
-                    "value": 949.22,
+                    "value": 864.61,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2630.87,
+                    "value": 2492.94,
                     "rate_component": 3000,
-                    "absolute_penalty": -369.13,
+                    "absolute_penalty": -507.06,
                     "cut_triggered": false
                 },
-                "final_score": 3580.09
+                "final_score": 3357.55,
+                "raw": {
+                    "p99_ms": 136.58156955999985,
+                    "failure_rate": 0.0005611672278338945,
+                    "error_rate_epsilon": 0.0008978675645342312,
+                    "p99_score": 864.6079007893061,
+                    "detection_score": 2492.941175991446,
+                    "rate_component": 3000,
+                    "absolute_penalty": -507.0588240085541,
+                    "final_score": 3357.5490767807523
+                }
             },
             "repo_url": "https://github.com/micheloliveira-com/rinha-de-backend-2026-dotnet-csharp-with-python-faiss",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3045",
-            "timestamp": "2026-05-10T20:50:35Z"
+            "timestamp": "2026-05-23T21:07:22Z"
         },
         "micheloliveira-com-dotnet-csharp-with-faiss-interop": {
             "expected": {
