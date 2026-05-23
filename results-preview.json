@@ -10097,25 +10097,25 @@
         "ericbsantana-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2002.59ms",
+            "p99": "2002.75ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 2,
-                    "true_positive_detections": 112,
-                    "true_negative_detections": 153,
-                    "http_errors": 13563
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 26,
+                    "true_positive_detections": 10,
+                    "true_negative_detections": 44,
+                    "http_errors": 13746
                 },
-                "failure_rate": "98.08%",
-                "weighted_errors_E": 67821,
-                "error_rate_epsilon": 4.903905,
+                "failure_rate": "99.61%",
+                "weighted_errors_E": 68809,
+                "error_rate_epsilon": 4.976423,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -10126,11 +10126,21 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -6000
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2002.7456996600001,
+                    "failure_rate": 0.9960945975265785,
+                    "error_rate_epsilon": 4.976422940623418,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/ericbsantana/rinha-de-backend-2026-rust",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4968",
-            "timestamp": "2026-05-17T13:31:41Z"
+            "timestamp": "2026-05-23T23:58:11Z"
         }
     },
     "brunonunestx": {
