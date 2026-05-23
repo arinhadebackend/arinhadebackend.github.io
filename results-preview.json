@@ -696,43 +696,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "59.51ms",
+            "p99": "61.48ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 275,
                     "false_negative_detections": 318,
                     "true_positive_detections": 23624,
-                    "true_negative_detections": 29842,
+                    "true_negative_detections": 29841,
                     "http_errors": 0
                 },
                 "failure_rate": "1.1%",
                 "weighted_errors_E": 1229,
-                "error_rate_epsilon": 0.022734,
+                "error_rate_epsilon": 0.022735,
                 "p99_score": {
-                    "value": 1225.4,
+                    "value": 1211.25,
                     "cut_triggered": false
                 },
                 "detection_score": {
                     "value": 716.34,
-                    "rate_component": 1643.32,
+                    "rate_component": 1643.31,
                     "absolute_penalty": -926.97,
                     "cut_triggered": false
                 },
-                "final_score": 1941.75,
+                "final_score": 1927.59,
                 "raw": {
-                    "p99_ms": 59.51123677999999,
-                    "failure_rate": 0.010969496291089365,
-                    "error_rate_epsilon": 0.022734419800588247,
-                    "p99_score": 1225.4010240059513,
-                    "detection_score": 716.3445914059067,
-                    "rate_component": 1643.316124837726,
+                    "p99_ms": 61.48192418000001,
+                    "failure_rate": 0.010969699211957527,
+                    "error_rate_epsilon": 0.022734840356653966,
+                    "p99_score": 1211.2525489849252,
+                    "detection_score": 716.3365576187706,
+                    "rate_component": 1643.3080910505898,
                     "absolute_penalty": -926.9715334318192,
-                    "final_score": 1941.7456154118581
+                    "final_score": 1927.5891066036957
                 }
             },
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-extreme-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/539",
-            "timestamp": "2026-05-23T16:56:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4512",
+            "timestamp": "2026-05-23T23:19:33Z"
         },
         "davidalecrim1-rust": {
             "expected": {
