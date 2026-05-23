@@ -8850,33 +8850,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.53ms",
+            "p99": "1.44ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 633,
-                    "false_negative_detections": 288,
-                    "true_positive_detections": 23654,
-                    "true_negative_detections": 29484,
+                    "false_positive_detections": 643,
+                    "false_negative_detections": 290,
+                    "true_positive_detections": 23652,
+                    "true_negative_detections": 29473,
                     "http_errors": 0
                 },
-                "failure_rate": "1.7%",
-                "weighted_errors_E": 1497,
-                "error_rate_epsilon": 0.027692,
+                "failure_rate": "1.73%",
+                "weighted_errors_E": 1513,
+                "error_rate_epsilon": 0.027988,
                 "p99_score": {
-                    "value": 2815.56,
+                    "value": 2840.24,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 604.99,
-                    "rate_component": 1557.65,
-                    "absolute_penalty": -952.65,
+                    "value": 598.98,
+                    "rate_component": 1553.02,
+                    "absolute_penalty": -954.04,
                     "cut_triggered": false
                 },
-                "final_score": 3420.55
+                "final_score": 3439.22
             },
             "repo_url": "https://github.com/jaoppb/rinha-de-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6157",
-            "timestamp": "2026-05-23T09:25:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6159",
+            "timestamp": "2026-05-23T09:51:56Z"
         }
     },
     "viniciusmoreiraa": {
