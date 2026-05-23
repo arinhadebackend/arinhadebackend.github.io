@@ -8837,40 +8837,50 @@
         "fiddelis-python": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "5.12ms",
+            "p99": "5.36ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 3,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 24032,
-                    "true_negative_detections": 30019,
+                    "false_positive_detections": 58,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30059,
                     "http_errors": 0
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 18,
-                "error_rate_epsilon": 0.000333,
+                "failure_rate": "0.11%",
+                "weighted_errors_E": 58,
+                "error_rate_epsilon": 0.001073,
                 "p99_score": {
-                    "value": 2291.02,
+                    "value": 2270.56,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2616.37,
-                    "rate_component": 3000,
-                    "absolute_penalty": -383.63,
+                    "value": 2438.18,
+                    "rate_component": 2969.44,
+                    "absolute_penalty": -531.26,
                     "cut_triggered": false
                 },
-                "final_score": 4907.39
+                "final_score": 4708.74,
+                "raw": {
+                    "p99_ms": 5.363456619999998,
+                    "failure_rate": 0.0010729018294826024,
+                    "error_rate_epsilon": 0.0010729018294826024,
+                    "p99_score": 2270.5552276305193,
+                    "detection_score": 2438.1844106685994,
+                    "rate_component": 2969.4400141612427,
+                    "absolute_penalty": -531.2556034926432,
+                    "final_score": 4708.739638299119
+                }
             },
             "repo_url": "https://github.com/Fiddelis/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4265",
-            "timestamp": "2026-05-14T04:24:42Z"
+            "timestamp": "2026-05-23T22:48:41Z"
         }
     },
     "crepao-da-massa": {
