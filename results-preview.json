@@ -2421,40 +2421,50 @@
         "LuisBarbosaGit": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "56.77ms",
+            "p99": "52.58ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 165,
-                    "false_negative_detections": 191,
-                    "true_positive_detections": 23823,
-                    "true_negative_detections": 29827,
+                    "false_positive_detections": 223,
+                    "false_negative_detections": 246,
+                    "true_positive_detections": 23677,
+                    "true_negative_detections": 29870,
                     "http_errors": 0
                 },
-                "failure_rate": "0.66%",
-                "weighted_errors_E": 738,
-                "error_rate_epsilon": 0.013665,
+                "failure_rate": "0.87%",
+                "weighted_errors_E": 961,
+                "error_rate_epsilon": 0.017791,
                 "p99_score": {
-                    "value": 1245.85,
+                    "value": 1279.18,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1003.79,
-                    "rate_component": 1864.39,
-                    "absolute_penalty": -860.59,
+                    "value": 854.85,
+                    "rate_component": 1749.8,
+                    "absolute_penalty": -894.95,
                     "cut_triggered": false
                 },
-                "final_score": 2249.64
+                "final_score": 2134.03,
+                "raw": {
+                    "p99_ms": 52.579846449999955,
+                    "failure_rate": 0.008682612559241706,
+                    "error_rate_epsilon": 0.017791024881516588,
+                    "p99_score": 1279.1806865068545,
+                    "detection_score": 854.8465113296529,
+                    "rate_component": 1749.7990329409968,
+                    "absolute_penalty": -894.9525216113439,
+                    "final_score": 2134.027197836507
+                }
             },
             "repo_url": "https://github.com/LuisBarbosaGit/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2920",
-            "timestamp": "2026-05-10T14:20:35Z"
+            "timestamp": "2026-05-23T20:58:47Z"
         }
     },
     "whoisclebs": {
