@@ -244,6 +244,14 @@
             margin-top: 0.2rem;
         }
 
+        .meta-mobile .score-mobile {
+            display: none;
+            font-weight: 600;
+            color: var(--fg);
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
         .score {
             font-weight: 600;
             font-variant-numeric: tabular-nums;
@@ -321,6 +329,7 @@
             thead th:last-child, tbody td:last-child { padding-right: 0; }
             thead th:first-child, tbody td:first-child { padding-left: 0; }
             .meta-mobile { display: block; }
+            .meta-mobile .score-mobile { display: block; }
         }
     </style>
 </head>
@@ -361,7 +370,7 @@
                     <th class="sortable" data-sort="id">Submission<span class="arrow"></span></th>
                     <th class="num sortable hide-mobile" data-sort="p99">p99<span class="arrow"></span></th>
                     <th class="num sortable hide-mobile" data-sort="failure">Failures<span class="arrow"></span></th>
-                    <th class="num sortable" data-sort="score">Score<span class="arrow"></span></th>
+                    <th class="num sortable hide-mobile" data-sort="score">Score<span class="arrow"></span></th>
                     <th class="sortable hide-mobile" data-sort="timestamp">Submitted<span class="arrow"></span></th>
                 </tr>
             </thead>
@@ -507,6 +516,7 @@
                         const tsLabel = fmtTimestamp(r.timestamp);
                         const metaLine = `
                             <div class="meta-mobile">
+                                <div class="score-mobile">${scoreVal}</div>
                                 ${metaParts.join('<span class="sep">·</span>')}
                                 <div class="ts">${tsLabel}</div>
                             </div>
@@ -517,7 +527,7 @@
                                 <td class="id">${idLabel}${issueLabel}${metaLine}</td>
                                 <td class="num hide-mobile">${p99Val}</td>
                                 <td class="num hide-mobile">${failVal}</td>
-                                <td class="num score">${scoreVal}</td>
+                                <td class="num score hide-mobile">${scoreVal}</td>
                                 <td class="timestamp hide-mobile">${tsLabel}</td>
                             </tr>
                         `;
