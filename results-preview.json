@@ -9667,40 +9667,50 @@
         "josinaldojr": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "22.38ms",
+            "p99": "33.32ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 416,
-                    "false_negative_detections": 489,
-                    "true_positive_detections": 23548,
-                    "true_negative_detections": 29606,
+                    "false_positive_detections": 637,
+                    "false_negative_detections": 403,
+                    "true_positive_detections": 23539,
+                    "true_negative_detections": 29480,
                     "http_errors": 0
                 },
-                "failure_rate": "1.67%",
-                "weighted_errors_E": 1883,
-                "error_rate_epsilon": 0.034832,
+                "failure_rate": "1.92%",
+                "weighted_errors_E": 1846,
+                "error_rate_epsilon": 0.034148,
                 "p99_score": {
-                    "value": 1650.21,
+                    "value": 1477.29,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 475.49,
-                    "rate_component": 1458.02,
-                    "absolute_penalty": -982.52,
+                    "value": 486.7,
+                    "rate_component": 1466.64,
+                    "absolute_penalty": -979.94,
                     "cut_triggered": false
                 },
-                "final_score": 2125.71
+                "final_score": 1963.99,
+                "raw": {
+                    "p99_ms": 33.32032521999999,
+                    "failure_rate": 0.01923823970106735,
+                    "error_rate_epsilon": 0.03414787546939455,
+                    "p99_score": 1477.2907683528217,
+                    "detection_score": 486.6962424022146,
+                    "rate_component": 1466.636311034287,
+                    "absolute_penalty": -979.9400686320724,
+                    "final_score": 1963.9870107550364
+                }
             },
             "repo_url": "https://github.com/josinaldojr/anti-fraudeiro",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4617",
-            "timestamp": "2026-05-15T23:56:31Z"
+            "timestamp": "2026-05-23T23:31:52Z"
         }
     },
     "jaoppb": {
