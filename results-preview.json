@@ -6917,40 +6917,50 @@
         "breno5g-go": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "563.80ms",
+            "p99": "412.06ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23101,
-                    "true_negative_detections": 28820,
+                    "false_positive_detections": 20,
+                    "false_negative_detections": 7,
+                    "true_positive_detections": 23574,
+                    "true_negative_detections": 29619,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 2,
-                "error_rate_epsilon": 0.000039,
+                "failure_rate": "0.05%",
+                "weighted_errors_E": 41,
+                "error_rate_epsilon": 0.00077,
                 "p99_score": {
-                    "value": 248.87,
+                    "value": 385.04,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2856.86,
+                    "value": 2513.03,
                     "rate_component": 3000,
-                    "absolute_penalty": -143.14,
+                    "absolute_penalty": -486.97,
                     "cut_triggered": false
                 },
-                "final_score": 3105.74
+                "final_score": 2898.06,
+                "raw": {
+                    "p99_ms": 412.06269702999987,
+                    "failure_rate": 0.0005073280721533258,
+                    "error_rate_epsilon": 0.0007703870725291244,
+                    "p99_score": 385.0366992519248,
+                    "detection_score": 2513.0252128806296,
+                    "rate_component": 3000,
+                    "absolute_penalty": -486.97478711937015,
+                    "final_score": 2898.0619121325544
+                }
             },
             "repo_url": "https://github.com/breno5g/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3526",
-            "timestamp": "2026-05-12T03:20:05Z"
+            "timestamp": "2026-05-23T22:00:16Z"
         }
     },
     "lobomfz": {
