@@ -5865,40 +5865,50 @@
         "rinha-2026-python2": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "127.35ms",
+            "p99": "146.19ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 364,
-                    "false_negative_detections": 861,
-                    "true_positive_detections": 23168,
-                    "true_negative_detections": 29654,
+                    "false_positive_detections": 351,
+                    "false_negative_detections": 644,
+                    "true_positive_detections": 23272,
+                    "true_negative_detections": 29738,
                     "http_errors": 0
                 },
-                "failure_rate": "2.27%",
-                "weighted_errors_E": 2947,
-                "error_rate_epsilon": 0.054527,
+                "failure_rate": "1.84%",
+                "weighted_errors_E": 2283,
+                "error_rate_epsilon": 0.042274,
                 "p99_score": {
-                    "value": 894.99,
+                    "value": 835.08,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 222.53,
-                    "rate_component": 1263.39,
-                    "absolute_penalty": -1040.86,
+                    "value": 366.32,
+                    "rate_component": 1373.93,
+                    "absolute_penalty": -1007.61,
                     "cut_triggered": false
                 },
-                "final_score": 1117.52
+                "final_score": 1201.4,
+                "raw": {
+                    "p99_ms": 146.19118455999998,
+                    "failure_rate": 0.018424219979631517,
+                    "error_rate_epsilon": 0.042273863531154525,
+                    "p99_score": 835.0788148773094,
+                    "detection_score": 366.3192290510457,
+                    "rate_component": 1373.9280589231887,
+                    "absolute_penalty": -1007.608829872143,
+                    "final_score": 1201.398043928355
+                }
             },
             "repo_url": "https://github.com/mpraes/rinha-2026-python2",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3588",
-            "timestamp": "2026-05-12T08:48:21Z"
+            "timestamp": "2026-05-23T22:06:16Z"
         },
         "rinha-2026-python3": {
             "expected": {
