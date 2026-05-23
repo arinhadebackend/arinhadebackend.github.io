@@ -5071,40 +5071,50 @@
         "bertoni": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "72.86ms",
+            "p99": "74.23ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 279,
-                    "false_negative_detections": 1202,
-                    "true_positive_detections": 22825,
-                    "true_negative_detections": 29734,
-                    "http_errors": 19
+                    "false_positive_detections": 196,
+                    "false_negative_detections": 1135,
+                    "true_positive_detections": 22795,
+                    "true_negative_detections": 29908,
+                    "http_errors": 25
                 },
-                "failure_rate": "2.77%",
-                "weighted_errors_E": 3980,
-                "error_rate_epsilon": 0.073623,
+                "failure_rate": "2.51%",
+                "weighted_errors_E": 3726,
+                "error_rate_epsilon": 0.068925,
                 "p99_score": {
-                    "value": 1137.53,
+                    "value": 1129.42,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 52.99,
-                    "rate_component": 1132.98,
-                    "absolute_penalty": -1080,
+                    "value": 90.22,
+                    "rate_component": 1161.63,
+                    "absolute_penalty": -1071.41,
                     "cut_triggered": false
                 },
-                "final_score": 1190.52
+                "final_score": 1219.64,
+                "raw": {
+                    "p99_ms": 74.22966686,
+                    "failure_rate": 0.025083704841007047,
+                    "error_rate_epsilon": 0.06892469339055476,
+                    "p99_score": 1129.422488540517,
+                    "detection_score": 90.21733933780456,
+                    "rate_component": 1161.6251571639564,
+                    "absolute_penalty": -1071.4078178261518,
+                    "final_score": 1219.6398278783215
+                }
             },
             "repo_url": "https://github.com/bertoni/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3274",
-            "timestamp": "2026-05-11T12:35:59Z"
+            "timestamp": "2026-05-23T21:36:01Z"
         }
     },
     "JoaoVitorGirardii": {
