@@ -5838,43 +5838,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2.25ms",
+            "p99": "2.36ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 5,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 23941,
-                    "true_negative_detections": 30112,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
-                "failure_rate": "0.01%",
-                "weighted_errors_E": 8,
-                "error_rate_epsilon": 0.000148,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2647.41,
+                    "value": 2627.62,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2713.73,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -286.27,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5361.14,
+                "final_score": 5627.62,
                 "raw": {
-                    "p99_ms": 2.252106739999999,
-                    "failure_rate": 0.00011098984442923472,
-                    "error_rate_epsilon": 0.00014798645923897962,
-                    "p99_score": 2647.41102967574,
-                    "detection_score": 2713.7272471682027,
+                    "p99_ms": 2.357135,
+                    "failure_rate": 0,
+                    "error_rate_epsilon": 0,
+                    "p99_score": 2627.615543451036,
+                    "detection_score": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -286.2727528317975,
-                    "final_score": 5361.138276843943
+                    "absolute_penalty": 0,
+                    "final_score": 5627.6155434510365
                 }
             },
             "repo_url": "https://github.com/GustavoQnt/rinha-de-backend-2026-node",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6240",
-            "timestamp": "2026-05-24T18:16:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6398",
+            "timestamp": "2026-05-24T20:35:51Z"
         }
     },
     "atomosdovini": {
