@@ -2875,40 +2875,50 @@
         "bulletdev-zig": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "184.29ms",
+            "p99": "189.53ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 644,
-                    "false_negative_detections": 586,
-                    "true_positive_detections": 23436,
-                    "true_negative_detections": 29359,
+                    "false_positive_detections": 547,
+                    "false_negative_detections": 435,
+                    "true_positive_detections": 23479,
+                    "true_negative_detections": 29542,
                     "http_errors": 0
                 },
-                "failure_rate": "2.28%",
-                "weighted_errors_E": 2402,
-                "error_rate_epsilon": 0.044461,
+                "failure_rate": "1.82%",
+                "weighted_errors_E": 1852,
+                "error_rate_epsilon": 0.034294,
                 "p99_score": {
-                    "value": 734.5,
+                    "value": 722.31,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 337.8,
-                    "rate_component": 1352.02,
-                    "absolute_penalty": -1014.23,
+                    "value": 484.41,
+                    "rate_component": 1464.78,
+                    "absolute_penalty": -980.36,
                     "cut_triggered": false
                 },
-                "final_score": 1072.29
+                "final_score": 1206.73,
+                "raw": {
+                    "p99_ms": 189.5341600199996,
+                    "failure_rate": 0.01818417495324334,
+                    "error_rate_epsilon": 0.034294391052348945,
+                    "p99_score": 722.3125051091305,
+                    "detection_score": 484.4142784824179,
+                    "rate_component": 1464.7769042780872,
+                    "absolute_penalty": -980.3626257956693,
+                    "final_score": 1206.7267835915484
+                }
             },
             "repo_url": "https://github.com/bulletdev/bulletonrails-zig",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5528",
-            "timestamp": "2026-05-19T16:05:16Z"
+            "timestamp": "2026-05-24T01:44:15Z"
         }
     },
     "VCalazans": {
