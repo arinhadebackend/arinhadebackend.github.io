@@ -5229,40 +5229,50 @@
         "joao-girardi-with-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "239.76ms",
+            "p99": "1798.31ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23973,
-                    "true_negative_detections": 29950,
-                    "http_errors": 0
+                    "true_positive_detections": 12224,
+                    "true_negative_detections": 15350,
+                    "http_errors": 49
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.18%",
+                "weighted_errors_E": 245,
+                "error_rate_epsilon": 0.008869,
                 "p99_score": {
-                    "value": 620.23,
+                    "value": -254.87,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 1334.82,
+                    "rate_component": 2052.1,
+                    "absolute_penalty": -717.28,
                     "cut_triggered": false
                 },
-                "final_score": 3620.23
+                "final_score": 1079.96,
+                "raw": {
+                    "p99_ms": 1798.3148939399998,
+                    "failure_rate": 0.0017738840821054918,
+                    "error_rate_epsilon": 0.008869420410527459,
+                    "p99_score": -254.86574119389317,
+                    "detection_score": 1334.8242269249524,
+                    "rate_component": 2052.104759055966,
+                    "absolute_penalty": -717.2805321310136,
+                    "final_score": 1079.9584857310592
+                }
             },
             "repo_url": "https://github.com/JoaoVitorGirardii/rinha-with-rust",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4976",
-            "timestamp": "2026-05-17T14:08:38Z"
+            "timestamp": "2026-05-24T00:02:45Z"
         }
     },
     "mtbarr": {
