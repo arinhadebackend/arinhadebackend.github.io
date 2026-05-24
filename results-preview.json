@@ -5316,20 +5316,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "3.86ms",
+            "p99": "3.81ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 4,
                     "false_negative_detections": 6,
                     "true_positive_detections": 23936,
-                    "true_negative_detections": 30113,
+                    "true_negative_detections": 30112,
                     "http_errors": 0
                 },
                 "failure_rate": "0.02%",
                 "weighted_errors_E": 22,
                 "error_rate_epsilon": 0.000407,
                 "p99_score": {
-                    "value": 2413.15,
+                    "value": 2419.4,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -5338,21 +5338,21 @@
                     "absolute_penalty": -408.52,
                     "cut_triggered": false
                 },
-                "final_score": 5004.64,
+                "final_score": 5010.88,
                 "raw": {
-                    "p99_ms": 3.8622964799999986,
-                    "failure_rate": 0.00018498307404872454,
-                    "error_rate_epsilon": 0.000406962762907194,
-                    "p99_score": 2413.1543916944015,
+                    "p99_ms": 3.8071877700000005,
+                    "failure_rate": 0.00018498649598579304,
+                    "error_rate_epsilon": 0.0004069702911687447,
+                    "p99_score": 2419.3957033106976,
                     "detection_score": 2591.481649194722,
                     "rate_component": 3000,
                     "absolute_penalty": -408.51835080527786,
-                    "final_score": 5004.636040889123
+                    "final_score": 5010.87735250542
                 }
             },
             "repo_url": "https://github.com/maxsonferovante/vector-based-fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5840",
-            "timestamp": "2026-05-24T15:12:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5580",
+            "timestamp": "2026-05-24T20:24:55Z"
         },
         "maxsonferovante rust": {
             "expected": {
