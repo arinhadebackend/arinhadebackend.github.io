@@ -9946,18 +9946,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.10ms",
+            "p99": "2002.13ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 11,
-                    "false_negative_detections": 8,
-                    "true_positive_detections": 384,
-                    "true_negative_detections": 267,
-                    "http_errors": 13181
+                    "false_positive_detections": 9,
+                    "false_negative_detections": 9,
+                    "true_positive_detections": 375,
+                    "true_negative_detections": 271,
+                    "http_errors": 13180
                 },
-                "failure_rate": "95.3%",
-                "weighted_errors_E": 65940,
-                "error_rate_epsilon": 4.760667,
+                "failure_rate": "95.33%",
+                "weighted_errors_E": 65936,
+                "error_rate_epsilon": 4.762785,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -9968,11 +9968,21 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -6000
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2002.12824545,
+                    "failure_rate": 0.9533371857844554,
+                    "error_rate_epsilon": 4.762785322161225,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/andreluiz901/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5963",
-            "timestamp": "2026-05-22T01:19:04Z"
+            "timestamp": "2026-05-24T15:39:15Z"
         }
     },
     "josinaldojr": {
