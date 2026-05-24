@@ -9979,40 +9979,50 @@
         "vina-python": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "57.92ms",
+            "p99": "61.82ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
+                    "false_positive_detections": 142,
+                    "false_negative_detections": 49,
+                    "true_positive_detections": 23893,
+                    "true_negative_detections": 29975,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.35%",
+                "weighted_errors_E": 289,
+                "error_rate_epsilon": 0.005346,
                 "p99_score": {
-                    "value": 1237.21,
+                    "value": 1208.87,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 1533.25,
+                    "rate_component": 2271.97,
+                    "absolute_penalty": -738.72,
                     "cut_triggered": false
                 },
-                "final_score": 4237.21
+                "final_score": 2742.12,
+                "raw": {
+                    "p99_ms": 61.81988735999998,
+                    "failure_rate": 0.0035331767143306388,
+                    "error_rate_epsilon": 0.005346010840008139,
+                    "p99_score": 1208.8717905858007,
+                    "detection_score": 1533.2507655979457,
+                    "rate_component": 2271.9701649676326,
+                    "absolute_penalty": -738.7193993696868,
+                    "final_score": 2742.1225561837464
+                }
             },
             "repo_url": "https://github.com/viniciusmoreiraa/rinha-de-backend-2026-vina-python",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5685",
-            "timestamp": "2026-05-20T12:37:31Z"
+            "timestamp": "2026-05-24T02:12:08Z"
         }
     },
     "santannaf": {
