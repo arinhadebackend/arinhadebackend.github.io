@@ -12876,7 +12876,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "8.13ms",
+            "p99": "6.08ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 2,
@@ -12889,7 +12889,7 @@
                 "weighted_errors_E": 14,
                 "error_rate_epsilon": 0.000259,
                 "p99_score": {
-                    "value": 2089.92,
+                    "value": 2216.22,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -12898,11 +12898,21 @@
                     "absolute_penalty": -352.83,
                     "cut_triggered": false
                 },
-                "final_score": 4737.09
+                "final_score": 4863.39,
+                "raw": {
+                    "p99_ms": 6.078293759999993,
+                    "failure_rate": 0.00011098984442923472,
+                    "error_rate_epsilon": 0.00025897630366821434,
+                    "p99_score": 2216.218314577882,
+                    "detection_score": 2647.172622283296,
+                    "rate_component": 3000,
+                    "absolute_penalty": -352.82737771670435,
+                    "final_score": 4863.3909368611785
+                }
             },
             "repo_url": "https://github.com/NormanFrieman/fraude",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6163",
-            "timestamp": "2026-05-23T10:25:24Z"
+            "timestamp": "2026-05-24T17:01:17Z"
         }
     }
 }
