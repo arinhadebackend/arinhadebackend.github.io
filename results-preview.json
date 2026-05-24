@@ -11982,18 +11982,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.3ms",
+            "p99": "2002.33ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 6,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 13,
-                    "true_negative_detections": 14,
-                    "http_errors": 13789
+                    "false_positive_detections": 9,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 12,
+                    "true_negative_detections": 10,
+                    "http_errors": 13792
                 },
-                "failure_rate": "99.8%",
-                "weighted_errors_E": 68966,
-                "error_rate_epsilon": 4.987778,
+                "failure_rate": "99.84%",
+                "weighted_errors_E": 68978,
+                "error_rate_epsilon": 4.989006,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -12006,9 +12006,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.3032433199999,
-                    "failure_rate": 0.9980472987632892,
-                    "error_rate_epsilon": 4.987777536703551,
+                    "p99_ms": 2002.3312945,
+                    "failure_rate": 0.998408795023868,
+                    "error_rate_epsilon": 4.989006220164907,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -12017,8 +12017,8 @@
                 }
             },
             "repo_url": "https://github.com/wl4dek/rinha-de-backend-go.git",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6222",
-            "timestamp": "2026-05-24T17:55:18Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6382",
+            "timestamp": "2026-05-24T19:20:31Z"
         }
     },
     "wendellunny": {
