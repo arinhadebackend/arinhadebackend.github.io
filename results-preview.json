@@ -11221,40 +11221,50 @@
         "torreslucas13-c-ivf": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1.28ms",
+            "p99": "1.3ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
+                    "false_positive_detections": 2,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30115,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "weighted_errors_E": 2,
+                "error_rate_epsilon": 0.000037,
                 "p99_score": {
-                    "value": 2893.08,
+                    "value": 2884.99,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2856.86,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -143.14,
                     "cut_triggered": false
                 },
-                "final_score": 5893.08
+                "final_score": 5741.86,
+                "raw": {
+                    "p99_ms": 1.303185219999996,
+                    "failure_rate": 0.000036996614809744906,
+                    "error_rate_epsilon": 0.000036996614809744906,
+                    "p99_score": 2884.993854197432,
+                    "detection_score": 2856.8636235841013,
+                    "rate_component": 3000,
+                    "absolute_penalty": -143.13637641589872,
+                    "final_score": 5741.857477781534
+                }
             },
             "repo_url": "https://github.com/torreslucas13/r2026-fraud-vector-search",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5339",
-            "timestamp": "2026-05-18T19:56:19Z"
+            "timestamp": "2026-05-24T01:03:39Z"
         }
     },
     "Luckstai": {
