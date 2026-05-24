@@ -7765,40 +7765,50 @@
         "ninorp-python": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "8.21ms",
+            "p99": "473.07ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 7,
-                    "false_negative_detections": 7,
-                    "true_positive_detections": 24030,
-                    "true_negative_detections": 30014,
+                    "false_positive_detections": 21,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 22336,
+                    "true_negative_detections": 27970,
                     "http_errors": 0
                 },
-                "failure_rate": "0.03%",
-                "weighted_errors_E": 28,
-                "error_rate_epsilon": 0.000518,
+                "failure_rate": "0.05%",
+                "weighted_errors_E": 30,
+                "error_rate_epsilon": 0.000596,
                 "p99_score": {
-                    "value": 2085.64,
+                    "value": 325.07,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2561.28,
+                    "value": 2552.59,
                     "rate_component": 3000,
-                    "absolute_penalty": -438.72,
+                    "absolute_penalty": -447.41,
                     "cut_triggered": false
                 },
-                "final_score": 4646.92
+                "final_score": 2877.66,
+                "raw": {
+                    "p99_ms": 473.07494594,
+                    "failure_rate": 0.00047685277170673556,
+                    "error_rate_epsilon": 0.0005960659646334195,
+                    "p99_score": 325.07005158814354,
+                    "detection_score": 2552.5914918497183,
+                    "rate_component": 3000,
+                    "absolute_penalty": -447.4085081502818,
+                    "final_score": 2877.661543437862
+                }
             },
             "repo_url": "https://github.com/Ninorp/rinha-2026-python",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5008",
-            "timestamp": "2026-05-17T16:24:48Z"
+            "timestamp": "2026-05-24T00:08:15Z"
         }
     },
     "rafaelcoelhox": {
