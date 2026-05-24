@@ -9196,18 +9196,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.19ms",
+            "p99": "2002.2ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 18,
+                    "false_negative_detections": 49,
                     "true_positive_detections": 0,
-                    "true_negative_detections": 22,
-                    "http_errors": 13785
+                    "true_negative_detections": 53,
+                    "http_errors": 13723
                 },
-                "failure_rate": "99.84%",
-                "weighted_errors_E": 68979,
-                "error_rate_epsilon": 4.989439,
+                "failure_rate": "99.62%",
+                "weighted_errors_E": 68762,
+                "error_rate_epsilon": 4.973743,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -9220,9 +9220,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.1902278,
-                    "failure_rate": 0.9984086799276672,
-                    "error_rate_epsilon": 4.989439421338155,
+                    "p99_ms": 2002.20312904,
+                    "failure_rate": 0.9961663652802893,
+                    "error_rate_epsilon": 4.97374321880651,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -9231,8 +9231,8 @@
                 }
             },
             "repo_url": "https://github.com/jgouvea7/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5961",
-            "timestamp": "2026-05-24T15:35:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6238",
+            "timestamp": "2026-05-24T18:13:33Z"
         }
     },
     "GuilhermRodovalho": {
