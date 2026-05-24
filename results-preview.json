@@ -11271,40 +11271,50 @@
         "adanSiqueira-python": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "883.79ms",
+            "p99": "2001.72ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 27,
-                    "false_negative_detections": 19,
-                    "true_positive_detections": 19861,
-                    "true_negative_detections": 24855,
-                    "http_errors": 0
+                    "false_positive_detections": 30,
+                    "false_negative_detections": 24,
+                    "true_positive_detections": 17011,
+                    "true_negative_detections": 21337,
+                    "http_errors": 1417
                 },
-                "failure_rate": "0.1%",
-                "weighted_errors_E": 84,
-                "error_rate_epsilon": 0.001877,
+                "failure_rate": "3.69%",
+                "weighted_errors_E": 7187,
+                "error_rate_epsilon": 0.180492,
                 "p99_score": {
-                    "value": 53.65,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2147.8,
-                    "rate_component": 2726.63,
-                    "absolute_penalty": -578.83,
+                    "value": -413.44,
+                    "rate_component": 743.54,
+                    "absolute_penalty": -1156.98,
                     "cut_triggered": false
                 },
-                "final_score": 2201.46
+                "final_score": -3413.44,
+                "raw": {
+                    "p99_ms": 2001.71573428,
+                    "failure_rate": 0.03694216328888219,
+                    "error_rate_epsilon": 0.18049172505587785,
+                    "p99_score": -3000,
+                    "detection_score": -413.4397162744192,
+                    "rate_component": 743.5427042566616,
+                    "absolute_penalty": -1156.9824205310808,
+                    "final_score": -3413.439716274419
+                }
             },
             "repo_url": "https://github.com/adanSiqueira/vector-fraud-detection-python",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5661",
-            "timestamp": "2026-05-20T05:00:08Z"
+            "timestamp": "2026-05-24T02:05:40Z"
         }
     },
     "geeksilva97": {
