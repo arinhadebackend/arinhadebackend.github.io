@@ -1247,40 +1247,50 @@
         "itagyba-dotnet": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "0.96ms",
+            "p99": "1.01ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30022,
+                    "false_positive_detections": 26,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 23938,
+                    "true_negative_detections": 30091,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.06%",
+                "weighted_errors_E": 38,
+                "error_rate_epsilon": 0.000703,
                 "p99_score": {
-                    "value": 3000,
+                    "value": 2997.55,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2522.68,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -477.32,
                     "cut_triggered": false
                 },
-                "final_score": 6000
+                "final_score": 5520.23,
+                "raw": {
+                    "p99_ms": 1.0056539999999994,
+                    "failure_rate": 0.0005549492221461736,
+                    "error_rate_epsilon": 0.0007029356813851533,
+                    "p99_score": 2997.5514146455175,
+                    "detection_score": 2522.68061789205,
+                    "rate_component": 3000,
+                    "absolute_penalty": -477.3193821079497,
+                    "final_score": 5520.232032537568
+                }
             },
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-dotnet",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5628",
-            "timestamp": "2026-05-20T02:44:34Z"
+            "timestamp": "2026-05-24T01:59:04Z"
         },
         "itagyba-rust": {
             "expected": {
