@@ -8602,33 +8602,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "447.09ms",
+            "p99": "402.33ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 45,
-                    "true_positive_detections": 23674,
-                    "true_negative_detections": 29839,
-                    "http_errors": 315
+                    "true_positive_detections": 23715,
+                    "true_negative_detections": 29879,
+                    "http_errors": 258
                 },
-                "failure_rate": "0.67%",
-                "weighted_errors_E": 1710,
-                "error_rate_epsilon": 0.031741,
+                "failure_rate": "0.56%",
+                "weighted_errors_E": 1425,
+                "error_rate_epsilon": 0.026439,
                 "p99_score": {
-                    "value": 349.6,
+                    "value": 395.42,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 528.4,
-                    "rate_component": 1498.38,
-                    "absolute_penalty": -969.98,
+                    "value": 631.51,
+                    "rate_component": 1577.75,
+                    "absolute_penalty": -946.24,
                     "cut_triggered": false
                 },
-                "final_score": 878
+                "final_score": 1026.93,
+                "raw": {
+                    "p99_ms": 402.32920288,
+                    "failure_rate": 0.005621834239382526,
+                    "error_rate_epsilon": 0.026439319442640594,
+                    "p99_score": 395.41844321957524,
+                    "detection_score": 631.5138702801196,
+                    "rate_component": 1577.7497279348736,
+                    "absolute_penalty": -946.235857654754,
+                    "final_score": 1026.9323134996948
+                }
             },
             "repo_url": "https://github.com/yanpitangui/rinha-de-backend-2026-q1-vptree",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5787",
-            "timestamp": "2026-05-21T00:21:00Z"
+            "timestamp": "2026-05-24T14:55:21Z"
         }
     },
     "Pettecco": {
