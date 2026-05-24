@@ -10881,40 +10881,50 @@
         "peesilva-rust-v2": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "378.27ms",
+            "p99": "2002.51ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 23656,
-                    "true_negative_detections": 29577,
-                    "http_errors": 0
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 1012,
+                    "true_negative_detections": 1577,
+                    "http_errors": 11741
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 3,
-                "error_rate_epsilon": 0.000056,
+                "failure_rate": "81.93%",
+                "weighted_errors_E": 58705,
+                "error_rate_epsilon": 4.09665,
                 "p99_score": {
-                    "value": 422.19,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 2819.38,
-                    "rate_component": 3000,
-                    "absolute_penalty": -180.62,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 3241.58
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2002.5057978300001,
+                    "failure_rate": 0.8193300767620377,
+                    "error_rate_epsilon": 4.096650383810188,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/peesilva/rinha-de-backend-2026-pedro-borges",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5165",
-            "timestamp": "2026-05-18T01:55:20Z"
+            "timestamp": "2026-05-24T00:38:24Z"
         }
     },
     "lucasmenchon": {
