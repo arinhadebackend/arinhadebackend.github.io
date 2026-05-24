@@ -5925,6 +5925,54 @@
             "repo_url": "https://github.com/atomosdovini/rinha-fraud-go",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/3874",
             "timestamp": "2026-05-23T22:21:19Z"
+        },
+        "atomosdovini-rust": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "1.3ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 16,
+                    "false_negative_detections": 13,
+                    "true_positive_detections": 23929,
+                    "true_negative_detections": 30101,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.05%",
+                "weighted_errors_E": 55,
+                "error_rate_epsilon": 0.001017,
+                "p99_score": {
+                    "value": 2887.02,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2468.05,
+                    "rate_component": 2992.51,
+                    "absolute_penalty": -524.46,
+                    "cut_triggered": false
+                },
+                "final_score": 5355.07,
+                "raw": {
+                    "p99_ms": 1.2971102799999994,
+                    "failure_rate": 0.0005364509147413012,
+                    "error_rate_epsilon": 0.001017406907267985,
+                    "p99_score": 2887.0230987351656,
+                    "detection_score": 2468.048910128076,
+                    "rate_component": 2992.505318229936,
+                    "absolute_penalty": -524.4564081018601,
+                    "final_score": 5355.0720088632415
+                }
+            },
+            "repo_url": "https://github.com/atomosdovini/rinha-fraud-rust",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6440",
+            "timestamp": "2026-05-24T23:22:41Z"
         }
     },
     "nicolasmmb": {
