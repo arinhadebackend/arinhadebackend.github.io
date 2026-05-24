@@ -9259,40 +9259,50 @@
         "psavelis-rust-iouring-ivf": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1.18ms",
+            "p99": "1.52ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
+                    "false_positive_detections": 1,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30115,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "weighted_errors_E": 1,
+                "error_rate_epsilon": 0.000018,
                 "p99_score": {
-                    "value": 2927.59,
+                    "value": 2817.84,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2909.69,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -90.31,
                     "cut_triggered": false
                 },
-                "final_score": 5927.59
+                "final_score": 5727.53,
+                "raw": {
+                    "p99_ms": 1.5211121,
+                    "failure_rate": 0.000018498649598579305,
+                    "error_rate_epsilon": 0.000018498649598579305,
+                    "p99_score": 2817.838778966428,
+                    "detection_score": 2909.6910013008055,
+                    "rate_component": 3000,
+                    "absolute_penalty": -90.30899869919436,
+                    "final_score": 5727.529780267234
+                }
             },
             "repo_url": "https://github.com/psavelis/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5746",
-            "timestamp": "2026-05-20T19:21:09Z"
+            "timestamp": "2026-05-24T02:35:02Z"
         }
     },
     "vicelizangela": {
