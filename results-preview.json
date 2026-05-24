@@ -820,44 +820,6 @@
         }
     },
     "devRaelBraga": {
-        "hisrael-xgboost-go": {
-            "expected": {
-                "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
-            },
-            "p99": "1336.01ms",
-            "scoring": {
-                "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 2034,
-                    "true_positive_detections": 20022,
-                    "true_negative_detections": 27589,
-                    "http_errors": 167
-                },
-                "failure_rate": "4.42%",
-                "weighted_errors_E": 6937,
-                "error_rate_epsilon": 0.139264,
-                "p99_score": {
-                    "value": -125.81,
-                    "cut_triggered": false
-                },
-                "detection_score": {
-                    "value": -296.21,
-                    "rate_component": 856.16,
-                    "absolute_penalty": -1152.37,
-                    "cut_triggered": false
-                },
-                "final_score": -422.02
-            },
-            "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/2670",
-            "timestamp": "2026-05-09T19:33:04Z"
-        },
         "hisrael-xgboost-rust": {
             "expected": {
                 "total": 54100,
