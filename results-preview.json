@@ -11818,33 +11818,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "5.95ms",
+            "p99": "1.25ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
+                    "false_negative_detections": 23942,
+                    "true_positive_detections": 0,
                     "true_negative_detections": 30117,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "44.29%",
+                "weighted_errors_E": 71826,
+                "error_rate_epsilon": 1.328659,
                 "p99_score": {
-                    "value": 2225.49,
+                    "value": 2903.29,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 5225.49
+                "final_score": -96.71,
+                "raw": {
+                    "p99_ms": 1.2494344,
+                    "failure_rate": 0.4428864758874563,
+                    "error_rate_epsilon": 1.3286594276623689,
+                    "p99_score": 2903.2865410308555,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -96.71345896914454
+                }
             },
             "repo_url": "https://github.com/Cirilord/rinha-backend-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6054",
-            "timestamp": "2026-05-22T15:55:03Z"
+            "timestamp": "2026-05-24T16:08:24Z"
         }
     },
     "wl4dek": {
