@@ -11271,40 +11271,50 @@
         "luckstai-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "141.52ms",
+            "p99": "154.71ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 5,
+                    "false_positive_detections": 9,
                     "false_negative_detections": 4,
-                    "true_positive_detections": 24016,
-                    "true_negative_detections": 29996,
+                    "true_positive_detections": 23911,
+                    "true_negative_detections": 30080,
                     "http_errors": 0
                 },
                 "failure_rate": "0.02%",
-                "weighted_errors_E": 17,
-                "error_rate_epsilon": 0.000315,
+                "weighted_errors_E": 21,
+                "error_rate_epsilon": 0.000389,
                 "p99_score": {
-                    "value": 849.18,
+                    "value": 810.47,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2623.42,
+                    "value": 2597.27,
                     "rate_component": 3000,
-                    "absolute_penalty": -376.58,
+                    "absolute_penalty": -402.73,
                     "cut_triggered": false
                 },
-                "final_score": 3472.6
+                "final_score": 3407.74,
+                "raw": {
+                    "p99_ms": 154.71465937000008,
+                    "failure_rate": 0.00024072290941411746,
+                    "error_rate_epsilon": 0.00038886008443818977,
+                    "p99_score": 810.4685345108825,
+                    "detection_score": 2597.273195753338,
+                    "rate_component": 3000,
+                    "absolute_penalty": -402.7268042466619,
+                    "final_score": 3407.74173026422
+                }
             },
             "repo_url": "https://github.com/Luckstai/rinha-de-backend-2026-luckstai-rust",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5388",
-            "timestamp": "2026-05-19T00:30:50Z"
+            "timestamp": "2026-05-24T01:06:38Z"
         }
     },
     "RuanPabloCR": {
