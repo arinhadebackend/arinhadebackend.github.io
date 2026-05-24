@@ -12876,33 +12876,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2.58ms",
+            "p99": "4.5ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 369,
-                    "false_negative_detections": 278,
-                    "true_positive_detections": 23647,
-                    "true_negative_detections": 29722,
-                    "http_errors": 43
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
+                    "http_errors": 0
                 },
-                "failure_rate": "1.28%",
-                "weighted_errors_E": 1418,
-                "error_rate_epsilon": 0.026231,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2587.89,
+                    "value": 2346.77,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 635.6,
-                    "rate_component": 1581.19,
-                    "absolute_penalty": -945.59,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3223.49
+                "final_score": 5346.77,
+                "raw": {
+                    "p99_ms": 4.500186439999985,
+                    "failure_rate": 0,
+                    "error_rate_epsilon": 0,
+                    "p99_score": 2346.7694932944537,
+                    "detection_score": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "final_score": 5346.769493294454
+                }
             },
             "repo_url": "https://github.com/SrPatoS/rinha-2026-c",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6202",
-            "timestamp": "2026-05-23T15:44:29Z"
+            "timestamp": "2026-05-24T17:20:54Z"
         }
     },
     "NormanFrieman": {
