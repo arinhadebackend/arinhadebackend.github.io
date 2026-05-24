@@ -10821,40 +10821,50 @@
         "rodrigodotdev": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "2.66ms",
+            "p99": "2.57ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
+                    "false_positive_detections": 27,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 23939,
+                    "true_negative_detections": 30090,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 1,
-                "error_rate_epsilon": 0.000018,
+                "failure_rate": "0.06%",
+                "weighted_errors_E": 36,
+                "error_rate_epsilon": 0.000666,
                 "p99_score": {
-                    "value": 2575.3,
+                    "value": 2590.55,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2909.69,
+                    "value": 2529.54,
                     "rate_component": 3000,
-                    "absolute_penalty": -90.31,
+                    "absolute_penalty": -470.46,
                     "cut_triggered": false
                 },
-                "final_score": 5485
+                "final_score": 5120.09,
+                "raw": {
+                    "p99_ms": 2.5671554799999985,
+                    "failure_rate": 0.0005549492221461736,
+                    "error_rate_epsilon": 0.0006659390665754083,
+                    "p99_score": 2590.5478274480724,
+                    "detection_score": 2529.5394827799014,
+                    "rate_component": 3000,
+                    "absolute_penalty": -470.4605172200985,
+                    "final_score": 5120.087310227974
+                }
             },
             "repo_url": "https://github.com/rodrigodotdev/rinha-backend-2026-bun-zig",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5262",
-            "timestamp": "2026-05-18T14:42:51Z"
+            "timestamp": "2026-05-24T00:49:18Z"
         }
     },
     "fandangolas": {
