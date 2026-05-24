@@ -5575,46 +5575,6 @@
             "timestamp": "2026-05-23T20:44:38Z"
         }
     },
-    "BGLuis": {
-        "bgluis-go-rust": {
-            "expected": {
-                "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
-            },
-            "p99": "2.23ms",
-            "scoring": {
-                "breakdown": {
-                    "false_positive_detections": 1,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
-                    "http_errors": 0
-                },
-                "failure_rate": "0%",
-                "weighted_errors_E": 1,
-                "error_rate_epsilon": 0.000018,
-                "p99_score": {
-                    "value": 2651.36,
-                    "cut_triggered": false
-                },
-                "detection_score": {
-                    "value": 2909.69,
-                    "rate_component": 3000,
-                    "absolute_penalty": -90.31,
-                    "cut_triggered": false
-                },
-                "final_score": 5561.06
-            },
-            "repo_url": "https://github.com/BGLuis/rinha-backend-2026-go-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5711",
-            "timestamp": "2026-05-20T15:05:46Z"
-        }
-    },
     "joaoMiraya": {
         "joaoMiraya-rust-qdrant": {
             "expected": {
