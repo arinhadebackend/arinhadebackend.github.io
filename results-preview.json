@@ -11778,18 +11778,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.29ms",
+            "p99": "2002.32ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 5,
+                    "false_positive_detections": 4,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 4,
-                    "true_negative_detections": 4,
-                    "http_errors": 14763
+                    "true_positive_detections": 3,
+                    "true_negative_detections": 2,
+                    "http_errors": 13818
                 },
-                "failure_rate": "99.95%",
-                "weighted_errors_E": 73820,
-                "error_rate_epsilon": 4.995939,
+                "failure_rate": "99.96%",
+                "weighted_errors_E": 69094,
+                "error_rate_epsilon": 4.997035,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -11800,11 +11800,21 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -6000
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2002.31503414,
+                    "failure_rate": 0.9996383886598684,
+                    "error_rate_epsilon": 4.997034787010921,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
             },
             "repo_url": "https://github.com/wl4dek/rinha-de-backend-go.git",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5933",
-            "timestamp": "2026-05-21T21:31:26Z"
+            "timestamp": "2026-05-24T15:21:36Z"
         }
     },
     "wendellunny": {
