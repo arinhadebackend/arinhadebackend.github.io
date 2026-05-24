@@ -10197,40 +10197,50 @@
         "NRLacerda-go": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "291.39ms",
+            "p99": "1095.77ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 269,
+                    "false_positive_detections": 273,
                     "false_negative_detections": 452,
-                    "true_positive_detections": 23448,
-                    "true_negative_detections": 29602,
-                    "http_errors": 0
+                    "true_positive_detections": 21860,
+                    "true_negative_detections": 27742,
+                    "http_errors": 194
                 },
-                "failure_rate": "1.34%",
-                "weighted_errors_E": 1625,
-                "error_rate_epsilon": 0.030221,
+                "failure_rate": "1.82%",
+                "weighted_errors_E": 2599,
+                "error_rate_epsilon": 0.051444,
                 "p99_score": {
-                    "value": 535.52,
+                    "value": -39.72,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 556.36,
-                    "rate_component": 1519.69,
-                    "absolute_penalty": -963.34,
+                    "value": 264.17,
+                    "rate_component": 1288.67,
+                    "absolute_penalty": -1024.49,
                     "cut_triggered": false
                 },
-                "final_score": 1091.88
+                "final_score": 224.46,
+                "raw": {
+                    "p99_ms": 1095.7668184000033,
+                    "failure_rate": 0.018190455454167573,
+                    "error_rate_epsilon": 0.05144395399932701,
+                    "p99_score": -39.718145155119984,
+                    "detection_score": 264.17365439213813,
+                    "rate_component": 1288.6656587833834,
+                    "absolute_penalty": -1024.4920043912452,
+                    "final_score": 224.45550923701813
+                }
             },
             "repo_url": "https://github.com/NRLacerda/fraud-detection-api",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5467",
-            "timestamp": "2026-05-19T09:31:51Z"
+            "timestamp": "2026-05-24T01:25:20Z"
         }
     },
     "ericbsantana": {
