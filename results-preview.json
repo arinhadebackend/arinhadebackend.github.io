@@ -1021,40 +1021,50 @@
         "hisrael-xgboost-rust": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "1.43ms",
+            "p99": "11.05ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 24037,
-                    "true_negative_detections": 30021,
+                    "false_positive_detections": 13,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 23938,
+                    "true_negative_detections": 30103,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": "0.03%",
+                "weighted_errors_E": 25,
+                "error_rate_epsilon": 0.000462,
                 "p99_score": {
-                    "value": 2843.83,
+                    "value": 1956.53,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2575.51,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -424.49,
                     "cut_triggered": false
                 },
-                "final_score": 5843.83
+                "final_score": 4532.04,
+                "raw": {
+                    "p99_ms": 11.05277182000001,
+                    "failure_rate": 0.00031447704317584817,
+                    "error_rate_epsilon": 0.0004624662399644826,
+                    "p99_score": 1956.5287957186756,
+                    "detection_score": 2575.5079956087548,
+                    "rate_component": 3000,
+                    "absolute_penalty": -424.4920043912454,
+                    "final_score": 4532.03679132743
+                }
             },
             "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost-rust",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5405",
-            "timestamp": "2026-05-19T01:52:20Z"
+            "timestamp": "2026-05-24T01:12:30Z"
         },
         "rust-xgboost-warmup": {
             "expected": {
