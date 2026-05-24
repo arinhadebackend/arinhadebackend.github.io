@@ -11799,40 +11799,50 @@
         "rluuan-golang": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "182.41ms",
+            "p99": "174.04ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 458,
-                    "false_negative_detections": 799,
-                    "true_positive_detections": 23197,
-                    "true_negative_detections": 29516,
+                    "false_positive_detections": 93,
+                    "false_negative_detections": 1065,
+                    "true_positive_detections": 22857,
+                    "true_negative_detections": 30000,
                     "http_errors": 0
                 },
-                "failure_rate": "2.33%",
-                "weighted_errors_E": 2855,
-                "error_rate_epsilon": 0.0529,
+                "failure_rate": "2.14%",
+                "weighted_errors_E": 3288,
+                "error_rate_epsilon": 0.060872,
                 "p99_score": {
-                    "value": 738.96,
+                    "value": 759.36,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 239.82,
-                    "rate_component": 1276.55,
-                    "absolute_penalty": -1036.73,
+                    "value": 160.46,
+                    "rate_component": 1215.58,
+                    "absolute_penalty": -1055.12,
                     "cut_triggered": false
                 },
-                "final_score": 978.78
+                "final_score": 919.82,
+                "raw": {
+                    "p99_ms": 174.03830446,
+                    "failure_rate": 0.021438489308525408,
+                    "error_rate_epsilon": 0.060871980005554015,
+                    "p99_score": 759.3551564023772,
+                    "detection_score": 160.46340951415755,
+                    "rate_component": 1215.582571558954,
+                    "absolute_penalty": -1055.1191620447964,
+                    "final_score": 919.8185659165348
+                }
             },
             "repo_url": "https://github.com/rluuan/rinha-de-backend-2026-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5726",
-            "timestamp": "2026-05-20T16:34:12Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5720",
+            "timestamp": "2026-05-24T02:29:37Z"
         }
     },
     "BertBR": {
