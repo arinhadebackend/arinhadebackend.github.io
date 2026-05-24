@@ -9766,33 +9766,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "166.51ms",
+            "p99": "129.78ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 112,
+                    "false_positive_detections": 113,
                     "false_negative_detections": 44,
-                    "true_positive_detections": 23849,
-                    "true_negative_detections": 29949,
+                    "true_positive_detections": 23897,
+                    "true_negative_detections": 29999,
                     "http_errors": 0
                 },
                 "failure_rate": "0.29%",
-                "weighted_errors_E": 244,
-                "error_rate_epsilon": 0.004522,
+                "weighted_errors_E": 245,
+                "error_rate_epsilon": 0.004533,
                 "p99_score": {
-                    "value": 778.56,
+                    "value": 886.79,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1627.88,
-                    "rate_component": 2344.63,
-                    "absolute_penalty": -716.75,
+                    "value": 1626.37,
+                    "rate_component": 2343.65,
+                    "absolute_penalty": -717.28,
                     "cut_triggered": false
                 },
-                "final_score": 2406.45
+                "final_score": 2513.16,
+                "raw": {
+                    "p99_ms": 129.78050175999994,
+                    "failure_rate": 0.0029045566388544576,
+                    "error_rate_epsilon": 0.0045325883854735165,
+                    "p99_score": 886.790551095912,
+                    "detection_score": 1626.3731862764719,
+                    "rate_component": 2343.6537184074855,
+                    "absolute_penalty": -717.2805321310136,
+                    "final_score": 2513.163737372384
+                }
             },
             "repo_url": "https://github.com/peregrinno/red-hela",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6013",
-            "timestamp": "2026-05-22T11:36:48Z"
+            "timestamp": "2026-05-24T15:52:41Z"
         }
     },
     "inacioiso": {
