@@ -9790,18 +9790,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002ms",
+            "p99": "2001.99ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 9685,
-                    "true_negative_detections": 12137,
-                    "http_errors": 5248
+                    "false_positive_detections": 5,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 9649,
+                    "true_negative_detections": 11992,
+                    "http_errors": 5218
                 },
-                "failure_rate": "19.4%",
-                "weighted_errors_E": 26247,
-                "error_rate_epsilon": 0.969418,
+                "failure_rate": "19.44%",
+                "weighted_errors_E": 26095,
+                "error_rate_epsilon": 0.971374,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -9814,9 +9814,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.00235458,
-                    "failure_rate": 0.19401662049861496,
-                    "error_rate_epsilon": 0.9694182825484765,
+                    "p99_ms": 2001.9890336,
+                    "failure_rate": 0.19442376414532458,
+                    "error_rate_epsilon": 0.9713743299583085,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -9825,8 +9825,8 @@
                 }
             },
             "repo_url": "https://github.com/claudin-io/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6227",
-            "timestamp": "2026-05-24T18:02:30Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6405",
+            "timestamp": "2026-05-24T21:10:13Z"
         }
     },
     "MarcusAdriano": {
