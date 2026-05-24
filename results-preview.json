@@ -9414,44 +9414,6 @@
         }
     },
     "arturlbg": {
-        "arturlbg-go-ivf8-test": {
-            "expected": {
-                "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
-            },
-            "p99": "268.05ms",
-            "scoring": {
-                "breakdown": {
-                    "false_positive_detections": 13,
-                    "false_negative_detections": 14,
-                    "true_positive_detections": 23964,
-                    "true_negative_detections": 29944,
-                    "http_errors": 0
-                },
-                "failure_rate": "0.05%",
-                "weighted_errors_E": 55,
-                "error_rate_epsilon": 0.00102,
-                "p99_score": {
-                    "value": 571.78,
-                    "cut_triggered": false
-                },
-                "detection_score": {
-                    "value": 2467.05,
-                    "rate_component": 2991.51,
-                    "absolute_penalty": -524.46,
-                    "cut_triggered": false
-                },
-                "final_score": 3038.83
-            },
-            "repo_url": "https://github.com/arturlbg/rinha-backend-2026-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5015",
-            "timestamp": "2026-05-17T16:36:16Z"
-        },
         "arturlbg-go-fdpass-v2": {
             "expected": {
                 "total": 54100,
