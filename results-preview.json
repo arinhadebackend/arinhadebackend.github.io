@@ -11321,40 +11321,50 @@
         "RuanPabloCR": {
             "expected": {
                 "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
             },
-            "p99": "7.84ms",
+            "p99": "4.56ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 155,
-                    "false_negative_detections": 303,
-                    "true_positive_detections": 23734,
-                    "true_negative_detections": 29867,
+                    "false_positive_detections": 190,
+                    "false_negative_detections": 162,
+                    "true_positive_detections": 23780,
+                    "true_negative_detections": 29927,
                     "http_errors": 0
                 },
-                "failure_rate": "0.85%",
-                "weighted_errors_E": 1064,
-                "error_rate_epsilon": 0.019682,
+                "failure_rate": "0.65%",
+                "weighted_errors_E": 676,
+                "error_rate_epsilon": 0.012505,
                 "p99_score": {
-                    "value": 2105.92,
+                    "value": 2341.49,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 797.72,
-                    "rate_component": 1705.93,
-                    "absolute_penalty": -908.2,
+                    "value": 1053.74,
+                    "rate_component": 1902.92,
+                    "absolute_penalty": -849.18,
                     "cut_triggered": false
                 },
-                "final_score": 2903.64
+                "final_score": 3395.24,
+                "raw": {
+                    "p99_ms": 4.555190419999985,
+                    "failure_rate": 0.006511404206515104,
+                    "error_rate_epsilon": 0.01250485580569378,
+                    "p99_score": 2341.4934635588866,
+                    "detection_score": 1053.7447111770011,
+                    "rate_component": 1902.9213117825443,
+                    "absolute_penalty": -849.1766006055433,
+                    "final_score": 3395.2381747358877
+                }
             },
             "repo_url": "https://github.com/RuanPabloCR/rinha-de-backend2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5397",
-            "timestamp": "2026-05-19T01:09:48Z"
+            "timestamp": "2026-05-24T01:09:18Z"
         }
     },
     "6se7en": {
