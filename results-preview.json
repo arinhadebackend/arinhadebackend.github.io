@@ -10872,5 +10872,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6469",
             "timestamp": "2026-05-25T01:40:46Z"
         }
+    },
+    "ronicarvalho": {
+        "ronicarvalho-fraud-detection": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "3.61ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 107,
+                    "false_negative_detections": 98,
+                    "true_positive_detections": 23844,
+                    "true_negative_detections": 30010,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.38%",
+                "weighted_errors_E": 401,
+                "error_rate_epsilon": 0.007418,
+                "p99_score": {
+                    "value": 2442.23,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1348.46,
+                    "rate_component": 2129.72,
+                    "absolute_penalty": -781.27,
+                    "cut_triggered": false
+                },
+                "final_score": 3790.69,
+                "raw": {
+                    "p99_ms": 3.6121786799999995,
+                    "failure_rate": 0.003792153017998853,
+                    "error_rate_epsilon": 0.007417821269353854,
+                    "p99_score": 2442.2307750200157,
+                    "detection_score": 1348.4558191786573,
+                    "rate_component": 2129.7236351039983,
+                    "absolute_penalty": -781.267815925341,
+                    "final_score": 3790.686594198673
+                }
+            },
+            "repo_url": "https://github.com/ronicarvalho/fraud-detection",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6470",
+            "timestamp": "2026-05-25T01:48:08Z"
+        }
     }
 }
