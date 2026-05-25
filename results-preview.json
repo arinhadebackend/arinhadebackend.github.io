@@ -11568,5 +11568,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6632",
             "timestamp": "2026-05-25T18:15:01Z"
         }
+    },
+    "Lucianoottor": {
+        "Lucianoottor": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "191.62ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 152,
+                    "false_negative_detections": 1578,
+                    "true_positive_detections": 22286,
+                    "true_negative_detections": 29877,
+                    "http_errors": 0
+                },
+                "failure_rate": "3.21%",
+                "weighted_errors_E": 4886,
+                "error_rate_epsilon": 0.090661,
+                "p99_score": {
+                    "value": 717.56,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": -64.13,
+                    "rate_component": 1042.58,
+                    "absolute_penalty": -1106.71,
+                    "cut_triggered": false
+                },
+                "final_score": 653.42,
+                "raw": {
+                    "p99_ms": 191.62099184000004,
+                    "failure_rate": 0.032100643868405915,
+                    "error_rate_epsilon": 0.09066112482140538,
+                    "p99_score": 717.5569162339854,
+                    "detection_score": -64.1338047026743,
+                    "rate_component": 1042.5788970057772,
+                    "absolute_penalty": -1106.7127017084515,
+                    "final_score": 653.4231115313111
+                }
+            },
+            "repo_url": "https://github.com/Lucianoottor/rinha-2026-rust",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6634",
+            "timestamp": "2026-05-25T18:26:41Z"
+        }
     }
 }
