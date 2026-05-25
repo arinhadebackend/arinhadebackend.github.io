@@ -11432,20 +11432,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "558.47ms",
+            "p99": "891.84ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 21133,
-                    "true_negative_detections": 26576,
+                    "true_positive_detections": 18993,
+                    "true_negative_detections": 23825,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 253,
+                    "value": 49.71,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11454,21 +11454,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3253,
+                "final_score": 3049.71,
                 "raw": {
-                    "p99_ms": 558.4672984399984,
+                    "p99_ms": 891.8402401400034,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 253.00225231177203,
+                    "p99_score": 49.71293602713212,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 3253.002252311772
+                    "final_score": 3049.712936027132
                 }
             },
             "repo_url": "https://github.com/thales-maciel/zordon",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6638",
-            "timestamp": "2026-05-25T18:49:34Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6645",
+            "timestamp": "2026-05-25T19:16:06Z"
         },
         "thales-maciel-haskell": {
             "expected": {
