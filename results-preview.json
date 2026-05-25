@@ -11432,43 +11432,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1453.65ms",
+            "p99": "1307.07ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 13997,
-                    "true_negative_detections": 17630,
-                    "http_errors": 11
+                    "true_positive_detections": 14921,
+                    "true_negative_detections": 18785,
+                    "http_errors": 7
                 },
-                "failure_rate": "0.03%",
-                "weighted_errors_E": 55,
-                "error_rate_epsilon": 0.001738,
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 35,
+                "error_rate_epsilon": 0.001038,
                 "p99_score": {
-                    "value": -162.46,
+                    "value": -116.3,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2235.39,
-                    "rate_component": 2759.85,
-                    "absolute_penalty": -524.46,
+                    "value": 2516.84,
+                    "rate_component": 2983.73,
+                    "absolute_penalty": -466.89,
                     "cut_triggered": false
                 },
-                "final_score": 2072.93,
+                "final_score": 2400.54,
                 "raw": {
-                    "p99_ms": 1453.6513321600003,
-                    "failure_rate": 0.00034768316581326253,
-                    "error_rate_epsilon": 0.0017384158290663127,
-                    "p99_score": -162.46025062373357,
-                    "detection_score": 2235.3899241190034,
-                    "rate_component": 2759.8463322208636,
-                    "absolute_penalty": -524.4564081018601,
-                    "final_score": 2072.92967349527
+                    "p99_ms": 1307.0693722799997,
+                    "failure_rate": 0.00020763503692937442,
+                    "error_rate_epsilon": 0.0010381751846468721,
+                    "p99_score": -116.29863823002397,
+                    "detection_score": 2516.8386059818777,
+                    "rate_component": 2983.729356212064,
+                    "absolute_penalty": -466.8907502301862,
+                    "final_score": 2400.5399677518535
                 }
             },
             "repo_url": "https://github.com/thales-maciel/zordon",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6619",
-            "timestamp": "2026-05-25T17:31:18Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6630",
+            "timestamp": "2026-05-25T18:05:35Z"
         },
         "thales-maciel-haskell": {
             "expected": {
