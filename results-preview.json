@@ -11576,20 +11576,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "557.59ms",
+            "p99": "305.46ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23653,
-                    "true_negative_detections": 29734,
+                    "true_positive_detections": 23721,
+                    "true_negative_detections": 29837,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 253.68,
+                    "value": 515.05,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11598,21 +11598,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3253.68,
+                "final_score": 3515.05,
                 "raw": {
-                    "p99_ms": 557.59230718,
+                    "p99_ms": 305.45607856000004,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 253.68322661076942,
+                    "p99_score": 515.051228008485,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 3253.6832266107695
+                    "final_score": 3515.051228008485
                 }
             },
             "repo_url": "https://github.com/thales-maciel/helheim",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6636",
-            "timestamp": "2026-05-25T18:42:56Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6680",
+            "timestamp": "2026-05-25T22:21:10Z"
         }
     },
     "carlsonsantana": {
