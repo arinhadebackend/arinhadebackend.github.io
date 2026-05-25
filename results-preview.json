@@ -11370,5 +11370,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6580",
             "timestamp": "2026-05-25T14:58:57Z"
         }
+    },
+    "DevairRestani": {
+        "devair-dotnet": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "830.32ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 17015,
+                    "true_negative_detections": 21364,
+                    "http_errors": 0
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
+                "p99_score": {
+                    "value": 80.75,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 3080.75,
+                "raw": {
+                    "p99_ms": 830.324440000001,
+                    "failure_rate": 0,
+                    "error_rate_epsilon": 0,
+                    "p99_score": 80.75217874430716,
+                    "detection_score": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "final_score": 3080.752178744307
+                }
+            },
+            "repo_url": "https://github.com/DevairRestani/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6614",
+            "timestamp": "2026-05-25T17:14:16Z"
+        }
     }
 }
