@@ -11420,5 +11420,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6614",
             "timestamp": "2026-05-25T17:14:16Z"
         }
+    },
+    "thales-maciel": {
+        "thales-maciel-zig": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "1453.65ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 13997,
+                    "true_negative_detections": 17630,
+                    "http_errors": 11
+                },
+                "failure_rate": "0.03%",
+                "weighted_errors_E": 55,
+                "error_rate_epsilon": 0.001738,
+                "p99_score": {
+                    "value": -162.46,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2235.39,
+                    "rate_component": 2759.85,
+                    "absolute_penalty": -524.46,
+                    "cut_triggered": false
+                },
+                "final_score": 2072.93,
+                "raw": {
+                    "p99_ms": 1453.6513321600003,
+                    "failure_rate": 0.00034768316581326253,
+                    "error_rate_epsilon": 0.0017384158290663127,
+                    "p99_score": -162.46025062373357,
+                    "detection_score": 2235.3899241190034,
+                    "rate_component": 2759.8463322208636,
+                    "absolute_penalty": -524.4564081018601,
+                    "final_score": 2072.92967349527
+                }
+            },
+            "repo_url": "https://github.com/thales-maciel/zordon",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6619",
+            "timestamp": "2026-05-25T17:31:18Z"
+        }
     }
 }
