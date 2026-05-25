@@ -58,20 +58,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.15ms",
+            "p99": "1.17ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2940.55,
+                    "value": 2931.16,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -80,21 +80,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5940.55,
+                "final_score": 5931.16,
                 "raw": {
-                    "p99_ms": 1.1467020799999985,
+                    "p99_ms": 1.17176898,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2940.5493997256635,
+                    "p99_score": 2931.158003165117,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5940.5493997256635
+                    "final_score": 5931.158003165117
                 }
             },
             "repo_url": "https://github.com/MXLange/c-api-rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6672",
-            "timestamp": "2026-05-25T21:41:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6697",
+            "timestamp": "2026-05-25T23:37:40Z"
         }
     },
     "zanfranceschi": {
