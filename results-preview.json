@@ -11328,7 +11328,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.71ms",
+            "p99": "1.72ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -11341,7 +11341,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2767.81,
+                    "value": 2763.22,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11350,21 +11350,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5767.81,
+                "final_score": 5763.22,
                 "raw": {
-                    "p99_ms": 1.7068157399999997,
+                    "p99_ms": 1.7249673999999997,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2767.813360795368,
+                    "p99_score": 2763.219108204559,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5767.813360795368
+                    "final_score": 5763.219108204559
                 }
             },
             "repo_url": "https://github.com/vinicius-piassa/rinha-backend-2026-asm",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6659",
-            "timestamp": "2026-05-25T20:20:29Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6699",
+            "timestamp": "2026-05-25T23:51:48Z"
         }
     },
     "YohanToledo": {
