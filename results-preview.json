@@ -495,44 +495,6 @@
             "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-extreme-2026",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4512",
             "timestamp": "2026-05-23T23:19:33Z"
-        },
-        "davidalecrim1-rust": {
-            "expected": {
-                "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
-            },
-            "p99": "2003.46ms",
-            "scoring": {
-                "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 316,
-                    "true_negative_detections": 393,
-                    "http_errors": 13146
-                },
-                "failure_rate": "94.88%",
-                "weighted_errors_E": 65730,
-                "error_rate_epsilon": 4.744136,
-                "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
-                },
-                "final_score": -6000
-            },
-            "repo_url": "https://github.com/davidalecrim1/rinha-with-rust-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/539",
-            "timestamp": "2026-04-29T16:24:09Z"
         }
     },
     "macielti": {
@@ -1126,44 +1088,6 @@
         }
     },
     "villanidev": {
-        "villanidev": {
-            "expected": {
-                "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
-            },
-            "p99": "2002.20ms",
-            "scoring": {
-                "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 271,
-                    "true_negative_detections": 341,
-                    "http_errors": 13313
-                },
-                "failure_rate": "95.61%",
-                "weighted_errors_E": 66568,
-                "error_rate_epsilon": 4.780124,
-                "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
-                },
-                "final_score": -6000
-            },
-            "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5717",
-            "timestamp": "2026-05-20T15:39:32Z"
-        },
         "villanidev-java-helidon-se": {
             "expected": {
                 "total": 54100,
@@ -7475,82 +7399,6 @@
             "repo_url": "https://github.com/peregrinno/heimdall",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5588",
             "timestamp": "2026-05-24T20:27:48Z"
-        },
-        "heimdall-ii-go": {
-            "expected": {
-                "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
-            },
-            "p99": "157.80ms",
-            "scoring": {
-                "breakdown": {
-                    "false_positive_detections": 245,
-                    "false_negative_detections": 9170,
-                    "true_positive_detections": 14858,
-                    "true_negative_detections": 29769,
-                    "http_errors": 0
-                },
-                "failure_rate": "17.42%",
-                "weighted_errors_E": 27755,
-                "error_rate_epsilon": 0.513582,
-                "p99_score": {
-                    "value": 801.88,
-                    "cut_triggered": false
-                },
-                "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
-                },
-                "final_score": -2198.12
-            },
-            "repo_url": "https://github.com/peregrinno/heimdall",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4579",
-            "timestamp": "2026-05-15T19:32:24Z"
-        },
-        "heimdall-7-go": {
-            "expected": {
-                "total": 54100,
-                "fraud_count": 24058,
-                "legit_count": 30042,
-                "fraud_rate": 0.4447,
-                "legit_rate": 0.5553,
-                "edge_case_count": 797,
-                "edge_case_rate": 0.0147
-            },
-            "p99": "258.08ms",
-            "scoring": {
-                "breakdown": {
-                    "false_positive_detections": 5,
-                    "false_negative_detections": 3,
-                    "true_positive_detections": 21798,
-                    "true_negative_detections": 27246,
-                    "http_errors": 4919
-                },
-                "failure_rate": "9.13%",
-                "weighted_errors_E": 24609,
-                "error_rate_epsilon": 0.455967,
-                "p99_score": {
-                    "value": 588.25,
-                    "cut_triggered": false
-                },
-                "detection_score": {
-                    "value": -976.27,
-                    "rate_component": 341.07,
-                    "absolute_penalty": -1317.33,
-                    "cut_triggered": false
-                },
-                "final_score": -388.02
-            },
-            "repo_url": "https://github.com/peregrinno/heimdall",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5588",
-            "timestamp": "2026-05-19T20:55:03Z"
         },
         "red-hela-python": {
             "expected": {
