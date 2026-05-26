@@ -10878,17 +10878,17 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.81ms",
+            "p99": "2002.16ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 0,
                     "true_negative_detections": 0,
-                    "http_errors": 13966
+                    "http_errors": 13910
                 },
                 "failure_rate": "100%",
-                "weighted_errors_E": 69830,
+                "weighted_errors_E": 69550,
                 "error_rate_epsilon": 5,
                 "p99_score": {
                     "value": -3000,
@@ -10902,7 +10902,7 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.81443105,
+                    "p99_ms": 2002.16092197,
                     "failure_rate": 1,
                     "error_rate_epsilon": 5,
                     "p99_score": -3000,
@@ -10913,8 +10913,8 @@
                 }
             },
             "repo_url": "https://github.com/lucasschilin/rinha-de-backend-2026-fraud-detection-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6532",
-            "timestamp": "2026-05-25T09:48:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6765",
+            "timestamp": "2026-05-26T09:38:52Z"
         }
     },
     "muanlartins": {
