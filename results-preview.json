@@ -11100,20 +11100,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "91.21ms",
+            "p99": "86.76ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30115,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1039.97,
+                    "value": 1061.7,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11122,21 +11122,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4039.97,
+                "final_score": 4061.7,
                 "raw": {
-                    "p99_ms": 91.20714560000006,
+                    "p99_ms": 86.75665731,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 1039.971135650933,
+                    "p99_score": 1061.6971894815906,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 4039.9711356509333
+                    "final_score": 4061.6971894815906
                 }
             },
             "repo_url": "https://github.com/YohanToledo/rinha-backend-2026-c",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6572",
-            "timestamp": "2026-05-25T14:45:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6854",
+            "timestamp": "2026-05-26T22:15:27Z"
         }
     },
     "henrycunh": {
