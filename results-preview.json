@@ -10978,7 +10978,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "34.29ms",
+            "p99": "2.23ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -10991,7 +10991,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1464.88,
+                    "value": 2651.43,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11000,21 +11000,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4464.88,
+                "final_score": 5651.43,
                 "raw": {
-                    "p99_ms": 34.28657492,
+                    "p99_ms": 2.231378339999988,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 1464.8758968517711,
+                    "p99_score": 2651.426786935496,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 4464.875896851771
+                    "final_score": 5651.426786935495
                 }
             },
             "repo_url": "https://github.com/epicvinny/rinha-de-backend-2026-epicvinny",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6747",
-            "timestamp": "2026-05-26T05:34:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6748",
+            "timestamp": "2026-05-26T05:43:52Z"
         }
     },
     "ronicarvalho": {
