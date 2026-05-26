@@ -10928,20 +10928,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.59ms",
+            "p99": "1.71ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2797.35,
+                    "value": 2766.5,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10950,21 +10950,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5797.35,
+                "final_score": 5766.5,
                 "raw": {
-                    "p99_ms": 1.5946106799999995,
+                    "p99_ms": 1.71198451,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2797.345331519763,
+                    "p99_score": 2766.5001691284674,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5797.345331519763
+                    "final_score": 5766.500169128467
                 }
             },
             "repo_url": "https://github.com/muanlartins/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6627",
-            "timestamp": "2026-05-25T17:54:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6766",
+            "timestamp": "2026-05-26T09:41:51Z"
         }
     },
     "epicvinny": {
