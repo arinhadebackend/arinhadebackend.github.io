@@ -11128,20 +11128,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.43ms",
+            "p99": "1.28ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2843.62,
+                    "value": 2894.41,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11150,21 +11150,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5843.62,
+                "final_score": 5894.41,
                 "raw": {
-                    "p99_ms": 1.4334296,
+                    "p99_ms": 1.27523318,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2843.6236316901595,
+                    "p99_score": 2894.410395992313,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5843.6236316901595
+                    "final_score": 5894.410395992313
                 }
             },
             "repo_url": "https://github.com/BGLuis/rinha-backend-2026-go-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6624",
-            "timestamp": "2026-05-25T17:45:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6733",
+            "timestamp": "2026-05-26T03:57:44Z"
         }
     },
     "JaoConquista": {
