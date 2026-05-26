@@ -11178,18 +11178,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.07ms",
+            "p99": "2001.73ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 8,
-                    "true_negative_detections": 10,
-                    "http_errors": 13811
+                    "true_positive_detections": 87,
+                    "true_negative_detections": 85,
+                    "http_errors": 48755
                 },
-                "failure_rate": "99.87%",
-                "weighted_errors_E": 69055,
-                "error_rate_epsilon": 4.993492,
+                "failure_rate": "99.65%",
+                "weighted_errors_E": 243775,
+                "error_rate_epsilon": 4.982423,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -11202,9 +11202,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.0724852,
-                    "failure_rate": 0.99869838744667,
-                    "error_rate_epsilon": 4.99349193723335,
+                    "p99_ms": 2001.73130632,
+                    "failure_rate": 0.9964845586281603,
+                    "error_rate_epsilon": 4.982422793140802,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -11213,8 +11213,8 @@
                 }
             },
             "repo_url": "https://github.com/JaoConquista/rinha_de_backend_2026_node",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6518",
-            "timestamp": "2026-05-25T05:29:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6800",
+            "timestamp": "2026-05-26T14:58:37Z"
         }
     },
     "lealre": {
