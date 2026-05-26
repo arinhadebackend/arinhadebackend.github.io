@@ -11078,20 +11078,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "28.95ms",
+            "p99": "135.84ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_positive_detections": 23906,
+                    "true_negative_detections": 30083,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1538.33,
+                    "value": 866.97,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11100,21 +11100,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4538.33,
+                "final_score": 3866.97,
                 "raw": {
-                    "p99_ms": 28.951511659999987,
+                    "p99_ms": 135.83973332000005,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 1538.3287553059067,
+                    "p99_score": 866.9731797044077,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 4538.328755305907
+                    "final_score": 3866.973179704408
                 }
             },
             "repo_url": "https://github.com/leoferlopes/rinha-de-backend-2026-leoferlopes-cpp",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6695",
-            "timestamp": "2026-05-25T23:28:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6724",
+            "timestamp": "2026-05-26T02:37:48Z"
         }
     },
     "BGLuis": {
