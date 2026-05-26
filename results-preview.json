@@ -11930,5 +11930,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6804",
             "timestamp": "2026-05-26T15:44:14Z"
         }
+    },
+    "Davibto": {
+        "davibto-dotnet": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "2002.11ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 21,
+                    "false_negative_detections": 29,
+                    "true_positive_detections": 3277,
+                    "true_negative_detections": 4077,
+                    "http_errors": 13477
+                },
+                "failure_rate": "64.78%",
+                "weighted_errors_E": 67493,
+                "error_rate_epsilon": 3.232269,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2002.105562,
+                    "failure_rate": 0.647813802020976,
+                    "error_rate_epsilon": 3.2322685695129545,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
+            },
+            "repo_url": "https://github.com/davibto/rinha-de-backend-2026-davibto",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6868",
+            "timestamp": "2026-05-26T23:45:47Z"
+        }
     }
 }
