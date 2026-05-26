@@ -10130,20 +10130,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "174.74ms",
+            "p99": "175.65ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 7,
                     "false_negative_detections": 4,
-                    "true_positive_detections": 23902,
-                    "true_negative_detections": 30077,
+                    "true_positive_detections": 23906,
+                    "true_negative_detections": 30080,
                     "http_errors": 0
                 },
                 "failure_rate": "0.02%",
                 "weighted_errors_E": 19,
                 "error_rate_epsilon": 0.000352,
                 "p99_score": {
-                    "value": 757.6,
+                    "value": 755.35,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10152,21 +10152,21 @@
                     "absolute_penalty": -390.31,
                     "cut_triggered": false
                 },
-                "final_score": 3367.29,
+                "final_score": 3365.04,
                 "raw": {
-                    "p99_ms": 174.74401770999998,
-                    "failure_rate": 0.0002037414335988146,
-                    "error_rate_epsilon": 0.0003519170216706798,
-                    "p99_score": 757.5976832218099,
+                    "p99_ms": 175.65013968,
+                    "failure_rate": 0.00020371502120488175,
+                    "error_rate_epsilon": 0.00035187140026297757,
+                    "p99_score": 755.3515005134067,
                     "detection_score": 2609.6910013008055,
                     "rate_component": 3000,
                     "absolute_penalty": -390.3089986991943,
-                    "final_score": 3367.2886845226153
+                    "final_score": 3365.0425018142123
                 }
             },
             "repo_url": "https://github.com/RenanOfugi/rinha2026-deteccao-fraude-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6045",
-            "timestamp": "2026-05-24T16:05:12Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6817",
+            "timestamp": "2026-05-26T17:55:16Z"
         }
     },
     "TiagoAndreAlmeida": {
