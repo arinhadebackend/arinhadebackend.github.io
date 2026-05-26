@@ -6632,43 +6632,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2001.54ms",
+            "p99": "1.34ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 101,
-                    "true_negative_detections": 119,
-                    "http_errors": 53564
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
+                    "http_errors": 0
                 },
-                "failure_rate": "99.59%",
-                "weighted_errors_E": 267820,
-                "error_rate_epsilon": 4.979548,
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 2873.06,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
                 },
-                "final_score": -6000,
+                "final_score": 5873.06,
                 "raw": {
-                    "p99_ms": 2001.5408377200001,
-                    "failure_rate": 0.9959095641826565,
-                    "error_rate_epsilon": 4.979547820913282,
-                    "p99_score": -3000,
-                    "detection_score": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "final_score": -6000
+                    "p99_ms": 1.3394906999999978,
+                    "failure_rate": 0,
+                    "error_rate_epsilon": 0,
+                    "p99_score": 2873.0602973246814,
+                    "detection_score": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "final_score": 5873.060297324681
                 }
             },
             "repo_url": "https://github.com/gb/jvmoonshot-xxvi",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6752",
-            "timestamp": "2026-05-26T08:24:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6754",
+            "timestamp": "2026-05-26T08:52:56Z"
         }
     },
     "yanpitangui": {
