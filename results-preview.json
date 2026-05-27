@@ -1098,20 +1098,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "136.18ms",
+            "p99": "142.12ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 25,
                     "false_negative_detections": 2,
-                    "true_positive_detections": 23929,
-                    "true_negative_detections": 30085,
+                    "true_positive_detections": 23927,
+                    "true_negative_detections": 30080,
                     "http_errors": 0
                 },
                 "failure_rate": "0.05%",
                 "weighted_errors_E": 31,
                 "error_rate_epsilon": 0.000574,
                 "p99_score": {
-                    "value": 865.89,
+                    "value": 847.34,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1120,21 +1120,21 @@
                     "absolute_penalty": -451.54,
                     "cut_triggered": false
                 },
-                "final_score": 3414.34,
+                "final_score": 3395.79,
                 "raw": {
-                    "p99_ms": 136.17998979999987,
-                    "failure_rate": 0.000499620658389001,
-                    "error_rate_epsilon": 0.0005736385337058899,
-                    "p99_score": 865.8867026867105,
+                    "p99_ms": 142.12179525999994,
+                    "failure_rate": 0.0004996853832771958,
+                    "error_rate_epsilon": 0.0005737128474664101,
+                    "p99_score": 847.3393152089749,
                     "detection_score": 2548.455006504028,
                     "rate_component": 3000,
                     "absolute_penalty": -451.5449934959718,
-                    "final_score": 3414.3417091907386
+                    "final_score": 3395.794321713003
                 }
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6921",
-            "timestamp": "2026-05-27T11:55:37Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6923",
+            "timestamp": "2026-05-27T12:08:19Z"
         }
     },
     "klevercorrea": {
