@@ -10448,20 +10448,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "32.18ms",
+            "p99": "33.04ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1492.47,
+                    "value": 1481,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10470,21 +10470,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4492.47,
+                "final_score": 4481,
                 "raw": {
-                    "p99_ms": 32.17591753999998,
+                    "p99_ms": 33.03696270000001,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 1492.4690597498466,
+                    "p99_score": 1480.9998869952356,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 4492.469059749847
+                    "final_score": 4480.999886995236
                 }
             },
             "repo_url": "https://github.com/lucasgoveia/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6879",
-            "timestamp": "2026-05-27T00:44:47Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6934",
+            "timestamp": "2026-05-27T13:26:05Z"
         }
     },
     "gabrielfranh": {
