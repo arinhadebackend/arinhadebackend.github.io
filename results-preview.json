@@ -12228,5 +12228,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7003",
             "timestamp": "2026-05-27T19:46:06Z"
         }
+    },
+    "edurf-dev": {
+        "edurf-dev-rinha-backend-2026-zig": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "1.08ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
+                    "http_errors": 0
+                },
+                "failure_rate": "0%",
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
+                "p99_score": {
+                    "value": 2965.82,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 5965.82,
+                "raw": {
+                    "p99_ms": 1.0818867399999994,
+                    "failure_rate": 0,
+                    "error_rate_epsilon": 0,
+                    "p99_score": 2965.818202046108,
+                    "detection_score": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "final_score": 5965.818202046108
+                }
+            },
+            "repo_url": "https://github.com/edurf-dev/rinha-backend-2026-zig",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7008",
+            "timestamp": "2026-05-27T20:14:11Z"
+        }
     }
 }
