@@ -10748,20 +10748,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.93ms",
+            "p99": "0.97ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_negative_detections": 30115,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2715.09,
+                    "value": 3000,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10770,21 +10770,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5715.09,
+                "final_score": 6000,
                 "raw": {
-                    "p99_ms": 1.9271373999999961,
+                    "p99_ms": 0.9655906800000015,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2715.0873201475943,
+                    "p99_score": 3000,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5715.087320147594
+                    "final_score": 6000
                 }
             },
             "repo_url": "https://github.com/epicvinny/rinha-de-backend-2026-epicvinny",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6902",
-            "timestamp": "2026-05-27T03:49:58Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6911",
+            "timestamp": "2026-05-27T07:29:00Z"
         }
     },
     "ronicarvalho": {
