@@ -8147,6 +8147,54 @@
             "repo_url": "https://github.com/brunonunestx/backend-fight-api",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6787",
             "timestamp": "2026-05-26T13:13:00Z"
+        },
+        "brunonunestx-golang": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "167.18ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 501,
+                    "false_negative_detections": 768,
+                    "true_positive_detections": 23137,
+                    "true_negative_detections": 29578,
+                    "http_errors": 0
+                },
+                "failure_rate": "2.35%",
+                "weighted_errors_E": 2805,
+                "error_rate_epsilon": 0.05196,
+                "p99_score": {
+                    "value": 776.82,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 249.91,
+                    "rate_component": 1284.33,
+                    "absolute_penalty": -1034.43,
+                    "cut_triggered": false
+                },
+                "final_score": 1026.72,
+                "raw": {
+                    "p99_ms": 167.17890625999937,
+                    "failure_rate": 0.02350696502667457,
+                    "error_rate_epsilon": 0.051959839952578545,
+                    "p99_score": 776.8185203945923,
+                    "detection_score": 249.9058953091485,
+                    "rate_component": 1284.3321953168509,
+                    "absolute_penalty": -1034.4263000077024,
+                    "final_score": 1026.7244157037408
+                }
+            },
+            "repo_url": "https://github.com/brunonunestx/backend-fight-api-golang",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6888",
+            "timestamp": "2026-05-27T02:08:41Z"
         }
     },
     "paulohrpinheiro": {
