@@ -8108,43 +8108,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "47.74ms",
+            "p99": "64.58ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 501,
                     "false_negative_detections": 770,
                     "true_positive_detections": 23172,
-                    "true_negative_detections": 29615,
+                    "true_negative_detections": 29616,
                     "http_errors": 0
                 },
                 "failure_rate": "2.35%",
                 "weighted_errors_E": 2811,
-                "error_rate_epsilon": 0.052,
+                "error_rate_epsilon": 0.051999,
                 "p99_score": {
-                    "value": 1321.12,
+                    "value": 1189.93,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 249.29,
-                    "rate_component": 1284,
+                    "value": 249.3,
+                    "rate_component": 1284.01,
                     "absolute_penalty": -1034.7,
                     "cut_triggered": false
                 },
-                "final_score": 1570.42,
+                "final_score": 1439.23,
                 "raw": {
-                    "p99_ms": 47.73949999000002,
-                    "failure_rate": 0.023511783639794295,
-                    "error_rate_epsilon": 0.051999704021606426,
-                    "p99_score": 1321.1221339828267,
-                    "detection_score": 249.29453342526722,
-                    "rate_component": 1283.999128329603,
+                    "p99_ms": 64.57609178,
+                    "failure_rate": 0.02351134871159289,
+                    "error_rate_epsilon": 0.05199874211509647,
+                    "p99_score": 1189.928242529462,
+                    "detection_score": 249.30256721240357,
+                    "rate_component": 1284.0071621167394,
                     "absolute_penalty": -1034.7045949043359,
-                    "final_score": 1570.4166674080939
+                    "final_score": 1439.2308097418656
                 }
             },
             "repo_url": "https://github.com/brunonunestx/backend-fight-api-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6962",
-            "timestamp": "2026-05-27T15:59:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6969",
+            "timestamp": "2026-05-27T16:46:37Z"
         }
     },
     "paulohrpinheiro": {
