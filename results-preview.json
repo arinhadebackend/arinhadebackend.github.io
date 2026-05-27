@@ -1098,20 +1098,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "62.69ms",
+            "p99": "67.68ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 25,
                     "false_negative_detections": 2,
-                    "true_positive_detections": 23940,
-                    "true_negative_detections": 30092,
+                    "true_positive_detections": 23938,
+                    "true_negative_detections": 30087,
                     "http_errors": 0
                 },
                 "failure_rate": "0.05%",
                 "weighted_errors_E": 31,
-                "error_rate_epsilon": 0.000573,
+                "error_rate_epsilon": 0.000574,
                 "p99_score": {
-                    "value": 1202.79,
+                    "value": 1169.55,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -1120,21 +1120,21 @@
                     "absolute_penalty": -451.54,
                     "cut_triggered": false
                 },
-                "final_score": 3751.24,
+                "final_score": 3718,
                 "raw": {
-                    "p99_ms": 62.69194051999996,
-                    "failure_rate": 0.0004994542999315562,
-                    "error_rate_epsilon": 0.0005734475295510461,
-                    "p99_score": 1202.7882871225208,
+                    "p99_ms": 67.67841668999993,
+                    "failure_rate": 0.0004995189817213054,
+                    "error_rate_epsilon": 0.0005735217938281654,
+                    "p99_score": 1169.5498099991664,
                     "detection_score": 2548.455006504028,
                     "rate_component": 3000,
                     "absolute_penalty": -451.5449934959718,
-                    "final_score": 3751.2432936265486
+                    "final_score": 3718.0048165031944
                 }
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6931",
-            "timestamp": "2026-05-27T13:10:09Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6932",
+            "timestamp": "2026-05-27T13:23:26Z"
         }
     },
     "klevercorrea": {
