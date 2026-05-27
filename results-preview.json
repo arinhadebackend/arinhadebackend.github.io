@@ -3105,7 +3105,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2879.42,
+                    "value": 2880.41,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -3114,21 +3114,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5879.42,
+                "final_score": 5880.41,
                 "raw": {
-                    "p99_ms": 1.320030979999999,
+                    "p99_ms": 1.3170192999999986,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2879.4158761538733,
+                    "p99_score": 2880.407860708615,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5879.415876153873
+                    "final_score": 5880.407860708615
                 }
             },
             "repo_url": "https://github.com/pedrosakuma/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6845",
-            "timestamp": "2026-05-26T20:35:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6872",
+            "timestamp": "2026-05-27T00:03:42Z"
         },
         "pedrosakuma-gpu-bruteforce": {
             "expected": {
