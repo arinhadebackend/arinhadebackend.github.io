@@ -7660,7 +7660,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "33.32ms",
+            "p99": "31.98ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 637,
@@ -7673,7 +7673,7 @@
                 "weighted_errors_E": 1846,
                 "error_rate_epsilon": 0.034148,
                 "p99_score": {
-                    "value": 1477.29,
+                    "value": 1495.16,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -7682,21 +7682,21 @@
                     "absolute_penalty": -979.94,
                     "cut_triggered": false
                 },
-                "final_score": 1963.99,
+                "final_score": 1981.86,
                 "raw": {
-                    "p99_ms": 33.32032521999999,
+                    "p99_ms": 31.977199499999983,
                     "failure_rate": 0.01923823970106735,
                     "error_rate_epsilon": 0.03414787546939455,
-                    "p99_score": 1477.2907683528217,
+                    "p99_score": 1495.1595735776841,
                     "detection_score": 486.6962424022146,
                     "rate_component": 1466.636311034287,
                     "absolute_penalty": -979.9400686320724,
-                    "final_score": 1963.9870107550364
+                    "final_score": 1981.8558159798986
                 }
             },
             "repo_url": "https://github.com/josinaldojr/anti-fraudeiro",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4617",
-            "timestamp": "2026-05-23T23:31:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6889",
+            "timestamp": "2026-05-27T02:23:30Z"
         }
     },
     "jaoppb": {
