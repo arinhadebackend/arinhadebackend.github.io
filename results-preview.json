@@ -804,20 +804,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.42ms",
+            "p99": "1.41ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2847.92,
+                    "value": 2850.42,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -826,21 +826,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5847.92,
+                "final_score": 5850.42,
                 "raw": {
-                    "p99_ms": 1.4193253999999997,
+                    "p99_ms": 1.4111788800000002,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2847.918025103868,
+                    "p99_score": 2850.4179319062,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5847.918025103868
+                    "final_score": 5850.4179319062005
                 }
             },
             "repo_url": "https://github.com/fabianoflorentino/fraudctl",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6860",
-            "timestamp": "2026-05-26T23:16:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6942",
+            "timestamp": "2026-05-27T14:29:22Z"
         }
     },
     "cleissonbarbosa": {
