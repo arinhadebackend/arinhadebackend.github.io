@@ -11790,18 +11790,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.08ms",
+            "p99": "2002.04ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 12,
-                    "true_negative_detections": 15,
-                    "http_errors": 13802
+                    "true_positive_detections": 60,
+                    "true_negative_detections": 63,
+                    "http_errors": 13707
                 },
-                "failure_rate": "99.8%",
-                "weighted_errors_E": 69010,
-                "error_rate_epsilon": 4.990238,
+                "failure_rate": "99.11%",
+                "weighted_errors_E": 68535,
+                "error_rate_epsilon": 4.955531,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -11814,9 +11814,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.080756,
-                    "failure_rate": 0.998047581170005,
-                    "error_rate_epsilon": 4.990237905850026,
+                    "p99_ms": 2002.03613623,
+                    "failure_rate": 0.9911062906724512,
+                    "error_rate_epsilon": 4.955531453362256,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -11825,8 +11825,8 @@
                 }
             },
             "repo_url": "https://github.com/molBR/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6968",
-            "timestamp": "2026-05-27T16:32:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6998",
+            "timestamp": "2026-05-27T19:15:47Z"
         }
     },
     "Pongelupe": {
