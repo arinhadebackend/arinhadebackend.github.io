@@ -9900,20 +9900,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "174.29ms",
+            "p99": "175.7ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23905,
-                    "true_negative_detections": 30082,
+                    "true_positive_detections": 23907,
+                    "true_negative_detections": 30084,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 758.74,
+                    "value": 755.24,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -9922,21 +9922,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3758.74,
+                "final_score": 3755.24,
                 "raw": {
-                    "p99_ms": 174.28589854,
+                    "p99_ms": 175.69620989999993,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 758.7377502050489,
+                    "p99_score": 755.2376069581463,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 3758.737750205049
+                    "final_score": 3755.2376069581464
                 }
             },
             "repo_url": "https://github.com/RenanOfugi/rinha2026-deteccao-fraude-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7010",
-            "timestamp": "2026-05-27T20:34:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7028",
+            "timestamp": "2026-05-27T23:17:44Z"
         }
     },
     "TiagoAndreAlmeida": {
