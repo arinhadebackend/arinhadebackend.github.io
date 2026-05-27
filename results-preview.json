@@ -12028,5 +12028,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6868",
             "timestamp": "2026-05-26T23:45:47Z"
         }
+    },
+    "lucasmolinari": {
+        "lucasmolinari-rust": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "87.03ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 422,
+                    "false_negative_detections": 102,
+                    "true_positive_detections": 23840,
+                    "true_negative_detections": 29695,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.97%",
+                "weighted_errors_E": 728,
+                "error_rate_epsilon": 0.013467,
+                "p99_score": {
+                    "value": 1060.35,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1011.92,
+                    "rate_component": 1870.74,
+                    "absolute_penalty": -858.82,
+                    "cut_triggered": false
+                },
+                "final_score": 2072.26,
+                "raw": {
+                    "p99_ms": 87.02719167999977,
+                    "failure_rate": 0.009693113080153167,
+                    "error_rate_epsilon": 0.013466767790747146,
+                    "p99_score": 1060.3450306975726,
+                    "detection_score": 1011.9183699157506,
+                    "rate_component": 1870.736628411143,
+                    "absolute_penalty": -858.8182584953925,
+                    "final_score": 2072.263400613323
+                }
+            },
+            "repo_url": "https://github.com/lucasmolinari/rbe26",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6916",
+            "timestamp": "2026-05-27T11:17:53Z"
+        }
     }
 }
