@@ -12388,18 +12388,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2003.28ms",
+            "p99": "2002.04ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 19,
-                    "true_negative_detections": 22,
-                    "http_errors": 13788
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 37,
+                    "true_negative_detections": 40,
+                    "http_errors": 13749
                 },
-                "failure_rate": "99.7%",
-                "weighted_errors_E": 68940,
-                "error_rate_epsilon": 4.985176,
+                "failure_rate": "99.44%",
+                "weighted_errors_E": 68748,
+                "error_rate_epsilon": 4.972011,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -12412,9 +12412,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2003.2776593600001,
-                    "failure_rate": 0.9970352158507484,
-                    "error_rate_epsilon": 4.985176079253742,
+                    "p99_ms": 2002.03501118,
+                    "failure_rate": 0.994431185361973,
+                    "error_rate_epsilon": 4.9720112822738125,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -12423,8 +12423,8 @@
                 }
             },
             "repo_url": "https://github.com/nathanfabio/fraud-detector",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7177",
-            "timestamp": "2026-05-28T20:52:45Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7193",
+            "timestamp": "2026-05-28T22:56:32Z"
         }
     },
     "joaogabrielgs1": {
