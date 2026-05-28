@@ -6716,7 +6716,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.04ms",
+            "p99": "0.4ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -6729,7 +6729,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2983.92,
+                    "value": 3000,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -6738,21 +6738,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5983.92,
+                "final_score": 6000,
                 "raw": {
-                    "p99_ms": 1.0377252999999993,
+                    "p99_ms": 0.39753251999999945,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2983.9175949298,
+                    "p99_score": 3000,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5983.9175949298005
+                    "final_score": 6000
                 }
             },
             "repo_url": "https://github.com/dalvorsn/cpp-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6679",
-            "timestamp": "2026-05-25T22:12:15Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7069",
+            "timestamp": "2026-05-28T07:55:24Z"
         }
     },
     "viniciusfonseca": {
