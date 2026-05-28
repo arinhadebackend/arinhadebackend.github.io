@@ -10098,20 +10098,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "529.87ms",
+            "p99": "11.33ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23831,
-                    "true_negative_detections": 29990,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 275.83,
+                    "value": 1945.68,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10120,21 +10120,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3275.83,
+                "final_score": 4945.68,
                 "raw": {
-                    "p99_ms": 529.8735540000002,
+                    "p99_ms": 11.332230159999984,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 275.82775559131414,
+                    "p99_score": 1945.684613448912,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 3275.827755591314
+                    "final_score": 4945.6846134489115
                 }
             },
             "repo_url": "https://github.com/JorgeEduardoZanin/rinha-backend-quarkus-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7145",
-            "timestamp": "2026-05-28T18:06:35Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7147",
+            "timestamp": "2026-05-28T18:26:08Z"
         }
     },
     "SrPatoS": {
