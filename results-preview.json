@@ -12388,18 +12388,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.87ms",
+            "p99": "2002.22ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 22,
-                    "true_negative_detections": 26,
-                    "http_errors": 13781
+                    "true_positive_detections": 33,
+                    "true_negative_detections": 39,
+                    "http_errors": 13757
                 },
-                "failure_rate": "99.65%",
-                "weighted_errors_E": 68905,
-                "error_rate_epsilon": 4.982645,
+                "failure_rate": "99.48%",
+                "weighted_errors_E": 68785,
+                "error_rate_epsilon": 4.973968,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -12412,9 +12412,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.866339,
-                    "failure_rate": 0.9965290331911201,
-                    "error_rate_epsilon": 4.9826451659556,
+                    "p99_ms": 2002.21952376,
+                    "failure_rate": 0.9947935497866802,
+                    "error_rate_epsilon": 4.973967748933401,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -12423,8 +12423,8 @@
                 }
             },
             "repo_url": "https://github.com/nathanfabio/fraud-detector",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7111",
-            "timestamp": "2026-05-28T14:29:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7133",
+            "timestamp": "2026-05-28T17:00:08Z"
         }
     }
 }
