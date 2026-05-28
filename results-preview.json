@@ -12476,5 +12476,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7183",
             "timestamp": "2026-05-28T21:33:42Z"
         }
+    },
+    "ricassiocosta": {
+        "ricassiocosta-bun": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "23.76ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 6,
+                    "false_negative_detections": 545,
+                    "true_positive_detections": 23397,
+                    "true_negative_detections": 30111,
+                    "http_errors": 0
+                },
+                "failure_rate": "1.02%",
+                "weighted_errors_E": 1641,
+                "error_rate_epsilon": 0.030356,
+                "p99_score": {
+                    "value": 1624.16,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 553.15,
+                    "rate_component": 1517.76,
+                    "absolute_penalty": -964.61,
+                    "cut_triggered": false
+                },
+                "final_score": 2177.31,
+                "raw": {
+                    "p99_ms": 23.759521939999917,
+                    "failure_rate": 0.010192567380084722,
+                    "error_rate_epsilon": 0.030355722451395697,
+                    "p99_score": 1624.16230194458,
+                    "detection_score": 553.1474808360603,
+                    "rate_component": 1517.7594266710869,
+                    "absolute_penalty": -964.6119458350266,
+                    "final_score": 2177.30978278064
+                }
+            },
+            "repo_url": "https://github.com/ricassiocosta/rinha-de-backend-2026-bun",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7194",
+            "timestamp": "2026-05-28T23:00:05Z"
+        }
     }
 }
