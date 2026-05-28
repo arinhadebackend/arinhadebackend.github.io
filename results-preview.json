@@ -11988,20 +11988,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "911.43ms",
+            "p99": "790.64ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 1,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 14865,
-                    "true_negative_detections": 18718,
+                    "true_positive_detections": 16193,
+                    "true_negative_detections": 20332,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 1,
-                "error_rate_epsilon": 0.00003,
+                "error_rate_epsilon": 0.000027,
                 "p99_score": {
-                    "value": 40.28,
+                    "value": 102.02,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -12010,21 +12010,21 @@
                     "absolute_penalty": -90.31,
                     "cut_triggered": false
                 },
-                "final_score": 2949.97,
+                "final_score": 3011.71,
                 "raw": {
-                    "p99_ms": 911.4276526099999,
-                    "failure_rate": 0.00002977608384945212,
-                    "error_rate_epsilon": 0.00002977608384945212,
-                    "p99_score": 40.27779910912214,
+                    "p99_ms": 790.6364825,
+                    "failure_rate": 0.000027377758309149647,
+                    "error_rate_epsilon": 0.000027377758309149647,
+                    "p99_score": 102.02314979208622,
                     "detection_score": 2909.6910013008055,
                     "rate_component": 3000,
                     "absolute_penalty": -90.30899869919436,
-                    "final_score": 2949.9688004099276
+                    "final_score": 3011.714151092892
                 }
             },
             "repo_url": "https://github.com/lucasmolinari/rbe26",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6988",
-            "timestamp": "2026-05-27T18:29:41Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7095",
+            "timestamp": "2026-05-28T13:10:50Z"
         }
     },
     "sandrosmarzaro": {
