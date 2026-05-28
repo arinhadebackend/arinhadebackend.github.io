@@ -12228,5 +12228,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7003",
             "timestamp": "2026-05-27T19:46:06Z"
         }
+    },
+    "LudGalvao": {
+        "LudGalvao": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "148.74ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 428,
+                    "false_negative_detections": 777,
+                    "true_positive_detections": 23156,
+                    "true_negative_detections": 29683,
+                    "http_errors": 0
+                },
+                "failure_rate": "2.23%",
+                "weighted_errors_E": 2759,
+                "error_rate_epsilon": 0.051051,
+                "p99_score": {
+                    "value": 827.56,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 259.72,
+                    "rate_component": 1292,
+                    "absolute_penalty": -1032.27,
+                    "cut_triggered": false
+                },
+                "final_score": 1087.28,
+                "raw": {
+                    "p99_ms": 148.7441089,
+                    "failure_rate": 0.022296647176374806,
+                    "error_rate_epsilon": 0.05105099548516024,
+                    "p99_score": 827.5602257532722,
+                    "detection_score": 259.7230602112438,
+                    "rate_component": 1291.995784830809,
+                    "absolute_penalty": -1032.2727246195652,
+                    "final_score": 1087.283285964516
+                }
+            },
+            "repo_url": "https://github.com/LudGalvao/rinha-java",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7052",
+            "timestamp": "2026-05-28T02:51:30Z"
+        }
     }
 }
