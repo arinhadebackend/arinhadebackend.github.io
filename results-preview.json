@@ -11740,7 +11740,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "78.54ms",
+            "p99": "80.96ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 401,
@@ -11753,7 +11753,7 @@
                 "weighted_errors_E": 1205,
                 "error_rate_epsilon": 0.022291,
                 "p99_score": {
-                    "value": 1104.89,
+                    "value": 1091.75,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11762,21 +11762,21 @@
                     "absolute_penalty": -924.4,
                     "cut_triggered": false
                 },
-                "final_score": 1832.36,
+                "final_score": 1819.22,
                 "raw": {
-                    "p99_ms": 78.54339514000002,
+                    "p99_ms": 80.95601444,
                     "failure_rate": 0.012375596581449554,
                     "error_rate_epsilon": 0.02229087276628806,
-                    "p99_score": 1104.8903297182812,
+                    "p99_score": 1091.750880807165,
                     "detection_score": 727.4687346849167,
                     "rate_component": 1651.8729270261565,
                     "absolute_penalty": -924.4041923412398,
-                    "final_score": 1832.3590644031979
+                    "final_score": 1819.2196154920816
                 }
             },
             "repo_url": "https://github.com/fagnerm/FMLab.RinhaDeBackend.DeteccaoDeFraude.Dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7163",
-            "timestamp": "2026-05-28T19:14:25Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7204",
+            "timestamp": "2026-05-28T23:56:10Z"
         }
     },
     "molBR": {
