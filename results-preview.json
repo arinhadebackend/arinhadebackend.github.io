@@ -12326,5 +12326,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7052",
             "timestamp": "2026-05-28T02:51:30Z"
         }
+    },
+    "razevedo1994": {
+        "azevedo-python-v1": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "890.45ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 23,
+                    "false_negative_detections": 7,
+                    "true_positive_detections": 18197,
+                    "true_negative_detections": 22896,
+                    "http_errors": 0
+                },
+                "failure_rate": "0.07%",
+                "weighted_errors_E": 44,
+                "error_rate_epsilon": 0.00107,
+                "p99_score": {
+                    "value": 50.39,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2474.67,
+                    "rate_component": 2970.63,
+                    "absolute_penalty": -495.96,
+                    "cut_triggered": false
+                },
+                "final_score": 2525.06,
+                "raw": {
+                    "p99_ms": 890.4503887599998,
+                    "failure_rate": 0.0007295187607907984,
+                    "error_rate_epsilon": 0.0010699608491598375,
+                    "p99_score": 50.390272144559624,
+                    "detection_score": 2474.668359121363,
+                    "rate_component": 2970.6321132539665,
+                    "absolute_penalty": -495.96375413260307,
+                    "final_score": 2525.058631265923
+                }
+            },
+            "repo_url": "https://github.com/razevedo1994/rinha-backend-2026-python",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7081",
+            "timestamp": "2026-05-28T11:52:11Z"
+        }
     }
 }
