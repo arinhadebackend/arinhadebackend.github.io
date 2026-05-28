@@ -5026,18 +5026,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.22ms",
+            "p99": "2002.17ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 5,
-                    "true_negative_detections": 7,
-                    "http_errors": 13816
+                    "true_positive_detections": 265,
+                    "true_negative_detections": 386,
+                    "http_errors": 13184
                 },
-                "failure_rate": "99.91%",
-                "weighted_errors_E": 69080,
-                "error_rate_epsilon": 4.995661,
+                "failure_rate": "95.29%",
+                "weighted_errors_E": 65920,
+                "error_rate_epsilon": 4.764727,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -5050,9 +5050,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.21504281,
-                    "failure_rate": 0.9991321955452704,
-                    "error_rate_epsilon": 4.995660977726352,
+                    "p99_ms": 2002.17340374,
+                    "failure_rate": 0.9529454282616552,
+                    "error_rate_epsilon": 4.764727141308276,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -5061,8 +5061,8 @@
                 }
             },
             "repo_url": "https://github.com/KaueFSoares/rinha-de-backend-2026-java-quarkus",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5489",
-            "timestamp": "2026-05-24T01:29:07Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7057",
+            "timestamp": "2026-05-28T03:45:26Z"
         }
     },
     "vitormd": {
