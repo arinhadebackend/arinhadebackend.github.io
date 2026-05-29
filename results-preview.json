@@ -12138,20 +12138,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.15ms",
+            "p99": "1.11ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2937.8,
+                    "value": 2953.41,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -12160,21 +12160,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5937.8,
+                "final_score": 5953.41,
                 "raw": {
-                    "p99_ms": 1.1539875799999988,
+                    "p99_ms": 1.1132533500000001,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2937.7988653280277,
+                    "p99_score": 2953.405989316591,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5937.798865328028
+                    "final_score": 5953.40598931659
                 }
             },
             "repo_url": "https://github.com/epicvinny/rinha-de-backend-2026-epicvinny",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7296",
-            "timestamp": "2026-05-29T22:20:25Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7299",
+            "timestamp": "2026-05-29T22:33:47Z"
         }
     },
     "gustinoco": {
