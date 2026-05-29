@@ -11592,18 +11592,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2003.27ms",
+            "p99": "2003.37ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 153,
-                    "true_negative_detections": 369,
-                    "http_errors": 13317
+                    "true_positive_detections": 171,
+                    "true_negative_detections": 412,
+                    "http_errors": 13260
                 },
-                "failure_rate": "96.23%",
-                "weighted_errors_E": 66585,
-                "error_rate_epsilon": 4.811403,
+                "failure_rate": "95.79%",
+                "weighted_errors_E": 66300,
+                "error_rate_epsilon": 4.789424,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -11616,9 +11616,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2003.2669415,
-                    "failure_rate": 0.9622805115976588,
-                    "error_rate_epsilon": 4.811402557988294,
+                    "p99_ms": 2003.3657691199999,
+                    "failure_rate": 0.9578848515495196,
+                    "error_rate_epsilon": 4.789424257747598,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -11627,8 +11627,8 @@
                 }
             },
             "repo_url": "https://github.com/santo-ti/santo-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7215",
-            "timestamp": "2026-05-29T02:05:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7219",
+            "timestamp": "2026-05-29T02:44:37Z"
         }
     },
     "marcioomonte": {
