@@ -10596,20 +10596,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.13ms",
+            "p99": "0.45ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30116,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2948.45,
+                    "value": 3000,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10618,21 +10618,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5948.45,
+                "final_score": 6000,
                 "raw": {
-                    "p99_ms": 1.1260429900000002,
+                    "p99_ms": 0.4516545399999995,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2948.4450287001473,
+                    "p99_score": 3000,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5948.445028700147
+                    "final_score": 6000
                 }
             },
             "repo_url": "https://github.com/sl4ureano/rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7178",
-            "timestamp": "2026-05-28T20:55:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7223",
+            "timestamp": "2026-05-29T03:06:02Z"
         }
     },
     "lucasschilin": {
