@@ -10396,43 +10396,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "53.29ms",
+            "p99": "161.07ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 60,
                     "false_negative_detections": 1,
-                    "true_positive_detections": 23941,
-                    "true_negative_detections": 30056,
+                    "true_positive_detections": 23940,
+                    "true_negative_detections": 30054,
                     "http_errors": 0
                 },
                 "failure_rate": "0.11%",
                 "weighted_errors_E": 63,
                 "error_rate_epsilon": 0.001165,
                 "p99_score": {
-                    "value": 1273.35,
+                    "value": 792.99,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2391.67,
-                    "rate_component": 2933.52,
+                    "value": 2391.64,
+                    "rate_component": 2933.5,
                     "absolute_penalty": -541.85,
                     "cut_triggered": false
                 },
-                "final_score": 3665.02,
+                "final_score": 3184.63,
                 "raw": {
-                    "p99_ms": 53.29018904,
-                    "failure_rate": 0.0011284176255133376,
-                    "error_rate_epsilon": 0.0011654149247104961,
-                    "p99_score": 1273.3527391532853,
-                    "detection_score": 2391.665432288296,
-                    "rate_component": 2933.519424483462,
+                    "p99_ms": 161.06890324,
+                    "failure_rate": 0.001128480251595597,
+                    "error_rate_epsilon": 0.0011654796041069282,
+                    "p99_score": 792.9882985309673,
+                    "detection_score": 2391.6413300351714,
+                    "rate_component": 2933.4953222303375,
                     "absolute_penalty": -541.8539921951661,
-                    "final_score": 3665.018171441581
+                    "final_score": 3184.6296285661388
                 }
             },
             "repo_url": "https://github.com/fernandosutter/Rinha-2026-Sutter",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6267",
-            "timestamp": "2026-05-24T18:47:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7282",
+            "timestamp": "2026-05-29T21:14:14Z"
         }
     },
     "lucasgoveia": {
