@@ -10098,20 +10098,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "121.61ms",
+            "p99": "7.21ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30115,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 915.02,
+                    "value": 2142.04,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10120,21 +10120,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3915.02,
+                "final_score": 5142.04,
                 "raw": {
-                    "p99_ms": 121.61303708000064,
+                    "p99_ms": 7.210450419999998,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 915.0198656191208,
+                    "p99_score": 2142.037605071055,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 3915.0198656191205
+                    "final_score": 5142.037605071055
                 }
             },
             "repo_url": "https://github.com/JorgeEduardoZanin/rinha-backend-quarkus-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7155",
-            "timestamp": "2026-05-28T18:40:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7246",
+            "timestamp": "2026-05-29T19:51:46Z"
         }
     },
     "SrPatoS": {
