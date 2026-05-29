@@ -2892,7 +2892,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.33ms",
+            "p99": "1.31ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -2905,7 +2905,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2875.27,
+                    "value": 2881.4,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -2914,21 +2914,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5875.27,
+                "final_score": 5881.4,
                 "raw": {
-                    "p99_ms": 1.3326852799999962,
+                    "p99_ms": 1.314026539999999,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 2875.272399196066,
+                    "p99_score": 2881.395863041726,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 5875.2723991960665
+                    "final_score": 5881.3958630417255
                 }
             },
             "repo_url": "https://github.com/joycegodinho/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7298",
-            "timestamp": "2026-05-29T22:30:27Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7306",
+            "timestamp": "2026-05-29T22:55:11Z"
         }
     },
     "LuanMonteiro": {
