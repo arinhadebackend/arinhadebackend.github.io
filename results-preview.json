@@ -10896,18 +10896,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2001.77ms",
+            "p99": "2001.71ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 78,
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 68,
                     "true_negative_detections": 90,
-                    "http_errors": 47869
+                    "http_errors": 49642
                 },
-                "failure_rate": "99.65%",
-                "weighted_errors_E": 239348,
-                "error_rate_epsilon": 4.982472,
+                "failure_rate": "99.68%",
+                "weighted_errors_E": 248211,
+                "error_rate_epsilon": 4.984057,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -10920,9 +10920,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2001.7701839200001,
-                    "failure_rate": 0.9965027686414921,
-                    "error_rate_epsilon": 4.982472209500812,
+                    "p99_ms": 2001.71358,
+                    "failure_rate": 0.9968273729443183,
+                    "error_rate_epsilon": 4.984056545049296,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -10931,8 +10931,8 @@
                 }
             },
             "repo_url": "https://github.com/JaoConquista/rinha_de_backend_2026_node",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7222",
-            "timestamp": "2026-05-29T02:55:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7225",
+            "timestamp": "2026-05-29T03:22:04Z"
         }
     },
     "lealre": {
