@@ -9748,43 +9748,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "28.12ms",
+            "p99": "40.53ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 11,
-                    "false_negative_detections": 2,
-                    "true_positive_detections": 23939,
-                    "true_negative_detections": 30106,
+                    "false_positive_detections": 3,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 23940,
+                    "true_negative_detections": 30113,
                     "http_errors": 1
                 },
-                "failure_rate": "0.03%",
-                "weighted_errors_E": 22,
-                "error_rate_epsilon": 0.000407,
+                "failure_rate": "0.01%",
+                "weighted_errors_E": 11,
+                "error_rate_epsilon": 0.000203,
                 "p99_score": {
-                    "value": 1550.97,
+                    "value": 1392.2,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2591.48,
+                    "value": 2676.25,
                     "rate_component": 3000,
-                    "absolute_penalty": -408.52,
+                    "absolute_penalty": -323.75,
                     "cut_triggered": false
                 },
-                "final_score": 4142.45,
+                "final_score": 4068.45,
                 "raw": {
-                    "p99_ms": 28.120956019999948,
-                    "failure_rate": 0.00025897630366821434,
-                    "error_rate_epsilon": 0.000406962762907194,
-                    "p99_score": 1550.9699188174743,
-                    "detection_score": 2591.481649194722,
+                    "p99_ms": 40.53196613000001,
+                    "failure_rate": 0.00009249324799289652,
+                    "error_rate_epsilon": 0.00020348514558437235,
+                    "p99_score": 1392.2023289328858,
+                    "detection_score": 2676.2456261857124,
                     "rate_component": 3000,
-                    "absolute_penalty": -408.51835080527786,
-                    "final_score": 4142.451568012197
+                    "absolute_penalty": -323.7543738142875,
+                    "final_score": 4068.447955118598
                 }
             },
             "repo_url": "https://github.com/alexoliveiramartins/fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7330",
-            "timestamp": "2026-05-30T00:19:35Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7410",
+            "timestamp": "2026-05-30T14:10:56Z"
         }
     },
     "morais15": {
