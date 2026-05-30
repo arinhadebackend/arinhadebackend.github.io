@@ -12674,5 +12674,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7277",
             "timestamp": "2026-05-29T21:05:01Z"
         }
+    },
+    "luizbrandao13": {
+        "go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "2003.64ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 79,
+                    "true_negative_detections": 115,
+                    "http_errors": 13636
+                },
+                "failure_rate": "98.6%",
+                "weighted_errors_E": 68180,
+                "error_rate_epsilon": 4.929863,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2003.6446498,
+                    "failure_rate": 0.9859725234996385,
+                    "error_rate_epsilon": 4.929862617498192,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
+            },
+            "repo_url": "https://github.com/luizbrandao13/rinha-de-backend-20266-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7290",
+            "timestamp": "2026-05-30T00:50:33Z"
+        }
     }
 }
