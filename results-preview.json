@@ -10620,7 +10620,7 @@
                 },
                 "final_score": 6000,
                 "raw": {
-                    "p99_ms": 0.47073691999999984,
+                    "p99_ms": 0.46780295999999993,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
                     "p99_score": 3000,
@@ -10631,8 +10631,8 @@
                 }
             },
             "repo_url": "https://github.com/sl4ureano/rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7318",
-            "timestamp": "2026-05-29T23:37:38Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7326",
+            "timestamp": "2026-05-30T00:08:48Z"
         }
     },
     "lucasschilin": {
