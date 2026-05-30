@@ -5174,43 +5174,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "4.33ms",
+            "p99": "371.45ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 9,
-                    "false_negative_detections": 8,
-                    "true_positive_detections": 23934,
-                    "true_negative_detections": 30108,
+                    "false_positive_detections": 2,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23509,
+                    "true_negative_detections": 29515,
                     "http_errors": 0
                 },
-                "failure_rate": "0.03%",
-                "weighted_errors_E": 33,
-                "error_rate_epsilon": 0.00061,
+                "failure_rate": "0%",
+                "weighted_errors_E": 2,
+                "error_rate_epsilon": 0.000038,
                 "p99_score": {
-                    "value": 2363.9,
+                    "value": 430.1,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2540.56,
+                    "value": 2856.86,
                     "rate_component": 3000,
-                    "absolute_penalty": -459.44,
+                    "absolute_penalty": -143.14,
                     "cut_triggered": false
                 },
-                "final_score": 4904.46,
+                "final_score": 3286.96,
                 "raw": {
-                    "p99_ms": 4.326107159999963,
-                    "failure_rate": 0.00031447122588283173,
-                    "error_rate_epsilon": 0.000610444144360791,
-                    "p99_score": 2363.9027270559054,
-                    "detection_score": 2540.5563248873236,
+                    "p99_ms": 371.45192425,
+                    "failure_rate": 0.00003771734620752084,
+                    "error_rate_epsilon": 0.00003771734620752084,
+                    "p99_score": 430.0973875131796,
+                    "detection_score": 2856.8636235841013,
                     "rate_component": 3000,
-                    "absolute_penalty": -459.44367511267654,
-                    "final_score": 4904.4590519432295
+                    "absolute_penalty": -143.13637641589872,
+                    "final_score": 3286.961011097281
                 }
             },
             "repo_url": "https://github.com/maxsonferovante/rust-fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6168",
-            "timestamp": "2026-05-24T17:04:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7339",
+            "timestamp": "2026-05-30T00:58:36Z"
         }
     },
     "Josehbr": {
