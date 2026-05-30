@@ -9398,7 +9398,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "37.06ms",
+            "p99": "13.33ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -9411,7 +9411,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1431.14,
+                    "value": 1875.15,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -9420,21 +9420,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4431.14,
+                "final_score": 4875.15,
                 "raw": {
-                    "p99_ms": 37.05616052,
+                    "p99_ms": 13.33051805999998,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 1431.1395810063136,
+                    "p99_score": 1875.1529723995423,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 4431.139581006313
+                    "final_score": 4875.152972399543
                 }
             },
             "repo_url": "https://github.com/arthurd3/fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6421",
-            "timestamp": "2026-05-24T21:47:41Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7343",
+            "timestamp": "2026-05-30T01:08:33Z"
         }
     },
     "Cirilord": {
