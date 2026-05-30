@@ -9748,20 +9748,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "40.53ms",
+            "p99": "46.42ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 3,
                     "false_negative_detections": 1,
                     "true_positive_detections": 23940,
-                    "true_negative_detections": 30113,
+                    "true_negative_detections": 30114,
                     "http_errors": 1
                 },
                 "failure_rate": "0.01%",
                 "weighted_errors_E": 11,
                 "error_rate_epsilon": 0.000203,
                 "p99_score": {
-                    "value": 1392.2,
+                    "value": 1333.31,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -9770,21 +9770,21 @@
                     "absolute_penalty": -323.75,
                     "cut_triggered": false
                 },
-                "final_score": 4068.45,
+                "final_score": 4009.56,
                 "raw": {
-                    "p99_ms": 40.53196613000001,
-                    "failure_rate": 0.00009249324799289652,
-                    "error_rate_epsilon": 0.00020348514558437235,
-                    "p99_score": 1392.2023289328858,
+                    "p99_ms": 46.41833005999986,
+                    "failure_rate": 0.00009249153702436227,
+                    "error_rate_epsilon": 0.000203481381453597,
+                    "p99_score": 1333.3104877226838,
                     "detection_score": 2676.2456261857124,
                     "rate_component": 3000,
                     "absolute_penalty": -323.7543738142875,
-                    "final_score": 4068.447955118598
+                    "final_score": 4009.556113908396
                 }
             },
             "repo_url": "https://github.com/alexoliveiramartins/fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7410",
-            "timestamp": "2026-05-30T14:10:56Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7416",
+            "timestamp": "2026-05-30T15:17:58Z"
         }
     },
     "morais15": {
