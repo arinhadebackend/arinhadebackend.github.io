@@ -5311,6 +5311,54 @@
             "repo_url": "https://github.com/abeswz/rinha-backend-2026-rust",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7445",
             "timestamp": "2026-05-30T19:06:38Z"
+        },
+        "abeswz-gopher": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "1194.28ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 2,
+                    "false_negative_detections": 2,
+                    "true_positive_detections": 17827,
+                    "true_negative_detections": 22378,
+                    "http_errors": 3
+                },
+                "failure_rate": "0.02%",
+                "weighted_errors_E": 23,
+                "error_rate_epsilon": 0.000572,
+                "p99_score": {
+                    "value": -77.11,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 2585.94,
+                    "rate_component": 3000,
+                    "absolute_penalty": -414.06,
+                    "cut_triggered": false
+                },
+                "final_score": 2508.83,
+                "raw": {
+                    "p99_ms": 1194.2792009799998,
+                    "failure_rate": 0.00017407738983388042,
+                    "error_rate_epsilon": 0.0005719685665970357,
+                    "p99_score": -77.10586889567945,
+                    "detection_score": 2585.9366274865183,
+                    "rate_component": 3000,
+                    "absolute_penalty": -414.06337251348185,
+                    "final_score": 2508.8307585908387
+                }
+            },
+            "repo_url": "https://github.com/abeswz/gopher-fraud-detection",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7480",
+            "timestamp": "2026-05-30T23:40:11Z"
         }
     },
     "chagas42": {
