@@ -5274,20 +5274,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "210.34ms",
+            "p99": "99.44ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 23,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23894,
-                    "true_negative_detections": 30038,
+                    "true_positive_detections": 23925,
+                    "true_negative_detections": 30072,
                     "http_errors": 0
                 },
                 "failure_rate": "0.04%",
                 "weighted_errors_E": 23,
                 "error_rate_epsilon": 0.000426,
                 "p99_score": {
-                    "value": 677.09,
+                    "value": 1002.44,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -5296,21 +5296,21 @@
                     "absolute_penalty": -414.06,
                     "cut_triggered": false
                 },
-                "final_score": 3263.02,
+                "final_score": 3588.38,
                 "raw": {
-                    "p99_ms": 210.3356098199998,
-                    "failure_rate": 0.00042628116022611437,
-                    "error_rate_epsilon": 0.00042628116022611437,
-                    "p99_score": 677.0871950306131,
+                    "p99_ms": 99.43922332999996,
+                    "failure_rate": 0.00042576823398741205,
+                    "error_rate_epsilon": 0.00042576823398741205,
+                    "p99_score": 1002.442276409981,
                     "detection_score": 2585.9366274865183,
                     "rate_component": 3000,
                     "absolute_penalty": -414.06337251348185,
-                    "final_score": 3263.0238225171315
+                    "final_score": 3588.378903896499
                 }
             },
             "repo_url": "https://github.com/abeswz/rinha-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7401",
-            "timestamp": "2026-05-30T12:06:27Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7404",
+            "timestamp": "2026-05-30T13:04:23Z"
         }
     },
     "chagas42": {
