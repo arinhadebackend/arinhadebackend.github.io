@@ -12234,13 +12234,13 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "0.39ms",
+            "p99": "0.38ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30116,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
@@ -12258,7 +12258,7 @@
                 },
                 "final_score": 6000,
                 "raw": {
-                    "p99_ms": 0.38706821,
+                    "p99_ms": 0.3768651599999996,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
                     "p99_score": 3000,
@@ -12269,8 +12269,8 @@
                 }
             },
             "repo_url": "https://github.com/epicvinny/rinha-de-backend-2026-epicvinny",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7393",
-            "timestamp": "2026-05-30T07:20:19Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7394",
+            "timestamp": "2026-05-30T07:48:28Z"
         }
     },
     "gustinoco": {
