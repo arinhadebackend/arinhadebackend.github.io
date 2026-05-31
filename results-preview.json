@@ -12932,18 +12932,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.27ms",
+            "p99": "2002.11ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 1515,
+                    "false_negative_detections": 3277,
                     "true_positive_detections": 0,
-                    "true_negative_detections": 1907,
-                    "http_errors": 11157
+                    "true_negative_detections": 4163,
+                    "http_errors": 9391
                 },
-                "failure_rate": "86.92%",
-                "weighted_errors_E": 60330,
-                "error_rate_epsilon": 4.138144,
+                "failure_rate": "75.27%",
+                "weighted_errors_E": 56786,
+                "error_rate_epsilon": 3.373893,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -12956,9 +12956,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.2651258600001,
-                    "failure_rate": 0.8691954180670828,
-                    "error_rate_epsilon": 4.138143905617669,
+                    "p99_ms": 2002.1074996,
+                    "failure_rate": 0.7526587843859545,
+                    "error_rate_epsilon": 3.373893410967857,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -12967,8 +12967,8 @@
                 }
             },
             "repo_url": "https://github.com/rlevidev/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7513",
-            "timestamp": "2026-05-31T03:29:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7590",
+            "timestamp": "2026-05-31T17:28:52Z"
         }
     },
     "Johnny-Nascimento": {
