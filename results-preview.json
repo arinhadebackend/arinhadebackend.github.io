@@ -12920,5 +12920,55 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7502",
             "timestamp": "2026-05-31T02:29:51Z"
         }
+    },
+    "rlevidev": {
+        "rlevidev": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": "2002.27ms",
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 1515,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 1907,
+                    "http_errors": 11157
+                },
+                "failure_rate": "86.92%",
+                "weighted_errors_E": 60330,
+                "error_rate_epsilon": 4.138144,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000,
+                "raw": {
+                    "p99_ms": 2002.2651258600001,
+                    "failure_rate": 0.8691954180670828,
+                    "error_rate_epsilon": 4.138143905617669,
+                    "p99_score": -3000,
+                    "detection_score": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "final_score": -6000
+                }
+            },
+            "repo_url": "https://github.com/rlevidev/rinha-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7513",
+            "timestamp": "2026-05-31T03:29:02Z"
+        }
     }
 }
