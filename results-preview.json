@@ -6788,7 +6788,7 @@
                 },
                 "final_score": 6000,
                 "raw": {
-                    "p99_ms": 0.36879277999999965,
+                    "p99_ms": 0.3657891199999995,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
                     "p99_score": 3000,
@@ -6799,8 +6799,8 @@
                 }
             },
             "repo_url": "https://github.com/dalvorsn/cpp-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7545",
-            "timestamp": "2026-05-31T11:05:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7546",
+            "timestamp": "2026-05-31T11:09:01Z"
         }
     },
     "viniciusfonseca": {
