@@ -6118,12 +6118,12 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "124.5ms",
+            "p99": "96.83ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23941,
+                    "true_positive_detections": 23936,
                     "true_negative_detections": 30112,
                     "http_errors": 0
                 },
@@ -6131,7 +6131,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 904.84,
+                    "value": 1014,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -6140,21 +6140,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3904.84,
+                "final_score": 4014,
                 "raw": {
-                    "p99_ms": 124.49766043999941,
+                    "p99_ms": 96.82752314,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 904.8388097533465,
+                    "p99_score": 1014.0011773111346,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 3904.8388097533466
+                    "final_score": 4014.0011773111346
                 }
             },
             "repo_url": "https://github.com/AndDev741/rinha-de-backend-2026-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7532",
-            "timestamp": "2026-05-31T08:01:30Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7596",
+            "timestamp": "2026-05-31T18:31:12Z"
         }
     },
     "Ninorp": {
