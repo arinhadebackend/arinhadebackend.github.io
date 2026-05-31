@@ -191,6 +191,16 @@
             font-size: 0.88rem;
         }
 
+        .avatar {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            vertical-align: -3px;
+            margin-right: 0.45rem;
+            opacity: 0.85;
+            background: var(--row-hover);
+        }
+
         .id span.plain {
             font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
             font-size: 0.88rem;
@@ -409,6 +419,7 @@
                         const raw = info.scoring?.raw ?? null;
                         rows.push({
                             id,
+                            participant,
                             p99: info.p99 ?? '—',
                             failure: info.scoring?.failure_rate ?? '—',
                             score: info.scoring?.final_score ?? 0,
@@ -479,9 +490,10 @@
                     }
 
                     tbodyEl.innerHTML = visible.map(r => {
+                        const avatar = `<img class="avatar" loading="lazy" decoding="async" alt="" src="https://github.com/${encodeURIComponent(r.participant)}.png?size=40" onerror="this.style.visibility='hidden'">`;
                         const idLabel = r.repo
-                            ? `<a href="${r.repo}" target="_blank" rel="noopener noreferrer">${r.id}</a>`
-                            : `<span class="plain">${r.id}</span>`;
+                            ? `${avatar}<a href="${r.repo}" target="_blank" rel="noopener noreferrer">${r.id}</a>`
+                            : `${avatar}<span class="plain">${r.id}</span>`;
                         const issueLabel = r.issue
                             ? `<span class="issue-sep">·</span><a class="issue-link" href="${r.issue}" target="_blank" rel="noopener noreferrer">details</a>`
                             : '';
