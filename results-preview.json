@@ -6118,20 +6118,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "127.47ms",
+            "p99": "139.5ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23928,
-                    "true_negative_detections": 30105,
+                    "true_positive_detections": 23925,
+                    "true_negative_detections": 30096,
                     "http_errors": 0
                 },
                 "failure_rate": "0%",
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 894.61,
+                    "value": 855.41,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -6140,21 +6140,21 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3894.61,
+                "final_score": 3855.41,
                 "raw": {
-                    "p99_ms": 127.46551180000004,
+                    "p99_ms": 139.5049000000004,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
-                    "p99_score": 894.6073059050303,
+                    "p99_score": 855.4105378700385,
                     "detection_score": 3000,
                     "rate_component": 3000,
                     "absolute_penalty": 0,
-                    "final_score": 3894.6073059050304
+                    "final_score": 3855.4105378700388
                 }
             },
             "repo_url": "https://github.com/AndDev741/rinha-de-backend-2026-java",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7465",
-            "timestamp": "2026-05-30T21:34:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7529",
+            "timestamp": "2026-05-31T06:21:06Z"
         }
     },
     "Ninorp": {
