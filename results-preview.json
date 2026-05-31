@@ -6266,7 +6266,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "0.41ms",
+            "p99": "0.4ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -6290,7 +6290,7 @@
                 },
                 "final_score": 6000,
                 "raw": {
-                    "p99_ms": 0.41238823999999974,
+                    "p99_ms": 0.39700273999999974,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
                     "p99_score": 3000,
@@ -6301,8 +6301,8 @@
                 }
             },
             "repo_url": "https://github.com/rafaelcoelhox/detecta-fraude",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7551",
-            "timestamp": "2026-05-31T12:04:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7552",
+            "timestamp": "2026-05-31T12:14:24Z"
         }
     },
     "oliveirajhony": {
