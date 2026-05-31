@@ -5322,43 +5322,43 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "581.68ms",
+            "p99": "30.57ms",
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 13,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 22969,
-                    "true_negative_detections": 28879,
+                    "false_positive_detections": 19,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 23937,
+                    "true_negative_detections": 30097,
                     "http_errors": 0
                 },
-                "failure_rate": "0.03%",
-                "weighted_errors_E": 25,
-                "error_rate_epsilon": 0.000482,
+                "failure_rate": "0.04%",
+                "weighted_errors_E": 34,
+                "error_rate_epsilon": 0.000629,
                 "p99_score": {
-                    "value": 235.32,
+                    "value": 1514.65,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2575.51,
+                    "value": 2536.78,
                     "rate_component": 3000,
-                    "absolute_penalty": -424.49,
+                    "absolute_penalty": -463.22,
                     "cut_triggered": false
                 },
-                "final_score": 2810.83,
+                "final_score": 4051.43,
                 "raw": {
-                    "p99_ms": 581.67714316,
-                    "failure_rate": 0.0003277740287284296,
-                    "error_rate_epsilon": 0.00048202063048298466,
-                    "p99_score": 235.3180013460617,
-                    "detection_score": 2575.5079956087548,
+                    "p99_ms": 30.574045830000003,
+                    "failure_rate": 0.00044396759036590327,
+                    "error_rate_epsilon": 0.0006289540863516963,
+                    "p99_score": 1514.6470877579725,
+                    "detection_score": 2536.7795866949173,
                     "rate_component": 3000,
-                    "absolute_penalty": -424.4920043912454,
-                    "final_score": 2810.825996954816
+                    "absolute_penalty": -463.2204133050826,
+                    "final_score": 4051.4266744528895
                 }
             },
             "repo_url": "https://github.com/abeswz/gopher-fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7495",
-            "timestamp": "2026-05-31T01:44:03Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7583",
+            "timestamp": "2026-05-31T16:35:42Z"
         }
     },
     "chagas42": {
