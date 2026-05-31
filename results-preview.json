@@ -3264,7 +3264,7 @@
                 },
                 "final_score": 6000,
                 "raw": {
-                    "p99_ms": 0.39812663999999975,
+                    "p99_ms": 0.39632352,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
                     "p99_score": 3000,
@@ -3275,8 +3275,8 @@
                 }
             },
             "repo_url": "https://github.com/fksegundo/rinha-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7405",
-            "timestamp": "2026-05-30T13:16:14Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7518",
+            "timestamp": "2026-05-31T04:04:34Z"
         },
         "fksegundo-dotnet": {
             "expected": {
