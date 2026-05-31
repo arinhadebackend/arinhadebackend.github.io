@@ -5322,20 +5322,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "30.57ms",
+            "p99": "148.07ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 19,
                     "false_negative_detections": 5,
-                    "true_positive_detections": 23937,
-                    "true_negative_detections": 30097,
+                    "true_positive_detections": 23840,
+                    "true_negative_detections": 29995,
                     "http_errors": 0
                 },
                 "failure_rate": "0.04%",
                 "weighted_errors_E": 34,
-                "error_rate_epsilon": 0.000629,
+                "error_rate_epsilon": 0.000631,
                 "p99_score": {
-                    "value": 1514.65,
+                    "value": 829.52,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -5344,21 +5344,21 @@
                     "absolute_penalty": -463.22,
                     "cut_triggered": false
                 },
-                "final_score": 4051.43,
+                "final_score": 3366.3,
                 "raw": {
-                    "p99_ms": 30.574045830000003,
-                    "failure_rate": 0.00044396759036590327,
-                    "error_rate_epsilon": 0.0006289540863516963,
-                    "p99_score": 1514.6470877579725,
+                    "p99_ms": 148.0749149399997,
+                    "failure_rate": 0.00044560797638277725,
+                    "error_rate_epsilon": 0.0006312779665422677,
+                    "p99_score": 829.5185081626182,
                     "detection_score": 2536.7795866949173,
                     "rate_component": 3000,
                     "absolute_penalty": -463.2204133050826,
-                    "final_score": 4051.4266744528895
+                    "final_score": 3366.2980948575355
                 }
             },
             "repo_url": "https://github.com/abeswz/gopher-fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7583",
-            "timestamp": "2026-05-31T16:35:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7595",
+            "timestamp": "2026-05-31T18:18:26Z"
         }
     },
     "chagas42": {
