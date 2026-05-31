@@ -10692,7 +10692,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "0.46ms",
+            "p99": "0.47ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -10716,7 +10716,7 @@
                 },
                 "final_score": 6000,
                 "raw": {
-                    "p99_ms": 0.45757515999999937,
+                    "p99_ms": 0.46554535999999985,
                     "failure_rate": 0,
                     "error_rate_epsilon": 0,
                     "p99_score": 3000,
@@ -10727,8 +10727,8 @@
                 }
             },
             "repo_url": "https://github.com/sl4ureano/rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7476",
-            "timestamp": "2026-05-30T23:13:45Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7522",
+            "timestamp": "2026-05-31T04:20:15Z"
         }
     },
     "lucasschilin": {
