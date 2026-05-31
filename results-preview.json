@@ -7656,18 +7656,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.16ms",
+            "p99": "2002.11ms",
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 2303,
-                    "true_negative_detections": 3062,
-                    "http_errors": 10654
+                    "true_positive_detections": 2469,
+                    "true_negative_detections": 3060,
+                    "http_errors": 10863
                 },
-                "failure_rate": "66.51%",
-                "weighted_errors_E": 53270,
-                "error_rate_epsilon": 3.325426,
+                "failure_rate": "66.27%",
+                "weighted_errors_E": 54315,
+                "error_rate_epsilon": 3.313507,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -7680,9 +7680,9 @@
                 },
                 "final_score": -6000,
                 "raw": {
-                    "p99_ms": 2002.1626665000001,
-                    "failure_rate": 0.6650852113115675,
-                    "error_rate_epsilon": 3.3254260565578377,
+                    "p99_ms": 2002.11042963,
+                    "failure_rate": 0.662701317715959,
+                    "error_rate_epsilon": 3.313506588579795,
                     "p99_score": -3000,
                     "detection_score": -3000,
                     "rate_component": null,
@@ -7691,8 +7691,8 @@
                 }
             },
             "repo_url": "https://github.com/obrunogonzaga/rinha-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4880",
-            "timestamp": "2026-05-23T23:49:03Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7496",
+            "timestamp": "2026-05-31T01:57:04Z"
         }
     },
     "andreluiz901": {
