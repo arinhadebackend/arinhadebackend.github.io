@@ -12992,33 +12992,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1335.3484141200006,
+            "p99": 23.439550179999983,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 1,
+                    "false_positive_detections": 4,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 16792,
-                    "true_negative_detections": 21099,
-                    "http_errors": 1
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30113,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.000053,
-                "weighted_errors_E": 6,
-                "error_rate_epsilon": 0.00015834059061040298,
+                "failure_rate": 0.000074,
+                "weighted_errors_E": 4,
+                "error_rate_epsilon": 0.00007399322961948981,
                 "p99_score": {
-                    "value": -125.59459497986855,
+                    "value": 1630.0507269636028,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2746.470587995723,
+                    "value": 2790.3089986991945,
                     "rate_component": 3000,
-                    "absolute_penalty": -253.52941200427705,
+                    "absolute_penalty": -209.69100130080562,
                     "cut_triggered": false
                 },
-                "final_score": 2620.8759930158544
+                "final_score": 4420.359725662797
             },
             "repo_url": "https://github.com/marcuspmd/rinha-backend-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7745",
-            "timestamp": "2026-06-01T16:45:48Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7749",
+            "timestamp": "2026-06-01T17:03:43Z"
         }
     },
     "ThiaudioTT": {
