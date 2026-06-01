@@ -7666,33 +7666,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 27.37030189999994,
+            "p99": 23.09959541999999,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 743,
-                    "false_negative_detections": 466,
-                    "true_positive_detections": 23476,
+                    "false_negative_detections": 467,
+                    "true_positive_detections": 23475,
                     "true_negative_detections": 29374,
                     "http_errors": 0
                 },
-                "failure_rate": 0.022364,
-                "weighted_errors_E": 2141,
-                "error_rate_epsilon": 0.039604876153831924,
+                "failure_rate": 0.022383,
+                "weighted_errors_E": 2144,
+                "error_rate_epsilon": 0.039660371076046544,
                 "p99_score": {
-                    "value": 1562.7204122069404,
+                    "value": 1636.395626532107,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 403.00550048099103,
-                    "rate_component": 1402.251340429742,
-                    "absolute_penalty": -999.2458399487509,
+                    "value": 402.21503774722476,
+                    "rate_component": 1401.6432267034477,
+                    "absolute_penalty": -999.4281889562229,
                     "cut_triggered": false
                 },
-                "final_score": 1965.7259126879314
+                "final_score": 2038.6106642793316
             },
             "repo_url": "https://github.com/andreluiz901/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7642",
-            "timestamp": "2026-05-31T23:43:12Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7655",
+            "timestamp": "2026-06-01T01:33:36Z"
         }
     },
     "josinaldojr": {
