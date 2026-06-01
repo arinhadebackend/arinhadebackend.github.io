@@ -10802,7 +10802,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.017948819999999,
+            "p99": 1.9728184199999999,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -10815,7 +10815,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2695.0898527043855,
+                    "value": 2704.9128857670935,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10824,11 +10824,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5695.0898527043855
+                "final_score": 5704.912885767093
             },
             "repo_url": "https://github.com/BGLuis/rinha-backend-2026-go-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7772",
-            "timestamp": "2026-06-01T18:47:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7786",
+            "timestamp": "2026-06-01T20:26:22Z"
         }
     },
     "JaoConquista": {
