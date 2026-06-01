@@ -13060,5 +13060,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7795",
             "timestamp": "2026-06-01T21:27:34Z"
         }
+    },
+    "vhtor": {
+        "vhtor-kotlin": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 1592.5865088,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 49,
+                    "false_negative_detections": 41,
+                    "true_positive_detections": 9629,
+                    "true_negative_detections": 12073,
+                    "http_errors": 0
+                },
+                "failure_rate": 0.00413,
+                "weighted_errors_E": 172,
+                "error_rate_epsilon": 0.0078928046989721,
+                "p99_score": {
+                    "value": -202.10303238826984,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1431.3548123865035,
+                    "rate_component": 2102.768643325142,
+                    "absolute_penalty": -671.4138309386386,
+                    "cut_triggered": false
+                },
+                "final_score": 1229.2517799982336
+            },
+            "repo_url": "https://github.com/vhtor/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7803",
+            "timestamp": "2026-06-01T21:59:19Z"
+        }
     }
 }
