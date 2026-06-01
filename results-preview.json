@@ -12652,18 +12652,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2003.64ms",
+            "p99": 2002.0243052,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 79,
-                    "true_negative_detections": 115,
-                    "http_errors": 13636
+                    "true_positive_detections": 75,
+                    "true_negative_detections": 104,
+                    "http_errors": 21284
                 },
-                "failure_rate": "98.6%",
-                "weighted_errors_E": 68180,
-                "error_rate_epsilon": 4.929863,
+                "failure_rate": 0.99166,
+                "weighted_errors_E": 106420,
+                "error_rate_epsilon": 4.958300330801845,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -12674,21 +12674,11 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -6000,
-                "raw": {
-                    "p99_ms": 2003.6446498,
-                    "failure_rate": 0.9859725234996385,
-                    "error_rate_epsilon": 4.929862617498192,
-                    "p99_score": -3000,
-                    "detection_score": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "final_score": -6000
-                }
+                "final_score": -6000
             },
             "repo_url": "https://github.com/luizbrandao13/rinha-de-backend-20266-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7290",
-            "timestamp": "2026-05-30T00:50:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7695",
+            "timestamp": "2026-06-01T11:16:59Z"
         }
     },
     "renatovico": {
