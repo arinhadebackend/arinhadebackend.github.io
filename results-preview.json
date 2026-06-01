@@ -11982,43 +11982,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "58.54ms",
+            "p99": 25.69388263999997,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 34,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 23937,
-                    "true_negative_detections": 30082,
+                    "false_positive_detections": 33,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 23938,
+                    "true_negative_detections": 30084,
                     "http_errors": 0
                 },
-                "failure_rate": "0.07%",
-                "weighted_errors_E": 49,
-                "error_rate_epsilon": 0.000906,
+                "failure_rate": 0.000684,
+                "weighted_errors_E": 45,
+                "error_rate_epsilon": 0.0008324238332192604,
                 "p99_score": {
-                    "value": 1232.58,
+                    "value": 1590.1702639034465,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2490.31,
+                    "value": 2501.1726504955277,
                     "rate_component": 3000,
-                    "absolute_penalty": -509.69,
+                    "absolute_penalty": -498.82734950447224,
                     "cut_triggered": false
                 },
-                "final_score": 3722.89,
-                "raw": {
-                    "p99_ms": 58.535070160000004,
-                    "failure_rate": 0.0007214473343445929,
-                    "error_rate_epsilon": 0.0009064338303303858,
-                    "p99_score": 1232.583856764954,
-                    "detection_score": 2490.3089986991945,
-                    "rate_component": 3000,
-                    "absolute_penalty": -509.6910013008056,
-                    "final_score": 3722.8928554641484
-                }
+                "final_score": 4091.3429143989742
             },
             "repo_url": "https://github.com/sandrosmarzaro/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7619",
-            "timestamp": "2026-05-31T20:22:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7825",
+            "timestamp": "2026-06-01T23:13:54Z"
         }
     },
     "murilodacios": {
