@@ -13020,5 +13020,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7685",
             "timestamp": "2026-06-01T05:44:08Z"
         }
+    },
+    "marcuspmd": {
+        "marcuspmd-rust": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 2001.80816186,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 12631,
+                    "true_negative_detections": 15919,
+                    "http_errors": 1333
+                },
+                "failure_rate": 0.044607,
+                "weighted_errors_E": 6665,
+                "error_rate_epsilon": 0.22303650905196934,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -495.53555172902793,
+                    "rate_component": 651.6240410683256,
+                    "absolute_penalty": -1147.1595927973535,
+                    "cut_triggered": false
+                },
+                "final_score": -3495.535551729028
+            },
+            "repo_url": "https://github.com/marcuspmd/rinha-backend-2026-rust",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7713",
+            "timestamp": "2026-06-01T12:36:46Z"
+        }
     }
 }
