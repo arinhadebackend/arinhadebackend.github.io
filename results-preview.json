@@ -9336,7 +9336,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.8596465799999997,
+            "p99": 1.8532428199999997,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -9349,7 +9349,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2730.5695842443747,
+                    "value": 2732.0676737857,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -9358,11 +9358,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5730.569584244375
+                "final_score": 5732.0676737857
             },
             "repo_url": "https://github.com/arthurd3/fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7757",
-            "timestamp": "2026-06-01T17:48:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7810",
+            "timestamp": "2026-06-01T22:26:28Z"
         }
     },
     "Cirilord": {
