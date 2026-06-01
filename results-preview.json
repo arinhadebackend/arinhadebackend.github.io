@@ -5292,33 +5292,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 56.11828632999995,
+            "p99": 34.137657139999945,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 21,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 23937,
-                    "true_negative_detections": 30097,
+                    "false_positive_detections": 2,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30115,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000481,
-                "weighted_errors_E": 36,
-                "error_rate_epsilon": 0.0006659267480577136,
+                "failure_rate": 0.000037,
+                "weighted_errors_E": 2,
+                "error_rate_epsilon": 0.000036996614809744906,
                 "p99_score": {
-                    "value": 1250.8955993825944,
+                    "value": 1466.766287734589,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2529.5394827799014,
+                    "value": 2856.8636235841013,
                     "rate_component": 3000,
-                    "absolute_penalty": -470.4605172200985,
+                    "absolute_penalty": -143.13637641589872,
                     "cut_triggered": false
                 },
-                "final_score": 3780.4350821624957
+                "final_score": 4323.629911318691
             },
             "repo_url": "https://github.com/abeswz/gopher-fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7666",
-            "timestamp": "2026-06-01T02:02:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7671",
+            "timestamp": "2026-06-01T02:46:38Z"
         }
     },
     "chagas42": {
