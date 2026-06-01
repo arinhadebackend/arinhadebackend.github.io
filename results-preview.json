@@ -1088,33 +1088,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 181.4770902,
+            "p99": 7.648473859999992,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4,
+                    "false_positive_detections": 16,
                     "false_negative_detections": 2,
-                    "true_positive_detections": 23898,
-                    "true_negative_detections": 30069,
+                    "true_positive_detections": 23940,
+                    "true_negative_detections": 30101,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000111,
-                "weighted_errors_E": 10,
-                "error_rate_epsilon": 0.0001852778240972338,
+                "failure_rate": 0.000333,
+                "weighted_errors_E": 22,
+                "error_rate_epsilon": 0.000406962762907194,
                 "p99_score": {
-                    "value": 741.1781928191493,
+                    "value": 2116.4252132518213,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2687.5821944525323,
+                    "value": 2591.481649194722,
                     "rate_component": 3000,
-                    "absolute_penalty": -312.41780554746754,
+                    "absolute_penalty": -408.51835080527786,
                     "cut_triggered": false
                 },
-                "final_score": 3428.760387271682
+                "final_score": 4707.9068624465435
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7697",
-            "timestamp": "2026-06-01T11:38:35Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7701",
+            "timestamp": "2026-06-01T11:46:54Z"
         }
     },
     "klevercorrea": {
