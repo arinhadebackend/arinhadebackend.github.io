@@ -11436,33 +11436,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 210.2372586799998,
+            "p99": 230.90009421999892,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 116,
-                    "false_negative_detections": 100,
-                    "true_positive_detections": 23760,
-                    "true_negative_detections": 29909,
+                    "false_negative_detections": 99,
+                    "true_positive_detections": 23750,
+                    "true_negative_detections": 29902,
                     "http_errors": 0
                 },
-                "failure_rate": 0.004009,
-                "weighted_errors_E": 416,
-                "error_rate_epsilon": 0.007720144752714113,
+                "failure_rate": 0.003991,
+                "weighted_errors_E": 413,
+                "error_rate_epsilon": 0.007667031763417305,
                 "p99_score": {
-                    "value": 677.290314924304,
+                    "value": 636.575889866638,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1326.333740074259,
-                    "rate_component": 2112.374556566386,
-                    "absolute_penalty": -786.0408164921273,
+                    "value": 1330.2726351837728,
+                    "rate_component": 2115.3727375200424,
+                    "absolute_penalty": -785.1001023362696,
                     "cut_triggered": false
                 },
-                "final_score": 2003.6240549985628
+                "final_score": 1966.848525050411
             },
             "repo_url": "https://github.com/Lucianoottor/rinha-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7784",
-            "timestamp": "2026-06-01T20:11:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7785",
+            "timestamp": "2026-06-01T20:16:53Z"
         }
     },
     "macedot": {
