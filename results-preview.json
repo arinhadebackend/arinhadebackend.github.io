@@ -6950,33 +6950,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 128.7656939199998,
+            "p99": 2002.33036074,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 563,
-                    "false_negative_detections": 555,
-                    "true_positive_detections": 23371,
-                    "true_negative_detections": 29534,
-                    "http_errors": 0
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 55,
+                    "true_positive_detections": 0,
+                    "true_negative_detections": 59,
+                    "http_errors": 14529
                 },
-                "failure_rate": 0.020695,
-                "weighted_errors_E": 2228,
-                "error_rate_epsilon": 0.041241693352831205,
+                "failure_rate": 0.995971,
+                "weighted_errors_E": 72810,
+                "error_rate_epsilon": 4.972341733251383,
                 "p99_score": {
-                    "value": 890.1998273936779,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 380.23049067440775,
-                    "rate_component": 1384.663511218479,
-                    "absolute_penalty": -1004.4330205440713,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1270.4303180680856
+                "final_score": -6000
             },
             "repo_url": "https://github.com/jgouvea7/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7831",
-            "timestamp": "2026-06-01T23:33:49Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7839",
+            "timestamp": "2026-06-01T23:51:26Z"
         }
     },
     "GuilhermRodovalho": {
