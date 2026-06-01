@@ -9396,33 +9396,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 3.1611741199999934,
+            "p99": 3.558035699999995,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "false_positive_detections": 583,
+                    "false_negative_detections": 1859,
+                    "true_positive_detections": 22083,
+                    "true_negative_detections": 29534,
                     "http_errors": 0
                 },
-                "failure_rate": 0,
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": 0.045173,
+                "weighted_errors_E": 6160,
+                "error_rate_epsilon": 0.11394957361401432,
                 "p99_score": {
-                    "value": 2500.1515822140236,
+                    "value": 2448.7896986817677,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": -193.60806707826828,
+                    "rate_component": 943.2872955597547,
+                    "absolute_penalty": -1136.895362638023,
                     "cut_triggered": false
                 },
-                "final_score": 5500.151582214024
+                "final_score": 2255.181631603499
             },
             "repo_url": "https://github.com/Cirilord/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7779",
-            "timestamp": "2026-06-01T19:20:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7781",
+            "timestamp": "2026-06-01T19:59:41Z"
         }
     },
     "wl4dek": {
