@@ -10056,7 +10056,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 5.766367519999995,
+            "p99": 19.32920951999997,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -10069,7 +10069,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2239.0976812642457,
+                    "value": 1713.7859063502224,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10078,11 +10078,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5239.097681264246
+                "final_score": 4713.785906350222
             },
             "repo_url": "https://github.com/JorgeEduardoZanin/rinha-backend-quarkus-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7704",
-            "timestamp": "2026-06-01T11:58:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7706",
+            "timestamp": "2026-06-01T12:04:50Z"
         }
     },
     "SrPatoS": {
