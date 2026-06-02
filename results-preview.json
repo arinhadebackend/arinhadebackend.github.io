@@ -11346,33 +11346,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 173.99991717999953,
+            "p99": 83.42440426000002,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 116,
+                    "false_positive_detections": 117,
                     "false_negative_detections": 100,
-                    "true_positive_detections": 23773,
-                    "true_negative_detections": 29921,
+                    "true_positive_detections": 23835,
+                    "true_negative_detections": 29995,
                     "http_errors": 0
                 },
-                "failure_rate": 0.004007,
-                "weighted_errors_E": 416,
-                "error_rate_epsilon": 0.007716564644778334,
+                "failure_rate": 0.004015,
+                "weighted_errors_E": 417,
+                "error_rate_epsilon": 0.007715506873647011,
                 "p99_score": {
-                    "value": 759.4509584316403,
+                    "value": 1078.7068859919402,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1326.5351847097663,
-                    "rate_component": 2112.5760012018936,
-                    "absolute_penalty": -786.0408164921273,
+                    "value": 1326.2826529624358,
+                    "rate_component": 2112.635537494946,
+                    "absolute_penalty": -786.3528845325105,
                     "cut_triggered": false
                 },
-                "final_score": 2085.9861431414065
+                "final_score": 2404.9895389543763
             },
             "repo_url": "https://github.com/Lucianoottor/rinha-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7964",
-            "timestamp": "2026-06-02T13:34:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7966",
+            "timestamp": "2026-06-02T13:45:39Z"
         }
     },
     "macedot": {
