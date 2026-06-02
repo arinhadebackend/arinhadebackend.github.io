@@ -12572,33 +12572,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 872.8267948399988,
+            "p99": 193.24153999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 17,
-                    "false_negative_detections": 6,
-                    "true_positive_detections": 19748,
-                    "true_negative_detections": 24778,
+                    "false_positive_detections": 10,
+                    "false_negative_detections": 7,
+                    "true_positive_detections": 23906,
+                    "true_negative_detections": 30077,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000516,
-                "weighted_errors_E": 35,
-                "error_rate_epsilon": 0.0007856517542481312,
+                "failure_rate": 0.000315,
+                "weighted_errors_E": 31,
+                "error_rate_epsilon": 0.0005740740740740741,
                 "p99_score": {
-                    "value": 59.07192984348433,
+                    "value": 713.8995101707475,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2533.1092497698137,
+                    "value": 2548.455006504028,
                     "rate_component": 3000,
-                    "absolute_penalty": -466.8907502301862,
+                    "absolute_penalty": -451.5449934959718,
                     "cut_triggered": false
                 },
-                "final_score": 2592.181179613298
+                "final_score": 3262.3545166747754
             },
             "repo_url": "https://github.com/SrWalkerB/rinha-de-backend-2026-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7662",
-            "timestamp": "2026-06-01T01:51:42Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7854",
+            "timestamp": "2026-06-02T00:33:35Z"
         }
     },
     "rlevidev": {
