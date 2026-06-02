@@ -12892,33 +12892,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 159.46139995999997,
+            "p99": 86.65592199999995,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 198,
-                    "false_negative_detections": 201,
-                    "true_positive_detections": 23704,
-                    "true_negative_detections": 29882,
+                    "false_negative_detections": 202,
+                    "true_positive_detections": 23740,
+                    "true_negative_detections": 29919,
                     "http_errors": 0
                 },
-                "failure_rate": 0.007391,
-                "weighted_errors_E": 801,
-                "error_rate_epsilon": 0.014837454848569047,
+                "failure_rate": 0.007399,
+                "weighted_errors_E": 804,
+                "error_rate_epsilon": 0.014872639153517454,
                 "p99_score": {
-                    "value": 797.3444274229327,
+                    "value": 1062.2017525803096,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 957.388279139106,
-                    "rate_component": 1828.640589624355,
-                    "absolute_penalty": -871.252310485249,
+                    "value": 955.8731948653682,
+                    "rate_component": 1827.6119589757288,
+                    "absolute_penalty": -871.7387641103606,
                     "cut_triggered": false
                 },
-                "final_score": 1754.7327065620386
+                "final_score": 2018.074947445678
             },
             "repo_url": "https://github.com/arthursfares/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8052",
-            "timestamp": "2026-06-02T21:41:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8057",
+            "timestamp": "2026-06-02T22:09:55Z"
         }
     },
     "sylviot": {
