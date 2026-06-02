@@ -3228,7 +3228,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.43354059999999983,
+            "p99": 0.46975653999999956,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -3253,8 +3253,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/fksegundo/rinha-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8020",
-            "timestamp": "2026-06-02T19:29:17Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8024",
+            "timestamp": "2026-06-02T19:37:44Z"
         }
     },
     "micheloliveira-com": {
