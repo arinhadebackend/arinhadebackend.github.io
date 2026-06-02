@@ -11346,33 +11346,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 17.990912459999993,
+            "p99": 173.99991717999953,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 117,
+                    "false_positive_detections": 116,
                     "false_negative_detections": 100,
-                    "true_positive_detections": 23842,
-                    "true_negative_detections": 30000,
+                    "true_positive_detections": 23773,
+                    "true_negative_detections": 29921,
                     "http_errors": 0
                 },
-                "failure_rate": 0.004014,
-                "weighted_errors_E": 417,
-                "error_rate_epsilon": 0.007713794187831813,
+                "failure_rate": 0.004007,
+                "weighted_errors_E": 416,
+                "error_rate_epsilon": 0.007716564644778334,
                 "p99_score": {
-                    "value": 1744.9468096231174,
+                    "value": 759.4509584316403,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1326.3790682179124,
-                    "rate_component": 2112.731952750423,
-                    "absolute_penalty": -786.3528845325105,
+                    "value": 1326.5351847097663,
+                    "rate_component": 2112.5760012018936,
+                    "absolute_penalty": -786.0408164921273,
                     "cut_triggered": false
                 },
-                "final_score": 3071.32587784103
+                "final_score": 2085.9861431414065
             },
             "repo_url": "https://github.com/Lucianoottor/rinha-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7788",
-            "timestamp": "2026-06-01T20:40:17Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7964",
+            "timestamp": "2026-06-02T13:34:13Z"
         }
     },
     "macedot": {
