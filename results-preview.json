@@ -12550,33 +12550,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1191.11817129,
+            "p99": 1677.95115128,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 5,
-                    "false_negative_detections": 11,
-                    "true_positive_detections": 13279,
-                    "true_negative_detections": 16749,
+                    "false_negative_detections": 9,
+                    "true_positive_detections": 11955,
+                    "true_negative_detections": 15000,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000533,
-                "weighted_errors_E": 38,
-                "error_rate_epsilon": 0.001264811609639196,
+                "failure_rate": 0.000519,
+                "weighted_errors_E": 32,
+                "error_rate_epsilon": 0.0011865475175201158,
                 "p99_score": {
-                    "value": -75.95485014212869,
+                    "value": -224.7793134424169,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2420.65477458341,
-                    "rate_component": 2897.97415669136,
-                    "absolute_penalty": -477.3193821079497,
+                    "value": 2470.160682998186,
+                    "rate_component": 2925.7148649615524,
+                    "absolute_penalty": -455.55418196336626,
                     "cut_triggered": false
                 },
-                "final_score": 2344.6999244412814
+                "final_score": 2245.381369555769
             },
             "repo_url": "https://github.com/renatovico/rinha-elixir-pure",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7753",
-            "timestamp": "2026-06-01T17:22:11Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7935",
+            "timestamp": "2026-06-02T08:18:18Z"
         }
     },
     "SrWalkerB": {
