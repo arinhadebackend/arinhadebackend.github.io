@@ -13110,33 +13110,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 550.604227270001,
+            "p99": 1530.894330119999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 93,
-                    "false_negative_detections": 112,
-                    "true_positive_detections": 21541,
-                    "true_negative_detections": 27076,
+                    "false_positive_detections": 47,
+                    "false_negative_detections": 59,
+                    "true_positive_detections": 12158,
+                    "true_negative_detections": 15263,
                     "http_errors": 0
                 },
-                "failure_rate": 0.004199,
-                "weighted_errors_E": 429,
-                "error_rate_epsilon": 0.008787022244070295,
+                "failure_rate": 0.003851,
+                "weighted_errors_E": 224,
+                "error_rate_epsilon": 0.008137465034329931,
                 "p99_score": {
-                    "value": 259.16045862923517,
+                    "value": -184.9452145848762,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1266.117737520657,
-                    "rate_component": 2056.158274194533,
-                    "absolute_penalty": -790.0405366738759,
+                    "value": 1383.8561090954354,
+                    "rate_component": 2089.510864528844,
+                    "absolute_penalty": -705.6547554334087,
                     "cut_triggered": false
                 },
-                "final_score": 1525.2781961498922
+                "final_score": 1198.9108945105593
             },
             "repo_url": "https://github.com/sylviot/rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7869",
-            "timestamp": "2026-06-02T01:21:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7886",
+            "timestamp": "2026-06-02T02:36:11Z"
         }
     },
     "antony-souza": {
