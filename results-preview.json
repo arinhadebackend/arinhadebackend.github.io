@@ -13060,5 +13060,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7805",
             "timestamp": "2026-06-01T22:05:39Z"
         }
+    },
+    "sylviot": {
+        "sylviot": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 603.2924274000003,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 89,
+                    "false_negative_detections": 111,
+                    "true_positive_detections": 21166,
+                    "true_negative_detections": 26645,
+                    "http_errors": 0
+                },
+                "failure_rate": 0.004166,
+                "weighted_errors_E": 422,
+                "error_rate_epsilon": 0.00878965237133157,
+                "p99_score": {
+                    "value": 219.4721259665954,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1268.126190617912,
+                    "rate_component": 2056.0283008304245,
+                    "absolute_penalty": -787.9021102125126,
+                    "cut_triggered": false
+                },
+                "final_score": 1487.5983165845073
+            },
+            "repo_url": "https://github.com/sylviot/rinha2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7865",
+            "timestamp": "2026-06-02T01:04:30Z"
+        }
     }
 }
