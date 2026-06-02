@@ -6446,7 +6446,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 3.743180419999999,
+            "p99": 1.4675896799999968,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -6459,7 +6459,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2426.7592395374504,
+                    "value": 2833.3953508373306,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -6468,11 +6468,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5426.75923953745
+                "final_score": 5833.395350837331
             },
             "repo_url": "https://github.com/gb/jvmoonshot-xxvi",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7926",
-            "timestamp": "2026-06-02T06:33:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7928",
+            "timestamp": "2026-06-02T06:40:21Z"
         }
     },
     "yanpitangui": {
