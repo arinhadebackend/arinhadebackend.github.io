@@ -12284,7 +12284,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.52954615,
+            "p99": 0.45624746,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -12309,8 +12309,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/adsanla/rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8043",
-            "timestamp": "2026-06-02T20:43:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8044",
+            "timestamp": "2026-06-02T20:46:16Z"
         }
     },
     "lazaroborges": {
