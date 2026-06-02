@@ -9616,33 +9616,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.579321299999999,
+            "p99": 4.742080439999997,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 3,
+                    "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30114,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000055,
-                "weighted_errors_E": 3,
-                "error_rate_epsilon": 0.00005549492221461736,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2588.494555448079,
+                    "value": 2324.0310833498547,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2819.3820026016115,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -180.61799739838872,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5407.876558049691
+                "final_score": 5324.031083349855
             },
             "repo_url": "https://github.com/alexoliveiramartins/fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7959",
-            "timestamp": "2026-06-02T13:09:58Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7965",
+            "timestamp": "2026-06-02T13:42:17Z"
         }
     },
     "morais15": {
