@@ -13180,5 +13180,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8039",
             "timestamp": "2026-06-02T20:31:56Z"
         }
+    },
+    "georgepiter": {
+        "georgepiter-java": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 47.726785779999965,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 1246,
+                    "false_negative_detections": 85,
+                    "true_positive_detections": 23857,
+                    "true_negative_detections": 28871,
+                    "http_errors": 0
+                },
+                "failure_rate": 0.024621,
+                "weighted_errors_E": 1501,
+                "error_rate_epsilon": 0.027765959414713555,
+                "p99_score": {
+                    "value": 1321.237812753251,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 603.4863356804649,
+                    "rate_component": 1556.4873154809097,
+                    "absolute_penalty": -953.0009798004448,
+                    "cut_triggered": false
+                },
+                "final_score": 1924.724148433716
+            },
+            "repo_url": "https://github.com/georgepiter/rinha-2026-java",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8049",
+            "timestamp": "2026-06-02T21:22:50Z"
+        }
     }
 }
