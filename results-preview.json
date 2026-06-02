@@ -10082,7 +10082,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.9841871599999988,
+            "p99": 0.9413965399999992,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -10107,8 +10107,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/srpatos/rinha-2026-srpatos-lang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7895",
-            "timestamp": "2026-06-02T03:25:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7900",
+            "timestamp": "2026-06-02T03:35:53Z"
         }
     },
     "NormanFrieman": {
