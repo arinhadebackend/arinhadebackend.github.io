@@ -6940,18 +6940,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2002.1799165500001,
+            "p99": 2002.16671837,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 16,
+                    "false_negative_detections": 54,
                     "true_positive_detections": 0,
-                    "true_negative_detections": 17,
-                    "http_errors": 16807
+                    "true_negative_detections": 60,
+                    "http_errors": 13716
                 },
-                "failure_rate": 0.99899,
-                "weighted_errors_E": 84083,
-                "error_rate_epsilon": 4.993052256532066,
+                "failure_rate": 0.995662,
+                "weighted_errors_E": 68742,
+                "error_rate_epsilon": 4.9704989154013015,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -6965,8 +6965,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/jgouvea7/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7844",
-            "timestamp": "2026-06-02T00:00:07Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7871",
+            "timestamp": "2026-06-02T01:34:08Z"
         }
     },
     "GuilhermRodovalho": {
