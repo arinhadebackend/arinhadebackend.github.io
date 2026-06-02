@@ -348,43 +348,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "586.81ms",
+            "p99": 2.922651339999981,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
+                    "false_positive_detections": 47,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 20146,
-                    "true_negative_detections": 25293,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30070,
                     "http_errors": 0
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": 0.000869,
+                "weighted_errors_E": 47,
+                "error_rate_epsilon": 0.0008694204480290054,
                 "p99_score": {
-                    "value": 231.5,
+                    "value": 2534.222991055721,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
+                    "value": 2495.627628787324,
                     "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "absolute_penalty": -504.37237121267617,
                     "cut_triggered": false
                 },
-                "final_score": 3231.5,
-                "raw": {
-                    "p99_ms": 586.8117107200001,
-                    "failure_rate": 0,
-                    "error_rate_epsilon": 0,
-                    "p99_score": 231.50122773549253,
-                    "detection_score": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
-                    "final_score": 3231.5012277354926
-                }
+                "final_score": 5029.850619843045
             },
             "repo_url": "https://github.com/vitortvale/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/752",
-            "timestamp": "2026-05-24T20:19:07Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8078",
+            "timestamp": "2026-06-02T23:56:54Z"
         }
     },
     "JulianySavazzi": {
