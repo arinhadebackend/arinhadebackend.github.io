@@ -4606,7 +4606,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 3.70551084,
+            "p99": 3.67888079999999,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -4619,7 +4619,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2431.151911922165,
+                    "value": 2434.2842835852657,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -4628,11 +4628,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5431.151911922165
+                "final_score": 5434.284283585266
             },
             "repo_url": "https://github.com/krymancer/rinha-de-backend-2026-ocaml",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8002",
-            "timestamp": "2026-06-02T16:52:46Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8059",
+            "timestamp": "2026-06-02T22:15:26Z"
         }
     },
     "joaoMiraya": {
