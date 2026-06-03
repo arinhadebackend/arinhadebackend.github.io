@@ -5074,43 +5074,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2.62ms",
+            "p99": 2.5523526199999997,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 2,
                     "false_negative_detections": 1,
                     "true_positive_detections": 23941,
-                    "true_negative_detections": 30114,
+                    "true_negative_detections": 30115,
                     "http_errors": 0
                 },
-                "failure_rate": "0.01%",
+                "failure_rate": 0.000055,
                 "weighted_errors_E": 5,
-                "error_rate_epsilon": 0.000092,
+                "error_rate_epsilon": 0.00009249153702436227,
                 "p99_score": {
-                    "value": 2582.21,
+                    "value": 2593.0593258987055,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2766.55,
-                    "rate_component": 3000,
-                    "absolute_penalty": -233.45,
-                    "cut_triggered": false
-                },
-                "final_score": 5348.76,
-                "raw": {
-                    "p99_ms": 2.61691645,
-                    "failure_rate": 0.00005549594879573791,
-                    "error_rate_epsilon": 0.00009249324799289652,
-                    "p99_score": 2582.210142810327,
-                    "detection_score": 2766.554624884907,
+                    "value": 2766.554624884907,
                     "rate_component": 3000,
                     "absolute_penalty": -233.4453751150931,
-                    "final_score": 5348.764767695234
-                }
+                    "cut_triggered": false
+                },
+                "final_score": 5359.613950783612
             },
             "repo_url": "https://github.com/maxsonferovante/rust-fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7419",
-            "timestamp": "2026-05-30T15:35:57Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8093",
+            "timestamp": "2026-06-03T01:18:17Z"
         }
     },
     "Josehbr": {
