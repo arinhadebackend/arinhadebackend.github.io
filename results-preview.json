@@ -5650,33 +5650,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 3.3994534399999914,
+            "p99": 1.43787188,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23859,
-                    "true_negative_detections": 30017,
-                    "http_errors": 183
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.003385,
-                "weighted_errors_E": 915,
-                "error_rate_epsilon": 0.016925951275458297,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2468.5909026850622,
+                    "value": 2842.2798095636363,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 882.8782715573768,
-                    "rate_component": 1771.4469136577318,
-                    "absolute_penalty": -888.568642100355,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3351.4691742424393
+                "final_score": 5842.279809563636
             },
             "repo_url": "https://github.com/GustavoQnt/rinha-de-backend-2026-node",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8366",
-            "timestamp": "2026-06-03T23:26:12Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8373",
+            "timestamp": "2026-06-03T23:47:38Z"
         }
     },
     "atomosdovini": {
