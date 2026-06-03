@@ -13638,5 +13638,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8317",
             "timestamp": "2026-06-03T21:15:08Z"
         }
+    },
+    "mateusememe": {
+        "mateusememe-c11-neon": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 2.1118276399999965,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 12,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 323,
+                    "true_negative_detections": 426,
+                    "http_errors": 53262
+                },
+                "failure_rate": 0.986137,
+                "weighted_errors_E": 266334,
+                "error_rate_epsilon": 4.9296462879671274,
+                "p99_score": {
+                    "value": 2675.3415302914077,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -324.6584697085923
+            },
+            "repo_url": "https://github.com/mateusememe/rinha-backend-2026-c",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8361",
+            "timestamp": "2026-06-03T23:11:43Z"
+        }
     }
 }
