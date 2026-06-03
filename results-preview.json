@@ -11318,33 +11318,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 18.56134663999997,
+            "p99": 1515.124820200001,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
-                    "http_errors": 0
+                    "false_positive_detections": 10,
+                    "false_negative_detections": 8,
+                    "true_positive_detections": 21388,
+                    "true_negative_detections": 26834,
+                    "http_errors": 289
                 },
-                "failure_rate": 0,
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": 0.006326,
+                "weighted_errors_E": 1479,
+                "error_rate_epsilon": 0.03047662222588555,
                 "p99_score": {
-                    "value": 1731.3905185748426,
+                    "value": -180.44841270043366,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 564.9546536177618,
+                    "rate_component": 1516.033168236249,
+                    "absolute_penalty": -951.0785146184871,
                     "cut_triggered": false
                 },
-                "final_score": 4731.390518574843
+                "final_score": 384.5062409173281
             },
             "repo_url": "https://github.com/santo-ti/santo-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7978",
-            "timestamp": "2026-06-02T14:59:29Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8100",
+            "timestamp": "2026-06-03T01:43:47Z"
         }
     },
     "marcioomonte": {
