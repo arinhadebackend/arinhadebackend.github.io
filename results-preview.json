@@ -12450,18 +12450,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.780936,
+            "p99": 2002.14269152,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 12,
-                    "false_negative_detections": 1351,
-                    "true_positive_detections": 339,
-                    "true_negative_detections": 2119,
-                    "http_errors": 42680
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 1042,
+                    "true_negative_detections": 1310,
+                    "http_errors": 12973
                 },
-                "failure_rate": 0.947141,
-                "weighted_errors_E": 217465,
-                "error_rate_epsilon": 4.676566095352788,
+                "failure_rate": 0.846525,
+                "weighted_errors_E": 64865,
+                "error_rate_epsilon": 4.232626427406199,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -12475,8 +12475,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/rlevidev/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7913",
-            "timestamp": "2026-06-02T04:55:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8286",
+            "timestamp": "2026-06-03T19:37:55Z"
         }
     },
     "Johnny-Nascimento": {
