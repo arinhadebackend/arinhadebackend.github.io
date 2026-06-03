@@ -13340,7 +13340,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.56120742,
+            "p99": 0.54696662,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -13365,8 +13365,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/jhon2c/rinha-de-backend-2026-zig",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8264",
-            "timestamp": "2026-06-03T17:45:57Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8268",
+            "timestamp": "2026-06-03T17:57:55Z"
         }
     },
     "gogoncalves": {
