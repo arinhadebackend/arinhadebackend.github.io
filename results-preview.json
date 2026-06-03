@@ -12750,17 +12750,17 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2003.10015064,
+            "p99": 2002.07202626,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 0,
                     "true_negative_detections": 0,
-                    "http_errors": 14992
+                    "http_errors": 13830
                 },
                 "failure_rate": 1,
-                "weighted_errors_E": 74960,
+                "weighted_errors_E": 69150,
                 "error_rate_epsilon": 5,
                 "p99_score": {
                     "value": -3000,
@@ -12775,8 +12775,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/ThiaudioTT/fraud-detection-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8117",
-            "timestamp": "2026-06-03T03:00:32Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8214",
+            "timestamp": "2026-06-03T14:49:46Z"
         }
     },
     "jvsouzx": {
