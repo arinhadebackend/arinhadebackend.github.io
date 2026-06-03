@@ -13608,5 +13608,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8312",
             "timestamp": "2026-06-03T21:11:34Z"
         }
+    },
+    "carlosmms1": {
+        "cmms-python": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 2002.09010077,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 28,
+                    "false_negative_detections": 31,
+                    "true_positive_detections": 11929,
+                    "true_negative_detections": 15199,
+                    "http_errors": 7535
+                },
+                "failure_rate": 0.218709,
+                "weighted_errors_E": 37796,
+                "error_rate_epsilon": 1.0885317666033063,
+                "p99_score": {
+                    "value": -3000,
+                    "cut_triggered": true
+                },
+                "detection_score": {
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
+                },
+                "final_score": -6000
+            },
+            "repo_url": "https://github.com/carlosmms1/fraudetector",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8317",
+            "timestamp": "2026-06-03T21:15:08Z"
+        }
     }
 }
