@@ -6144,20 +6144,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1466.19080872,
+            "p99": 0.3702839399999998,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 13989,
-                    "true_negative_detections": 17624,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
                 "failure_rate": 0,
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -166.1904926665227,
+                    "value": 3000,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -6166,11 +6166,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 2833.809507333477
+                "final_score": 6000
             },
             "repo_url": "https://github.com/rafaelcoelhox/detecta-fraude",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8137",
-            "timestamp": "2026-06-03T04:23:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8265",
+            "timestamp": "2026-06-03T17:49:35Z"
         }
     },
     "oliveirajhony": {
