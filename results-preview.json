@@ -12182,33 +12182,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.45624746,
+            "p99": 2.27928534,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30116,
+                    "false_positive_detections": 773,
+                    "false_negative_detections": 307,
+                    "true_positive_detections": 23635,
+                    "true_negative_detections": 29344,
                     "http_errors": 0
                 },
-                "failure_rate": 0,
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": 0.019978,
+                "weighted_errors_E": 1694,
+                "error_rate_epsilon": 0.03133613274385394,
                 "p99_score": {
-                    "value": 3000,
+                    "value": 2642.201302801032,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 535.2036909677618,
+                    "rate_component": 1503.954601729492,
+                    "absolute_penalty": -968.7509107617302,
                     "cut_triggered": false
                 },
-                "final_score": 6000
+                "final_score": 3177.4049937687937
             },
             "repo_url": "https://github.com/adsanla/rinha2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8044",
-            "timestamp": "2026-06-02T20:46:16Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8358",
+            "timestamp": "2026-06-03T23:01:31Z"
         }
     },
     "lazaroborges": {
