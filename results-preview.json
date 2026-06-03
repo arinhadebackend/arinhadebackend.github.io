@@ -11346,33 +11346,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 15.62205362,
+            "p99": 70.13403170000001,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 20,
-                    "false_negative_detections": 10,
-                    "true_positive_detections": 23932,
-                    "true_negative_detections": 30096,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000555,
-                "weighted_errors_E": 50,
-                "error_rate_epsilon": 0.0009249324799289652,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1806.2618758870194,
+                    "value": 1154.0711946854947,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2487.728947170619,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -512.2710528293809,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4293.990823057638
+                "final_score": 4154.071194685494
             },
             "repo_url": "https://github.com/santo-ti/santo-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8186",
-            "timestamp": "2026-06-03T11:12:23Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8190",
+            "timestamp": "2026-06-03T11:51:09Z"
         }
     },
     "marcioomonte": {
