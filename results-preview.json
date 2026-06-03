@@ -10684,7 +10684,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.8361045000000001,
+            "p99": 0.4304243800000001,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -10709,8 +10709,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/vinicius-piassa/rinha-backend-2026-asm",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8303",
-            "timestamp": "2026-06-03T20:31:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8306",
+            "timestamp": "2026-06-03T20:40:31Z"
         },
         "rinha-backend-2026-go": {
             "expected": {
