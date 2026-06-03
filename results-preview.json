@@ -13460,33 +13460,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 3.5081626799999954,
+            "p99": 22.235904339999962,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 289,
-                    "false_negative_detections": 267,
-                    "true_positive_detections": 23675,
-                    "true_negative_detections": 29828,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
-                "failure_rate": 0.010285,
-                "weighted_errors_E": 1090,
-                "error_rate_epsilon": 0.020163155071310977,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2454.9202757996745,
+                    "value": 1652.945202986577,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 784.094084607054,
-                    "rate_component": 1695.4415097835565,
-                    "absolute_penalty": -911.3474251765025,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 3239.0143604067284
+                "final_score": 4652.945202986577
             },
             "repo_url": "https://github.com/bentoplebstguida/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8277",
-            "timestamp": "2026-06-03T18:50:10Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8278",
+            "timestamp": "2026-06-03T18:55:58Z"
         }
     },
     "SergioTEC": {
