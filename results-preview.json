@@ -13220,20 +13220,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 123.09223182000021,
+            "p99": 108.66479113999992,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 8,
                     "false_negative_detections": 7,
-                    "true_positive_detections": 23923,
-                    "true_negative_detections": 30101,
+                    "true_positive_detections": 23924,
+                    "true_negative_detections": 30103,
                     "http_errors": 0
                 },
                 "failure_rate": 0.000278,
                 "weighted_errors_E": 29,
-                "error_rate_epsilon": 0.0005366494568737393,
+                "error_rate_epsilon": 0.0005366196661855594,
                 "p99_score": {
-                    "value": 909.7693539261992,
+                    "value": 963.9111503993732,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -13242,11 +13242,11 @@
                     "absolute_penalty": -443.1363764158987,
                     "cut_triggered": false
                 },
-                "final_score": 3466.6329775103004
+                "final_score": 3520.7747739834745
             },
             "repo_url": "https://github.com/andrebsoares/rinha-de-backend-2026-andre-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8328",
-            "timestamp": "2026-06-03T21:52:35Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8330",
+            "timestamp": "2026-06-03T21:59:36Z"
         }
     },
     "ewertonlim": {
