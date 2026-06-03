@@ -11722,33 +11722,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 30.41584832,
+            "p99": 8.095758779999958,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 32,
+                    "false_positive_detections": 33,
                     "false_negative_detections": 4,
-                    "true_positive_detections": 23401,
-                    "true_negative_detections": 29385,
-                    "http_errors": 1222
+                    "true_positive_detections": 23938,
+                    "true_negative_detections": 30084,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.023277,
-                "weighted_errors_E": 6154,
-                "error_rate_epsilon": 0.11387017985345274,
+                "failure_rate": 0.000684,
+                "weighted_errors_E": 45,
+                "error_rate_epsilon": 0.0008324238332192604,
                 "p99_score": {
-                    "value": 1516.9000662450467,
+                    "value": 2091.7424404839744,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -193.17842378164585,
-                    "rate_component": 943.5899933985548,
-                    "absolute_penalty": -1136.7684171802007,
+                    "value": 2501.1726504955277,
+                    "rate_component": 3000,
+                    "absolute_penalty": -498.82734950447224,
                     "cut_triggered": false
                 },
-                "final_score": 1323.7216424634007
+                "final_score": 4592.915090979503
             },
             "repo_url": "https://github.com/sandrosmarzaro/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8301",
-            "timestamp": "2026-06-03T20:25:22Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8329",
+            "timestamp": "2026-06-03T21:56:51Z"
         }
     },
     "murilodacios": {
