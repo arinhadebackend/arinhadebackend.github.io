@@ -11784,33 +11784,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 22.45569666,
+            "p99": 421.9502830199998,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 33,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 23938,
-                    "true_negative_detections": 30083,
+                    "false_positive_detections": 28,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 23767,
+                    "true_negative_detections": 29857,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000684,
-                "weighted_errors_E": 45,
-                "error_rate_epsilon": 0.0008324392319360687,
+                "failure_rate": 0.000578,
+                "weighted_errors_E": 37,
+                "error_rate_epsilon": 0.0006895909048550927,
                 "p99_score": {
-                    "value": 1648.673466947269,
+                    "value": 374.7387174792411,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2501.1726504955277,
+                    "value": 2526.064921014957,
                     "rate_component": 3000,
-                    "absolute_penalty": -498.82734950447224,
+                    "absolute_penalty": -473.93507898504305,
                     "cut_triggered": false
                 },
-                "final_score": 4149.846117442797
+                "final_score": 2900.803638494198
             },
             "repo_url": "https://github.com/sandrosmarzaro/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7932",
-            "timestamp": "2026-06-02T06:58:08Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8082",
+            "timestamp": "2026-06-03T00:47:01Z"
         }
     },
     "murilodacios": {
