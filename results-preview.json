@@ -9884,33 +9884,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 562.5945357,
+            "p99": 75.89370035999998,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 3,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 22870,
-                    "true_negative_detections": 28738,
+                    "false_positive_detections": 15,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 23939,
+                    "true_negative_detections": 30102,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000058,
-                "weighted_errors_E": 3,
-                "error_rate_epsilon": 0.00005812714343841429,
+                "failure_rate": 0.000333,
+                "weighted_errors_E": 24,
+                "error_rate_epsilon": 0.0004439593777169389,
                 "p99_score": {
-                    "value": 249.8044903131251,
+                    "value": 1119.7942716991834,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2819.3820026016115,
+                    "value": 2580.617997398389,
                     "rate_component": 3000,
-                    "absolute_penalty": -180.61799739838872,
+                    "absolute_penalty": -419.38200260161125,
                     "cut_triggered": false
                 },
-                "final_score": 3069.1864929147364
+                "final_score": 3700.4122690975723
             },
             "repo_url": "https://github.com/wgasparin/rinha-backend-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8101",
-            "timestamp": "2026-06-03T01:47:08Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8184",
+            "timestamp": "2026-06-03T10:53:30Z"
         }
     },
     "JorgeEduardoZanin": {
