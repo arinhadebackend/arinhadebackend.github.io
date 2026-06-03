@@ -13162,33 +13162,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.8768514,
+            "p99": 2001.8588942800002,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 12,
                     "false_negative_detections": 7,
-                    "true_positive_detections": 17854,
-                    "true_negative_detections": 22326,
-                    "http_errors": 4239
+                    "true_positive_detections": 17541,
+                    "true_negative_detections": 21997,
+                    "http_errors": 4315
                 },
-                "failure_rate": 0.095819,
-                "weighted_errors_E": 21228,
-                "error_rate_epsilon": 0.4776992663936271,
+                "failure_rate": 0.098787,
+                "weighted_errors_E": 21608,
+                "error_rate_epsilon": 0.4925237053245806,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -977.2334354476002,
-                    "rate_component": 320.8454256654515,
-                    "absolute_penalty": -1298.0788611130517,
+                    "value": -992.8175389188814,
+                    "rate_component": 307.57286193002415,
+                    "absolute_penalty": -1300.3904008489055,
                     "cut_triggered": false
                 },
-                "final_score": -3977.2334354476
+                "final_score": -3992.8175389188814
             },
             "repo_url": "https://github.com/henriqueyda/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8095",
-            "timestamp": "2026-06-03T01:24:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8107",
+            "timestamp": "2026-06-03T02:12:27Z"
         }
     },
     "rafaelviefe": {
