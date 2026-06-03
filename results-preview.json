@@ -13200,33 +13200,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.84770476,
+            "p99": 2001.87564724,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 12,
-                    "false_negative_detections": 7,
-                    "true_positive_detections": 18361,
-                    "true_negative_detections": 22992,
-                    "http_errors": 3831
+                    "false_negative_detections": 8,
+                    "true_positive_detections": 18347,
+                    "true_negative_detections": 22937,
+                    "http_errors": 3944
                 },
-                "failure_rate": 0.085171,
-                "weighted_errors_E": 19188,
-                "error_rate_epsilon": 0.4244851005464239,
+                "failure_rate": 0.087606,
+                "weighted_errors_E": 19756,
+                "error_rate_epsilon": 0.4366159830268741,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -912.7781539403359,
-                    "rate_component": 372.13754891598137,
-                    "absolute_penalty": -1284.9157028563172,
+                    "value": -928.8159296633746,
+                    "rate_component": 359.90037029127603,
+                    "absolute_penalty": -1288.7162999546506,
                     "cut_triggered": false
                 },
-                "final_score": -3912.778153940336
+                "final_score": -3928.815929663375
             },
             "repo_url": "https://github.com/henriqueyda/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8115",
-            "timestamp": "2026-06-03T02:50:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8126",
+            "timestamp": "2026-06-03T03:23:38Z"
         }
     },
     "rafaelviefe": {
