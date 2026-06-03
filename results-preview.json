@@ -3246,7 +3246,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.38238518,
+            "p99": 0.38308989999999965,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -3271,8 +3271,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/fksegundo/rinha-rust-tree",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8123",
-            "timestamp": "2026-06-03T03:17:35Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8171",
+            "timestamp": "2026-06-03T07:43:46Z"
         }
     },
     "micheloliveira-com": {
