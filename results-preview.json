@@ -13460,33 +13460,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.86056084,
+            "p99": 3.5081626799999954,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 244,
-                    "false_negative_detections": 223,
-                    "true_positive_detections": 19395,
-                    "true_negative_detections": 24458,
-                    "http_errors": 3189
+                    "false_positive_detections": 289,
+                    "false_negative_detections": 267,
+                    "true_positive_detections": 23675,
+                    "true_negative_detections": 29828,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.076954,
-                "weighted_errors_E": 16858,
-                "error_rate_epsilon": 0.3548380306889221,
+                "failure_rate": 0.010285,
+                "weighted_errors_E": 1090,
+                "error_rate_epsilon": 0.020163155071310977,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -818.07970349262,
-                    "rate_component": 449.96983970499605,
-                    "absolute_penalty": -1268.049543197616,
+                    "value": 2454.9202757996745,
                     "cut_triggered": false
                 },
-                "final_score": -3818.07970349262
+                "detection_score": {
+                    "value": 784.094084607054,
+                    "rate_component": 1695.4415097835565,
+                    "absolute_penalty": -911.3474251765025,
+                    "cut_triggered": false
+                },
+                "final_score": 3239.0143604067284
             },
             "repo_url": "https://github.com/bentoplebstguida/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8216",
-            "timestamp": "2026-06-03T14:56:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8277",
+            "timestamp": "2026-06-03T18:50:10Z"
         }
     },
     "SergioTEC": {
