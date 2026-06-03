@@ -13400,7 +13400,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.6981425399999999,
+            "p99": 1.635596959999998,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -13413,7 +13413,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2770.025858416394,
+                    "value": 2786.3237053177827,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -13422,11 +13422,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5770.025858416394
+                "final_score": 5786.323705317783
             },
             "repo_url": "https://github.com/gogoncalves/rinha-fraud-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8163",
-            "timestamp": "2026-06-03T06:59:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8166",
+            "timestamp": "2026-06-03T07:09:04Z"
         }
     }
 }
