@@ -5650,43 +5650,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.52ms",
+            "p99": 3.3994534399999914,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30116,
-                    "http_errors": 0
+                    "true_positive_detections": 23859,
+                    "true_negative_detections": 30017,
+                    "http_errors": 183
                 },
-                "failure_rate": "0%",
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": 0.003385,
+                "weighted_errors_E": 915,
+                "error_rate_epsilon": 0.016925951275458297,
                 "p99_score": {
-                    "value": 2819.41,
+                    "value": 2468.5909026850622,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 882.8782715573768,
+                    "rate_component": 1771.4469136577318,
+                    "absolute_penalty": -888.568642100355,
                     "cut_triggered": false
                 },
-                "final_score": 5819.41,
-                "raw": {
-                    "p99_ms": 1.5156265800000002,
-                    "failure_rate": 0,
-                    "error_rate_epsilon": 0,
-                    "p99_score": 2819.4077869770736,
-                    "detection_score": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
-                    "final_score": 5819.407786977074
-                }
+                "final_score": 3351.4691742424393
             },
             "repo_url": "https://github.com/GustavoQnt/rinha-de-backend-2026-node",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6727",
-            "timestamp": "2026-05-26T03:00:53Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8366",
+            "timestamp": "2026-06-03T23:26:12Z"
         }
     },
     "atomosdovini": {
