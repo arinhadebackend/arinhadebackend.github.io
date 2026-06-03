@@ -6066,33 +6066,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 4.713318,
+            "p99": 4.206964619999997,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 46,
+                    "false_positive_detections": 48,
                     "false_negative_detections": 16,
                     "true_positive_detections": 23926,
-                    "true_negative_detections": 30070,
+                    "true_negative_detections": 30069,
                     "http_errors": 0
                 },
-                "failure_rate": 0.001147,
-                "weighted_errors_E": 94,
-                "error_rate_epsilon": 0.0017388730622664545,
+                "failure_rate": 0.001184,
+                "weighted_errors_E": 96,
+                "error_rate_epsilon": 0.0017758375108677556,
                 "p99_score": {
-                    "value": 2326.6732581002716,
+                    "value": 2376.0311403251435,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2166.4150387506907,
-                    "rate_component": 2759.732120337345,
-                    "absolute_penalty": -593.3170815866542,
+                    "value": 2154.5652544047384,
+                    "rate_component": 2750.596774684612,
+                    "absolute_penalty": -596.0315202798735,
                     "cut_triggered": false
                 },
-                "final_score": 4493.088296850962
+                "final_score": 4530.596394729882
             },
             "repo_url": "https://github.com/Ninorp/rinha-2026-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8188",
-            "timestamp": "2026-06-03T11:40:15Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8272",
+            "timestamp": "2026-06-03T18:23:05Z"
         }
     },
     "rafaelcoelhox": {
