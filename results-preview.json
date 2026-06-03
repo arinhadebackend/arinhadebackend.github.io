@@ -4000,43 +4000,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2.59ms",
+            "p99": 2.6396015199999994,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 8,
-                    "false_negative_detections": 3,
-                    "true_positive_detections": 23939,
-                    "true_negative_detections": 30109,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
-                "failure_rate": "0.02%",
-                "weighted_errors_E": 17,
-                "error_rate_epsilon": 0.000314,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2586.75,
+                    "value": 2578.461630223757,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2623.42,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -376.58,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5210.17,
-                "raw": {
-                    "p99_ms": 2.589694879999991,
-                    "failure_rate": 0.000203481381453597,
-                    "error_rate_epsilon": 0.00031447122588283173,
-                    "p99_score": 2586.75140184089,
-                    "detection_score": 2623.418248469008,
-                    "rate_component": 3000,
-                    "absolute_penalty": -376.5817515309918,
-                    "final_score": 5210.169650309898
-                }
+                "final_score": 5578.461630223757
             },
             "repo_url": "https://github.com/joseiedo/ranho",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7314",
-            "timestamp": "2026-05-29T23:27:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8282",
+            "timestamp": "2026-06-03T19:19:07Z"
         }
     },
     "davivoltas": {
