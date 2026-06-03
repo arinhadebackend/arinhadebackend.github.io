@@ -348,33 +348,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.7627049799999996,
+            "p99": 174.13448779999993,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 12,
-                    "false_negative_detections": 2,
-                    "true_positive_detections": 23940,
-                    "true_negative_detections": 30105,
+                    "false_positive_detections": 3,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 23902,
+                    "true_negative_detections": 30075,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000259,
-                "weighted_errors_E": 18,
-                "error_rate_epsilon": 0.00033296953328770416,
+                "failure_rate": 0.000074,
+                "weighted_errors_E": 6,
+                "error_rate_epsilon": 0.00011115021952168355,
                 "p99_score": {
-                    "value": 2753.8203685171825,
+                    "value": 759.1152071828851,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2616.3739197141513,
+                    "value": 2746.470587995723,
                     "rate_component": 3000,
-                    "absolute_penalty": -383.6260802858487,
+                    "absolute_penalty": -253.52941200427705,
                     "cut_triggered": false
                 },
-                "final_score": 5370.194288231334
+                "final_score": 3505.585795178608
             },
             "repo_url": "https://github.com/vitortvale/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8105",
-            "timestamp": "2026-06-03T02:01:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8106",
+            "timestamp": "2026-06-03T02:05:13Z"
         }
     },
     "JulianySavazzi": {
