@@ -1028,33 +1028,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.34332327,
+            "p99": 1307.0753458100003,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 94,
-                    "false_negative_detections": 61,
-                    "true_positive_detections": 16279,
-                    "true_negative_detections": 20426,
-                    "http_errors": 962
+                    "false_positive_detections": 124,
+                    "false_negative_detections": 74,
+                    "true_positive_detections": 21164,
+                    "true_negative_detections": 26550,
+                    "http_errors": 188
                 },
-                "failure_rate": 0.029533,
-                "weighted_errors_E": 5087,
-                "error_rate_epsilon": 0.13449844006133996,
+                "failure_rate": 0.008025,
+                "weighted_errors_E": 1286,
+                "error_rate_epsilon": 0.026735966735966735,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -240.68137812918917,
-                    "rate_component": 871.282752662918,
-                    "absolute_penalty": -1111.9641307921072,
+                    "value": -116.30062302535589,
                     "cut_triggered": false
                 },
-                "final_score": -3240.6813781291894
+                "detection_score": {
+                    "value": 640.0305437143124,
+                    "rate_component": 1572.9041077856284,
+                    "absolute_penalty": -932.873564071316,
+                    "cut_triggered": false
+                },
+                "final_score": 523.7299206889566
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8537",
-            "timestamp": "2026-06-04T10:45:14Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8539",
+            "timestamp": "2026-06-04T11:00:39Z"
         }
     },
     "klevercorrea": {
