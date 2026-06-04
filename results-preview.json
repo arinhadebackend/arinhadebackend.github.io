@@ -11266,7 +11266,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 17.127688579999962,
+            "p99": 18.700026359999956,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -11279,7 +11279,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1766.3012420948137,
+                    "value": 1728.1577812712842,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11288,11 +11288,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4766.3012420948135
+                "final_score": 4728.157781271284
             },
             "repo_url": "https://github.com/santo-ti/santo-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8204",
-            "timestamp": "2026-06-03T13:50:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8433",
+            "timestamp": "2026-06-04T02:21:42Z"
         }
     },
     "marcioomonte": {
