@@ -6026,7 +6026,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 4.916069699999987,
+            "p99": 86.96267337999991,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 44,
@@ -6039,7 +6039,7 @@
                 "weighted_errors_E": 74,
                 "error_rate_epsilon": 0.0013688747479605615,
                 "p99_score": {
-                    "value": 2308.3819683179686,
+                    "value": 1060.667117767947,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -6048,11 +6048,11 @@
                     "absolute_penalty": -562.5183790175099,
                     "cut_triggered": false
                 },
-                "final_score": 4609.499877293663
+                "final_score": 3361.7850267436415
             },
             "repo_url": "https://github.com/Ninorp/rinha-2026-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8577",
-            "timestamp": "2026-06-04T14:04:54Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8581",
+            "timestamp": "2026-06-04T14:18:05Z"
         }
     },
     "rafaelcoelhox": {
