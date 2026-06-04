@@ -11792,7 +11792,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.6313378599999973,
+            "p99": 0.8549545799999904,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -11817,8 +11817,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/epicvinny/rinha-de-backend-2026-epicvinny",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8383",
-            "timestamp": "2026-06-04T00:09:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8395",
+            "timestamp": "2026-06-04T00:35:29Z"
         }
     },
     "gustinoco": {
