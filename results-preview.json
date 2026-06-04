@@ -704,33 +704,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.9362414,
+            "p99": 1.03972115,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 369,
-                    "false_negative_detections": 108,
-                    "true_positive_detections": 23834,
-                    "true_negative_detections": 29748,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
-                "failure_rate": 0.008824,
-                "weighted_errors_E": 693,
-                "error_rate_epsilon": 0.012819327031576611,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 3000,
+                    "value": 2983.0831215229064,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1039.7269319759173,
-                    "rate_component": 1892.1347731123738,
-                    "absolute_penalty": -852.4078411364565,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4039.726931975917
+                "final_score": 5983.083121522906
             },
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8543",
-            "timestamp": "2026-06-04T11:27:07Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8610",
+            "timestamp": "2026-06-04T15:41:07Z"
         }
     },
     "fabianoflorentino": {
