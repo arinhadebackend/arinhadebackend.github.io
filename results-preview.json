@@ -9794,33 +9794,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 71.3274323600001,
+            "p99": 88.44952099999999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 14,
+                    "false_positive_detections": 15,
                     "false_negative_detections": 3,
-                    "true_positive_detections": 23795,
-                    "true_negative_detections": 29920,
-                    "http_errors": 7
+                    "true_positive_detections": 23928,
+                    "true_negative_detections": 30095,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.000447,
-                "weighted_errors_E": 58,
-                "error_rate_epsilon": 0.0010792906455274567,
+                "failure_rate": 0.000333,
+                "weighted_errors_E": 24,
+                "error_rate_epsilon": 0.00044410725190133416,
                 "p99_score": {
-                    "value": 1146.7434094007956,
+                    "value": 1053.3045146776062,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2435.605983565524,
-                    "rate_component": 2966.8615870581675,
-                    "absolute_penalty": -531.2556034926432,
+                    "value": 2580.617997398389,
+                    "rate_component": 3000,
+                    "absolute_penalty": -419.38200260161125,
                     "cut_triggered": false
                 },
-                "final_score": 3582.34939296632
+                "final_score": 3633.922512075995
             },
             "repo_url": "https://github.com/wgasparin/rinha-backend-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8437",
-            "timestamp": "2026-06-04T02:57:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8529",
+            "timestamp": "2026-06-04T10:06:12Z"
         }
     },
     "JorgeEduardoZanin": {
