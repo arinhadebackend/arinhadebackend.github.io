@@ -13760,17 +13760,17 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.06604684,
+            "p99": 2001.0133796,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 0,
                     "true_negative_detections": 0,
-                    "http_errors": 53955
+                    "http_errors": 53957
                 },
                 "failure_rate": 1,
-                "weighted_errors_E": 269775,
+                "weighted_errors_E": 269785,
                 "error_rate_epsilon": 5,
                 "p99_score": {
                     "value": -3000,
@@ -13785,8 +13785,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/Vitor-Chassot/FRAUDE_API_C_IVF",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8485",
-            "timestamp": "2026-06-04T05:36:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8503",
+            "timestamp": "2026-06-04T06:29:49Z"
         }
     }
 }
