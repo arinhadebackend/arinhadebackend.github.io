@@ -11274,33 +11274,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 24.20925159999999,
+            "p99": 88.09490694999997,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 125,
-                    "false_negative_detections": 107,
-                    "true_positive_detections": 23835,
-                    "true_negative_detections": 29992,
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23941,
+                    "true_negative_detections": 30115,
                     "http_errors": 0
                 },
-                "failure_rate": 0.004292,
-                "weighted_errors_E": 446,
-                "error_rate_epsilon": 0.008250245102573115,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1616.0186360441862,
+                    "value": 1055.0491988234558,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1288.4408920724572,
-                    "rate_component": 2083.5331490120384,
-                    "absolute_penalty": -795.092256939581,
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 2904.4595281166435
+                "final_score": 4055.0491988234558
             },
             "repo_url": "https://github.com/santo-ti/santo-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8573",
-            "timestamp": "2026-06-04T13:56:17Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8637",
+            "timestamp": "2026-06-04T16:46:07Z"
         }
     },
     "marcioomonte": {
