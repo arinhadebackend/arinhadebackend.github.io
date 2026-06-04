@@ -10509,6 +10509,44 @@
             "repo_url": "https://github.com/BGLuis/rinha-backend-2026-go-rust",
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8668",
             "timestamp": "2026-06-04T18:13:14Z"
+        },
+        "bgluis-rust-puro": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 1.81831052,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
+                    "http_errors": 0
+                },
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
+                "p99_score": {
+                    "value": 2740.331948613047,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 5740.331948613048
+            },
+            "repo_url": "https://github.com/BGLuis/rinha-2026-pure-rust",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8675",
+            "timestamp": "2026-06-04T18:32:36Z"
         }
     },
     "JaoConquista": {
