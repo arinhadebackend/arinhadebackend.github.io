@@ -12762,33 +12762,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 92.49252304000008,
+            "p99": 27.016978120000005,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 127,
                     "false_negative_detections": 96,
                     "true_positive_detections": 23846,
-                    "true_negative_detections": 29988,
+                    "true_negative_detections": 29989,
                     "http_errors": 0
                 },
                 "failure_rate": 0.004125,
                 "weighted_errors_E": 415,
-                "error_rate_epsilon": 0.007677081599052851,
+                "error_rate_epsilon": 0.007676939583410411,
                 "p99_score": {
-                    "value": 1033.893373571404,
+                    "value": 1568.3632289336094,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1329.0758441011762,
-                    "rate_component": 2114.803843289199,
+                    "value": 1329.0838780369281,
+                    "rate_component": 2114.811877224951,
                     "absolute_penalty": -785.7279991880229,
                     "cut_triggered": false
                 },
-                "final_score": 2362.9692176725803
+                "final_score": 2897.447106970538
             },
             "repo_url": "https://github.com/ThiaudioTT/fraud-detection-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8795",
-            "timestamp": "2026-06-04T23:40:59Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8803",
+            "timestamp": "2026-06-04T23:59:10Z"
         }
     },
     "jvsouzx": {
