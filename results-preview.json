@@ -12580,7 +12580,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.3844484700000001,
+            "p99": 0.40156350000000024,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -12605,8 +12605,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/bmtec/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8274",
-            "timestamp": "2026-06-03T18:39:29Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8452",
+            "timestamp": "2026-06-04T04:06:23Z"
         }
     },
     "marcuspmd": {
