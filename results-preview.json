@@ -13854,5 +13854,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8521",
             "timestamp": "2026-06-04T08:29:40Z"
         }
+    },
+    "rwebler": {
+        "rwebler-rust": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 1.5373042,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 102,
+                    "false_negative_detections": 97,
+                    "true_positive_detections": 23845,
+                    "true_negative_detections": 30015,
+                    "http_errors": 0
+                },
+                "failure_rate": 0.003681,
+                "weighted_errors_E": 393,
+                "error_rate_epsilon": 0.007269834810114875,
+                "p99_score": {
+                    "value": 2813.2401863002488,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 1359.8265908010812,
+                    "rate_component": 2138.4754573487535,
+                    "absolute_penalty": -778.6488665476722,
+                    "cut_triggered": false
+                },
+                "final_score": 4173.06677710133
+            },
+            "repo_url": "https://github.com/rwebler/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8590",
+            "timestamp": "2026-06-04T14:34:23Z"
+        }
     }
 }
