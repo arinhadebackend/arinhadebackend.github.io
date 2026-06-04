@@ -11502,7 +11502,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 3.781784979999996,
+            "p99": 3.7047111999999993,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 532,
@@ -11515,7 +11515,7 @@
                 "weighted_errors_E": 1597,
                 "error_rate_epsilon": 0.029541796925581308,
                 "p99_score": {
-                    "value": 2422.303167361457,
+                    "value": 2431.245641702186,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -11524,11 +11524,11 @@
                     "absolute_penalty": -961.0730324933917,
                     "cut_triggered": false
                 },
-                "final_score": 2990.7932264537626
+                "final_score": 2999.7357007944915
             },
             "repo_url": "https://github.com/molBR/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8404",
-            "timestamp": "2026-06-04T00:53:37Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8416",
+            "timestamp": "2026-06-04T01:22:10Z"
         }
     },
     "Pongelupe": {
