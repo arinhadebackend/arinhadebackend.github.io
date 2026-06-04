@@ -6620,7 +6620,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.36439509999999964,
+            "p99": 0.37328713999999996,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -6645,8 +6645,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/dalvorsn/cpp-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8776",
-            "timestamp": "2026-06-04T22:47:22Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8777",
+            "timestamp": "2026-06-04T22:50:22Z"
         }
     },
     "viniciusfonseca": {
