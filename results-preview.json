@@ -528,43 +528,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "11.05ms",
+            "p99": 36.50966347000002,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 13,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 23938,
-                    "true_negative_detections": 30103,
+                    "false_positive_detections": 9,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 23937,
+                    "true_negative_detections": 30107,
                     "http_errors": 0
                 },
-                "failure_rate": "0.03%",
-                "weighted_errors_E": 25,
-                "error_rate_epsilon": 0.000462,
+                "failure_rate": 0.000259,
+                "weighted_errors_E": 24,
+                "error_rate_epsilon": 0.00044396759036590327,
                 "p99_score": {
-                    "value": 1956.53,
+                    "value": 1437.5921701671055,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2575.51,
+                    "value": 2580.617997398389,
                     "rate_component": 3000,
-                    "absolute_penalty": -424.49,
+                    "absolute_penalty": -419.38200260161125,
                     "cut_triggered": false
                 },
-                "final_score": 4532.04,
-                "raw": {
-                    "p99_ms": 11.05277182000001,
-                    "failure_rate": 0.00031447704317584817,
-                    "error_rate_epsilon": 0.0004624662399644826,
-                    "p99_score": 1956.5287957186756,
-                    "detection_score": 2575.5079956087548,
-                    "rate_component": 3000,
-                    "absolute_penalty": -424.4920043912454,
-                    "final_score": 4532.03679132743
-                }
+                "final_score": 4018.2101675654944
             },
             "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/5405",
-            "timestamp": "2026-05-24T01:12:30Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8494",
+            "timestamp": "2026-06-04T06:02:33Z"
         },
         "rust-xgboost-warmup": {
             "expected": {
