@@ -11236,33 +11236,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 18.90708925999998,
+            "p99": 24.20925159999999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 29,
-                    "false_negative_detections": 9,
-                    "true_positive_detections": 23933,
-                    "true_negative_detections": 30088,
+                    "false_positive_detections": 125,
+                    "false_negative_detections": 107,
+                    "true_positive_detections": 23835,
+                    "true_negative_detections": 29992,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000703,
-                "weighted_errors_E": 56,
-                "error_rate_epsilon": 0.0010359052146728573,
+                "failure_rate": 0.004292,
+                "weighted_errors_E": 446,
+                "error_rate_epsilon": 0.008250245102573115,
                 "p99_score": {
-                    "value": 1723.3753254976657,
+                    "value": 1616.0186360441862,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2457.917524016232,
-                    "rate_component": 2984.6799807179796,
-                    "absolute_penalty": -526.7624567017474,
+                    "value": 1288.4408920724572,
+                    "rate_component": 2083.5331490120384,
+                    "absolute_penalty": -795.092256939581,
                     "cut_triggered": false
                 },
-                "final_score": 4181.292849513898
+                "final_score": 2904.4595281166435
             },
             "repo_url": "https://github.com/santo-ti/santo-rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8572",
-            "timestamp": "2026-06-04T13:51:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8573",
+            "timestamp": "2026-06-04T13:56:17Z"
         }
     },
     "marcioomonte": {
