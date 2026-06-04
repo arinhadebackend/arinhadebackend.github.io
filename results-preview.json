@@ -4612,33 +4612,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1078.2062632900002,
+            "p99": 716.1304736200003,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 10,
-                    "false_negative_detections": 8,
-                    "true_positive_detections": 17518,
-                    "true_negative_detections": 22004,
+                    "false_positive_detections": 14,
+                    "false_negative_detections": 11,
+                    "true_positive_detections": 21771,
+                    "true_negative_detections": 27307,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000455,
-                "weighted_errors_E": 34,
-                "error_rate_epsilon": 0.0008598887202832575,
+                "failure_rate": 0.000509,
+                "weighted_errors_E": 47,
+                "error_rate_epsilon": 0.0009571716595727349,
                 "p99_score": {
-                    "value": -32.7018503124886,
+                    "value": 145.00784527453217,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2536.7795866949173,
+                    "value": 2495.627628787324,
                     "rate_component": 3000,
-                    "absolute_penalty": -463.2204133050826,
+                    "absolute_penalty": -504.37237121267617,
                     "cut_triggered": false
                 },
-                "final_score": 2504.0777363824286
+                "final_score": 2640.635474061856
             },
             "repo_url": "https://github.com/krymancer/rinha-de-backend-2026-zig",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8645",
-            "timestamp": "2026-06-04T17:06:02Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8653",
+            "timestamp": "2026-06-04T17:34:07Z"
         }
     },
     "joaoMiraya": {
