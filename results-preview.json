@@ -3990,33 +3990,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.6396015199999994,
+            "p99": 2.571349999999997,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "false_positive_detections": 412,
+                    "false_negative_detections": 388,
+                    "true_positive_detections": 23554,
+                    "true_negative_detections": 29705,
                     "http_errors": 0
                 },
-                "failure_rate": 0,
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": 0.014799,
+                "weighted_errors_E": 1576,
+                "error_rate_epsilon": 0.029153332470078987,
                 "p99_score": {
-                    "value": 2578.461630223757,
+                    "value": 2589.8388052228624,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 575.9622865719729,
+                    "rate_component": 1535.3117945706438,
+                    "absolute_penalty": -959.3495079986709,
                     "cut_triggered": false
                 },
-                "final_score": 5578.461630223757
+                "final_score": 3165.8010917948354
             },
             "repo_url": "https://github.com/joseiedo/ranho",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8282",
-            "timestamp": "2026-06-03T19:19:07Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8696",
+            "timestamp": "2026-06-04T19:05:06Z"
         }
     },
     "davivoltas": {
