@@ -14212,7 +14212,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 21.221789319999978,
+            "p99": 20.798337599999986,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -14225,7 +14225,7 @@
                 "weighted_errors_E": 71826,
                 "error_rate_epsilon": 1.3286594276623689,
                 "p99_score": {
-                    "value": 1673.2180012527228,
+                    "value": 1681.971376575668,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -14234,11 +14234,11 @@
                     "absolute_penalty": null,
                     "cut_triggered": true
                 },
-                "final_score": -1326.7819987472772
+                "final_score": -1318.028623424332
             },
             "repo_url": "https://github.com/theclanks/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8596",
-            "timestamp": "2026-06-04T14:51:48Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8694",
+            "timestamp": "2026-06-04T19:00:29Z"
         }
     },
     "ChrisAmora": {
