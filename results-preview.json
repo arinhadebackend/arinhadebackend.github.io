@@ -10002,7 +10002,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.244037699999999,
+            "p99": 1.2905186199999987,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -10015,7 +10015,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2905.16645834787,
+                    "value": 2889.2357249404035,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -10024,11 +10024,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5905.1664583478705
+                "final_score": 5889.235724940403
             },
             "repo_url": "https://github.com/SmookeyDev/rinha-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8713",
-            "timestamp": "2026-06-04T19:34:51Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8735",
+            "timestamp": "2026-06-04T20:43:20Z"
         }
     },
     "fernandosutter": {
