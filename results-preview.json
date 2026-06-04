@@ -13050,33 +13050,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 3.6131021399999974,
+            "p99": 3.946488579999996,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
-                    "http_errors": 0
+                    "true_positive_detections": 23928,
+                    "true_negative_detections": 30100,
+                    "http_errors": 31
                 },
-                "failure_rate": 0,
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": 0.000573,
+                "weighted_errors_E": 155,
+                "error_rate_epsilon": 0.0028672376477552304,
                 "p99_score": {
-                    "value": 2442.119761041616,
+                    "value": 2403.7891495798017,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": 1884.5989300475503,
+                    "rate_component": 2542.5363095538887,
+                    "absolute_penalty": -657.9373795063385,
                     "cut_triggered": false
                 },
-                "final_score": 5442.119761041617
+                "final_score": 4288.3880796273515
             },
             "repo_url": "https://github.com/alanpeixinho/rinha-beckend-2026.git",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8451",
-            "timestamp": "2026-06-04T04:02:11Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8765",
+            "timestamp": "2026-06-04T21:57:06Z"
         }
     },
     "dev-mariana": {
