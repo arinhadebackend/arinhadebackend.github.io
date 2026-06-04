@@ -13738,5 +13738,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8380",
             "timestamp": "2026-06-04T00:03:15Z"
         }
+    },
+    "anjovisk": {
+        "anjovisk-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 2.7457766999999977,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 257,
+                    "false_negative_detections": 734,
+                    "true_positive_detections": 23208,
+                    "true_negative_detections": 29857,
+                    "http_errors": 3
+                },
+                "failure_rate": 0.018387,
+                "weighted_errors_E": 2474,
+                "error_rate_epsilon": 0.04576481251965445,
+                "p99_score": {
+                    "value": 2561.334784616038,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 321.39575145020217,
+                    "rate_component": 1339.4683124310784,
+                    "absolute_penalty": -1018.0725609808762,
+                    "cut_triggered": false
+                },
+                "final_score": 2882.7305360662403
+            },
+            "repo_url": "https://github.com/anjovisk/rinha-backend-2026-go",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8415",
+            "timestamp": "2026-06-04T01:19:29Z"
+        }
     }
 }
