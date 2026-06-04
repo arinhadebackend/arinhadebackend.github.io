@@ -1028,33 +1028,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.58884648,
+            "p99": 2001.6367440400002,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 14,
+                    "false_positive_detections": 13,
                     "false_negative_detections": 9,
-                    "true_positive_detections": 15045,
-                    "true_negative_detections": 18863,
-                    "http_errors": 1722
+                    "true_positive_detections": 13858,
+                    "true_negative_detections": 17417,
+                    "http_errors": 1758
                 },
-                "failure_rate": 0.048944,
-                "weighted_errors_E": 8651,
-                "error_rate_epsilon": 0.2426443777522228,
+                "failure_rate": 0.05385,
+                "weighted_errors_E": 8830,
+                "error_rate_epsilon": 0.26713054000907577,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -566.1051860770791,
-                    "rate_component": 615.0297671530369,
-                    "absolute_penalty": -1181.134953230116,
+                    "value": -610.5265075103147,
+                    "rate_component": 573.2764579194148,
+                    "absolute_penalty": -1183.8029654297295,
                     "cut_triggered": false
                 },
-                "final_score": -3566.105186077079
+                "final_score": -3610.526507510315
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8518",
-            "timestamp": "2026-06-04T08:18:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8519",
+            "timestamp": "2026-06-04T08:21:22Z"
         }
     },
     "klevercorrea": {
