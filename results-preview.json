@@ -4612,7 +4612,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.4118574999999982,
+            "p99": 1.1872422199999988,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -4625,7 +4625,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2850.20913479039,
+                    "value": 2925.460667668993,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -4634,11 +4634,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5850.20913479039
+                "final_score": 5925.460667668993
             },
             "repo_url": "https://github.com/krymancer/rinha-de-backend-2026-zig",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8727",
-            "timestamp": "2026-06-04T20:20:15Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8775",
+            "timestamp": "2026-06-04T22:43:51Z"
         }
     },
     "joaoMiraya": {
