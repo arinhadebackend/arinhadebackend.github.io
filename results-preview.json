@@ -12030,33 +12030,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 297.09342567999994,
+            "p99": 1.183584899999999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 1,
-                    "true_negative_detections": 1,
-                    "http_errors": 53909
+                    "false_positive_detections": 613,
+                    "false_negative_detections": 421,
+                    "true_positive_detections": 23521,
+                    "true_negative_detections": 29504,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.999963,
-                "weighted_errors_E": 269548,
-                "error_rate_epsilon": 4.999777415046743,
+                "failure_rate": 0.019127,
+                "weighted_errors_E": 1876,
+                "error_rate_epsilon": 0.03470282469154072,
                 "p99_score": {
-                    "value": 527.1069585042761,
+                    "value": 2926.8005841404256,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 477.5958918947307,
+                    "rate_component": 1459.6351736811346,
+                    "absolute_penalty": -982.0392817864039,
+                    "cut_triggered": false
                 },
-                "final_score": -2472.893041495724
+                "final_score": 3404.3964760351564
             },
             "repo_url": "https://github.com/nathanfabio/fraud-detector",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8429",
-            "timestamp": "2026-06-04T02:11:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8631",
+            "timestamp": "2026-06-04T16:38:50Z"
         }
     },
     "joaogabrielgs1": {
