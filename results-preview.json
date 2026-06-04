@@ -9154,43 +9154,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "1.35ms",
+            "p99": 1.399801759999998,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 23942,
-                    "true_positive_detections": 0,
-                    "true_negative_detections": 30117,
+                    "false_positive_detections": 332,
+                    "false_negative_detections": 275,
+                    "true_positive_detections": 23667,
+                    "true_negative_detections": 29785,
                     "http_errors": 0
                 },
-                "failure_rate": "44.29%",
-                "weighted_errors_E": 71826,
-                "error_rate_epsilon": 1.328659,
+                "failure_rate": 0.011228,
+                "weighted_errors_E": 1157,
+                "error_rate_epsilon": 0.02140254166743743,
                 "p99_score": {
-                    "value": 2871.24,
+                    "value": 2853.9334647747346,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 750.4220809550055,
+                    "rate_component": 1669.5346487724307,
+                    "absolute_penalty": -919.1125678174252,
+                    "cut_triggered": false
                 },
-                "final_score": -128.76,
-                "raw": {
-                    "p99_ms": 1.3451321999999997,
-                    "failure_rate": 0.4428864758874563,
-                    "error_rate_epsilon": 1.3286594276623689,
-                    "p99_score": 2871.235030970796,
-                    "detection_score": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "final_score": -128.76496902920417
-                }
+                "final_score": 3604.3555457297402
             },
             "repo_url": "https://github.com/6se7en/rinha",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7531",
-            "timestamp": "2026-05-31T07:22:22Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8474",
+            "timestamp": "2026-06-04T04:57:34Z"
         }
     },
     "arthurd3": {
