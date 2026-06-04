@@ -13942,33 +13942,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.5373042,
+            "p99": 3.4749628799999934,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 102,
-                    "false_negative_detections": 97,
-                    "true_positive_detections": 23845,
+                    "false_negative_detections": 94,
+                    "true_positive_detections": 23848,
                     "true_negative_detections": 30015,
                     "http_errors": 0
                 },
-                "failure_rate": 0.003681,
-                "weighted_errors_E": 393,
-                "error_rate_epsilon": 0.007269834810114875,
+                "failure_rate": 0.003626,
+                "weighted_errors_E": 384,
+                "error_rate_epsilon": 0.007103350043471022,
                 "p99_score": {
-                    "value": 2813.2401863002488,
+                    "value": 2459.049830238551,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1359.8265908010812,
-                    "rate_component": 2138.4754573487535,
-                    "absolute_penalty": -778.6488665476722,
+                    "value": 1372.898564504099,
+                    "rate_component": 2148.5367833566493,
+                    "absolute_penalty": -775.6382188525502,
                     "cut_triggered": false
                 },
-                "final_score": 4173.06677710133
+                "final_score": 3831.9483947426497
             },
             "repo_url": "https://github.com/rwebler/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8590",
-            "timestamp": "2026-06-04T14:34:23Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8639",
+            "timestamp": "2026-06-04T16:51:06Z"
         }
     },
     "devcarlosoliveira": {
