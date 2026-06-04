@@ -248,33 +248,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 17.66983661999981,
+            "p99": 35.25700253999999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30114,
+                    "false_positive_detections": 39,
+                    "false_negative_detections": 5,
+                    "true_positive_detections": 23937,
+                    "true_negative_detections": 30078,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000074,
-                "weighted_errors_E": 4,
-                "error_rate_epsilon": 0.00007399186089530152,
+                "failure_rate": 0.000814,
+                "weighted_errors_E": 54,
+                "error_rate_epsilon": 0.0009989085998631125,
                 "p99_score": {
-                    "value": 1752.7674660767427,
+                    "value": 1452.7546130711032,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2790.3089986991945,
+                    "value": 2477.891193151727,
                     "rate_component": 3000,
-                    "absolute_penalty": -209.69100130080562,
+                    "absolute_penalty": -522.1088068482732,
                     "cut_triggered": false
                 },
-                "final_score": 4543.076464775937
+                "final_score": 3930.6458062228303
             },
             "repo_url": "https://github.com/jotapemattos/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8685",
-            "timestamp": "2026-06-04T18:50:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8716",
+            "timestamp": "2026-06-04T19:45:31Z"
         }
     },
     "joojf": {
