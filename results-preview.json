@@ -5072,20 +5072,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.9851956999999996,
+            "p99": 2.0986623,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
                 "failure_rate": 0,
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2702.1966741700066,
+                    "value": 2678.057439000108,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -5094,11 +5094,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5702.196674170007
+                "final_score": 5678.0574390001075
             },
             "repo_url": "https://github.com/maxsonferovante/rust-fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8109",
-            "timestamp": "2026-06-03T02:25:44Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8412",
+            "timestamp": "2026-06-04T01:10:57Z"
         }
     },
     "Josehbr": {
