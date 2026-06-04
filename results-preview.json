@@ -11502,43 +11502,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2002.03ms",
+            "p99": 3.781784979999996,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 55,
-                    "true_negative_detections": 63,
-                    "http_errors": 13712
+                    "false_positive_detections": 532,
+                    "false_negative_detections": 355,
+                    "true_positive_detections": 23587,
+                    "true_negative_detections": 29585,
+                    "http_errors": 0
                 },
-                "failure_rate": "99.15%",
-                "weighted_errors_E": 68560,
-                "error_rate_epsilon": 4.957339,
+                "failure_rate": 0.016408,
+                "weighted_errors_E": 1597,
+                "error_rate_epsilon": 0.029541796925581308,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 2422.303167361457,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 568.4900590923056,
+                    "rate_component": 1529.5630915856973,
+                    "absolute_penalty": -961.0730324933917,
+                    "cut_triggered": false
                 },
-                "final_score": -6000,
-                "raw": {
-                    "p99_ms": 2002.03209906,
-                    "failure_rate": 0.9914678235719451,
-                    "error_rate_epsilon": 4.957339117859725,
-                    "p99_score": -3000,
-                    "detection_score": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "final_score": -6000
-                }
+                "final_score": 2990.7932264537626
             },
             "repo_url": "https://github.com/molBR/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7154",
-            "timestamp": "2026-05-28T18:36:58Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8404",
+            "timestamp": "2026-06-04T00:53:37Z"
         }
     },
     "Pongelupe": {
