@@ -12444,7 +12444,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.1846032399999986,
+            "p99": 2.0230733999999995,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -12457,7 +12457,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2660.6274265768197,
+                    "value": 2693.988360117634,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -12466,11 +12466,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5660.62742657682
+                "final_score": 5693.988360117633
             },
             "repo_url": "https://github.com/SrWalkerB/rinha-de-backend-2026-c-api-",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8595",
-            "timestamp": "2026-06-04T14:48:24Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8753",
+            "timestamp": "2026-06-04T21:20:29Z"
         }
     },
     "rlevidev": {
