@@ -528,33 +528,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 36.50966347000002,
+            "p99": 2.209346839999995,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 9,
-                    "false_negative_detections": 5,
-                    "true_positive_detections": 23937,
-                    "true_negative_detections": 30107,
+                    "false_positive_detections": 11,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 23938,
+                    "true_negative_detections": 30106,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000259,
-                "weighted_errors_E": 24,
-                "error_rate_epsilon": 0.00044396759036590327,
+                "failure_rate": 0.000277,
+                "weighted_errors_E": 23,
+                "error_rate_epsilon": 0.00042546107031206647,
                 "p99_score": {
-                    "value": 1437.5921701671055,
+                    "value": 2655.7360999393804,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2580.617997398389,
+                    "value": 2585.9366274865183,
                     "rate_component": 3000,
-                    "absolute_penalty": -419.38200260161125,
+                    "absolute_penalty": -414.06337251348185,
                     "cut_triggered": false
                 },
-                "final_score": 4018.2101675654944
+                "final_score": 5241.672727425899
             },
             "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8494",
-            "timestamp": "2026-06-04T06:02:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8502",
+            "timestamp": "2026-06-04T06:26:26Z"
         },
         "rust-xgboost-warmup": {
             "expected": {
