@@ -12340,33 +12340,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1492.2819121000002,
+            "p99": 2.196145879999999,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 13715,
-                    "true_negative_detections": 17279,
-                    "http_errors": 5
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.000161,
-                "weighted_errors_E": 25,
-                "error_rate_epsilon": 0.0008064776283105906,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -173.85087494903385,
+                    "value": 2658.3388150531,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2575.5079956087548,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -424.4920043912454,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 2401.657120659721
+                "final_score": 5658.3388150531
             },
             "repo_url": "https://github.com/SrWalkerB/rinha-de-backend-2026-c-api-",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8042",
-            "timestamp": "2026-06-02T20:40:47Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8564",
+            "timestamp": "2026-06-04T13:16:38Z"
         }
     },
     "rlevidev": {
