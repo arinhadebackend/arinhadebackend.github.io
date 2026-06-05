@@ -12434,33 +12434,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.0230733999999995,
+            "p99": 2001.44164592,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23942,
-                    "true_negative_detections": 30117,
-                    "http_errors": 0
+                    "true_positive_detections": 10286,
+                    "true_negative_detections": 12920,
+                    "http_errors": 539
                 },
-                "failure_rate": 0,
-                "weighted_errors_E": 0,
-                "error_rate_epsilon": 0,
+                "failure_rate": 0.0227,
+                "weighted_errors_E": 2695,
+                "error_rate_epsilon": 0.1134975784375658,
                 "p99_score": {
-                    "value": 2693.988360117634,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 3000,
-                    "rate_component": 3000,
-                    "absolute_penalty": 0,
+                    "value": -84.20256196370497,
+                    "rate_component": 945.0134043952796,
+                    "absolute_penalty": -1029.2159663589846,
                     "cut_triggered": false
                 },
-                "final_score": 5693.988360117633
+                "final_score": -3084.202561963705
             },
             "repo_url": "https://github.com/SrWalkerB/rinha-de-backend-2026-c-api-",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8753",
-            "timestamp": "2026-06-04T21:20:29Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8813",
+            "timestamp": "2026-06-05T00:31:17Z"
         }
     },
     "rlevidev": {
