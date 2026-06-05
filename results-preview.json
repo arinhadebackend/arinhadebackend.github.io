@@ -13970,33 +13970,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.3640054,
+            "p99": 1765.1413945199984,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 17012,
-                    "true_negative_detections": 21598,
-                    "http_errors": 585
+                    "true_positive_detections": 17439,
+                    "true_negative_detections": 21990,
+                    "http_errors": 145
                 },
-                "failure_rate": 0.014925,
-                "weighted_errors_E": 2925,
-                "error_rate_epsilon": 0.07462686567164178,
+                "failure_rate": 0.003664,
+                "weighted_errors_E": 725,
+                "error_rate_epsilon": 0.018320109162581494,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": 87.22250182802009,
-                    "rate_component": 1127.1047983648077,
-                    "absolute_penalty": -1039.8822965367876,
+                    "value": -246.7794997523285,
                     "cut_triggered": false
                 },
-                "final_score": -2912.77749817198
+                "detection_score": {
+                    "value": 878.790956654345,
+                    "rate_component": 1737.071942864373,
+                    "absolute_penalty": -858.2809862100281,
+                    "cut_triggered": false
+                },
+                "final_score": 632.0114569020166
             },
             "repo_url": "https://github.com/augustoFranke/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9106",
-            "timestamp": "2026-06-05T18:59:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9116",
+            "timestamp": "2026-06-05T19:30:22Z"
         }
     },
     "SCAPUTO88": {
