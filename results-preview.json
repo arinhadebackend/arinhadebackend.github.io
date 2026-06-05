@@ -13854,20 +13854,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.2008414000000003,
+            "p99": 1.569960619999998,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30116,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
                 "failure_rate": 0,
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2657.411253033476,
+                    "value": 2804.1112410501237,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -13876,11 +13876,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5657.411253033476
+                "final_score": 5804.111241050124
             },
             "repo_url": "https://github.com/tqrcisio/rinha-backend-2026-detecta-fraude",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8986",
-            "timestamp": "2026-06-05T13:11:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9008",
+            "timestamp": "2026-06-05T14:26:08Z"
         }
     },
     "augustoFranke": {
