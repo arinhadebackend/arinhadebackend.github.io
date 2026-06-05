@@ -1546,43 +1546,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "2.78ms",
+            "p99": 1653.2116640499892,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 18,
+                    "false_positive_detections": 15,
                     "false_negative_detections": 5,
-                    "true_positive_detections": 23936,
-                    "true_negative_detections": 30098,
-                    "http_errors": 1
+                    "true_positive_detections": 23323,
+                    "true_negative_detections": 29267,
+                    "http_errors": 396
                 },
-                "failure_rate": "0.04%",
-                "weighted_errors_E": 38,
-                "error_rate_epsilon": 0.000703,
+                "failure_rate": 0.007848,
+                "weighted_errors_E": 2010,
+                "error_rate_epsilon": 0.03792023544504396,
                 "p99_score": {
-                    "value": 2555.24,
+                    "value": -218.3284607366225,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2522.68,
-                    "rate_component": 3000,
-                    "absolute_penalty": -477.32,
+                    "value": 430.10535363158544,
+                    "rate_component": 1421.128974810608,
+                    "absolute_penalty": -991.0236211790226,
                     "cut_triggered": false
                 },
-                "final_score": 5077.92,
-                "raw": {
-                    "p99_ms": 2.7845728900000006,
-                    "failure_rate": 0.00044396759036590327,
-                    "error_rate_epsilon": 0.0007029486847460136,
-                    "p99_score": 2555.2414093739826,
-                    "detection_score": 2522.68061789205,
-                    "rate_component": 3000,
-                    "absolute_penalty": -477.3193821079497,
-                    "final_score": 5077.922027266033
-                }
+                "final_score": 211.77689289496294
             },
             "repo_url": "https://github.com/whoisclebs/heindall",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/4614",
-            "timestamp": "2026-05-23T23:29:03Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8837",
+            "timestamp": "2026-06-05T01:43:22Z"
         }
     },
     "alan-venv": {
