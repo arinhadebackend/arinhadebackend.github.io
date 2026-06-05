@@ -13486,33 +13486,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.5833182999999982,
+            "p99": 1.414095659999998,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 23941,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
                     "true_negative_detections": 30117,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000018,
-                "weighted_errors_E": 3,
-                "error_rate_epsilon": 0.00005549492221461736,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2800.4317686261898,
+                    "value": 2849.521210620511,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2819.3820026016115,
+                    "value": 3000,
                     "rate_component": 3000,
-                    "absolute_penalty": -180.61799739838872,
+                    "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5619.813771227801
+                "final_score": 5849.521210620511
             },
             "repo_url": "https://github.com/gogoncalves/rinha-mojo-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8510",
-            "timestamp": "2026-06-04T06:57:37Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8871",
+            "timestamp": "2026-06-05T03:18:42Z"
         },
         "gogoncalves-nim": {
             "expected": {
