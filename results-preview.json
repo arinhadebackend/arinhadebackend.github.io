@@ -14362,33 +14362,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 164.3040586000002,
+            "p99": 159.19358433999997,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 118,
                     "false_negative_detections": 86,
                     "true_positive_detections": 23839,
-                    "true_negative_detections": 29978,
+                    "true_negative_detections": 29976,
                     "http_errors": 0
                 },
                 "failure_rate": 0.003776,
                 "weighted_errors_E": 376,
-                "error_rate_epsilon": 0.00696025619666426,
+                "error_rate_epsilon": 0.006960513893259779,
                 "p99_score": {
-                    "value": 784.3517085928496,
+                    "value": 798.0744387458376,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1384.47236930043,
-                    "rate_component": 2157.374774362168,
+                    "value": 1384.4562902748114,
+                    "rate_component": 2157.3586953365493,
                     "absolute_penalty": -772.9024050617379,
                     "cut_triggered": false
                 },
-                "final_score": 2168.8240778932795
+                "final_score": 2182.5307290206492
             },
             "repo_url": "https://github.com/carvalhodanielg/trem-fraude",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8812",
-            "timestamp": "2026-06-05T00:28:00Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8860",
+            "timestamp": "2026-06-05T02:50:22Z"
         }
     },
     "toto9in": {
