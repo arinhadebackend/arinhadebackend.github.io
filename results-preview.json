@@ -13498,33 +13498,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 143.5827418899999,
+            "p99": 155.24051593999997,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 13,
-                    "false_negative_detections": 6,
-                    "true_positive_detections": 23919,
-                    "true_negative_detections": 30082,
+                    "false_positive_detections": 10,
+                    "false_negative_detections": 4,
+                    "true_positive_detections": 23904,
+                    "true_negative_detections": 30077,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000352,
-                "weighted_errors_E": 31,
-                "error_rate_epsilon": 0.0005738615327656423,
+                "failure_rate": 0.000259,
+                "weighted_errors_E": 22,
+                "error_rate_epsilon": 0.000407445133808686,
                 "p99_score": {
-                    "value": 842.8977575335842,
+                    "value": 808.9949225571023,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2548.455006504028,
+                    "value": 2591.481649194722,
                     "rate_component": 3000,
-                    "absolute_penalty": -451.5449934959718,
+                    "absolute_penalty": -408.51835080527786,
                     "cut_triggered": false
                 },
-                "final_score": 3391.3527640376124
+                "final_score": 3400.4765717518244
             },
             "repo_url": "https://github.com/andrebsoares/rinha-de-backend-2026-andre-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9065",
-            "timestamp": "2026-06-05T17:09:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9114",
+            "timestamp": "2026-06-05T19:24:50Z"
         }
     },
     "ewertonlim": {
