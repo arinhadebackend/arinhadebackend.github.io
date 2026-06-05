@@ -13232,7 +13232,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.36460519999999963,
+            "p99": 0.35827593999999985,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -13257,8 +13257,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/lucasmontano/rinha-backend-2026-detecta-fraude",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8910",
-            "timestamp": "2026-06-05T05:09:11Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8934",
+            "timestamp": "2026-06-05T08:16:36Z"
         }
     },
     "pastel123so": {
