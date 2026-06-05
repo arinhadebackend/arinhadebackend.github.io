@@ -12652,33 +12652,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.62316463,
+            "p99": 2001.8154631500001,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 1,
-                    "true_positive_detections": 9875,
-                    "true_negative_detections": 12162,
-                    "http_errors": 1334
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 38,
+                    "true_positive_detections": 9660,
+                    "true_negative_detections": 11998,
+                    "http_errors": 2069
                 },
-                "failure_rate": 0.05712,
-                "weighted_errors_E": 6673,
-                "error_rate_epsilon": 0.2855125791545439,
+                "failure_rate": 0.088698,
+                "weighted_errors_E": 10460,
+                "error_rate_epsilon": 0.4401245476731465,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -602.9411079081735,
-                    "rate_component": 544.3747527874586,
-                    "absolute_penalty": -1147.3158606956322,
+                    "value": -849.4475523720105,
+                    "rate_component": 356.42440825668103,
+                    "absolute_penalty": -1205.8719606286916,
                     "cut_triggered": false
                 },
-                "final_score": -3602.9411079081738
+                "final_score": -3849.4475523720103
             },
             "repo_url": "https://github.com/rlevidev/rinha-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9155",
-            "timestamp": "2026-06-05T21:34:52Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9179",
+            "timestamp": "2026-06-05T23:27:46Z"
         }
     },
     "Johnny-Nascimento": {
