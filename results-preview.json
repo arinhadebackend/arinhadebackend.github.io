@@ -4582,7 +4582,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.41628152,
+            "p99": 0.4182770999999996,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -4607,8 +4607,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/krymancer/rinha-de-backend-2026-zig",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8905",
-            "timestamp": "2026-06-05T04:58:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8980",
+            "timestamp": "2026-06-05T12:57:38Z"
         },
         "krymancer-c": {
             "expected": {
