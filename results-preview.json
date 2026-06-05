@@ -7542,43 +7542,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": "47.38ms",
+            "p99": 35.9071443,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 637,
-                    "false_negative_detections": 403,
-                    "true_positive_detections": 23539,
-                    "true_negative_detections": 29480,
+                    "false_positive_detections": 44,
+                    "false_negative_detections": 19118,
+                    "true_positive_detections": 4824,
+                    "true_negative_detections": 30073,
                     "http_errors": 0
                 },
-                "failure_rate": "1.92%",
-                "weighted_errors_E": 1846,
-                "error_rate_epsilon": 0.034148,
+                "failure_rate": 0.354465,
+                "weighted_errors_E": 57398,
+                "error_rate_epsilon": 1.061765848424869,
                 "p99_score": {
-                    "value": 1324.41,
+                    "value": 1444.819132998903,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 486.7,
-                    "rate_component": 1466.64,
-                    "absolute_penalty": -979.94,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 1811.11,
-                "raw": {
-                    "p99_ms": 47.37897267999998,
-                    "failure_rate": 0.01923823970106735,
-                    "error_rate_epsilon": 0.03414787546939455,
-                    "p99_score": 1324.414360334321,
-                    "detection_score": 486.6962424022146,
-                    "rate_component": 1466.636311034287,
-                    "absolute_penalty": -979.9400686320724,
-                    "final_score": 1811.1106027365354
-                }
+                "final_score": -1555.180867001097
             },
             "repo_url": "https://github.com/josinaldojr/anti-fraudeiro",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/6895",
-            "timestamp": "2026-05-27T02:58:45Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8832",
+            "timestamp": "2026-06-05T01:32:05Z"
         }
     },
     "viniciusmoreiraa": {
