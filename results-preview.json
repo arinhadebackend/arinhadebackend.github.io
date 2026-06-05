@@ -1018,33 +1018,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 464.93736945999984,
+            "p99": 3.568072699999999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 22,
-                    "false_negative_detections": 6,
-                    "true_positive_detections": 22821,
-                    "true_negative_detections": 28656,
-                    "http_errors": 62
+                    "false_positive_detections": 69,
+                    "false_negative_detections": 27,
+                    "true_positive_detections": 23915,
+                    "true_negative_detections": 30048,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.001745,
-                "weighted_errors_E": 350,
-                "error_rate_epsilon": 0.006787286442880136,
+                "failure_rate": 0.001776,
+                "weighted_errors_E": 150,
+                "error_rate_epsilon": 0.0027747461107308683,
                 "p99_score": {
-                    "value": 332.605545883953,
+                    "value": 2447.5663053925578,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 1404.7116870140408,
-                    "rate_component": 2168.303821953788,
-                    "absolute_penalty": -763.5921349397472,
+                    "value": 1903.0836644805481,
+                    "rate_component": 2556.776748668499,
+                    "absolute_penalty": -653.6930841879508,
                     "cut_triggered": false
                 },
-                "final_score": 1737.3172328979938
+                "final_score": 4350.649969873106
             },
             "repo_url": "https://github.com/villanidev/fraud-detection-api",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8941",
-            "timestamp": "2026-06-05T09:37:54Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8942",
+            "timestamp": "2026-06-05T09:42:16Z"
         }
     },
     "klevercorrea": {
