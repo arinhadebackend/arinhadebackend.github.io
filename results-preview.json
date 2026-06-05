@@ -12942,33 +12942,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.9108843999999996,
+            "p99": 2.728801359999998,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 7,
+                    "false_positive_detections": 1,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30110,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000129,
-                "weighted_errors_E": 7,
-                "error_rate_epsilon": 0.00012948815183410717,
+                "failure_rate": 0.000018,
+                "weighted_errors_E": 1,
+                "error_rate_epsilon": 0.000018498307404872453,
                 "p99_score": {
-                    "value": 2535.975041362625,
+                    "value": 2564.028077153742,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2729.073003902417,
+                    "value": 2909.6910013008055,
                     "rate_component": 3000,
-                    "absolute_penalty": -270.92699609758307,
+                    "absolute_penalty": -90.30899869919436,
                     "cut_triggered": false
                 },
-                "final_score": 5265.048045265042
+                "final_score": 5473.719078454547
             },
             "repo_url": "https://github.com/jvsouzx/rb-2026-ivf",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9009",
-            "timestamp": "2026-06-05T14:31:39Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9023",
+            "timestamp": "2026-06-05T14:55:16Z"
         }
     },
     "vhtor": {
