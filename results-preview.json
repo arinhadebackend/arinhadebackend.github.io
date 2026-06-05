@@ -14802,5 +14802,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9028",
             "timestamp": "2026-06-05T15:05:07Z"
         }
+    },
+    "otonielsilva": {
+        "otonielsilva-go": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 232.38063355000003,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 336,
+                    "false_negative_detections": 610,
+                    "true_positive_detections": 23296,
+                    "true_negative_detections": 29748,
+                    "http_errors": 0
+                },
+                "failure_rate": 0.017522,
+                "weighted_errors_E": 2166,
+                "error_rate_epsilon": 0.040118540470457494,
+                "p99_score": {
+                    "value": 633.8000685916561,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 395.89720178599555,
+                    "rate_component": 1396.654875181941,
+                    "absolute_penalty": -1000.7576733959454,
+                    "cut_triggered": false
+                },
+                "final_score": 1029.6972703776516
+            },
+            "repo_url": "https://github.com/otonielsilva/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9047",
+            "timestamp": "2026-06-05T16:24:34Z"
+        }
     }
 }
