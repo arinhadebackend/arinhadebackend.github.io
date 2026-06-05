@@ -14888,33 +14888,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.40327344,
+            "p99": 2001.4358413,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 4804,
-                    "false_negative_detections": 306,
-                    "true_positive_detections": 22799,
-                    "true_negative_detections": 24266,
-                    "http_errors": 1883
+                    "false_positive_detections": 4778,
+                    "false_negative_detections": 302,
+                    "true_positive_detections": 22821,
+                    "true_negative_detections": 24274,
+                    "http_errors": 1884
                 },
-                "failure_rate": 0.129361,
-                "weighted_errors_E": 15137,
-                "error_rate_epsilon": 0.2800140589736949,
+                "failure_rate": 0.128822,
+                "weighted_errors_E": 15104,
+                "error_rate_epsilon": 0.27939843504319356,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -701.2003872604977,
-                    "rate_component": 552.8201630098675,
-                    "absolute_penalty": -1254.0205502703652,
+                    "value": -699.9601881126034,
+                    "rate_component": 553.7760307701865,
+                    "absolute_penalty": -1253.73621888279,
                     "cut_triggered": false
                 },
-                "final_score": -3701.200387260498
+                "final_score": -3699.9601881126036
             },
             "repo_url": "https://github.com/KGMats/Rinha-de-Backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9028",
-            "timestamp": "2026-06-05T15:05:07Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9110",
+            "timestamp": "2026-06-05T19:08:53Z"
         }
     },
     "otonielsilva": {
