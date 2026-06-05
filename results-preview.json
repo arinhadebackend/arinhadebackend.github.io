@@ -14704,33 +14704,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 27.50366282000001,
+            "p99": 28.171436459999967,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 2,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 23938,
-                    "true_negative_detections": 30112,
-                    "http_errors": 6
+                    "true_positive_detections": 23941,
+                    "true_negative_detections": 30113,
+                    "http_errors": 3
                 },
-                "failure_rate": 0.000148,
-                "weighted_errors_E": 32,
-                "error_rate_epsilon": 0.0005919567871545378,
+                "failure_rate": 0.000092,
+                "weighted_errors_E": 17,
+                "error_rate_epsilon": 0.00031447122588283173,
                 "p99_score": {
-                    "value": 1560.6094648393603,
+                    "value": 1550.1910077978177,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2544.4458180366337,
+                    "value": 2623.418248469008,
                     "rate_component": 3000,
-                    "absolute_penalty": -455.55418196336626,
+                    "absolute_penalty": -376.5817515309918,
                     "cut_triggered": false
                 },
-                "final_score": 4105.055282875994
+                "final_score": 4173.6092562668255
             },
             "repo_url": "https://github.com/karlos-silva/rinha-de-backend-2026-karlos-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8952",
-            "timestamp": "2026-06-05T11:07:54Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8953",
+            "timestamp": "2026-06-05T11:16:06Z"
         }
     }
 }
