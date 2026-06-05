@@ -14264,20 +14264,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 53.43712382000001,
+            "p99": 47.67965297999998,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30116,
+                    "true_negative_detections": 30117,
                     "http_errors": 0
                 },
                 "failure_rate": 0,
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 1272.1569252091226,
+                    "value": 1321.66691411974,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -14286,11 +14286,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 4272.156925209123
+                "final_score": 4321.66691411974
             },
             "repo_url": "https://github.com/devcarlosoliveira/rinha-de-backend-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8983",
-            "timestamp": "2026-06-05T13:04:05Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8989",
+            "timestamp": "2026-06-05T13:21:42Z"
         }
     },
     "theclanks": {
