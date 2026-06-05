@@ -11706,33 +11706,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1290.1663430399997,
+            "p99": 1275.2887781000002,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 350,
                     "false_negative_detections": 338,
-                    "true_positive_detections": 16658,
-                    "true_negative_detections": 20988,
-                    "http_errors": 4
+                    "true_positive_detections": 16663,
+                    "true_negative_detections": 20998,
+                    "http_errors": 5
                 },
-                "failure_rate": 0.01805,
-                "weighted_errors_E": 1384,
-                "error_rate_epsilon": 0.036099953049194014,
+                "failure_rate": 0.018069,
+                "weighted_errors_E": 1389,
+                "error_rate_epsilon": 0.036215257860979296,
                 "p99_score": {
-                    "value": -110.64570813417137,
+                    "value": -105.60853813053264,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 500.05843090769827,
-                    "rate_component": 1442.4933629278385,
-                    "absolute_penalty": -942.4349320201402,
+                    "value": 498.2039780992633,
+                    "rate_component": 1441.1084181754918,
+                    "absolute_penalty": -942.9044400762285,
                     "cut_triggered": false
                 },
-                "final_score": 389.41272277352687
+                "final_score": 392.59543996873066
             },
             "repo_url": "https://github.com/molBR/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9120",
-            "timestamp": "2026-06-05T19:41:56Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9127",
+            "timestamp": "2026-06-05T19:57:21Z"
         }
     },
     "Pongelupe": {
