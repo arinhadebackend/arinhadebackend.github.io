@@ -8438,7 +8438,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.3940341799999998,
+            "p99": 0.4034017999999999,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -8463,8 +8463,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/nelsonsimionato/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9075",
-            "timestamp": "2026-06-05T17:35:45Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9113",
+            "timestamp": "2026-06-05T19:20:12Z"
         }
     },
     "rodrigocaldeira": {
