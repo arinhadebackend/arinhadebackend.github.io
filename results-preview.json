@@ -9354,33 +9354,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.96265175,
+            "p99": 6.198354419999997,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 8088,
-                    "true_negative_detections": 10163,
-                    "http_errors": 2425
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.117286,
-                "weighted_errors_E": 12125,
-                "error_rate_epsilon": 0.5864287096150126,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -993.330492948332,
-                    "rate_component": 231.78477622135205,
-                    "absolute_penalty": -1225.115269169684,
+                    "value": 2207.7235945617945,
                     "cut_triggered": false
                 },
-                "final_score": -3993.330492948332
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 5207.723594561794
             },
             "repo_url": "https://github.com/Cirilord/rinha-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8979",
-            "timestamp": "2026-06-05T12:54:29Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8992",
+            "timestamp": "2026-06-05T13:27:52Z"
         }
     },
     "wl4dek": {
