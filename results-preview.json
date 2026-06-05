@@ -13720,33 +13720,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.8525408399998,
+            "p99": 2.381102699999999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 251,
-                    "false_negative_detections": 394,
-                    "true_positive_detections": 15447,
-                    "true_negative_detections": 19672,
-                    "http_errors": 14349
+                    "false_positive_detections": 306,
+                    "false_negative_detections": 917,
+                    "true_positive_detections": 23025,
+                    "true_negative_detections": 29811,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.299204,
-                "weighted_errors_E": 73178,
-                "error_rate_epsilon": 1.46025981282302,
+                "failure_rate": 0.022623,
+                "weighted_errors_E": 3057,
+                "error_rate_epsilon": 0.05654932573669509,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
+                    "value": 2623.2218725155712,
+                    "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": 201.9413246752008,
+                    "rate_component": 1247.5725689980911,
+                    "absolute_penalty": -1045.6312443228903,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": 2825.163197190772
             },
             "repo_url": "https://github.com/SergioTEC/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8669",
-            "timestamp": "2026-06-04T18:16:13Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8879",
+            "timestamp": "2026-06-05T03:41:37Z"
         }
     },
     "tqrcisio": {
