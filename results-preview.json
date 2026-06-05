@@ -4620,7 +4620,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.1080564799999992,
+            "p99": 0.421970159999999,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -4633,7 +4633,7 @@
                 "weighted_errors_E": 0,
                 "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": 2955.4381021281843,
+                    "value": 3000,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -4642,11 +4642,11 @@
                     "absolute_penalty": 0,
                     "cut_triggered": false
                 },
-                "final_score": 5955.438102128184
+                "final_score": 6000
             },
             "repo_url": "https://github.com/krymancer/rinha-de-backend-2026-c",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8873",
-            "timestamp": "2026-06-05T03:25:20Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8975",
+            "timestamp": "2026-06-05T12:39:20Z"
         },
         "krymancer-ocaml-ffi": {
             "expected": {
