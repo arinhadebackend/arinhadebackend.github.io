@@ -13498,33 +13498,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 155.24051593999997,
+            "p99": 152.601124,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 10,
-                    "false_negative_detections": 4,
-                    "true_positive_detections": 23904,
-                    "true_negative_detections": 30077,
+                    "false_positive_detections": 9,
+                    "false_negative_detections": 9,
+                    "true_positive_detections": 23911,
+                    "true_negative_detections": 30082,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000259,
-                "weighted_errors_E": 22,
-                "error_rate_epsilon": 0.000407445133808686,
+                "failure_rate": 0.000333,
+                "weighted_errors_E": 36,
+                "error_rate_epsilon": 0.0006665308918553628,
                 "p99_score": {
-                    "value": 808.9949225571023,
+                    "value": 816.4422675266173,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2591.481649194722,
+                    "value": 2529.5394827799014,
                     "rate_component": 3000,
-                    "absolute_penalty": -408.51835080527786,
+                    "absolute_penalty": -470.4605172200985,
                     "cut_triggered": false
                 },
-                "final_score": 3400.4765717518244
+                "final_score": 3345.9817503065187
             },
             "repo_url": "https://github.com/andrebsoares/rinha-de-backend-2026-andre-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9114",
-            "timestamp": "2026-06-05T19:24:50Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9145",
+            "timestamp": "2026-06-05T20:48:34Z"
         }
     },
     "ewertonlim": {
