@@ -14160,33 +14160,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 65.93279276000001,
+            "p99": 65.33430249999999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 2,
-                    "false_negative_detections": 7,
-                    "true_positive_detections": 23935,
-                    "true_negative_detections": 30113,
+                    "false_positive_detections": 1,
+                    "false_negative_detections": 1,
+                    "true_positive_detections": 23941,
+                    "true_negative_detections": 30116,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000166,
-                "weighted_errors_E": 23,
-                "error_rate_epsilon": 0.0004254768115137725,
+                "failure_rate": 0.000037,
+                "weighted_errors_E": 4,
+                "error_rate_epsilon": 0.00007399322961948981,
                 "p99_score": {
-                    "value": 1180.8985281609002,
+                    "value": 1184.858741006857,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2585.9366274865183,
+                    "value": 2790.3089986991945,
                     "rate_component": 3000,
-                    "absolute_penalty": -414.06337251348185,
+                    "absolute_penalty": -209.69100130080562,
                     "cut_triggered": false
                 },
-                "final_score": 3766.8351556474186
+                "final_score": 3975.167739706051
             },
             "repo_url": "https://github.com/devcarlosoliveira/rinha-de-backend-2026-dotnet",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8861",
-            "timestamp": "2026-06-05T02:53:33Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8884",
+            "timestamp": "2026-06-05T03:48:50Z"
         }
     },
     "theclanks": {
