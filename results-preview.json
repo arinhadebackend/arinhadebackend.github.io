@@ -13510,33 +13510,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2002.2099709000001,
+            "p99": 2002.08940341,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 3302,
-                    "true_negative_detections": 4250,
-                    "http_errors": 10654
+                    "true_positive_detections": 8477,
+                    "true_negative_detections": 10694,
+                    "http_errors": 2487
                 },
-                "failure_rate": 0.585192,
-                "weighted_errors_E": 53270,
-                "error_rate_epsilon": 2.925958475227947,
+                "failure_rate": 0.114831,
+                "weighted_errors_E": 12435,
+                "error_rate_epsilon": 0.5741527380182843,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": -3000,
-                    "rate_component": null,
-                    "absolute_penalty": null,
-                    "cut_triggered": true
+                    "value": -987.4316542396956,
+                    "rate_component": 240.97255977165074,
+                    "absolute_penalty": -1228.4042140113463,
+                    "cut_triggered": false
                 },
-                "final_score": -6000
+                "final_score": -3987.4316542396955
             },
             "repo_url": "https://github.com/ewertonlim/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8900",
-            "timestamp": "2026-06-05T04:25:21Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8921",
+            "timestamp": "2026-06-05T05:53:27Z"
         }
     },
     "jhon2c": {
