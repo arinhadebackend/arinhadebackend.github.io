@@ -14960,5 +14960,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9073",
             "timestamp": "2026-06-05T17:30:03Z"
         }
+    },
+    "lukedays": {
+        "lukedays-c-asm": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 1.9451589999999985,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 0,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30117,
+                    "http_errors": 0
+                },
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
+                "p99_score": {
+                    "value": 2711.0448930527677,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 5711.044893052767
+            },
+            "repo_url": "https://github.com/lukedays/rinha-de-backend-2026",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9081",
+            "timestamp": "2026-06-05T17:50:18Z"
+        }
     }
 }
