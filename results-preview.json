@@ -13822,18 +13822,18 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2002.1514442,
+            "p99": 2002.1365596800001,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 104,
-                    "true_negative_detections": 370,
-                    "http_errors": 13467
+                    "true_positive_detections": 121,
+                    "true_negative_detections": 446,
+                    "http_errors": 13373
                 },
-                "failure_rate": 0.966,
-                "weighted_errors_E": 67335,
-                "error_rate_epsilon": 4.829997848074027,
+                "failure_rate": 0.959326,
+                "weighted_errors_E": 66865,
+                "error_rate_epsilon": 4.796628407460545,
                 "p99_score": {
                     "value": -3000,
                     "cut_triggered": true
@@ -13847,8 +13847,8 @@
                 "final_score": -6000
             },
             "repo_url": "https://github.com/SCAPUTO88/rinha-2026-go-puro",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8349",
-            "timestamp": "2026-06-03T22:43:48Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8831",
+            "timestamp": "2026-06-05T01:28:32Z"
         }
     },
     "carlosmms1": {
