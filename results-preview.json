@@ -5218,33 +5218,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 64.21063602,
+            "p99": 59.18863214,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 6,
+                    "false_positive_detections": 2,
                     "false_negative_detections": 0,
                     "true_positive_detections": 23942,
-                    "true_negative_detections": 30111,
+                    "true_negative_detections": 30115,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000111,
-                "weighted_errors_E": 6,
-                "error_rate_epsilon": 0.00011098984442923472,
+                "failure_rate": 0.000037,
+                "weighted_errors_E": 2,
+                "error_rate_epsilon": 0.000036996614809744906,
                 "p99_score": {
-                    "value": 1192.3930282830327,
+                    "value": 1227.761696536244,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2746.470587995723,
+                    "value": 2856.8636235841013,
                     "rate_component": 3000,
-                    "absolute_penalty": -253.52941200427705,
+                    "absolute_penalty": -143.13637641589872,
                     "cut_triggered": false
                 },
-                "final_score": 3938.863616278755
+                "final_score": 4084.6253201203454
             },
             "repo_url": "https://github.com/abeswz/gopher-fraud-detection",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8797",
-            "timestamp": "2026-06-04T23:47:43Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8853",
+            "timestamp": "2026-06-05T02:29:11Z"
         }
     },
     "chagas42": {
