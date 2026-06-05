@@ -528,20 +528,20 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.209346839999995,
+            "p99": 1.66492525,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 11,
                     "false_negative_detections": 4,
                     "true_positive_detections": 23938,
-                    "true_negative_detections": 30106,
+                    "true_negative_detections": 30105,
                     "http_errors": 0
                 },
                 "failure_rate": 0.000277,
                 "weighted_errors_E": 23,
-                "error_rate_epsilon": 0.00042546107031206647,
+                "error_rate_epsilon": 0.000425468940767324,
                 "p99_score": {
-                    "value": 2655.7360999393804,
+                    "value": 2778.6052602004643,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -550,11 +550,11 @@
                     "absolute_penalty": -414.06337251348185,
                     "cut_triggered": false
                 },
-                "final_score": 5241.672727425899
+                "final_score": 5364.541887686983
             },
             "repo_url": "https://github.com/devRaelBraga/rinha-2026-xgboost-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8502",
-            "timestamp": "2026-06-04T06:26:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8956",
+            "timestamp": "2026-06-05T11:31:43Z"
         },
         "rust-xgboost-warmup": {
             "expected": {
