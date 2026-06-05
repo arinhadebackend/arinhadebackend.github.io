@@ -704,7 +704,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 0.9363297399999995,
+            "p99": 0.7793293599999991,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
@@ -729,8 +729,8 @@
                 "final_score": 6000
             },
             "repo_url": "https://github.com/daniloitagyba/rinha-2026-rust",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8915",
-            "timestamp": "2026-06-05T05:25:01Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8939",
+            "timestamp": "2026-06-05T08:56:26Z"
         }
     },
     "fabianoflorentino": {
