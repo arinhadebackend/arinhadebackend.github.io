@@ -15088,33 +15088,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.7178861800000007,
+            "p99": 1.849454459999999,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 8,
-                    "false_negative_detections": 2,
-                    "true_positive_detections": 23940,
-                    "true_negative_detections": 30108,
+                    "false_positive_detections": 3,
+                    "false_negative_detections": 0,
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30114,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000185,
-                "weighted_errors_E": 14,
-                "error_rate_epsilon": 0.00025898109438011026,
+                "failure_rate": 0.000055,
+                "weighted_errors_E": 3,
+                "error_rate_epsilon": 0.00005549492221461736,
                 "p99_score": {
-                    "value": 2765.005614099336,
+                    "value": 2732.9563580572667,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2647.172622283296,
+                    "value": 2819.3820026016115,
                     "rate_component": 3000,
-                    "absolute_penalty": -352.82737771670435,
+                    "absolute_penalty": -180.61799739838872,
                     "cut_triggered": false
                 },
-                "final_score": 5412.178236382631
+                "final_score": 5552.338360658878
             },
             "repo_url": "https://github.com/lemesdaniel/floating-finch",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9101",
-            "timestamp": "2026-06-05T18:43:16Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9122",
+            "timestamp": "2026-06-05T19:44:47Z"
         }
     },
     "dominus04": {
