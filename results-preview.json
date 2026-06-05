@@ -12198,33 +12198,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2.85442656,
+            "p99": 2.1549082999999998,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 597,
+                    "false_positive_detections": 598,
                     "false_negative_detections": 412,
                     "true_positive_detections": 23530,
-                    "true_negative_detections": 29520,
+                    "true_negative_detections": 29519,
                     "http_errors": 0
                 },
-                "failure_rate": 0.018665,
-                "weighted_errors_E": 1833,
-                "error_rate_epsilon": 0.03390739747313121,
+                "failure_rate": 0.018683,
+                "weighted_errors_E": 1834,
+                "error_rate_epsilon": 0.03392589578053608,
                 "p99_score": {
-                    "value": 2544.48112624183,
+                    "value": 2666.5712060839137,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 490.685743361763,
-                    "rate_component": 1469.7055427619637,
-                    "absolute_penalty": -979.0197994002007,
+                    "value": 490.37785581374555,
+                    "rate_component": 1469.468676390178,
+                    "absolute_penalty": -979.0908205764324,
                     "cut_triggered": false
                 },
-                "final_score": 3035.166869603593
+                "final_score": 3156.9490618976592
             },
             "repo_url": "https://github.com/nathanfabio/fraud-detector",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8764",
-            "timestamp": "2026-06-04T21:53:48Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8987",
+            "timestamp": "2026-06-05T13:14:52Z"
         }
     },
     "joaogabrielgs1": {
