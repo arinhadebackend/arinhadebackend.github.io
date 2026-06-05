@@ -12942,33 +12942,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1.9755776999999992,
+            "p99": 1.9558467199999985,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 35,
-                    "false_negative_detections": 6,
-                    "true_positive_detections": 23936,
-                    "true_negative_detections": 30082,
+                    "false_positive_detections": 52,
+                    "false_negative_detections": 17,
+                    "true_positive_detections": 23925,
+                    "true_negative_detections": 30065,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000758,
-                "weighted_errors_E": 53,
-                "error_rate_epsilon": 0.00098041029245824,
+                "failure_rate": 0.001276,
+                "weighted_errors_E": 103,
+                "error_rate_epsilon": 0.0019053256627018628,
                 "p99_score": {
-                    "value": 2704.305884728351,
+                    "value": 2708.665183938303,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2480.2818720531095,
-                    "rate_component": 3000,
-                    "absolute_penalty": -519.7181279468906,
+                    "value": 2114.920781229374,
+                    "rate_component": 2720.030783019008,
+                    "absolute_penalty": -605.1100017896341,
                     "cut_triggered": false
                 },
-                "final_score": 5184.5877567814605
+                "final_score": 4823.5859651676765
             },
             "repo_url": "https://github.com/jvsouzx/rb-2026-ivf",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8998",
-            "timestamp": "2026-06-05T13:54:31Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9004",
+            "timestamp": "2026-06-05T14:14:09Z"
         }
     },
     "vhtor": {
