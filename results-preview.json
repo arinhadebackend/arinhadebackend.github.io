@@ -8074,33 +8074,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 180.68226041999998,
+            "p99": 6.553441679999805,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 52,
-                    "false_negative_detections": 21,
-                    "true_positive_detections": 23882,
-                    "true_negative_detections": 30025,
+                    "false_negative_detections": 22,
+                    "true_positive_detections": 23920,
+                    "true_negative_detections": 30065,
                     "http_errors": 0
                 },
-                "failure_rate": 0.001352,
-                "weighted_errors_E": 115,
-                "error_rate_epsilon": 0.0021304186735828083,
+                "failure_rate": 0.001369,
+                "weighted_errors_E": 118,
+                "error_rate_epsilon": 0.0021828002737749497,
                 "p99_score": {
-                    "value": 743.0844848485664,
+                    "value": 2183.530561065294,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2052.1976430988107,
-                    "rate_component": 2671.535039866886,
-                    "absolute_penalty": -619.3373967680755,
+                    "value": 2038.3219120002955,
+                    "rate_component": 2660.9860004180546,
+                    "absolute_penalty": -622.6640884177592,
                     "cut_triggered": false
                 },
-                "final_score": 2795.282127947377
+                "final_score": 4221.85247306559
             },
             "repo_url": "https://github.com/brunonunestx/backend-fight-api-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9085",
-            "timestamp": "2026-06-05T17:57:36Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9095",
+            "timestamp": "2026-06-05T18:31:17Z"
         }
     },
     "paulohrpinheiro": {
