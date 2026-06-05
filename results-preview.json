@@ -12496,33 +12496,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1677.95115128,
+            "p99": 1100.6941124099997,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 5,
-                    "false_negative_detections": 9,
-                    "true_positive_detections": 11955,
-                    "true_negative_detections": 15000,
+                    "false_positive_detections": 81,
+                    "false_negative_detections": 9326,
+                    "true_positive_detections": 3247,
+                    "true_negative_detections": 15748,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000519,
-                "weighted_errors_E": 32,
-                "error_rate_epsilon": 0.0011865475175201158,
+                "failure_rate": 0.331209,
+                "weighted_errors_E": 28059,
+                "error_rate_epsilon": 0.987923385677065,
                 "p99_score": {
-                    "value": -224.7793134424169,
+                    "value": -41.66664344963836,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2470.160682998186,
-                    "rate_component": 2925.7148649615524,
-                    "absolute_penalty": -455.55418196336626,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "rate_component": null,
+                    "absolute_penalty": null,
+                    "cut_triggered": true
                 },
-                "final_score": 2245.381369555769
+                "final_score": -3041.6666434496383
             },
             "repo_url": "https://github.com/renatovico/rinha-elixir-pure",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/7935",
-            "timestamp": "2026-06-02T08:18:18Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9129",
+            "timestamp": "2026-06-05T20:06:55Z"
         }
     },
     "SrWalkerB": {
