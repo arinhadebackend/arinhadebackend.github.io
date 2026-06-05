@@ -6138,33 +6138,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 5.056917959999994,
+            "p99": 380.32550037,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 42,
-                    "false_negative_detections": 9,
-                    "true_positive_detections": 23933,
-                    "true_negative_detections": 30075,
+                    "false_positive_detections": 19,
+                    "false_negative_detections": 3,
+                    "true_positive_detections": 23193,
+                    "true_negative_detections": 29139,
                     "http_errors": 0
                 },
-                "failure_rate": 0.000943,
-                "weighted_errors_E": 69,
-                "error_rate_epsilon": 0.0012763832109361994,
+                "failure_rate": 0.00042,
+                "weighted_errors_E": 28,
+                "error_rate_epsilon": 0.0005348206440768614,
                 "p99_score": {
-                    "value": 2296.114092008806,
+                    "value": 419.84455468650464,
                     "cut_triggered": false
                 },
                 "detection_score": {
-                    "value": 2340.4895049826478,
-                    "rate_component": 2894.018916986925,
-                    "absolute_penalty": -553.5294120042771,
+                    "value": 2561.280600630313,
+                    "rate_component": 3000,
+                    "absolute_penalty": -438.7193993696868,
                     "cut_triggered": false
                 },
-                "final_score": 4636.603596991454
+                "final_score": 2981.1251553168177
             },
             "repo_url": "https://github.com/Ninorp/rinha-2026-python",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8782",
-            "timestamp": "2026-06-04T23:08:04Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8972",
+            "timestamp": "2026-06-05T12:30:14Z"
         }
     },
     "rafaelcoelhox": {
