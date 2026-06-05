@@ -14612,5 +14612,45 @@
             "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8841",
             "timestamp": "2026-06-05T01:51:57Z"
         }
+    },
+    "alealencarr": {
+        "alealencarr-dotnet": {
+            "expected": {
+                "total": 54100,
+                "fraud_count": 23959,
+                "legit_count": 30141,
+                "fraud_rate": 0.4429,
+                "legit_rate": 0.5571,
+                "edge_case_count": 645,
+                "edge_case_rate": 0.0119
+            },
+            "p99": 64.63989053999994,
+            "scoring": {
+                "breakdown": {
+                    "false_positive_detections": 292,
+                    "false_negative_detections": 697,
+                    "true_positive_detections": 23245,
+                    "true_negative_detections": 29825,
+                    "http_errors": 0
+                },
+                "failure_rate": 0.018295,
+                "weighted_errors_E": 2383,
+                "error_rate_epsilon": 0.044081466545811056,
+                "p99_score": {
+                    "value": 1189.499387659124,
+                    "cut_triggered": false
+                },
+                "detection_score": {
+                    "value": 342.5520900572644,
+                    "rate_component": 1355.7439653777242,
+                    "absolute_penalty": -1013.1918753204598,
+                    "cut_triggered": false
+                },
+                "final_score": 1532.0514777163885
+            },
+            "repo_url": "https://github.com/alealencarr/rinha-backend-2026-csharp-firsttry",
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8914",
+            "timestamp": "2026-06-05T05:22:23Z"
+        }
     }
 }
