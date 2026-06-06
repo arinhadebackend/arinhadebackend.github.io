@@ -8102,7 +8102,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 4.188013099999994,
+            "p99": 3.4180129199999962,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 52,
@@ -8115,7 +8115,7 @@
                 "weighted_errors_E": 118,
                 "error_rate_epsilon": 0.0021828002737749497,
                 "p99_score": {
-                    "value": 2377.991968528818,
+                    "value": 2466.226299990326,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -8124,11 +8124,11 @@
                     "absolute_penalty": -622.6640884177592,
                     "cut_triggered": false
                 },
-                "final_score": 4416.313880529113
+                "final_score": 4504.548211990621
             },
             "repo_url": "https://github.com/brunonunestx/backend-fight-api-golang",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9103",
-            "timestamp": "2026-06-05T18:50:26Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9240",
+            "timestamp": "2026-06-06T02:42:01Z"
         }
     },
     "paulohrpinheiro": {
