@@ -13830,33 +13830,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2001.25653879,
+            "p99": 36.612496220000004,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 0,
                     "false_negative_detections": 0,
-                    "true_positive_detections": 12000,
-                    "true_negative_detections": 15029,
-                    "http_errors": 373
+                    "true_positive_detections": 23942,
+                    "true_negative_detections": 30116,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.013612,
-                "weighted_errors_E": 1865,
-                "error_rate_epsilon": 0.06806072549448945,
+                "failure_rate": 0,
+                "weighted_errors_E": 0,
+                "error_rate_epsilon": 0,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": 185.8299340227935,
-                    "rate_component": 1167.1034258459379,
-                    "absolute_penalty": -981.2734918231444,
+                    "value": 1436.3706601483982,
                     "cut_triggered": false
                 },
-                "final_score": -2814.1700659772064
+                "detection_score": {
+                    "value": 3000,
+                    "rate_component": 3000,
+                    "absolute_penalty": 0,
+                    "cut_triggered": false
+                },
+                "final_score": 4436.370660148398
             },
             "repo_url": "https://github.com/bentoplebstguida/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8700",
-            "timestamp": "2026-06-04T19:13:47Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9212",
+            "timestamp": "2026-06-06T00:58:50Z"
         }
     },
     "SergioTEC": {
