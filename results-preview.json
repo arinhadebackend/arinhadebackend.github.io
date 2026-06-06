@@ -13594,33 +13594,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 2002.08940341,
+            "p99": 1.7014342,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 0,
-                    "false_negative_detections": 0,
-                    "true_positive_detections": 8477,
-                    "true_negative_detections": 10694,
-                    "http_errors": 2487
+                    "false_positive_detections": 7,
+                    "false_negative_detections": 6,
+                    "true_positive_detections": 23936,
+                    "true_negative_detections": 30110,
+                    "http_errors": 0
                 },
-                "failure_rate": 0.114831,
-                "weighted_errors_E": 12435,
-                "error_rate_epsilon": 0.5741527380182843,
+                "failure_rate": 0.00024,
+                "weighted_errors_E": 25,
+                "error_rate_epsilon": 0.00046245768512181133,
                 "p99_score": {
-                    "value": -3000,
-                    "cut_triggered": true
-                },
-                "detection_score": {
-                    "value": -987.4316542396956,
-                    "rate_component": 240.97255977165074,
-                    "absolute_penalty": -1228.4042140113463,
+                    "value": 2769.18484182499,
                     "cut_triggered": false
                 },
-                "final_score": -3987.4316542396955
+                "detection_score": {
+                    "value": 2575.5079956087548,
+                    "rate_component": 3000,
+                    "absolute_penalty": -424.4920043912454,
+                    "cut_triggered": false
+                },
+                "final_score": 5344.692837433745
             },
             "repo_url": "https://github.com/ewertonlim/rinha-de-backend-2026",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8921",
-            "timestamp": "2026-06-05T05:53:27Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9246",
+            "timestamp": "2026-06-06T02:54:41Z"
         }
     },
     "jhon2c": {
