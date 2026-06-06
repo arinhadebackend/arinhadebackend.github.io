@@ -15184,33 +15184,33 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 1949.137332699971,
+            "p99": 2001.92403906,
             "scoring": {
                 "breakdown": {
-                    "false_positive_detections": 14,
-                    "false_negative_detections": 2,
-                    "true_positive_detections": 13403,
-                    "true_negative_detections": 16743,
-                    "http_errors": 240
+                    "false_positive_detections": 63,
+                    "false_negative_detections": 147,
+                    "true_positive_detections": 12268,
+                    "true_negative_detections": 15197,
+                    "http_errors": 1932
                 },
-                "failure_rate": 0.00842,
-                "weighted_errors_E": 1220,
-                "error_rate_epsilon": 0.04012893888559963,
+                "failure_rate": 0.072348,
+                "weighted_errors_E": 10164,
+                "error_rate_epsilon": 0.34329719323133046,
                 "p99_score": {
-                    "value": -289.84243980134113,
-                    "cut_triggered": false
+                    "value": -3000,
+                    "cut_triggered": true
                 },
                 "detection_score": {
-                    "value": 470.5276248161017,
-                    "rate_component": 1396.5423239995664,
-                    "absolute_penalty": -926.0146991834647,
+                    "value": -737.8024675777162,
+                    "rate_component": 464.329747314501,
+                    "absolute_penalty": -1202.1322148922172,
                     "cut_triggered": false
                 },
-                "final_score": 180.68518501476058
+                "final_score": -3737.802467577716
             },
             "repo_url": "https://github.com/dominus04/rinha-backend-2026-go",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9141",
-            "timestamp": "2026-06-05T20:36:38Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9231",
+            "timestamp": "2026-06-06T02:20:54Z"
         }
     },
     "leandro-lugaresi": {
