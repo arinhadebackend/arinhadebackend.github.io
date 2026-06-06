@@ -14784,7 +14784,7 @@
                 "edge_case_count": 645,
                 "edge_case_rate": 0.0119
             },
-            "p99": 66.64251154,
+            "p99": 69.71441821999997,
             "scoring": {
                 "breakdown": {
                     "false_positive_detections": 292,
@@ -14797,7 +14797,7 @@
                 "weighted_errors_E": 2383,
                 "error_rate_epsilon": 0.044081466545811056,
                 "p99_score": {
-                    "value": 1176.2486441431438,
+                    "value": 1156.677392550233,
                     "cut_triggered": false
                 },
                 "detection_score": {
@@ -14806,11 +14806,11 @@
                     "absolute_penalty": -1013.1918753204598,
                     "cut_triggered": false
                 },
-                "final_score": 1518.8007342004082
+                "final_score": 1499.2294826074974
             },
             "repo_url": "https://github.com/alealencarr/rinha-backend-2026-csharp-firsttry",
-            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9200",
-            "timestamp": "2026-06-06T00:28:28Z"
+            "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/9210",
+            "timestamp": "2026-06-06T00:52:39Z"
         }
     },
     "SubZer0GLX": {
