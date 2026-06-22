@@ -235,13 +235,6 @@
             border-bottom-color: var(--accent);
         }
 
-        .timestamp {
-            color: var(--muted);
-            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-            font-size: 0.82rem;
-            white-space: nowrap;
-        }
-
         .stack {
             display: flex;
             flex-wrap: wrap;
@@ -273,6 +266,10 @@
 
         .dash {
             color: var(--border);
+        }
+
+        .err-cell {
+            text-align: right;
         }
 
         .err-badge {
@@ -339,11 +336,6 @@
         .meta-mobile .sep {
             margin: 0 0.4rem;
             color: var(--border);
-        }
-
-        .meta-mobile .ts {
-            font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-            font-size: 0.72rem;
         }
 
         .meta-mobile .stack {
@@ -419,8 +411,6 @@
                         <th class="num sortable hide-mobile" data-sort="p99">p99<span class="arrow"></span></th>
                         <th class="num sortable hide-mobile" data-sort="failure">Failures<span class="arrow"></span></th>
                         <th class="num sortable hide-mobile" data-sort="score">Score<span class="arrow"></span></th>
-                        <th class="hide-mobile" data-sort="error">Error</th>
-                        <th class="sortable hide-mobile" data-sort="timestamp">Tested at<span class="arrow"></span></th>
                     </tr>
                 </thead>
                 <tbody></tbody>
@@ -463,13 +453,6 @@
             ? '—'
             : (n * 100).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 4 }) + '%';
 
-        const fmtTimestamp = (ts) => {
-            if (!ts) return '—';
-            const d = new Date(ts);
-            if (isNaN(d)) return ts;
-            return d.toLocaleString('sv-SE', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' });
-        };
-
         const sortKeys = {
             rank:      { get: r => r.rank,                                  defaultDir: 'asc',  numeric: true },
             id:        { get: r => r.id.toLowerCase(),                      defaultDir: 'asc',  numeric: false },
@@ -477,7 +460,6 @@
             p99:       { get: r => r.p99,                                   defaultDir: 'asc',  numeric: true },
             failure:   { get: r => r.failureRate,                           defaultDir: 'asc',  numeric: true },
             score:     { get: r => r.score,                                 defaultDir: 'desc', numeric: true },
-            timestamp: { get: r => r.testedAt ? Date.parse(r.testedAt) : null, defaultDir: 'desc', numeric: true },
         };
 
         // Errored rows (no score) always sink to the bottom regardless of sort.
@@ -534,7 +516,6 @@
                         failureRate,
                         error,
                         errored: !results,
-                        testedAt: r['submission-tested-at'] ?? null,
                         haystack: `${id} ${repo ?? ''} ${stack.join(' ')}`.toLowerCase(),
                     };
                 });
@@ -615,7 +596,6 @@
                         const p99Val = fmtP99(r.p99);
                         const failVal = fmtPct(r.failureRate);
                         const scoreVal = fmtScore(r.score);
-                        const tsLabel = fmtTimestamp(r.testedAt);
 
                         const metaBits = [];
                         if (!r.errored) {
@@ -630,25 +610,26 @@
                                 ${metaBits.length ? `<div class="line">${metaBits.join('<span class="sep">·</span>')}</div>` : ''}
                                 ${r.stack.length ? renderStack(r.stack) : ''}
                                 ${r.error ? `<div class="line">${renderErrBadge(r)}</div>` : ''}
-                                <div class="line ts">${tsLabel}</div>
                             </div>
                         `;
+
+                        const metricCells = r.errored
+                            ? `<td class="hide-mobile err-cell" colspan="3">${renderErrBadge(r)}</td>`
+                            : `<td class="num hide-mobile">${p99Val}</td>
+                                <td class="num hide-mobile">${failVal}</td>
+                                <td class="num score hide-mobile">${scoreVal}</td>`;
 
                         const mainRow = `
                             <tr class="row">
                                 <td class="rank num">${rankLabel}</td>
                                 <td class="id">${idLabel}${metaLine}</td>
                                 <td class="hide-mobile">${renderStack(r.stack)}</td>
-                                <td class="num hide-mobile">${p99Val}</td>
-                                <td class="num hide-mobile">${failVal}</td>
-                                <td class="num score hide-mobile">${scoreVal}</td>
-                                <td class="hide-mobile">${renderErrBadge(r)}</td>
-                                <td class="timestamp hide-mobile">${tsLabel}</td>
+                                ${metricCells}
                             </tr>
                         `;
 
                         const detailRow = (r.error && expanded.has(r.idx))
-                            ? `<tr class="error-detail"><td colspan="8"><pre>${esc(r.error)}</pre></td></tr>`
+                            ? `<tr class="error-detail"><td colspan="6"><pre>${esc(r.error)}</pre></td></tr>`
                             : '';
 
                         return mainRow + detailRow;
