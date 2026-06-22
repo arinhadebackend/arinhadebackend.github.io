@@ -516,7 +516,7 @@
                         failureRate,
                         error,
                         errored: !results,
-                        haystack: `${id} ${repo ?? ''} ${stack.join(' ')}`.toLowerCase(),
+                        haystack: `${id} ${repo ?? ''} ${stack.join(' ')} ${info.open_to_work === true ? 'open to work' : ''}`.toLowerCase(),
                     };
                 });
 
@@ -565,8 +565,10 @@
                     : '<span class="dash">—</span>';
 
                 const render = () => {
-                    const q = query.trim().toLowerCase();
-                    const filtered = q ? rows.filter(r => r.haystack.includes(q)) : rows.slice();
+                    const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+                    const filtered = terms.length
+                        ? rows.filter(r => terms.every(t => r.haystack.includes(t)))
+                        : rows.slice();
 
                     filtered.sort(compareWith(sort.key, sort.dir));
 
@@ -646,7 +648,7 @@
                     const hasResults = filtered.length > 0;
                     tableEl.hidden = !hasResults;
                     emptyEl.hidden = hasResults;
-                    countEl.textContent = q
+                    countEl.textContent = terms.length
                         ? `${filtered.length} of ${rows.length} submissions`
                         : `${rows.length} submissions`;
                 };
